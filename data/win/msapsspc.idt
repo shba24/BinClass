@@ -1,0 +1,30 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msapsspc.dll Args=0 Drops=23
+;---------------------------------------
+1 Name=InitSecurityInterfaceA Pascal=0
+2 Name=InitSecurityInterfaceW Pascal=0
+3 Name=AcquireCredentialsHandleA Pascal=36
+4 Name=AcquireCredentialsHandleW Pascal=36
+5 Name=DeleteSecurityContext Pascal=4
+6 Name=FreeCredentialsHandle Pascal=4
+7 Name=InitializeSecurityContextA Pascal=48
+8 Name=InitializeSecurityContextW Pascal=48
+9 Name=EnumerateSecurityPackagesA Pascal=8
+10 Name=EnumerateSecurityPackagesW Pascal=8
+11 Name=QueryContextAttributesA Pascal=12
+12 Name=QueryContextAttributesW Pascal=12
+13 Name=QuerySecurityPackageInfoA Pascal=8
+14 Name=QuerySecurityPackageInfoW Pascal=8
+15 Name=CompleteAuthToken Pascal=8
+16 Name=ApplyControlToken Pascal=8
+17 Name=MakeSignature Pascal=16
+18 Name=VerifySignature Pascal=16
+19 Name=FreeContextBuffer Pascal=4
+20 Name=SealMessage Pascal=16
+21 Name=UnsealMessage Pascal=16
+22 Name=SspcCreateSspiReg Pascal=16
+23 Name=CleanupCredentialCache Pascal=0
+;------------------EOF------------------

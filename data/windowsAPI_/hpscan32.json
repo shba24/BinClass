@@ -1,0 +1,1 @@
+{"config": {"exports": {"HPSCAN32.dll:VDDDispatch": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "HPSCAN32.dll:VDDInit": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "HPSCAN32.dll:VDDScannerCommand": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}}}}

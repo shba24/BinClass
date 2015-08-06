@@ -1,0 +1,1 @@
+{"config": {"exports": {"IDQ.dll:TerminateExtension": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "3"}, "IDQ.dll:HttpExtensionProc": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "2"}, "IDQ.dll:GetExtensionVersion": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "1"}}}}

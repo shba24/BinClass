@@ -1,0 +1,24 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=COMMTB32.dll Pascal=0
+;---------------------------------------
+1 Name=TB_GetVersion
+2 Name=TB_CreateMask
+3 Name=TB_EditButton
+4 Name=TB_DialogBoxProc
+5 Name=TB_EditorFunc
+6 Name=TB_ColorBtnFunc
+7 Name=TB_IconFunc
+8 Name=TB_GetSize
+9 Name=TB_DrawButton
+10 Name=TB_CreateDisable
+11 Name=WIN_BitMapToDIB
+12 Name=WIN_DIBToBitMap
+13 Name=WIN_TransformBitMap
+14 Name=WIN_BitMapToDIBPtr
+15 Name=WIN_DIBPtrToBitMap
+16 Name=WIN_TransformBitMapPtr
+17 Name=WIN_SysColorChange
+;------------------EOF------------------

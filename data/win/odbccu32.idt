@@ -1,0 +1,44 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=odbccu32.dll Args=0 Drops=37
+;---------------------------------------
+4 Name=SQLBindCol Pascal=24
+5 Name=SQLCancel Pascal=4
+6 Name=ReleaseCLStmtResources Pascal=8
+11 Name=SQLExecDirect Pascal=12
+12 Name=SQLExecute Pascal=4
+13 Name=SQLFetch Pascal=4
+16 Name=SQLFreeStmt Pascal=8
+19 Name=SQLPrepare Pascal=12
+20 Name=SQLRowCount Pascal=8
+23 Name=SQLTransact Pascal=12
+26 Name=SQLCloseCursor Pascal=4
+29 Name=SQLEndTran Pascal=12
+30 Name=SQLFetchScroll Pascal=12
+31 Name=SQLFreeHandle Pascal=8
+33 Name=SQLGetDescField Pascal=24
+34 Name=SQLGetDescRec Pascal=44
+38 Name=SQLGetStmtAttr Pascal=20
+39 Name=SQLSetConnectAttr Pascal=16
+43 Name=SQLGetData Pascal=24
+45 Name=SQLGetInfo Pascal=20
+46 Name=SQLGetStmtOption Pascal=12
+48 Name=SQLParamData Pascal=8
+49 Name=SQLPutData Pascal=12
+50 Name=SQLSetConnectOption Pascal=12
+51 Name=SQLSetStmtOption Pascal=12
+59 Name=SQLExtendedFetch Pascal=20
+61 Name=SQLMoreResults Pascal=4
+62 Name=SQLNativeSql Pascal=24
+63 Name=SQLNumParams Pascal=8
+64 Name=SQLParamOptions Pascal=12
+68 Name=SQLSetPos Pascal=16
+69 Name=SQLSetScrollOptions Pascal=16
+72 Name=SQLBindParameter Pascal=40
+73 Name=SQLSetDescField Pascal=20
+74 Name=SQLSetDescRec Pascal=40
+76 Name=SQLSetStmtAttr Pascal=16
+78 Name=SQLBulkOperations Pascal=8
+;------------------EOF------------------

@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=cmcfg32.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=CmstpExtensionProc Pascal=16
+2 Name=_CMConfig@8 Pascal=8
+3 Name=_CMConfig@8 Pascal=8
+4 Name=CMConfigEx Pascal=4
+;------------------EOF------------------

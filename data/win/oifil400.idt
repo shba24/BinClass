@@ -1,0 +1,77 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=OIFIL400.dll Pascal=0
+;---------------------------------------
+7 Name=IMGFileStopOutputHandler
+19 Name=wgfsopen
+20 Name=wgfscreat
+21 Name=wgfsopts
+22 Name=wgfsread
+23 Name=wgfswrite
+25 Name=wgfsclose
+26 Name=wgfsgeti
+27 Name=wgfsputi
+28 Name=IMGFileListDirNames
+29 Name=IMGFileListVolNames
+30 Name=IMGFileDeleteFile
+31 Name=IMGFileRenameFile
+32 Name=IMGFileCopyFile
+34 Name=IMGFileAccessCheck
+35 Name=IMGFileGetTempName
+36 Name=IMGFileCreateDir
+37 Name=IMGFileRemoveDir
+50 Name=IMGFileGetTimeStamp
+51 Name=IMGFileGetVolSpace
+56 Name=IMGFileBinaryOpen
+57 Name=IMGFileBinarySeek
+58 Name=IMGFileBinaryRead
+59 Name=IMGFileBinaryClose
+60 Name=IMGFileBinaryWrite
+63 Name=IMGValidateCompType
+64 Name=IMGFileGetUniqueName
+69 Name=IMGFileReadRawm
+72 Name=IMGFileStopInputHandlerm
+76 Name=OiFileBinaryOpen
+77 Name=OiFileBinarySeek
+78 Name=OiFileBinaryClose
+79 Name=OiFileBinaryRead
+80 Name=OiIsSupportedFileType
+81 Name=OiNetworkType
+83 Name=OiFileBinaryWrite
+84 Name=IMGFileOpenForWrite
+85 Name=IMGFileOpenForWriteCmp
+86 Name=IMGFileWriteData
+87 Name=IMGFileDeletePages
+88 Name=IMGFileClose
+89 Name=IMGFileCopyPages
+90 Name=IMGFileOpenForRead
+91 Name=IMGFileReadData
+92 Name=IMGFileGetInfo
+93 Name=IMGFileConvertPage
+94 Name=IMGFilePutInfo
+95 Name=IMGAnExistingPathOrFile
+101 Name=lntoa
+102 Name=intoa
+103 Name=lstrrev
+104 Name=lstrlast
+105 Name=lstrrchr
+106 Name=lstrstsp
+107 Name=lstrrcpy
+108 Name=AddSlash
+109 Name=StripPathName
+110 Name=AValidFileName
+112 Name=SeparatePathFile
+113 Name=atoun
+114 Name=atoul
+115 Name=lstrtok
+116 Name=lstrstr
+117 Name=leftjust
+118 Name=lstrncpy
+119 Name=lstrncmp
+120 Name=DosNameValid
+121 Name=lstrchr
+122 Name=DllMain
+130 Name=GetCompRowsPerStrip
+;------------------EOF------------------

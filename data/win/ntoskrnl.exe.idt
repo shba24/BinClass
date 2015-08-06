@@ -1,0 +1,1532 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ntoskrnl.exe Args=0 Drops=1310
+;---------------------------------------
+1 Name=@ExAcquireFastMutexUnsafe@4
+2 Name=@ExAcquireRundownProtection@4
+3 Name=@ExAcquireRundownProtectionEx@8
+4 Name=@ExInitializeRundownProtection@4
+5 Name=@ExInterlockedAddLargeStatistic@8
+6 Name=@ExInterlockedCompareExchange64@16
+7 Name=@ExInterlockedFlushSList@4
+8 Name=@ExInterlockedPopEntrySList@8
+9 Name=@ExInterlockedPushEntrySList@12
+10 Name=@ExReInitializeRundownProtection@4
+11 Name=@ExReleaseFastMutexUnsafe@4
+12 Name=@ExReleaseResourceLite@4
+13 Name=@ExReleaseRundownProtection@4
+14 Name=@ExReleaseRundownProtectionEx@8
+15 Name=@ExRundownCompleted@4
+16 Name=@ExWaitForRundownProtectionRelease@4
+17 Name=@ExfAcquirePushLockExclusive@4
+18 Name=@ExfAcquirePushLockShared@4
+19 Name=@ExfInterlockedAddUlong@12
+20 Name=@ExfInterlockedCompareExchange64@12
+21 Name=@ExfInterlockedInsertHeadList@12
+22 Name=@ExfInterlockedInsertTailList@12
+23 Name=@ExfInterlockedPopEntryList@8
+24 Name=@ExfInterlockedPushEntryList@12
+25 Name=@ExfInterlockedRemoveHeadList@8
+26 Name=@ExfReleasePushLock@4
+27 Name=@ExfUnblockPushLock@8
+28 Name=@Exfi386InterlockedDecrementLong@4
+29 Name=@Exfi386InterlockedExchangeUlong@8
+30 Name=@Exfi386InterlockedIncrementLong@4
+31 Name=@HalExamineMBR@16
+32 Name=@InterlockedCompareExchange@12
+33 Name=@InterlockedDecrement@4
+34 Name=@InterlockedExchange@8
+35 Name=@InterlockedExchangeAdd@8
+36 Name=@InterlockedIncrement@4
+37 Name=@InterlockedPopEntrySList@4
+38 Name=@InterlockedPushEntrySList@8
+39 Name=@IoAssignDriveLetters@16
+40 Name=@IoGetPagingIoPriority@4
+41 Name=@IoReadPartitionTable@16
+42 Name=@IoSetPartitionInformation@16
+43 Name=@IoWritePartitionTable@20
+44 Name=@IofCallDriver@8
+45 Name=@IofCompleteRequest@8
+46 Name=@KeAcquireInStackQueuedSpinLockAtDpcLevel@8
+47 Name=@KeAcquireInStackQueuedSpinLockForDpc@8
+48 Name=@KeAcquireSpinLockForDpc@4
+49 Name=@KeReleaseInStackQueuedSpinLockForDpc@4
+50 Name=@KeReleaseInStackQueuedSpinLockFromDpcLevel@4
+51 Name=@KeReleaseSpinLockForDpc@8
+52 Name=@KeTestSpinLock@4
+53 Name=@KefAcquireSpinLockAtDpcLevel@4
+54 Name=@KefReleaseSpinLockFromDpcLevel@4
+55 Name=@KiAcquireSpinLock@4
+56 Name=@KiReleaseSpinLock@4
+57 Name=@ObfDereferenceObject@4
+58 Name=@ObfReferenceObject@4
+59 Name=@RtlPrefetchMemoryNonTemporal@8
+60 Name=@RtlUlongByteSwap@4
+61 Name=@RtlUlonglongByteSwap@8
+62 Name=@RtlUshortByteSwap@4
+63 Name=@WmiGetClock@8
+64 Name=@WmiTraceFastEvent@4
+65 Name=CcCanIWrite Pascal=16
+66 Name=CcCopyRead Pascal=24
+67 Name=CcCopyWrite Pascal=20
+68 Name=CcDeferWrite Pascal=24
+69 Name=CcFastCopyRead Pascal=24
+70 Name=CcFastCopyWrite Pascal=16
+71 Name=CcFastMdlReadWait
+72 Name=CcFastReadNotPossible
+73 Name=CcFastReadWait
+74 Name=CcFlushCache Pascal=16
+75 Name=CcGetDirtyPages Pascal=16
+76 Name=CcGetFileObjectFromBcb Pascal=4
+77 Name=CcGetFileObjectFromSectionPtrs Pascal=4
+78 Name=CcGetFlushedValidData Pascal=8
+79 Name=CcGetLsnForFileObject Pascal=8
+80 Name=CcInitializeCacheMap Pascal=20
+81 Name=CcIsThereDirtyData Pascal=4
+82 Name=CcMapData Pascal=24
+83 Name=CcMdlRead Pascal=20
+84 Name=CcMdlReadComplete Pascal=8
+85 Name=CcMdlWriteAbort Pascal=8
+86 Name=CcMdlWriteComplete Pascal=12
+87 Name=CcPinMappedData Pascal=20
+88 Name=CcPinRead Pascal=24
+89 Name=CcPrepareMdlWrite Pascal=20
+90 Name=CcPreparePinWrite Pascal=28
+91 Name=CcPurgeCacheSection Pascal=16
+92 Name=CcRemapBcb Pascal=4
+93 Name=CcRepinBcb Pascal=4
+94 Name=CcScheduleReadAhead Pascal=12
+95 Name=CcSetAdditionalCacheAttributes Pascal=12
+96 Name=CcSetBcbOwnerPointer Pascal=8
+97 Name=CcSetDirtyPageThreshold Pascal=8
+98 Name=CcSetDirtyPinnedData Pascal=8
+99 Name=CcSetFileSizes Pascal=8
+100 Name=CcSetLogHandleForFile Pascal=12
+101 Name=CcSetReadAheadGranularity Pascal=8
+102 Name=CcUninitializeCacheMap Pascal=12
+103 Name=CcUnpinData Pascal=4
+104 Name=CcUnpinDataForThread Pascal=8
+105 Name=CcUnpinRepinnedBcb Pascal=12
+106 Name=CcWaitForCurrentLazyWriterActivity Pascal=0
+107 Name=CcZeroData Pascal=16
+108 Name=CmRegisterCallback Pascal=12
+109 Name=CmUnRegisterCallback Pascal=8
+110 Name=DbgBreakPoint Pascal=0
+111 Name=DbgBreakPointWithStatus Pascal=4
+112 Name=DbgCommandString Pascal=8
+113 Name=DbgLoadImageSymbols Pascal=12
+114 Name=DbgPrint
+115 Name=DbgPrintEx
+116 Name=DbgPrintReturnControlC
+117 Name=DbgPrompt Pascal=12
+118 Name=DbgQueryDebugFilterState Pascal=8
+119 Name=DbgSetDebugFilterState Pascal=12
+120 Name=ExAcquireResourceExclusiveLite Pascal=8
+121 Name=ExAcquireResourceSharedLite Pascal=8
+122 Name=ExAcquireSharedStarveExclusive Pascal=8
+123 Name=ExAcquireSharedWaitForExclusive Pascal=8
+124 Name=ExAllocateFromPagedLookasideList Pascal=4
+125 Name=ExAllocatePool Pascal=8
+126 Name=ExAllocatePoolWithQuota Pascal=8
+127 Name=ExAllocatePoolWithQuotaTag Pascal=12
+128 Name=ExAllocatePoolWithTag Pascal=12
+129 Name=ExAllocatePoolWithTagPriority Pascal=16
+130 Name=ExConvertExclusiveToSharedLite Pascal=4
+131 Name=ExCreateCallback Pascal=16
+132 Name=ExDeleteNPagedLookasideList Pascal=4
+133 Name=ExDeletePagedLookasideList Pascal=4
+134 Name=ExDeleteResourceLite Pascal=4
+135 Name=ExDesktopObjectType
+136 Name=ExDisableResourceBoostLite Pascal=4
+137 Name=ExEnumHandleTable Pascal=16
+138 Name=ExEventObjectType
+139 Name=ExExtendZone Pascal=12
+140 Name=ExFreePool Pascal=4
+141 Name=ExFreePoolWithTag Pascal=8
+142 Name=ExFreeToPagedLookasideList Pascal=8
+143 Name=ExGetCurrentProcessorCounts Pascal=12
+144 Name=ExGetCurrentProcessorCpuUsage Pascal=4
+145 Name=ExGetExclusiveWaiterCount Pascal=4
+146 Name=ExGetPreviousMode Pascal=0
+147 Name=ExGetSharedWaiterCount Pascal=4
+148 Name=ExInitializeNPagedLookasideList Pascal=28
+149 Name=ExInitializePagedLookasideList Pascal=28
+150 Name=ExInitializeResourceLite Pascal=4
+151 Name=ExInitializeZone Pascal=16
+152 Name=ExInterlockedAddLargeInteger Pascal=16
+153 Name=ExInterlockedAddUlong Pascal=12
+154 Name=ExInterlockedDecrementLong Pascal=8
+155 Name=ExInterlockedExchangeUlong Pascal=12
+156 Name=ExInterlockedExtendZone Pascal=16
+157 Name=ExInterlockedIncrementLong Pascal=8
+158 Name=ExInterlockedInsertHeadList Pascal=12
+159 Name=ExInterlockedInsertTailList Pascal=12
+160 Name=ExInterlockedPopEntryList Pascal=8
+161 Name=ExInterlockedPushEntryList Pascal=12
+162 Name=ExInterlockedRemoveHeadList Pascal=8
+163 Name=ExIsProcessorFeaturePresent Pascal=4
+164 Name=ExIsResourceAcquiredExclusiveLite Pascal=4
+165 Name=ExIsResourceAcquiredSharedLite Pascal=4
+166 Name=ExLocalTimeToSystemTime Pascal=8
+167 Name=ExNotifyCallback Pascal=12
+168 Name=ExQueryPoolBlockSize Pascal=8
+169 Name=ExQueueWorkItem Pascal=8
+170 Name=ExRaiseAccessViolation Pascal=0
+171 Name=ExRaiseDatatypeMisalignment Pascal=0
+172 Name=ExRaiseException Pascal=4
+173 Name=ExRaiseHardError Pascal=24
+174 Name=ExRaiseStatus Pascal=4
+175 Name=ExRegisterCallback Pascal=12
+176 Name=ExReinitializeResourceLite Pascal=4
+177 Name=ExReleaseResourceForThreadLite Pascal=8
+178 Name=ExSemaphoreObjectType
+179 Name=ExSetResourceOwnerPointer Pascal=8
+180 Name=ExSetTimerResolution Pascal=8
+181 Name=ExSystemExceptionFilter Pascal=0
+182 Name=ExSystemTimeToLocalTime Pascal=8
+183 Name=ExUnregisterCallback Pascal=4
+184 Name=ExUuidCreate Pascal=4
+185 Name=ExVerifySuite Pascal=4
+186 Name=ExWindowStationObjectType
+187 Name=Exi386InterlockedDecrementLong Pascal=4
+188 Name=Exi386InterlockedExchangeUlong Pascal=8
+189 Name=Exi386InterlockedIncrementLong Pascal=4
+190 Name=FsRtlAcquireFileExclusive Pascal=4
+191 Name=FsRtlAddBaseMcbEntry Pascal=28
+192 Name=FsRtlAddLargeMcbEntry Pascal=28
+193 Name=FsRtlAddMcbEntry Pascal=16
+194 Name=FsRtlAddToTunnelCache Pascal=32
+195 Name=FsRtlAllocateFileLock Pascal=8
+196 Name=FsRtlAllocatePool Pascal=8
+197 Name=FsRtlAllocatePoolWithQuota Pascal=8
+198 Name=FsRtlAllocatePoolWithQuotaTag Pascal=12
+199 Name=FsRtlAllocatePoolWithTag Pascal=12
+200 Name=FsRtlAllocateResource Pascal=0
+201 Name=FsRtlAreNamesEqual Pascal=16
+202 Name=FsRtlBalanceReads Pascal=4
+203 Name=FsRtlCheckLockForReadAccess Pascal=8
+204 Name=FsRtlCheckLockForWriteAccess Pascal=8
+205 Name=FsRtlCheckOplock Pascal=20
+206 Name=FsRtlCopyRead Pascal=32
+207 Name=FsRtlCopyWrite Pascal=32
+208 Name=FsRtlCurrentBatchOplock Pascal=4
+209 Name=FsRtlDeleteKeyFromTunnelCache Pascal=12
+210 Name=FsRtlDeleteTunnelCache Pascal=4
+211 Name=FsRtlDeregisterUncProvider Pascal=4
+212 Name=FsRtlDissectDbcs Pascal=16
+213 Name=FsRtlDissectName Pascal=16
+214 Name=FsRtlDoesDbcsContainWildCards Pascal=4
+215 Name=FsRtlDoesNameContainWildCards Pascal=4
+216 Name=FsRtlFastCheckLockForRead Pascal=24
+217 Name=FsRtlFastCheckLockForWrite Pascal=24
+218 Name=FsRtlFastUnlockAll Pascal=16
+219 Name=FsRtlFastUnlockAllByKey Pascal=20
+220 Name=FsRtlFastUnlockSingle Pascal=32
+221 Name=FsRtlFindInTunnelCache Pascal=32
+222 Name=FsRtlFreeFileLock Pascal=4
+223 Name=FsRtlGetFileSize Pascal=8
+224 Name=FsRtlGetNextBaseMcbEntry Pascal=20
+225 Name=FsRtlGetNextFileLock Pascal=8
+226 Name=FsRtlGetNextLargeMcbEntry Pascal=20
+227 Name=FsRtlGetNextMcbEntry Pascal=20
+228 Name=FsRtlIncrementCcFastReadNoWait Pascal=0
+229 Name=FsRtlIncrementCcFastReadNotPossible Pascal=0
+230 Name=FsRtlIncrementCcFastReadResourceMiss Pascal=0
+231 Name=FsRtlIncrementCcFastReadWait Pascal=0
+232 Name=FsRtlInitializeBaseMcb Pascal=8
+233 Name=FsRtlInitializeFileLock Pascal=12
+234 Name=FsRtlInitializeLargeMcb Pascal=8
+235 Name=FsRtlInitializeMcb Pascal=8
+236 Name=FsRtlInitializeOplock Pascal=4
+237 Name=FsRtlInitializeTunnelCache Pascal=4
+238 Name=FsRtlInsertPerFileObjectContext Pascal=8
+239 Name=FsRtlInsertPerStreamContext Pascal=8
+240 Name=FsRtlIsDbcsInExpression Pascal=8
+241 Name=FsRtlIsFatDbcsLegal Pascal=20
+242 Name=FsRtlIsHpfsDbcsLegal Pascal=20
+243 Name=FsRtlIsNameInExpression Pascal=16
+244 Name=FsRtlIsNtstatusExpected Pascal=4
+245 Name=FsRtlIsPagingFile Pascal=4
+246 Name=FsRtlIsTotalDeviceFailure Pascal=4
+247 Name=FsRtlLegalAnsiCharacterArray
+248 Name=FsRtlLookupBaseMcbEntry Pascal=32
+249 Name=FsRtlLookupLargeMcbEntry Pascal=32
+250 Name=FsRtlLookupLastBaseMcbEntry Pascal=12
+251 Name=FsRtlLookupLastBaseMcbEntryAndIndex Pascal=16
+252 Name=FsRtlLookupLastLargeMcbEntry Pascal=12
+253 Name=FsRtlLookupLastLargeMcbEntryAndIndex Pascal=16
+254 Name=FsRtlLookupLastMcbEntry Pascal=12
+255 Name=FsRtlLookupMcbEntry Pascal=20
+256 Name=FsRtlLookupPerFileObjectContext Pascal=12
+257 Name=FsRtlLookupPerStreamContextInternal Pascal=12
+258 Name=FsRtlMdlRead Pascal=24
+259 Name=FsRtlMdlReadComplete Pascal=8
+260 Name=FsRtlMdlReadCompleteDev Pascal=12
+261 Name=FsRtlMdlReadDev Pascal=28
+262 Name=FsRtlMdlWriteComplete Pascal=12
+263 Name=FsRtlMdlWriteCompleteDev Pascal=16
+264 Name=FsRtlNormalizeNtstatus Pascal=8
+265 Name=FsRtlNotifyChangeDirectory Pascal=28
+266 Name=FsRtlNotifyCleanup Pascal=12
+267 Name=FsRtlNotifyFilterChangeDirectory Pascal=44
+268 Name=FsRtlNotifyFilterReportChange Pascal=40
+269 Name=FsRtlNotifyFullChangeDirectory Pascal=40
+270 Name=FsRtlNotifyFullReportChange Pascal=36
+271 Name=FsRtlNotifyInitializeSync Pascal=4
+272 Name=FsRtlNotifyReportChange Pascal=20
+273 Name=FsRtlNotifyUninitializeSync Pascal=4
+274 Name=FsRtlNotifyVolumeEvent Pascal=8
+275 Name=FsRtlNumberOfRunsInBaseMcb Pascal=4
+276 Name=FsRtlNumberOfRunsInLargeMcb Pascal=4
+277 Name=FsRtlNumberOfRunsInMcb Pascal=4
+278 Name=FsRtlOplockFsctrl Pascal=12
+279 Name=FsRtlOplockIsFastIoPossible Pascal=4
+280 Name=FsRtlPostPagingFileStackOverflow Pascal=12
+281 Name=FsRtlPostStackOverflow Pascal=12
+282 Name=FsRtlPrepareMdlWrite Pascal=24
+283 Name=FsRtlPrepareMdlWriteDev Pascal=28
+284 Name=FsRtlPrivateLock Pascal=48
+285 Name=FsRtlProcessFileLock Pascal=12
+286 Name=FsRtlRegisterFileSystemFilterCallbacks Pascal=8
+287 Name=FsRtlRegisterUncProvider Pascal=12
+288 Name=FsRtlReleaseFile Pascal=4
+289 Name=FsRtlRemoveBaseMcbEntry Pascal=20
+290 Name=FsRtlRemoveLargeMcbEntry Pascal=20
+291 Name=FsRtlRemoveMcbEntry Pascal=12
+292 Name=FsRtlRemovePerFileObjectContext Pascal=12
+293 Name=FsRtlRemovePerStreamContext Pascal=12
+294 Name=FsRtlResetBaseMcb Pascal=4
+295 Name=FsRtlResetLargeMcb Pascal=8
+296 Name=FsRtlSplitBaseMcb Pascal=20
+297 Name=FsRtlSplitLargeMcb Pascal=20
+298 Name=FsRtlSyncVolumes Pascal=12
+299 Name=FsRtlTeardownPerStreamContexts Pascal=4
+300 Name=FsRtlTruncateBaseMcb Pascal=12
+301 Name=FsRtlTruncateLargeMcb Pascal=12
+302 Name=FsRtlTruncateMcb Pascal=8
+303 Name=FsRtlUninitializeBaseMcb Pascal=4
+304 Name=FsRtlUninitializeFileLock Pascal=4
+305 Name=FsRtlUninitializeLargeMcb Pascal=4
+306 Name=FsRtlUninitializeMcb Pascal=4
+307 Name=FsRtlUninitializeOplock Pascal=4
+308 Name=HalDispatchTable
+309 Name=HalPrivateDispatchTable
+310 Name=HeadlessDispatch Pascal=20
+311 Name=InbvAcquireDisplayOwnership Pascal=0
+312 Name=InbvCheckDisplayOwnership Pascal=0
+313 Name=InbvDisplayString Pascal=4
+314 Name=InbvEnableBootDriver Pascal=4
+315 Name=InbvEnableDisplayString Pascal=4
+316 Name=InbvInstallDisplayStringFilter Pascal=4
+317 Name=InbvIsBootDriverInstalled Pascal=0
+318 Name=InbvNotifyDisplayOwnershipLost Pascal=4
+319 Name=InbvResetDisplay Pascal=0
+320 Name=InbvSetScrollRegion Pascal=16
+321 Name=InbvSetTextColor Pascal=4
+322 Name=InbvSolidColorFill Pascal=20
+323 Name=InitSafeBootMode
+324 Name=IoAcquireCancelSpinLock Pascal=4
+325 Name=IoAcquireRemoveLockEx Pascal=20
+326 Name=IoAcquireVpbSpinLock Pascal=4
+327 Name=IoAdapterObjectType
+328 Name=IoAllocateAdapterChannel Pascal=20
+329 Name=IoAllocateController Pascal=16
+330 Name=IoAllocateDriverObjectExtension Pascal=16
+331 Name=IoAllocateErrorLogEntry Pascal=8
+332 Name=IoAllocateIrp Pascal=8
+333 Name=IoAllocateMdl Pascal=20
+334 Name=IoAllocateWorkItem Pascal=4
+335 Name=IoAssignResources Pascal=24
+336 Name=IoAttachDevice Pascal=12
+337 Name=IoAttachDeviceByPointer Pascal=8
+338 Name=IoAttachDeviceToDeviceStack Pascal=8
+339 Name=IoAttachDeviceToDeviceStackSafe Pascal=12
+340 Name=IoBuildAsynchronousFsdRequest Pascal=24
+341 Name=IoBuildDeviceIoControlRequest Pascal=36
+342 Name=IoBuildPartialMdl Pascal=16
+343 Name=IoBuildSynchronousFsdRequest Pascal=28
+344 Name=IoCallDriver Pascal=8
+345 Name=IoCancelFileOpen Pascal=8
+346 Name=IoCancelIrp Pascal=4
+347 Name=IoCheckDesiredAccess Pascal=8
+348 Name=IoCheckEaBufferValidity Pascal=12
+349 Name=IoCheckFunctionAccess Pascal=24
+350 Name=IoCheckQuerySetFileInformation Pascal=12
+351 Name=IoCheckQuerySetVolumeInformation Pascal=12
+352 Name=IoCheckQuotaBufferValidity Pascal=12
+353 Name=IoCheckShareAccess Pascal=20
+354 Name=IoCompleteRequest Pascal=8
+355 Name=IoConnectInterrupt Pascal=44
+356 Name=IoCreateController Pascal=4
+357 Name=IoCreateDevice Pascal=28
+358 Name=IoCreateDisk Pascal=8
+359 Name=IoCreateDriver Pascal=8
+360 Name=IoCreateFile Pascal=56
+361 Name=IoCreateFileSpecifyDeviceObjectHint Pascal=60
+362 Name=IoCreateNotificationEvent Pascal=8
+363 Name=IoCreateStreamFileObject Pascal=8
+364 Name=IoCreateStreamFileObjectEx Pascal=12
+365 Name=IoCreateStreamFileObjectLite Pascal=8
+366 Name=IoCreateSymbolicLink Pascal=8
+367 Name=IoCreateSynchronizationEvent Pascal=8
+368 Name=IoCreateUnprotectedSymbolicLink Pascal=8
+369 Name=IoCsqInitialize Pascal=28
+370 Name=IoCsqInitializeEx Pascal=28
+371 Name=IoCsqInsertIrp Pascal=12
+372 Name=IoCsqInsertIrpEx Pascal=16
+373 Name=IoCsqRemoveIrp Pascal=8
+374 Name=IoCsqRemoveNextIrp Pascal=8
+375 Name=IoDeleteController Pascal=4
+376 Name=IoDeleteDevice Pascal=4
+377 Name=IoDeleteDriver Pascal=4
+378 Name=IoDeleteSymbolicLink Pascal=4
+379 Name=IoDetachDevice Pascal=4
+380 Name=IoDeviceHandlerObjectSize
+381 Name=IoDeviceHandlerObjectType
+382 Name=IoDeviceObjectType
+383 Name=IoDisconnectInterrupt Pascal=4
+384 Name=IoDriverObjectType
+385 Name=IoEnqueueIrp Pascal=4
+386 Name=IoEnumerateDeviceObjectList Pascal=16
+387 Name=IoFastQueryNetworkAttributes Pascal=20
+388 Name=IoFileObjectType
+389 Name=IoForwardAndCatchIrp Pascal=8
+390 Name=IoForwardIrpSynchronously Pascal=8
+391 Name=IoFreeController Pascal=4
+392 Name=IoFreeErrorLogEntry Pascal=4
+393 Name=IoFreeIrp Pascal=4
+394 Name=IoFreeMdl Pascal=4
+395 Name=IoFreeWorkItem Pascal=4
+396 Name=IoGetAttachedDevice Pascal=4
+397 Name=IoGetAttachedDeviceReference Pascal=4
+398 Name=IoGetBaseFileSystemDeviceObject Pascal=4
+399 Name=IoGetBootDiskInformation Pascal=8
+400 Name=IoGetConfigurationInformation Pascal=0
+401 Name=IoGetCurrentProcess Pascal=0
+402 Name=IoGetDeviceAttachmentBaseRef Pascal=4
+403 Name=IoGetDeviceInterfaceAlias Pascal=12
+404 Name=IoGetDeviceInterfaces Pascal=16
+405 Name=IoGetDeviceObjectPointer Pascal=16
+406 Name=IoGetDeviceProperty Pascal=20
+407 Name=IoGetDeviceToVerify Pascal=4
+408 Name=IoGetDiskDeviceObject Pascal=8
+409 Name=IoGetDmaAdapter Pascal=12
+410 Name=IoGetDriverObjectExtension Pascal=8
+411 Name=IoGetFileObjectGenericMapping Pascal=0
+412 Name=IoGetInitialStack Pascal=0
+413 Name=IoGetLowerDeviceObject Pascal=4
+414 Name=IoGetRelatedDeviceObject Pascal=4
+415 Name=IoGetRequestorProcess Pascal=4
+416 Name=IoGetRequestorProcessId Pascal=4
+417 Name=IoGetRequestorSessionId Pascal=8
+418 Name=IoGetStackLimits Pascal=8
+419 Name=IoGetTopLevelIrp Pascal=0
+420 Name=IoInitializeIrp Pascal=12
+421 Name=IoInitializeRemoveLockEx Pascal=20
+422 Name=IoInitializeTimer Pascal=12
+423 Name=IoInvalidateDeviceRelations Pascal=8
+424 Name=IoInvalidateDeviceState Pascal=4
+425 Name=IoIsFileOriginRemote Pascal=4
+426 Name=IoIsOperationSynchronous Pascal=4
+427 Name=IoIsSystemThread Pascal=4
+428 Name=IoIsValidNameGraftingBuffer Pascal=8
+429 Name=IoIsWdmVersionAvailable Pascal=8
+430 Name=IoMakeAssociatedIrp Pascal=8
+431 Name=IoOpenDeviceInterfaceRegistryKey Pascal=12
+432 Name=IoOpenDeviceRegistryKey Pascal=16
+433 Name=IoPageRead Pascal=20
+434 Name=IoPnPDeliverServicePowerNotification Pascal=16
+435 Name=IoQueryDeviceDescription Pascal=32
+436 Name=IoQueryFileDosDeviceName Pascal=8
+437 Name=IoQueryFileInformation Pascal=20
+438 Name=IoQueryVolumeInformation Pascal=20
+439 Name=IoQueueThreadIrp Pascal=4
+440 Name=IoQueueWorkItem Pascal=16
+441 Name=IoRaiseHardError Pascal=12
+442 Name=IoRaiseInformationalHardError Pascal=12
+443 Name=IoReadDiskSignature Pascal=12
+444 Name=IoReadOperationCount
+445 Name=IoReadPartitionTableEx Pascal=8
+446 Name=IoReadTransferCount
+447 Name=IoRegisterBootDriverReinitialization Pascal=12
+448 Name=IoRegisterDeviceInterface Pascal=16
+449 Name=IoRegisterDriverReinitialization Pascal=12
+450 Name=IoRegisterFileSystem Pascal=4
+451 Name=IoRegisterFsRegistrationChange Pascal=8
+452 Name=IoRegisterLastChanceShutdownNotification Pascal=4
+453 Name=IoRegisterPlugPlayNotification Pascal=28
+454 Name=IoRegisterShutdownNotification Pascal=4
+455 Name=IoReleaseCancelSpinLock Pascal=4
+456 Name=IoReleaseRemoveLockAndWaitEx Pascal=12
+457 Name=IoReleaseRemoveLockEx Pascal=12
+458 Name=IoReleaseVpbSpinLock Pascal=4
+459 Name=IoRemoveShareAccess Pascal=8
+460 Name=IoReportDetectedDevice Pascal=32
+461 Name=IoReportHalResourceUsage Pascal=16
+462 Name=IoReportResourceForDetection Pascal=28
+463 Name=IoReportResourceUsage Pascal=36
+464 Name=IoReportTargetDeviceChange Pascal=8
+465 Name=IoReportTargetDeviceChangeAsynchronous Pascal=16
+466 Name=IoRequestDeviceEject Pascal=4
+467 Name=IoReuseIrp Pascal=8
+468 Name=IoSetCompletionRoutineEx Pascal=28
+469 Name=IoSetDeviceInterfaceState Pascal=8
+470 Name=IoSetDeviceToVerify Pascal=8
+471 Name=IoSetFileOrigin Pascal=8
+472 Name=IoSetHardErrorOrVerifyDevice Pascal=8
+473 Name=IoSetInformation Pascal=16
+474 Name=IoSetIoCompletion Pascal=24
+475 Name=IoSetPartitionInformationEx Pascal=12
+476 Name=IoSetShareAccess Pascal=16
+477 Name=IoSetStartIoAttributes Pascal=12
+478 Name=IoSetSystemPartition Pascal=4
+479 Name=IoSetThreadHardErrorMode Pascal=4
+480 Name=IoSetTopLevelIrp Pascal=4
+481 Name=IoStartNextPacket Pascal=8
+482 Name=IoStartNextPacketByKey Pascal=12
+483 Name=IoStartPacket Pascal=16
+484 Name=IoStartTimer Pascal=4
+485 Name=IoStatisticsLock
+486 Name=IoStopTimer Pascal=4
+487 Name=IoSynchronousInvalidateDeviceRelations Pascal=8
+488 Name=IoSynchronousPageWrite Pascal=20
+489 Name=IoThreadToProcess Pascal=4
+490 Name=IoUnregisterFileSystem Pascal=4
+491 Name=IoUnregisterFsRegistrationChange Pascal=8
+492 Name=IoUnregisterPlugPlayNotification Pascal=4
+493 Name=IoUnregisterShutdownNotification Pascal=4
+494 Name=IoUpdateShareAccess Pascal=8
+495 Name=IoValidateDeviceIoControlAccess Pascal=8
+496 Name=IoVerifyPartitionTable Pascal=8
+497 Name=IoVerifyVolume Pascal=8
+498 Name=IoVolumeDeviceToDosName Pascal=8
+499 Name=IoWMIAllocateInstanceIds Pascal=12
+500 Name=IoWMIDeviceObjectToInstanceName Pascal=12
+501 Name=IoWMIExecuteMethod Pascal=24
+502 Name=IoWMIHandleToInstanceName Pascal=12
+503 Name=IoWMIOpenBlock Pascal=12
+504 Name=IoWMIQueryAllData Pascal=12
+505 Name=IoWMIQueryAllDataMultiple Pascal=16
+506 Name=IoWMIQuerySingleInstance Pascal=16
+507 Name=IoWMIQuerySingleInstanceMultiple Pascal=20
+508 Name=IoWMIRegistrationControl Pascal=8
+509 Name=IoWMISetNotificationCallback Pascal=12
+510 Name=IoWMISetSingleInstance Pascal=20
+511 Name=IoWMISetSingleItem Pascal=24
+512 Name=IoWMISuggestInstanceName Pascal=16
+513 Name=IoWMIWriteEvent Pascal=4
+514 Name=IoWriteErrorLogEntry Pascal=4
+515 Name=IoWriteOperationCount
+516 Name=IoWritePartitionTableEx Pascal=8
+517 Name=IoWriteTransferCount
+518 Name=KdDebuggerEnabled
+519 Name=KdDebuggerNotPresent
+520 Name=KdDisableDebugger Pascal=0
+521 Name=KdEnableDebugger Pascal=0
+522 Name=KdEnteredDebugger
+523 Name=KdPollBreakIn Pascal=0
+524 Name=KdPowerTransition Pascal=4
+525 Name=KdRefreshDebuggerNotPresent Pascal=0
+526 Name=Ke386CallBios Pascal=8
+527 Name=Ke386IoSetAccessProcess Pascal=8
+528 Name=Ke386QueryIoAccessMap Pascal=8
+529 Name=Ke386SetIoAccessMap Pascal=8
+530 Name=KeAcquireInterruptSpinLock Pascal=4
+531 Name=KeAcquireSpinLockAtDpcLevel Pascal=4
+532 Name=KeAddSystemServiceTable Pascal=20
+533 Name=KeAreApcsDisabled Pascal=0
+534 Name=KeAttachProcess Pascal=4
+535 Name=KeBugCheck Pascal=4
+536 Name=KeBugCheckEx Pascal=20
+537 Name=KeCancelTimer Pascal=4
+538 Name=KeCapturePersistentThreadState Pascal=32
+539 Name=KeClearEvent Pascal=4
+540 Name=KeConnectInterrupt Pascal=4
+541 Name=KeDelayExecutionThread Pascal=12
+542 Name=KeDeregisterBugCheckCallback Pascal=4
+543 Name=KeDeregisterBugCheckReasonCallback Pascal=4
+544 Name=KeDeregisterNmiCallback Pascal=4
+545 Name=KeDetachProcess Pascal=0
+546 Name=KeDisconnectInterrupt Pascal=4
+547 Name=KeEnterCriticalRegion Pascal=0
+548 Name=KeEnterKernelDebugger Pascal=0
+549 Name=KeFindConfigurationEntry Pascal=16
+550 Name=KeFindConfigurationNextEntry Pascal=20
+551 Name=KeFlushEntireTb Pascal=8
+552 Name=KeFlushQueuedDpcs Pascal=0
+553 Name=KeGenericCallDpc Pascal=8
+554 Name=KeGetCurrentThread Pascal=0
+555 Name=KeGetPreviousMode Pascal=0
+556 Name=KeGetRecommendedSharedDataAlignment Pascal=0
+557 Name=KeI386AbiosCall Pascal=16
+558 Name=KeI386AllocateGdtSelectors Pascal=8
+559 Name=KeI386Call16BitCStyleFunction Pascal=16
+560 Name=KeI386Call16BitFunction Pascal=4
+561 Name=KeI386FlatToGdtSelector Pascal=12
+562 Name=KeI386GetLid Pascal=20
+563 Name=KeI386MachineType
+564 Name=KeI386ReleaseGdtSelectors Pascal=8
+565 Name=KeI386ReleaseLid Pascal=8
+566 Name=KeI386SetGdtSelector Pascal=8
+567 Name=KeInitializeApc Pascal=32
+568 Name=KeInitializeDeviceQueue Pascal=4
+569 Name=KeInitializeDpc Pascal=12
+570 Name=KeInitializeEvent Pascal=12
+571 Name=KeInitializeInterrupt Pascal=44
+572 Name=KeInitializeMutant Pascal=8
+573 Name=KeInitializeMutex Pascal=8
+574 Name=KeInitializeQueue Pascal=8
+575 Name=KeInitializeSemaphore Pascal=12
+576 Name=KeInitializeSpinLock Pascal=4
+577 Name=KeInitializeThreadedDpc Pascal=12
+578 Name=KeInitializeTimer Pascal=4
+579 Name=KeInitializeTimerEx Pascal=8
+580 Name=KeInsertByKeyDeviceQueue Pascal=12
+581 Name=KeInsertDeviceQueue Pascal=8
+582 Name=KeInsertHeadQueue Pascal=8
+583 Name=KeInsertQueue Pascal=8
+584 Name=KeInsertQueueApc Pascal=16
+585 Name=KeInsertQueueDpc Pascal=12
+586 Name=KeInvalidateAllCaches Pascal=0
+587 Name=KeIpiGenericCall Pascal=8
+588 Name=KeIsAttachedProcess Pascal=0
+589 Name=KeIsExecutingDpc Pascal=0
+590 Name=KeLeaveCriticalRegion Pascal=0
+591 Name=KeLoaderBlock
+592 Name=KeNumberProcessors
+593 Name=KeProfileInterrupt Pascal=4
+594 Name=KeProfileInterruptWithSource Pascal=8
+595 Name=KePulseEvent Pascal=12
+596 Name=KeQueryActiveProcessors Pascal=0
+597 Name=KeQueryInterruptTime Pascal=0
+598 Name=KeQueryPriorityThread Pascal=4
+599 Name=KeQueryRuntimeThread Pascal=8
+600 Name=KeQuerySystemTime Pascal=4
+601 Name=KeQueryTickCount Pascal=4
+602 Name=KeQueryTimeIncrement Pascal=0
+603 Name=KeRaiseUserException Pascal=4
+604 Name=KeReadStateEvent Pascal=4
+605 Name=KeReadStateMutant Pascal=4
+606 Name=KeReadStateMutex Pascal=4
+607 Name=KeReadStateQueue Pascal=4
+608 Name=KeReadStateSemaphore Pascal=4
+609 Name=KeReadStateTimer Pascal=4
+610 Name=KeRegisterBugCheckCallback Pascal=20
+611 Name=KeRegisterBugCheckReasonCallback Pascal=16
+612 Name=KeRegisterNmiCallback Pascal=8
+613 Name=KeReleaseInterruptSpinLock Pascal=8
+614 Name=KeReleaseMutant Pascal=16
+615 Name=KeReleaseMutex Pascal=8
+616 Name=KeReleaseSemaphore Pascal=16
+617 Name=KeReleaseSpinLockFromDpcLevel Pascal=4
+618 Name=KeRemoveByKeyDeviceQueue Pascal=8
+619 Name=KeRemoveByKeyDeviceQueueIfBusy Pascal=8
+620 Name=KeRemoveDeviceQueue Pascal=4
+621 Name=KeRemoveEntryDeviceQueue Pascal=8
+622 Name=KeRemoveQueue Pascal=12
+623 Name=KeRemoveQueueDpc Pascal=4
+624 Name=KeRemoveSystemServiceTable Pascal=4
+625 Name=KeResetEvent Pascal=4
+626 Name=KeRestoreFloatingPointState Pascal=4
+627 Name=KeRevertToUserAffinityThread Pascal=0
+628 Name=KeRundownQueue Pascal=4
+629 Name=KeSaveFloatingPointState Pascal=4
+630 Name=KeSaveStateForHibernate
+631 Name=KeServiceDescriptorTable
+632 Name=KeSetAffinityThread Pascal=8
+633 Name=KeSetBasePriorityThread Pascal=8
+634 Name=KeSetDmaIoCoherency Pascal=4
+635 Name=KeSetEvent Pascal=12
+636 Name=KeSetEventBoostPriority Pascal=8
+637 Name=KeSetIdealProcessorThread Pascal=8
+638 Name=KeSetImportanceDpc Pascal=8
+639 Name=KeSetKernelStackSwapEnable Pascal=4
+640 Name=KeSetPriorityThread Pascal=8
+641 Name=KeSetProfileIrql Pascal=4
+642 Name=KeSetSystemAffinityThread Pascal=4
+643 Name=KeSetTargetProcessorDpc Pascal=8
+644 Name=KeSetTimeIncrement Pascal=8
+645 Name=KeSetTimer Pascal=16
+646 Name=KeSetTimerEx Pascal=20
+647 Name=KeSignalCallDpcDone Pascal=4
+648 Name=KeSignalCallDpcSynchronize Pascal=4
+649 Name=KeStackAttachProcess Pascal=8
+650 Name=KeSynchronizeExecution Pascal=12
+651 Name=KeTerminateThread Pascal=4
+652 Name=KeTickCount
+653 Name=KeUnstackDetachProcess Pascal=4
+654 Name=KeUpdateRunTime Pascal=4
+655 Name=KeUpdateSystemTime Pascal=0
+656 Name=KeUserModeCallback Pascal=20
+657 Name=KeWaitForMultipleObjects Pascal=32
+658 Name=KeWaitForMutexObject Pascal=20
+659 Name=KeWaitForSingleObject Pascal=20
+660 Name=Kei386EoiHelper Pascal=0
+661 Name=KiBugCheckData
+662 Name=KiCheckForKernelApcDelivery Pascal=0
+663 Name=KiCoprocessorError Pascal=0
+664 Name=KiDeliverApc Pascal=12
+665 Name=KiDispatchInterrupt Pascal=0
+666 Name=KiEnableTimerWatchdog
+667 Name=KiIpiServiceRoutine Pascal=8
+668 Name=KiUnexpectedInterrupt
+669 Name=Kii386SpinOnSpinLock Pascal=8
+670 Name=LdrAccessResource Pascal=16
+671 Name=LdrEnumResources Pascal=20
+672 Name=LdrFindResourceDirectory_U Pascal=16
+673 Name=LdrFindResource_U Pascal=16
+674 Name=LpcPortObjectType
+675 Name=LpcRequestPort Pascal=8
+676 Name=LpcRequestWaitReplyPort Pascal=12
+677 Name=LsaCallAuthenticationPackage Pascal=28
+678 Name=LsaDeregisterLogonProcess Pascal=4
+679 Name=LsaFreeReturnBuffer Pascal=4
+680 Name=LsaLogonUser Pascal=56
+681 Name=LsaLookupAuthenticationPackage Pascal=12
+682 Name=LsaRegisterLogonProcess Pascal=12
+683 Name=Mm64BitPhysicalAddress
+684 Name=MmAddPhysicalMemory Pascal=8
+685 Name=MmAddVerifierThunks Pascal=8
+686 Name=MmAdjustWorkingSetSize Pascal=16
+687 Name=MmAdvanceMdl Pascal=8
+688 Name=MmAllocateContiguousMemory Pascal=12
+689 Name=MmAllocateContiguousMemorySpecifyCache Pascal=32
+690 Name=MmAllocateMappingAddress Pascal=8
+691 Name=MmAllocateNonCachedMemory Pascal=4
+692 Name=MmAllocatePagesForMdl Pascal=28
+693 Name=MmBuildMdlForNonPagedPool Pascal=4
+694 Name=MmCanFileBeTruncated Pascal=8
+695 Name=MmCommitSessionMappedView Pascal=8
+696 Name=MmCreateMdl Pascal=12
+697 Name=MmCreateMirror Pascal=0
+698 Name=MmCreateSection Pascal=32
+699 Name=MmDisableModifiedWriteOfSection Pascal=4
+700 Name=MmFlushImageSection Pascal=8
+701 Name=MmForceSectionClosed Pascal=8
+702 Name=MmFreeContiguousMemory Pascal=4
+703 Name=MmFreeContiguousMemorySpecifyCache Pascal=12
+704 Name=MmFreeMappingAddress Pascal=8
+705 Name=MmFreeNonCachedMemory Pascal=8
+706 Name=MmFreePagesFromMdl Pascal=4
+707 Name=MmGetPhysicalAddress Pascal=4
+708 Name=MmGetPhysicalMemoryRanges Pascal=0
+709 Name=MmGetSystemRoutineAddress Pascal=4
+710 Name=MmGetVirtualForPhysical Pascal=8
+711 Name=MmGrowKernelStack Pascal=4
+712 Name=MmHighestUserAddress
+713 Name=MmIsAddressValid Pascal=4
+714 Name=MmIsDriverVerifying Pascal=4
+715 Name=MmIsIoSpaceActive Pascal=12
+716 Name=MmIsNonPagedSystemAddressValid Pascal=4
+717 Name=MmIsRecursiveIoFault Pascal=0
+718 Name=MmIsThisAnNtAsSystem Pascal=0
+719 Name=MmIsVerifierEnabled Pascal=4
+720 Name=MmLockPagableDataSection Pascal=4
+721 Name=MmLockPagableImageSection Pascal=4
+722 Name=MmLockPagableSectionByHandle Pascal=4
+723 Name=MmMapIoSpace Pascal=16
+724 Name=MmMapLockedPages Pascal=8
+725 Name=MmMapLockedPagesSpecifyCache Pascal=24
+726 Name=MmMapLockedPagesWithReservedMapping Pascal=16
+727 Name=MmMapMemoryDumpMdl Pascal=4
+728 Name=MmMapUserAddressesToPage Pascal=12
+729 Name=MmMapVideoDisplay Pascal=16
+730 Name=MmMapViewInSessionSpace Pascal=12
+731 Name=MmMapViewInSystemSpace Pascal=12
+732 Name=MmMapViewOfSection Pascal=40
+733 Name=MmMarkPhysicalMemoryAsBad Pascal=8
+734 Name=MmMarkPhysicalMemoryAsGood Pascal=8
+735 Name=MmPageEntireDriver Pascal=4
+736 Name=MmPrefetchPages Pascal=8
+737 Name=MmProbeAndLockPages Pascal=12
+738 Name=MmProbeAndLockProcessPages Pascal=16
+739 Name=MmProbeAndLockSelectedPages Pascal=16
+740 Name=MmProtectMdlSystemAddress Pascal=8
+741 Name=MmQuerySystemSize Pascal=0
+742 Name=MmRemovePhysicalMemory Pascal=8
+743 Name=MmResetDriverPaging Pascal=4
+744 Name=MmSectionObjectType
+745 Name=MmSecureVirtualMemory Pascal=12
+746 Name=MmSetAddressRangeModified Pascal=8
+747 Name=MmSetBankedSection Pascal=24
+748 Name=MmSizeOfMdl Pascal=8
+749 Name=MmSystemRangeStart
+750 Name=MmTrimAllSystemPagableMemory Pascal=4
+751 Name=MmUnlockPagableImageSection Pascal=4
+752 Name=MmUnlockPages Pascal=4
+753 Name=MmUnmapIoSpace Pascal=8
+754 Name=MmUnmapLockedPages Pascal=8
+755 Name=MmUnmapReservedMapping Pascal=12
+756 Name=MmUnmapVideoDisplay Pascal=8
+757 Name=MmUnmapViewInSessionSpace Pascal=4
+758 Name=MmUnmapViewInSystemSpace Pascal=4
+759 Name=MmUnmapViewOfSection Pascal=8
+760 Name=MmUnsecureVirtualMemory Pascal=4
+761 Name=MmUserProbeAddress
+762 Name=NlsAnsiCodePage
+763 Name=NlsLeadByteInfo
+764 Name=NlsMbCodePageTag
+765 Name=NlsMbOemCodePageTag
+766 Name=NlsOemCodePage
+767 Name=NlsOemLeadByteInfo
+768 Name=NtAddAtom Pascal=12
+769 Name=NtAdjustPrivilegesToken Pascal=24
+770 Name=NtAllocateLocallyUniqueId Pascal=4
+771 Name=NtAllocateUuids Pascal=16
+772 Name=NtAllocateVirtualMemory Pascal=24
+773 Name=NtBuildNumber
+774 Name=NtClose Pascal=4
+775 Name=NtConnectPort Pascal=32
+776 Name=NtCreateEvent Pascal=20
+777 Name=NtCreateFile Pascal=44
+778 Name=NtCreateSection Pascal=28
+779 Name=NtDeleteAtom Pascal=4
+780 Name=NtDeleteFile Pascal=4
+781 Name=NtDeviceIoControlFile Pascal=40
+782 Name=NtDuplicateObject Pascal=28
+783 Name=NtDuplicateToken Pascal=24
+784 Name=NtFindAtom Pascal=12
+785 Name=NtFreeVirtualMemory Pascal=16
+786 Name=NtFsControlFile Pascal=40
+787 Name=NtGlobalFlag
+788 Name=NtLockFile Pascal=40
+789 Name=NtMakePermanentObject Pascal=4
+790 Name=NtMapViewOfSection Pascal=40
+791 Name=NtNotifyChangeDirectoryFile Pascal=36
+792 Name=NtOpenFile Pascal=24
+793 Name=NtOpenProcess Pascal=16
+794 Name=NtOpenProcessToken Pascal=12
+795 Name=NtOpenProcessTokenEx Pascal=16
+796 Name=NtOpenThread Pascal=16
+797 Name=NtOpenThreadToken Pascal=16
+798 Name=NtOpenThreadTokenEx Pascal=20
+799 Name=NtQueryDirectoryFile Pascal=44
+800 Name=NtQueryEaFile Pascal=36
+801 Name=NtQueryInformationAtom Pascal=20
+802 Name=NtQueryInformationFile Pascal=20
+803 Name=NtQueryInformationProcess Pascal=20
+804 Name=NtQueryInformationThread Pascal=20
+805 Name=NtQueryInformationToken Pascal=20
+806 Name=NtQueryQuotaInformationFile Pascal=36
+807 Name=NtQuerySecurityObject Pascal=20
+808 Name=NtQuerySystemInformation Pascal=16
+809 Name=NtQueryVolumeInformationFile Pascal=20
+810 Name=NtReadFile Pascal=36
+811 Name=NtRequestPort Pascal=8
+812 Name=NtRequestWaitReplyPort Pascal=12
+813 Name=NtSetEaFile Pascal=16
+814 Name=NtSetEvent Pascal=8
+815 Name=NtSetInformationFile Pascal=20
+816 Name=NtSetInformationProcess Pascal=16
+817 Name=NtSetInformationThread Pascal=16
+818 Name=NtSetQuotaInformationFile Pascal=16
+819 Name=NtSetSecurityObject Pascal=12
+820 Name=NtSetVolumeInformationFile Pascal=20
+821 Name=NtShutdownSystem Pascal=4
+822 Name=NtTraceEvent Pascal=16
+823 Name=NtUnlockFile Pascal=20
+824 Name=NtVdmControl Pascal=8
+825 Name=NtWaitForSingleObject Pascal=12
+826 Name=NtWriteFile Pascal=36
+827 Name=ObAssignSecurity Pascal=16
+828 Name=ObCheckCreateObjectAccess Pascal=28
+829 Name=ObCheckObjectAccess Pascal=20
+830 Name=ObCloseHandle Pascal=8
+831 Name=ObCreateObject Pascal=36
+832 Name=ObCreateObjectType Pascal=16
+833 Name=ObDeleteCapturedInsertInfo Pascal=4
+834 Name=ObDereferenceObject Pascal=4
+835 Name=ObDereferenceSecurityDescriptor Pascal=8
+836 Name=ObFindHandleForObject Pascal=20
+837 Name=ObGetObjectSecurity Pascal=12
+838 Name=ObInsertObject Pascal=24
+839 Name=ObLogSecurityDescriptor Pascal=12
+840 Name=ObMakeTemporaryObject Pascal=4
+841 Name=ObOpenObjectByName Pascal=28
+842 Name=ObOpenObjectByPointer Pascal=28
+843 Name=ObQueryNameString Pascal=16
+844 Name=ObQueryObjectAuditingByHandle Pascal=8
+845 Name=ObReferenceObjectByHandle Pascal=24
+846 Name=ObReferenceObjectByName Pascal=32
+847 Name=ObReferenceObjectByPointer Pascal=16
+848 Name=ObReferenceSecurityDescriptor Pascal=8
+849 Name=ObReleaseObjectSecurity Pascal=8
+850 Name=ObSetHandleAttributes Pascal=12
+851 Name=ObSetSecurityDescriptorInfo Pascal=24
+852 Name=ObSetSecurityObjectByPointer Pascal=12
+853 Name=PfxFindPrefix Pascal=8
+854 Name=PfxInitialize Pascal=4
+855 Name=PfxInsertPrefix Pascal=12
+856 Name=PfxRemovePrefix Pascal=8
+857 Name=PoCallDriver Pascal=8
+858 Name=PoCancelDeviceNotify Pascal=4
+859 Name=PoQueueShutdownWorkItem Pascal=4
+860 Name=PoRegisterDeviceForIdleDetection Pascal=16
+861 Name=PoRegisterDeviceNotify Pascal=24
+862 Name=PoRegisterSystemState Pascal=8
+863 Name=PoRequestPowerIrp Pascal=24
+864 Name=PoRequestShutdownEvent Pascal=4
+865 Name=PoSetHiberRange Pascal=20
+866 Name=PoSetPowerState Pascal=12
+867 Name=PoSetSystemState Pascal=4
+868 Name=PoShutdownBugCheck Pascal=24
+869 Name=PoStartNextPowerIrp Pascal=4
+870 Name=PoUnregisterSystemState Pascal=4
+871 Name=ProbeForRead Pascal=12
+872 Name=ProbeForWrite Pascal=12
+873 Name=PsAssignImpersonationToken Pascal=8
+874 Name=PsChargePoolQuota Pascal=12
+875 Name=PsChargeProcessNonPagedPoolQuota Pascal=8
+876 Name=PsChargeProcessPagedPoolQuota Pascal=8
+877 Name=PsChargeProcessPoolQuota Pascal=12
+878 Name=PsCreateSystemProcess Pascal=12
+879 Name=PsCreateSystemThread Pascal=28
+880 Name=PsDereferenceImpersonationToken Pascal=4
+881 Name=PsDereferencePrimaryToken Pascal=4
+882 Name=PsDisableImpersonation Pascal=8
+883 Name=PsEstablishWin32Callouts Pascal=4
+884 Name=PsGetContextThread Pascal=12
+885 Name=PsGetCurrentProcess Pascal=0
+886 Name=PsGetCurrentProcessId Pascal=0
+887 Name=PsGetCurrentProcessSessionId Pascal=0
+888 Name=PsGetCurrentThread Pascal=0
+889 Name=PsGetCurrentThreadId Pascal=0
+890 Name=PsGetCurrentThreadPreviousMode Pascal=0
+891 Name=PsGetCurrentThreadStackBase Pascal=0
+892 Name=PsGetCurrentThreadStackLimit Pascal=0
+893 Name=PsGetJobLock Pascal=4
+894 Name=PsGetJobSessionId Pascal=4
+895 Name=PsGetJobUIRestrictionsClass Pascal=4
+896 Name=PsGetProcessCreateTimeQuadPart Pascal=4
+897 Name=PsGetProcessDebugPort Pascal=4
+898 Name=PsGetProcessExitProcessCalled Pascal=4
+899 Name=PsGetProcessExitStatus Pascal=4
+900 Name=PsGetProcessExitTime Pascal=0
+901 Name=PsGetProcessId Pascal=4
+902 Name=PsGetProcessImageFileName Pascal=4
+903 Name=PsGetProcessInheritedFromUniqueProcessId Pascal=4
+904 Name=PsGetProcessJob Pascal=4
+905 Name=PsGetProcessPeb Pascal=4
+906 Name=PsGetProcessPriorityClass Pascal=4
+907 Name=PsGetProcessSectionBaseAddress Pascal=4
+908 Name=PsGetProcessSecurityPort Pascal=4
+909 Name=PsGetProcessSessionId Pascal=4
+910 Name=PsGetProcessSessionIdEx Pascal=4
+911 Name=PsGetProcessWin32Process Pascal=4
+912 Name=PsGetProcessWin32WindowStation Pascal=4
+913 Name=PsGetThreadFreezeCount Pascal=4
+914 Name=PsGetThreadHardErrorsAreDisabled Pascal=4
+915 Name=PsGetThreadId Pascal=4
+916 Name=PsGetThreadProcess Pascal=4
+917 Name=PsGetThreadProcessId Pascal=4
+918 Name=PsGetThreadSessionId Pascal=4
+919 Name=PsGetThreadTeb Pascal=4
+920 Name=PsGetThreadWin32Thread Pascal=4
+921 Name=PsGetVersion Pascal=16
+922 Name=PsImpersonateClient Pascal=20
+923 Name=PsInitialSystemProcess
+924 Name=PsIsProcessBeingDebugged Pascal=4
+925 Name=PsIsSystemThread Pascal=4
+926 Name=PsIsThreadImpersonating Pascal=4
+927 Name=PsIsThreadTerminating Pascal=4
+928 Name=PsJobType
+929 Name=PsLookupProcessByProcessId Pascal=8
+930 Name=PsLookupProcessThreadByCid Pascal=12
+931 Name=PsLookupThreadByThreadId Pascal=8
+932 Name=PsProcessType
+933 Name=PsReferenceImpersonationToken Pascal=16
+934 Name=PsReferencePrimaryToken Pascal=4
+935 Name=PsRemoveCreateThreadNotifyRoutine Pascal=4
+936 Name=PsRemoveLoadImageNotifyRoutine Pascal=4
+937 Name=PsRestoreImpersonation Pascal=8
+938 Name=PsReturnPoolQuota Pascal=12
+939 Name=PsReturnProcessNonPagedPoolQuota Pascal=8
+940 Name=PsReturnProcessPagedPoolQuota Pascal=8
+941 Name=PsRevertThreadToSelf Pascal=4
+942 Name=PsRevertToSelf Pascal=0
+943 Name=PsSetContextThread Pascal=12
+944 Name=PsSetCreateProcessNotifyRoutine Pascal=8
+945 Name=PsSetCreateThreadNotifyRoutine Pascal=4
+946 Name=PsSetJobUIRestrictionsClass Pascal=8
+947 Name=PsSetLegoNotifyRoutine Pascal=4
+948 Name=PsSetLoadImageNotifyRoutine Pascal=4
+949 Name=PsSetProcessPriorityByClass Pascal=8
+950 Name=PsSetProcessPriorityClass Pascal=8
+951 Name=PsSetProcessSecurityPort Pascal=8
+952 Name=PsSetProcessWin32Process Pascal=12
+953 Name=PsSetProcessWindowStation Pascal=8
+954 Name=PsSetThreadHardErrorsAreDisabled Pascal=8
+955 Name=PsSetThreadWin32Thread Pascal=12
+956 Name=PsTerminateSystemThread Pascal=4
+957 Name=PsThreadType
+958 Name=READ_REGISTER_BUFFER_UCHAR Pascal=12
+959 Name=READ_REGISTER_BUFFER_ULONG Pascal=12
+960 Name=READ_REGISTER_BUFFER_USHORT Pascal=12
+961 Name=READ_REGISTER_UCHAR Pascal=4
+962 Name=READ_REGISTER_ULONG Pascal=4
+963 Name=READ_REGISTER_USHORT Pascal=4
+964 Name=RtlAbsoluteToSelfRelativeSD Pascal=12
+965 Name=RtlAddAccessAllowedAce Pascal=16
+966 Name=RtlAddAccessAllowedAceEx Pascal=20
+967 Name=RtlAddAce Pascal=20
+968 Name=RtlAddAtomToAtomTable Pascal=12
+969 Name=RtlAddRange Pascal=36
+970 Name=RtlAllocateHeap Pascal=12
+971 Name=RtlAnsiCharToUnicodeChar Pascal=4
+972 Name=RtlAnsiStringToUnicodeSize Pascal=4
+973 Name=RtlAnsiStringToUnicodeString Pascal=12
+974 Name=RtlAppendAsciizToString Pascal=8
+975 Name=RtlAppendStringToString Pascal=8
+976 Name=RtlAppendUnicodeStringToString Pascal=8
+977 Name=RtlAppendUnicodeToString Pascal=8
+978 Name=RtlAreAllAccessesGranted Pascal=8
+979 Name=RtlAreAnyAccessesGranted Pascal=8
+980 Name=RtlAreBitsClear Pascal=12
+981 Name=RtlAreBitsSet Pascal=12
+982 Name=RtlAssert Pascal=16
+983 Name=RtlCaptureContext Pascal=4
+984 Name=RtlCaptureStackBackTrace Pascal=16
+985 Name=RtlCharToInteger Pascal=12
+986 Name=RtlCheckRegistryKey Pascal=8
+987 Name=RtlClearAllBits Pascal=4
+988 Name=RtlClearBit Pascal=8
+989 Name=RtlClearBits Pascal=12
+990 Name=RtlCompareMemory Pascal=12
+991 Name=RtlCompareMemoryUlong Pascal=12
+992 Name=RtlCompareString Pascal=12
+993 Name=RtlCompareUnicodeString Pascal=12
+994 Name=RtlCompressBuffer Pascal=32
+995 Name=RtlCompressChunks Pascal=28
+996 Name=RtlConvertLongToLargeInteger Pascal=4
+997 Name=RtlConvertSidToUnicodeString Pascal=12
+998 Name=RtlConvertUlongToLargeInteger Pascal=4
+999 Name=RtlCopyLuid Pascal=8
+1000 Name=RtlCopyRangeList Pascal=8
+1001 Name=RtlCopySid Pascal=12
+1002 Name=RtlCopyString Pascal=8
+1003 Name=RtlCopyUnicodeString Pascal=8
+1004 Name=RtlCreateAcl Pascal=12
+1005 Name=RtlCreateAtomTable Pascal=8
+1006 Name=RtlCreateHeap Pascal=24
+1007 Name=RtlCreateRegistryKey Pascal=8
+1008 Name=RtlCreateSecurityDescriptor Pascal=8
+1009 Name=RtlCreateSystemVolumeInformationFolder Pascal=4
+1010 Name=RtlCreateUnicodeString Pascal=8
+1011 Name=RtlCustomCPToUnicodeN Pascal=24
+1012 Name=RtlDecompressBuffer Pascal=24
+1013 Name=RtlDecompressChunks Pascal=28
+1014 Name=RtlDecompressFragment Pascal=32
+1015 Name=RtlDelete Pascal=4
+1016 Name=RtlDeleteAce Pascal=8
+1017 Name=RtlDeleteAtomFromAtomTable Pascal=8
+1018 Name=RtlDeleteElementGenericTable Pascal=8
+1019 Name=RtlDeleteElementGenericTableAvl Pascal=8
+1020 Name=RtlDeleteNoSplay Pascal=8
+1021 Name=RtlDeleteOwnersRanges Pascal=8
+1022 Name=RtlDeleteRange Pascal=24
+1023 Name=RtlDeleteRegistryValue Pascal=12
+1024 Name=RtlDescribeChunk Pascal=20
+1025 Name=RtlDestroyAtomTable Pascal=4
+1026 Name=RtlDestroyHeap Pascal=4
+1027 Name=RtlDowncaseUnicodeString Pascal=12
+1028 Name=RtlEmptyAtomTable Pascal=8
+1029 Name=RtlEnlargedIntegerMultiply Pascal=8
+1030 Name=RtlEnlargedUnsignedDivide Pascal=16
+1031 Name=RtlEnlargedUnsignedMultiply Pascal=8
+1032 Name=RtlEnumerateGenericTable Pascal=8
+1033 Name=RtlEnumerateGenericTableAvl Pascal=8
+1034 Name=RtlEnumerateGenericTableLikeADirectory Pascal=28
+1035 Name=RtlEnumerateGenericTableWithoutSplaying Pascal=8
+1036 Name=RtlEnumerateGenericTableWithoutSplayingAvl Pascal=8
+1037 Name=RtlEqualLuid Pascal=8
+1038 Name=RtlEqualSid Pascal=8
+1039 Name=RtlEqualString Pascal=12
+1040 Name=RtlEqualUnicodeString Pascal=12
+1041 Name=RtlExtendedIntegerMultiply Pascal=12
+1042 Name=RtlExtendedLargeIntegerDivide Pascal=16
+1043 Name=RtlExtendedMagicDivide Pascal=20
+1044 Name=RtlFillMemory Pascal=12
+1045 Name=RtlFillMemoryUlong Pascal=12
+1046 Name=RtlFindClearBits Pascal=12
+1047 Name=RtlFindClearBitsAndSet Pascal=12
+1048 Name=RtlFindClearRuns Pascal=16
+1049 Name=RtlFindFirstRunClear Pascal=8
+1050 Name=RtlFindLastBackwardRunClear Pascal=12
+1051 Name=RtlFindLeastSignificantBit Pascal=8
+1052 Name=RtlFindLongestRunClear Pascal=8
+1053 Name=RtlFindMessage Pascal=20
+1054 Name=RtlFindMostSignificantBit Pascal=8
+1055 Name=RtlFindNextForwardRunClear Pascal=12
+1056 Name=RtlFindRange Pascal=48
+1057 Name=RtlFindSetBits Pascal=12
+1058 Name=RtlFindSetBitsAndClear Pascal=12
+1059 Name=RtlFindUnicodePrefix Pascal=12
+1060 Name=RtlFormatCurrentUserKeyPath Pascal=4
+1061 Name=RtlFreeAnsiString Pascal=4
+1062 Name=RtlFreeHeap Pascal=12
+1063 Name=RtlFreeOemString Pascal=4
+1064 Name=RtlFreeRangeList Pascal=4
+1065 Name=RtlFreeUnicodeString Pascal=4
+1066 Name=RtlGUIDFromString Pascal=8
+1067 Name=RtlGenerate8dot3Name Pascal=16
+1068 Name=RtlGetAce Pascal=12
+1069 Name=RtlGetCallersAddress Pascal=8
+1070 Name=RtlGetCompressionWorkSpaceSize Pascal=12
+1071 Name=RtlGetDaclSecurityDescriptor Pascal=16
+1072 Name=RtlGetDefaultCodePage Pascal=8
+1073 Name=RtlGetElementGenericTable Pascal=8
+1074 Name=RtlGetElementGenericTableAvl Pascal=8
+1075 Name=RtlGetFirstRange Pascal=12
+1076 Name=RtlGetGroupSecurityDescriptor Pascal=12
+1077 Name=RtlGetNextRange Pascal=12
+1078 Name=RtlGetNtGlobalFlags Pascal=0
+1079 Name=RtlGetOwnerSecurityDescriptor Pascal=12
+1080 Name=RtlGetSaclSecurityDescriptor Pascal=16
+1081 Name=RtlGetSetBootStatusData Pascal=24
+1082 Name=RtlGetVersion Pascal=4
+1083 Name=RtlHashUnicodeString Pascal=16
+1084 Name=RtlImageDirectoryEntryToData Pascal=16
+1085 Name=RtlImageNtHeader Pascal=4
+1086 Name=RtlInitAnsiString Pascal=8
+1087 Name=RtlInitAnsiStringEx Pascal=8
+1088 Name=RtlInitCodePageTable Pascal=8
+1089 Name=RtlInitString Pascal=8
+1090 Name=RtlInitUnicodeString Pascal=8
+1091 Name=RtlInitUnicodeStringEx Pascal=8
+1092 Name=RtlInitializeBitMap Pascal=12
+1093 Name=RtlInitializeGenericTable Pascal=20
+1094 Name=RtlInitializeGenericTableAvl Pascal=20
+1095 Name=RtlInitializeRangeList Pascal=4
+1096 Name=RtlInitializeSid Pascal=12
+1097 Name=RtlInitializeUnicodePrefix Pascal=4
+1098 Name=RtlInsertElementGenericTable Pascal=16
+1099 Name=RtlInsertElementGenericTableAvl Pascal=16
+1100 Name=RtlInsertElementGenericTableFull Pascal=24
+1101 Name=RtlInsertElementGenericTableFullAvl Pascal=24
+1102 Name=RtlInsertUnicodePrefix Pascal=12
+1103 Name=RtlInt64ToUnicodeString Pascal=16
+1104 Name=RtlIntegerToChar Pascal=16
+1105 Name=RtlIntegerToUnicode Pascal=16
+1106 Name=RtlIntegerToUnicodeString Pascal=12
+1107 Name=RtlInvertRangeList Pascal=8
+1108 Name=RtlIpv4AddressToStringA Pascal=8
+1109 Name=RtlIpv4AddressToStringExA Pascal=16
+1110 Name=RtlIpv4AddressToStringExW Pascal=16
+1111 Name=RtlIpv4AddressToStringW Pascal=8
+1112 Name=RtlIpv4StringToAddressA Pascal=16
+1113 Name=RtlIpv4StringToAddressExA Pascal=16
+1114 Name=RtlIpv4StringToAddressExW Pascal=16
+1115 Name=RtlIpv4StringToAddressW Pascal=16
+1116 Name=RtlIpv6AddressToStringA Pascal=8
+1117 Name=RtlIpv6AddressToStringExA Pascal=20
+1118 Name=RtlIpv6AddressToStringExW Pascal=20
+1119 Name=RtlIpv6AddressToStringW Pascal=8
+1120 Name=RtlIpv6StringToAddressA Pascal=12
+1121 Name=RtlIpv6StringToAddressExA Pascal=16
+1122 Name=RtlIpv6StringToAddressExW Pascal=16
+1123 Name=RtlIpv6StringToAddressW Pascal=12
+1124 Name=RtlIsGenericTableEmpty Pascal=4
+1125 Name=RtlIsGenericTableEmptyAvl Pascal=4
+1126 Name=RtlIsNameLegalDOS8Dot3 Pascal=12
+1127 Name=RtlIsRangeAvailable Pascal=40
+1128 Name=RtlIsValidOemCharacter Pascal=4
+1129 Name=RtlLargeIntegerAdd Pascal=16
+1130 Name=RtlLargeIntegerArithmeticShift Pascal=12
+1131 Name=RtlLargeIntegerDivide Pascal=20
+1132 Name=RtlLargeIntegerNegate Pascal=8
+1133 Name=RtlLargeIntegerShiftLeft Pascal=12
+1134 Name=RtlLargeIntegerShiftRight Pascal=12
+1135 Name=RtlLargeIntegerSubtract Pascal=16
+1136 Name=RtlLengthRequiredSid Pascal=4
+1137 Name=RtlLengthSecurityDescriptor Pascal=4
+1138 Name=RtlLengthSid Pascal=4
+1139 Name=RtlLockBootStatusData Pascal=4
+1140 Name=RtlLookupAtomInAtomTable Pascal=12
+1141 Name=RtlLookupElementGenericTable Pascal=8
+1142 Name=RtlLookupElementGenericTableAvl Pascal=8
+1143 Name=RtlLookupElementGenericTableFull Pascal=16
+1144 Name=RtlLookupElementGenericTableFullAvl Pascal=16
+1145 Name=RtlMapGenericMask Pascal=8
+1146 Name=RtlMapSecurityErrorToNtStatus Pascal=4
+1147 Name=RtlMergeRangeLists Pascal=16
+1148 Name=RtlMoveMemory Pascal=12
+1149 Name=RtlMultiByteToUnicodeN Pascal=20
+1150 Name=RtlMultiByteToUnicodeSize Pascal=12
+1151 Name=RtlNextUnicodePrefix Pascal=8
+1152 Name=RtlNtStatusToDosError Pascal=4
+1153 Name=RtlNtStatusToDosErrorNoTeb Pascal=4
+1154 Name=RtlNumberGenericTableElements Pascal=4
+1155 Name=RtlNumberGenericTableElementsAvl Pascal=4
+1156 Name=RtlNumberOfClearBits Pascal=4
+1157 Name=RtlNumberOfSetBits Pascal=4
+1158 Name=RtlOemStringToCountedUnicodeString Pascal=12
+1159 Name=RtlOemStringToUnicodeSize Pascal=4
+1160 Name=RtlOemStringToUnicodeString Pascal=12
+1161 Name=RtlOemToUnicodeN Pascal=20
+1162 Name=RtlPinAtomInAtomTable Pascal=8
+1163 Name=RtlPrefixString Pascal=12
+1164 Name=RtlPrefixUnicodeString Pascal=12
+1165 Name=RtlQueryAtomInAtomTable Pascal=24
+1166 Name=RtlQueryRegistryValues Pascal=20
+1167 Name=RtlQueryTimeZoneInformation Pascal=4
+1168 Name=RtlRaiseException Pascal=4
+1169 Name=RtlRandom Pascal=4
+1170 Name=RtlRandomEx Pascal=4
+1171 Name=RtlRealPredecessor Pascal=4
+1172 Name=RtlRealSuccessor Pascal=4
+1173 Name=RtlRemoveUnicodePrefix Pascal=8
+1174 Name=RtlReserveChunk Pascal=20
+1175 Name=RtlSecondsSince1970ToTime Pascal=8
+1176 Name=RtlSecondsSince1980ToTime Pascal=8
+1177 Name=RtlSelfRelativeToAbsoluteSD Pascal=44
+1178 Name=RtlSelfRelativeToAbsoluteSD2 Pascal=8
+1179 Name=RtlSetAllBits Pascal=4
+1180 Name=RtlSetBit Pascal=8
+1181 Name=RtlSetBits Pascal=12
+1182 Name=RtlSetDaclSecurityDescriptor Pascal=16
+1183 Name=RtlSetGroupSecurityDescriptor Pascal=12
+1184 Name=RtlSetOwnerSecurityDescriptor Pascal=12
+1185 Name=RtlSetSaclSecurityDescriptor Pascal=16
+1186 Name=RtlSetTimeZoneInformation Pascal=4
+1187 Name=RtlSizeHeap Pascal=12
+1188 Name=RtlSplay Pascal=4
+1189 Name=RtlStringFromGUID Pascal=8
+1190 Name=RtlSubAuthorityCountSid Pascal=4
+1191 Name=RtlSubAuthoritySid Pascal=8
+1192 Name=RtlSubtreePredecessor Pascal=4
+1193 Name=RtlSubtreeSuccessor Pascal=4
+1194 Name=RtlTestBit Pascal=8
+1195 Name=RtlTimeFieldsToTime Pascal=8
+1196 Name=RtlTimeToElapsedTimeFields Pascal=8
+1197 Name=RtlTimeToSecondsSince1970 Pascal=8
+1198 Name=RtlTimeToSecondsSince1980 Pascal=8
+1199 Name=RtlTimeToTimeFields Pascal=8
+1200 Name=RtlTraceDatabaseAdd Pascal=16
+1201 Name=RtlTraceDatabaseCreate Pascal=20
+1202 Name=RtlTraceDatabaseDestroy Pascal=4
+1203 Name=RtlTraceDatabaseEnumerate Pascal=12
+1204 Name=RtlTraceDatabaseFind Pascal=16
+1205 Name=RtlTraceDatabaseLock Pascal=4
+1206 Name=RtlTraceDatabaseUnlock Pascal=4
+1207 Name=RtlTraceDatabaseValidate Pascal=4
+1208 Name=RtlUnicodeStringToAnsiSize Pascal=4
+1209 Name=RtlUnicodeStringToAnsiString Pascal=12
+1210 Name=RtlUnicodeStringToCountedOemString Pascal=12
+1211 Name=RtlUnicodeStringToInteger Pascal=12
+1212 Name=RtlUnicodeStringToOemSize Pascal=4
+1213 Name=RtlUnicodeStringToOemString Pascal=12
+1214 Name=RtlUnicodeToCustomCPN Pascal=24
+1215 Name=RtlUnicodeToMultiByteN Pascal=20
+1216 Name=RtlUnicodeToMultiByteSize Pascal=12
+1217 Name=RtlUnicodeToOemN Pascal=20
+1218 Name=RtlUnlockBootStatusData Pascal=4
+1219 Name=RtlUnwind Pascal=16
+1220 Name=RtlUpcaseUnicodeChar Pascal=4
+1221 Name=RtlUpcaseUnicodeString Pascal=12
+1222 Name=RtlUpcaseUnicodeStringToAnsiString Pascal=12
+1223 Name=RtlUpcaseUnicodeStringToCountedOemString Pascal=12
+1224 Name=RtlUpcaseUnicodeStringToOemString Pascal=12
+1225 Name=RtlUpcaseUnicodeToCustomCPN Pascal=24
+1226 Name=RtlUpcaseUnicodeToMultiByteN Pascal=20
+1227 Name=RtlUpcaseUnicodeToOemN Pascal=20
+1228 Name=RtlUpperChar Pascal=4
+1229 Name=RtlUpperString Pascal=8
+1230 Name=RtlValidRelativeSecurityDescriptor Pascal=12
+1231 Name=RtlValidSecurityDescriptor Pascal=4
+1232 Name=RtlValidSid Pascal=4
+1233 Name=RtlVerifyVersionInfo Pascal=16
+1234 Name=RtlVolumeDeviceToDosName Pascal=8
+1235 Name=RtlWalkFrameChain Pascal=12
+1236 Name=RtlWriteRegistryValue Pascal=24
+1237 Name=RtlZeroHeap Pascal=8
+1238 Name=RtlZeroMemory Pascal=8
+1239 Name=RtlxAnsiStringToUnicodeSize Pascal=4
+1240 Name=RtlxOemStringToUnicodeSize Pascal=4
+1241 Name=RtlxUnicodeStringToAnsiSize Pascal=4
+1242 Name=RtlxUnicodeStringToOemSize Pascal=4
+1243 Name=SeAccessCheck Pascal=40
+1244 Name=SeAppendPrivileges Pascal=8
+1245 Name=SeAssignSecurity Pascal=28
+1246 Name=SeAssignSecurityEx Pascal=36
+1247 Name=SeAuditHardLinkCreation Pascal=12
+1248 Name=SeAuditingFileEvents Pascal=8
+1249 Name=SeAuditingFileEventsWithContext Pascal=12
+1250 Name=SeAuditingFileOrGlobalEvents Pascal=12
+1251 Name=SeAuditingHardLinkEvents Pascal=8
+1252 Name=SeAuditingHardLinkEventsWithContext Pascal=12
+1253 Name=SeCaptureSecurityDescriptor Pascal=20
+1254 Name=SeCaptureSubjectContext Pascal=4
+1255 Name=SeCloseObjectAuditAlarm Pascal=12
+1256 Name=SeCreateAccessState Pascal=16
+1257 Name=SeCreateClientSecurity Pascal=16
+1258 Name=SeCreateClientSecurityFromSubjectContext Pascal=16
+1259 Name=SeDeassignSecurity Pascal=4
+1260 Name=SeDeleteAccessState Pascal=4
+1261 Name=SeDeleteObjectAuditAlarm Pascal=8
+1262 Name=SeExports
+1263 Name=SeFilterToken Pascal=24
+1264 Name=SeFreePrivileges Pascal=4
+1265 Name=SeImpersonateClient Pascal=8
+1266 Name=SeImpersonateClientEx Pascal=8
+1267 Name=SeLockSubjectContext Pascal=4
+1268 Name=SeMarkLogonSessionForTerminationNotification Pascal=4
+1269 Name=SeOpenObjectAuditAlarm Pascal=36
+1270 Name=SeOpenObjectForDeleteAuditAlarm Pascal=36
+1271 Name=SePrivilegeCheck Pascal=12
+1272 Name=SePrivilegeObjectAuditAlarm Pascal=24
+1273 Name=SePublicDefaultDacl
+1274 Name=SeQueryAuthenticationIdToken Pascal=8
+1275 Name=SeQueryInformationToken Pascal=12
+1276 Name=SeQuerySecurityDescriptorInfo Pascal=16
+1277 Name=SeQuerySessionIdToken Pascal=8
+1278 Name=SeRegisterLogonSessionTerminatedRoutine Pascal=4
+1279 Name=SeReleaseSecurityDescriptor Pascal=12
+1280 Name=SeReleaseSubjectContext Pascal=4
+1281 Name=SeSetAccessStateGenericMapping Pascal=8
+1282 Name=SeSetSecurityDescriptorInfo Pascal=24
+1283 Name=SeSetSecurityDescriptorInfoEx Pascal=28
+1284 Name=SeSinglePrivilegeCheck Pascal=12
+1285 Name=SeSystemDefaultDacl
+1286 Name=SeTokenImpersonationLevel Pascal=4
+1287 Name=SeTokenIsAdmin Pascal=4
+1288 Name=SeTokenIsRestricted Pascal=4
+1289 Name=SeTokenObjectType
+1290 Name=SeTokenType Pascal=4
+1291 Name=SeUnlockSubjectContext Pascal=4
+1292 Name=SeUnregisterLogonSessionTerminatedRoutine Pascal=4
+1293 Name=SeValidSecurityDescriptor Pascal=8
+1294 Name=VerSetConditionMask Pascal=16
+1295 Name=VfFailDeviceNode
+1296 Name=VfFailDriver
+1297 Name=VfFailSystemBIOS
+1298 Name=VfIsVerificationEnabled Pascal=8
+1299 Name=WRITE_REGISTER_BUFFER_UCHAR Pascal=12
+1300 Name=WRITE_REGISTER_BUFFER_ULONG Pascal=12
+1301 Name=WRITE_REGISTER_BUFFER_USHORT Pascal=12
+1302 Name=WRITE_REGISTER_UCHAR Pascal=8
+1303 Name=WRITE_REGISTER_ULONG Pascal=8
+1304 Name=WRITE_REGISTER_USHORT Pascal=8
+1305 Name=WmiFlushTrace Pascal=4
+1306 Name=WmiQueryTrace Pascal=4
+1307 Name=WmiQueryTraceInformation Pascal=20
+1308 Name=WmiStartTrace Pascal=4
+1309 Name=WmiStopTrace Pascal=4
+1310 Name=WmiTraceMessage
+1311 Name=WmiTraceMessageVa Pascal=24
+1312 Name=WmiUpdateTrace Pascal=4
+1313 Name=XIPDispatch Pascal=12
+1314 Name=ZwAccessCheckAndAuditAlarm Pascal=44
+1315 Name=ZwAddBootEntry Pascal=8
+1316 Name=ZwAddDriverEntry Pascal=8
+1317 Name=ZwAdjustPrivilegesToken Pascal=24
+1318 Name=ZwAlertThread Pascal=4
+1319 Name=ZwAllocateVirtualMemory Pascal=24
+1320 Name=ZwAssignProcessToJobObject Pascal=8
+1321 Name=ZwCancelIoFile Pascal=8
+1322 Name=ZwCancelTimer Pascal=8
+1323 Name=ZwClearEvent Pascal=4
+1324 Name=ZwClose Pascal=4
+1325 Name=ZwCloseObjectAuditAlarm Pascal=12
+1326 Name=ZwConnectPort Pascal=32
+1327 Name=ZwCreateDirectoryObject Pascal=12
+1328 Name=ZwCreateEvent Pascal=20
+1329 Name=ZwCreateFile Pascal=44
+1330 Name=ZwCreateJobObject Pascal=12
+1331 Name=ZwCreateKey Pascal=28
+1332 Name=ZwCreateSection Pascal=28
+1333 Name=ZwCreateSymbolicLinkObject Pascal=16
+1334 Name=ZwCreateTimer Pascal=16
+1335 Name=ZwDeleteBootEntry Pascal=4
+1336 Name=ZwDeleteDriverEntry Pascal=4
+1337 Name=ZwDeleteFile Pascal=4
+1338 Name=ZwDeleteKey Pascal=4
+1339 Name=ZwDeleteValueKey Pascal=8
+1340 Name=ZwDeviceIoControlFile Pascal=40
+1341 Name=ZwDisplayString Pascal=4
+1342 Name=ZwDuplicateObject Pascal=28
+1343 Name=ZwDuplicateToken Pascal=24
+1344 Name=ZwEnumerateBootEntries Pascal=8
+1345 Name=ZwEnumerateDriverEntries Pascal=8
+1346 Name=ZwEnumerateKey Pascal=24
+1347 Name=ZwEnumerateValueKey Pascal=24
+1348 Name=ZwFlushInstructionCache Pascal=12
+1349 Name=ZwFlushKey Pascal=4
+1350 Name=ZwFlushVirtualMemory Pascal=16
+1351 Name=ZwFreeVirtualMemory Pascal=16
+1352 Name=ZwFsControlFile Pascal=40
+1353 Name=ZwInitiatePowerAction Pascal=16
+1354 Name=ZwIsProcessInJob Pascal=8
+1355 Name=ZwLoadDriver Pascal=4
+1356 Name=ZwLoadKey Pascal=8
+1357 Name=ZwMakeTemporaryObject Pascal=4
+1358 Name=ZwMapViewOfSection Pascal=40
+1359 Name=ZwModifyBootEntry Pascal=4
+1360 Name=ZwModifyDriverEntry Pascal=4
+1361 Name=ZwNotifyChangeKey Pascal=40
+1362 Name=ZwOpenDirectoryObject Pascal=12
+1363 Name=ZwOpenEvent Pascal=12
+1364 Name=ZwOpenFile Pascal=24
+1365 Name=ZwOpenJobObject Pascal=12
+1366 Name=ZwOpenKey Pascal=12
+1367 Name=ZwOpenProcess Pascal=16
+1368 Name=ZwOpenProcessToken Pascal=12
+1369 Name=ZwOpenProcessTokenEx Pascal=16
+1370 Name=ZwOpenSection Pascal=12
+1371 Name=ZwOpenSymbolicLinkObject Pascal=12
+1372 Name=ZwOpenThread Pascal=16
+1373 Name=ZwOpenThreadToken Pascal=16
+1374 Name=ZwOpenThreadTokenEx Pascal=20
+1375 Name=ZwOpenTimer Pascal=12
+1376 Name=ZwPowerInformation Pascal=20
+1377 Name=ZwPulseEvent Pascal=8
+1378 Name=ZwQueryBootEntryOrder Pascal=8
+1379 Name=ZwQueryBootOptions Pascal=8
+1380 Name=ZwQueryDefaultLocale Pascal=8
+1381 Name=ZwQueryDefaultUILanguage Pascal=4
+1382 Name=ZwQueryDirectoryFile Pascal=44
+1383 Name=ZwQueryDirectoryObject Pascal=28
+1384 Name=ZwQueryDriverEntryOrder Pascal=8
+1385 Name=ZwQueryEaFile Pascal=36
+1386 Name=ZwQueryFullAttributesFile Pascal=8
+1387 Name=ZwQueryInformationFile Pascal=20
+1388 Name=ZwQueryInformationJobObject Pascal=20
+1389 Name=ZwQueryInformationProcess Pascal=20
+1390 Name=ZwQueryInformationThread Pascal=20
+1391 Name=ZwQueryInformationToken Pascal=20
+1392 Name=ZwQueryInstallUILanguage Pascal=4
+1393 Name=ZwQueryKey Pascal=20
+1394 Name=ZwQueryObject Pascal=20
+1395 Name=ZwQuerySection Pascal=20
+1396 Name=ZwQuerySecurityObject Pascal=20
+1397 Name=ZwQuerySymbolicLinkObject Pascal=12
+1398 Name=ZwQuerySystemInformation Pascal=16
+1399 Name=ZwQueryValueKey Pascal=24
+1400 Name=ZwQueryVolumeInformationFile Pascal=20
+1401 Name=ZwReadFile Pascal=36
+1402 Name=ZwReplaceKey Pascal=12
+1403 Name=ZwRequestWaitReplyPort Pascal=12
+1404 Name=ZwResetEvent Pascal=8
+1405 Name=ZwRestoreKey Pascal=12
+1406 Name=ZwSaveKey Pascal=8
+1407 Name=ZwSaveKeyEx Pascal=12
+1408 Name=ZwSetBootEntryOrder Pascal=8
+1409 Name=ZwSetBootOptions Pascal=8
+1410 Name=ZwSetDefaultLocale Pascal=8
+1411 Name=ZwSetDefaultUILanguage Pascal=4
+1412 Name=ZwSetDriverEntryOrder Pascal=8
+1413 Name=ZwSetEaFile Pascal=16
+1414 Name=ZwSetEvent Pascal=8
+1415 Name=ZwSetInformationFile Pascal=20
+1416 Name=ZwSetInformationJobObject Pascal=16
+1417 Name=ZwSetInformationObject Pascal=16
+1418 Name=ZwSetInformationProcess Pascal=16
+1419 Name=ZwSetInformationThread Pascal=16
+1420 Name=ZwSetSecurityObject Pascal=12
+1421 Name=ZwSetSystemInformation Pascal=12
+1422 Name=ZwSetSystemTime Pascal=8
+1423 Name=ZwSetTimer Pascal=28
+1424 Name=ZwSetValueKey Pascal=24
+1425 Name=ZwSetVolumeInformationFile Pascal=20
+1426 Name=ZwTerminateJobObject Pascal=8
+1427 Name=ZwTerminateProcess Pascal=8
+1428 Name=ZwTranslateFilePath Pascal=16
+1429 Name=ZwUnloadDriver Pascal=4
+1430 Name=ZwUnloadKey Pascal=4
+1431 Name=ZwUnmapViewOfSection Pascal=8
+1432 Name=ZwWaitForMultipleObjects Pascal=20
+1433 Name=ZwWaitForSingleObject Pascal=12
+1434 Name=ZwWriteFile Pascal=36
+1435 Name=ZwYieldExecution Pascal=0
+1436 Name=_CIcos
+1437 Name=_CIsin
+1438 Name=_CIsqrt
+1439 Name=_abnormal_termination
+1440 Name=_alldiv
+1441 Name=_alldvrm
+1442 Name=_allmul
+1443 Name=_alloca_probe
+1444 Name=_allrem
+1445 Name=_allshl
+1446 Name=_allshr
+1447 Name=_aulldiv
+1448 Name=_aulldvrm
+1449 Name=_aullrem
+1450 Name=_aullshr
+1451 Name=_except_handler2
+1452 Name=_except_handler3
+1453 Name=_global_unwind2
+1454 Name=_itoa
+1455 Name=_itow
+1456 Name=_local_unwind2
+1457 Name=_purecall
+1458 Name=_snprintf
+1459 Name=_snwprintf
+1460 Name=_stricmp
+1461 Name=_strlwr
+1462 Name=_strnicmp
+1463 Name=_strnset
+1464 Name=_strrev
+1465 Name=_strset
+1466 Name=_strupr
+1467 Name=_vsnprintf
+1468 Name=_vsnwprintf
+1469 Name=_wcsicmp
+1470 Name=_wcslwr
+1471 Name=_wcsnicmp
+1472 Name=_wcsnset
+1473 Name=_wcsrev
+1474 Name=_wcsupr
+1475 Name=atoi
+1476 Name=atol
+1477 Name=isdigit
+1478 Name=islower
+1479 Name=isprint
+1480 Name=isspace
+1481 Name=isupper
+1482 Name=isxdigit
+1483 Name=mbstowcs
+1484 Name=mbtowc
+1485 Name=memchr
+1486 Name=memcpy
+1487 Name=memmove
+1488 Name=memset
+1489 Name=qsort
+1490 Name=rand
+1491 Name=sprintf
+1492 Name=srand
+1493 Name=strcat
+1494 Name=strchr
+1495 Name=strcmp
+1496 Name=strcpy
+1497 Name=strlen
+1498 Name=strncat
+1499 Name=strncmp
+1500 Name=strncpy
+1501 Name=strrchr
+1502 Name=strspn
+1503 Name=strstr
+1504 Name=swprintf
+1505 Name=tolower
+1506 Name=toupper
+1507 Name=towlower
+1508 Name=towupper
+1509 Name=vDbgPrintEx Pascal=16
+1510 Name=vDbgPrintExWithPrefix Pascal=20
+1511 Name=vsprintf
+1512 Name=wcscat
+1513 Name=wcschr
+1514 Name=wcscmp
+1515 Name=wcscpy
+1516 Name=wcscspn
+1517 Name=wcslen
+1518 Name=wcsncat
+1519 Name=wcsncmp
+1520 Name=wcsncpy
+1521 Name=wcsrchr
+1522 Name=wcsspn
+1523 Name=wcsstr
+1524 Name=wcstombs
+1525 Name=wctomb
+;------------------EOF------------------

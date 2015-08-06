@@ -1,0 +1,47 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msrepl40.dll Args=0 Drops=40
+;---------------------------------------
+2001 Name=msrepl40_2001 Pascal=24
+2002 Name=msrepl40_2002 Pascal=12
+2011 Name=msrepl40_2011 Pascal=20
+2012 Name=msrepl40_2012 Pascal=16
+2021 Name=msrepl40_2021 Pascal=16
+2022 Name=msrepl40_2022 Pascal=16
+2023 Name=msrepl40_2023 Pascal=24
+2024 Name=msrepl40_2024 Pascal=16
+2025 Name=msrepl40_2025 Pascal=8
+2041 Name=msrepl40_2041 Pascal=20
+2042 Name=msrepl40_2042 Pascal=28
+2043 Name=msrepl40_2043 Pascal=16
+2044 Name=msrepl40_2044 Pascal=20
+2045 Name=msrepl40_2045 Pascal=4
+2046 Name=msrepl40_2046 Pascal=32
+2047 Name=msrepl40_2047 Pascal=24
+2051 Name=msrepl40_2051 Pascal=8
+2052 Name=msrepl40_2052 Pascal=12
+2061 Name=msrepl40_2061 Pascal=20
+2062 Name=msrepl40_2062 Pascal=20
+2063 Name=msrepl40_2063 Pascal=16
+2071 Name=msrepl40_2071 Pascal=12
+2072 Name=msrepl40_2072 Pascal=8
+2091 Name=msrepl40_2091 Pascal=4
+2092 Name=msrepl40_2092 Pascal=4
+2093 Name=msrepl40_2093 Pascal=40
+2094 Name=msrepl40_2094 Pascal=4
+2095 Name=msrepl40_2095 Pascal=8
+2096 Name=msrepl40_2096 Pascal=0
+2097 Name=msrepl40_2097 Pascal=0
+2098 Name=msrepl40_2098 Pascal=36
+2099 Name=msrepl40_2099 Pascal=0
+2100 Name=msrepl40_2100 Pascal=24
+2101 Name=msrepl40_2101 Pascal=0
+2102 Name=msrepl40_2102 Pascal=20
+2103 Name=msrepl40_2103 Pascal=20
+2191 Name=msrepl40_2191 Pascal=16
+2200 Name=msrepl40_2200 Pascal=16
+2201 Name=msrepl40_2201 Pascal=20
+2202 Name=msrepl40_2202 Pascal=12
+;------------------EOF------------------

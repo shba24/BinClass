@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=apcups.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=UPSCancelWait Pascal=0
+2 Name=UPSGetState
+3 Name=UPSInit
+4 Name=UPSStop Pascal=0
+5 Name=UPSTurnOff
+6 Name=UPSWaitForStateChange
+;------------------EOF------------------

@@ -1,0 +1,102 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=uxtheme.dll Args=0 Drops=87
+;---------------------------------------
+1 Name=UxTheme_1 Pascal=0
+2 Name=UxTheme_2 Pascal=20
+3 Name=UxTheme_3 Pascal=4
+4 Name=UxTheme_4 Pascal=12
+5 Name=CloseThemeData Pascal=4
+6 Name=DrawThemeBackground Pascal=24
+7 Name=UxTheme_7 Pascal=20
+8 Name=UxTheme_8 Pascal=12
+9 Name=UxTheme_9 Pascal=16
+10 Name=UxTheme_10 Pascal=16
+11 Name=UxTheme_11 Pascal=16
+12 Name=DrawThemeEdge Pascal=32
+13 Name=UxTheme_13 Pascal=32
+14 Name=UxTheme_14 Pascal=8
+15 Name=UxTheme_15 Pascal=16
+16 Name=UxTheme_16 Pascal=16
+17 Name=UxTheme_17 Pascal=8
+18 Name=UxTheme_18 Pascal=8
+19 Name=UxTheme_19 Pascal=12
+20 Name=UxTheme_20 Pascal=28
+21 Name=UxTheme_21 Pascal=4
+22 Name=UxTheme_22 Pascal=4
+23 Name=UxTheme_23 Pascal=4
+24 Name=UxTheme_24 Pascal=4
+25 Name=UxTheme_25 Pascal=4
+26 Name=UxTheme_26 Pascal=4
+27 Name=UxTheme_27 Pascal=8
+28 Name=UxTheme_28 Pascal=8
+29 Name=UxTheme_29
+30 Name=UxTheme_30 Pascal=28
+31 Name=UxTheme_31 Pascal=4
+32 Name=UxTheme_32
+33 Name=UxTheme_33 Pascal=0
+34 Name=UxTheme_34
+35 Name=UxTheme_35
+36 Name=UxTheme_36 Pascal=0
+37 Name=DrawThemeIcon Pascal=28
+38 Name=DrawThemeParentBackground Pascal=12
+39 Name=DrawThemeText Pascal=36
+40 Name=EnableThemeDialogTexture Pascal=8
+41 Name=EnableTheming Pascal=4
+42 Name=GetCurrentThemeName Pascal=24
+43 Name=UxTheme_43
+44 Name=UxTheme_44
+45 Name=UxTheme_45
+46 Name=UxTheme_46 Pascal=16
+47 Name=DrawThemeBackgroundEx Pascal=24
+48 Name=UxTheme_48 Pascal=4
+49 Name=GetThemeAppProperties Pascal=0
+50 Name=GetThemeBackgroundContentRect Pascal=24
+51 Name=GetThemeBackgroundExtent Pascal=24
+52 Name=GetThemeBackgroundRegion Pascal=24
+53 Name=GetThemeInt Pascal=20
+54 Name=GetThemeInt Pascal=20
+55 Name=GetThemeDocumentationProperty Pascal=16
+56 Name=GetThemeInt Pascal=20
+57 Name=GetThemeString Pascal=24
+58 Name=GetThemeFont Pascal=24
+59 Name=GetThemeInt Pascal=20
+60 Name=UxTheme_60 Pascal=12
+61 Name=OpenThemeDataEx Pascal=12
+62 Name=UxTheme_62
+63 Name=UxTheme_63 Pascal=12
+64 Name=UxTheme_64 Pascal=16
+65 Name=UxTheme_65 Pascal=16
+66 Name=UxTheme_66 Pascal=8
+67 Name=GetThemeIntList Pascal=20
+68 Name=GetThemeMargins Pascal=28
+69 Name=GetThemeMetric Pascal=24
+70 Name=GetThemePartSize Pascal=28
+71 Name=GetThemePosition Pascal=20
+72 Name=GetThemePropertyOrigin Pascal=20
+73 Name=UxTheme_73 Pascal=0
+74 Name=GetThemeRect Pascal=20
+75 Name=GetThemeString Pascal=24
+76 Name=GetThemeSysBool Pascal=8
+77 Name=GetThemeSysColor Pascal=8
+78 Name=GetThemeSysColorBrush Pascal=8
+79 Name=GetThemeSysFont Pascal=12
+80 Name=GetThemeSysInt Pascal=12
+81 Name=GetThemeSysSize Pascal=8
+82 Name=GetThemeSysString Pascal=16
+83 Name=GetThemeTextExtent Pascal=36
+84 Name=GetThemeTextMetrics Pascal=20
+85 Name=GetWindowTheme Pascal=4
+86 Name=HitTestThemeBackground Pascal=40
+87 Name=IsAppThemed Pascal=0
+88 Name=IsThemeActive Pascal=0
+89 Name=IsThemeBackgroundPartiallyTransparent Pascal=12
+90 Name=IsThemeDialogTextureEnabled Pascal=4
+91 Name=IsThemePartDefined Pascal=12
+92 Name=OpenThemeData Pascal=8
+93 Name=SetThemeAppProperties Pascal=4
+94 Name=SetWindowTheme Pascal=12
+95 Name=ThemeInitApiHook Pascal=8
+;------------------EOF------------------

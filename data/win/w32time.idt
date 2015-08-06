@@ -1,0 +1,28 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=w32time.dll Args=0 Drops=18
+;---------------------------------------
+1 Name=fnW32TmRegisterServiceCtrlHandlerEx
+2 Name=fnW32TmSetServiceStatus
+3 Name=DllInstall Pascal=8
+4 Name=DllRegisterServer Pascal=0
+5 Name=DllUnregisterServer Pascal=0
+6 Name=SvchostEntry_W32Time Pascal=8
+7 Name=SvchostPushServiceGlobals Pascal=4
+8 Name=TimeProvClose Pascal=4
+9 Name=TimeProvCommand Pascal=12
+10 Name=TimeProvOpen Pascal=12
+11 Name=W32TimeBufferFree
+12 Name=W32TimeDcPromo Pascal=4
+13 Name=W32TimeGetNetlogonServiceBits Pascal=8
+14 Name=W32TimeQueryConfig Pascal=16
+15 Name=W32TimeQueryHardwareProviderStatus Pascal=16
+16 Name=W32TimeQueryNTPProviderStatus Pascal=16
+17 Name=W32TimeSetConfig Pascal=16
+18 Name=W32TimeSyncNow Pascal=12
+19 Name=W32TimeVerifyJoinConfig Pascal=0
+20 Name=W32TimeVerifyUnjoinConfig Pascal=0
+21 Name=W32TmServiceMain Pascal=8
+;------------------EOF------------------

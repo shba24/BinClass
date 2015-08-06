@@ -1,0 +1,23 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=oakley.dll Args=0 Drops=16
+;---------------------------------------
+23 Name=IKEQueryStatistics Pascal=4
+24 Name=IKEEnumMMs Pascal=24
+25 Name=IKEDeleteAssociation Pascal=8
+26 Name=IKEInitiateIKENegotiation Pascal=24
+27 Name=IKEQuerySpiChange Pascal=12
+28 Name=IKERegisterNotifyClient Pascal=348
+30 Name=IKEInit Pascal=0
+31 Name=IKEShutdown Pascal=4
+33 Name=IKEInterfaceChange Pascal=0
+34 Name=IKECloseIKENotifyHandle Pascal=4
+35 Name=IKEQueryIKENegotiationStatus Pascal=12
+36 Name=IKECloseIKENegotiationHandle Pascal=4
+37 Name=IKENotifyPolicyChange Pascal=8
+38 Name=IKEAddSAs Pascal=80
+39 Name=IKESetConfigurationVariables Pascal=32
+40 Name=IKEGetConfigurationVariables Pascal=4
+;------------------EOF------------------

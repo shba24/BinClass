@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=upnphost.dll Args=0 Drops=3
+;---------------------------------------
+1 Name=DllCanUnloadNow
+2 Name=DllGetClassObject Pascal=12
+3 Name=DllRegisterServer Pascal=0
+4 Name=DllUnregisterServer Pascal=0
+5 Name=ServiceMain
+;------------------EOF------------------

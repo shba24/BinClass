@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=dbgeng.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=DebugConnect Pascal=12
+2 Name=DebugCreate Pascal=8
+;------------------EOF------------------

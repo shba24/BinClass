@@ -1,0 +1,60 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=TDI.SYS Args=0 Drops=53
+;---------------------------------------
+1 Name=CTEAllocateString Pascal=8
+2 Name=CTEBlock Pascal=4
+3 Name=CTEBlockWithTracker Pascal=12
+4 Name=CTEInitEvent Pascal=8
+5 Name=CTEInitString Pascal=8
+6 Name=CTEInitTimer Pascal=4
+7 Name=CTEInitialize Pascal=0
+8 Name=CTEInsertBlockTracker Pascal=8
+9 Name=CTELogEvent Pascal=28
+10 Name=CTERemoveBlockTracker Pascal=4
+11 Name=CTEScheduleCriticalEvent Pascal=8
+12 Name=CTEScheduleDelayedEvent Pascal=8
+13 Name=CTEScheduleEvent Pascal=8
+14 Name=CTESignal Pascal=8
+15 Name=CTEStartTimer Pascal=16
+16 Name=CTESystemUpTime Pascal=0
+17 Name=TdiBuildNetbiosAddress Pascal=12
+18 Name=TdiBuildNetbiosAddressEa Pascal=12
+19 Name=TdiCopyBufferToMdl Pascal=24
+20 Name=TdiCopyBufferToMdlWithReservedMappingAtDpcLevel Pascal=16
+21 Name=TdiCopyMdlChainToMdlChain Pascal=20
+22 Name=TdiCopyMdlToBuffer Pascal=24
+23 Name=TdiDefaultChainedRcvDatagramHandler Pascal=40
+24 Name=TdiDefaultChainedRcvExpeditedHandler Pascal=28
+25 Name=TdiDefaultChainedReceiveHandler Pascal=28
+26 Name=TdiDefaultConnectHandler Pascal=36
+27 Name=TdiDefaultDisconnectHandler Pascal=28
+28 Name=TdiDefaultErrorHandler Pascal=8
+29 Name=TdiDefaultRcvDatagramHandler Pascal=44
+30 Name=TdiDefaultRcvExpeditedHandler Pascal=32
+31 Name=TdiDefaultReceiveHandler Pascal=32
+32 Name=TdiDefaultSendPossibleHandler Pascal=12
+33 Name=TdiDeregisterAddressChangeHandler Pascal=4
+34 Name=TdiDeregisterDeviceObject Pascal=4
+35 Name=TdiDeregisterNetAddress Pascal=4
+36 Name=TdiDeregisterNotificationHandler Pascal=4
+37 Name=TdiDeregisterPnPHandlers Pascal=4
+38 Name=TdiDeregisterProvider Pascal=4
+39 Name=TdiEnumerateAddresses Pascal=4
+40 Name=TdiInitialize Pascal=0
+41 Name=TdiMapUserRequest Pascal=12
+42 Name=TdiMatchPdoWithChainedReceiveContext Pascal=8
+43 Name=TdiOpenNetbiosAddress Pascal=16
+44 Name=TdiPnPPowerComplete Pascal=12
+45 Name=TdiPnPPowerRequest Pascal=20
+46 Name=TdiProviderReady Pascal=4
+47 Name=TdiRegisterAddressChangeHandler Pascal=12
+48 Name=TdiRegisterDeviceObject Pascal=8
+49 Name=TdiRegisterNetAddress Pascal=16
+50 Name=TdiRegisterNotificationHandler Pascal=12
+51 Name=TdiRegisterPnPHandlers Pascal=12
+52 Name=TdiRegisterProvider Pascal=8
+53 Name=TdiReturnChainedReceives Pascal=8
+;------------------EOF------------------

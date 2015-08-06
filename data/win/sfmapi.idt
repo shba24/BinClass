@@ -1,0 +1,39 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=sfmapi.dll Args=0 Drops=31
+;---------------------------------------
+1 Name=AfpAdminBufferFree
+2 Name=AfpAdminConnect Pascal=8
+3 Name=AfpAdminConnectionClose Pascal=8
+4 Name=AfpAdminConnectionEnum Pascal=32
+5 Name=AfpAdminDirectoryGetInfo Pascal=12
+6 Name=AfpAdminDirectorySetInfo Pascal=12
+7 Name=AfpAdminDisconnect Pascal=4
+8 Name=AfpAdminETCMapAdd Pascal=8
+9 Name=AfpAdminETCMapAssociate Pascal=12
+10 Name=AfpAdminETCMapDelete Pascal=8
+11 Name=AfpAdminETCMapGetInfo Pascal=8
+12 Name=AfpAdminETCMapSetInfo Pascal=8
+13 Name=AfpAdminFileClose Pascal=8
+14 Name=AfpAdminFileEnum Pascal=24
+15 Name=AfpAdminFinderSetInfo Pascal=28
+16 Name=AfpAdminInvalidVolumeDelete Pascal=8
+17 Name=AfpAdminInvalidVolumeEnum Pascal=12
+18 Name=AfpAdminMessageSend Pascal=8
+19 Name=AfpAdminProfileClear Pascal=4
+20 Name=AfpAdminProfileGet Pascal=8
+21 Name=AfpAdminServerGetInfo Pascal=8
+22 Name=AfpAdminServerSetInfo Pascal=12
+23 Name=AfpAdminSessionClose Pascal=8
+24 Name=AfpAdminSessionEnum Pascal=24
+25 Name=AfpAdminStatisticsClear Pascal=4
+26 Name=AfpAdminStatisticsGet Pascal=8
+27 Name=AfpAdminStatisticsGetEx Pascal=8
+28 Name=AfpAdminVolumeAdd Pascal=8
+29 Name=AfpAdminVolumeDelete Pascal=8
+30 Name=AfpAdminVolumeEnum Pascal=24
+31 Name=AfpAdminVolumeGetInfo Pascal=12
+32 Name=AfpAdminVolumeSetInfo Pascal=12
+;------------------EOF------------------

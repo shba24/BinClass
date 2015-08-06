@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=gpedit.dll Args=0 Drops=15
+;---------------------------------------
+100 Name=CreateRSOPQuery Pascal=8
+101 Name=FreeRSOPQuery Pascal=4
+102 Name=FreeRSOPQueryResults Pascal=8
+103 Name=RunRSOPQuery Pascal=12
+104 Name=SetSysvolSecurityFromDSSecurity Pascal=12
+105 Name=BrowseForGPO Pascal=4
+106 Name=CreateGPOLink Pascal=12
+107 Name=DeleteAllGPOLinks Pascal=4
+108 Name=DeleteGPOLink Pascal=8
+109 Name=DllCanUnloadNow Pascal=0
+110 Name=DllGetClassObject Pascal=12
+111 Name=DllRegisterServer Pascal=0
+112 Name=DllUnregisterServer Pascal=0
+113 Name=ExportRSoPData Pascal=8
+114 Name=ImportRSoPData Pascal=8
+;------------------EOF------------------

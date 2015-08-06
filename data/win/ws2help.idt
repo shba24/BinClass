@@ -1,0 +1,30 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ws2help.dll Args=0 Drops=23
+;---------------------------------------
+1 Name=WahCloseApcHelper Pascal=4
+2 Name=WahCloseHandleHelper Pascal=4
+3 Name=WahCloseNotificationHandleHelper Pascal=4
+4 Name=WahCloseSocketHandle Pascal=8
+5 Name=WahCloseThread Pascal=8
+6 Name=WahCompleteRequest Pascal=20
+7 Name=WahCreateHandleContextTable Pascal=4
+8 Name=WahCreateNotificationHandle Pascal=8
+9 Name=WahCreateSocketHandle Pascal=8
+10 Name=WahDestroyHandleContextTable Pascal=4
+11 Name=WahDisableNonIFSHandleSupport Pascal=0
+12 Name=WahEnableNonIFSHandleSupport Pascal=0
+13 Name=WahEnumerateHandleContexts Pascal=12
+14 Name=WahInsertHandleContext Pascal=8
+15 Name=WahNotifyAllProcesses Pascal=4
+16 Name=WahOpenApcHelper Pascal=4
+17 Name=WahOpenCurrentThread Pascal=8
+18 Name=WahOpenHandleHelper Pascal=4
+19 Name=WahOpenNotificationHandleHelper Pascal=4
+20 Name=WahQueueUserApc Pascal=16
+21 Name=WahReferenceContextByHandle Pascal=8
+22 Name=WahRemoveHandleContext Pascal=8
+23 Name=WahWaitForNotification Pascal=16
+;------------------EOF------------------

@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=shgina.dll Args=0 Drops=6
+;---------------------------------------
+6 Name=SHGINA_6 Pascal=12
+7 Name=DllCanUnloadNow Pascal=0
+8 Name=DllGetClassObject Pascal=12
+9 Name=DllInstall Pascal=8
+10 Name=DllRegisterServer Pascal=0
+11 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

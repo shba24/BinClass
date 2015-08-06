@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wowfaxui.dll Args=0 Drops=9
+;---------------------------------------
+1 Name=DevQueryPrintEx Pascal=4
+3 Name=DrvAdvancedDocumentProperties Pascal=20
+4 Name=DrvDeviceCapabilities Pascal=20
+5 Name=DrvDevicePropertySheets Pascal=8
+6 Name=DrvDocumentEvent Pascal=28
+7 Name=DrvDocumentProperties Pascal=24
+8 Name=DrvDocumentPropertySheets Pascal=8
+9 Name=DrvUpgradePrinter Pascal=8
+10 Name=PrinterProperties Pascal=8
+;------------------EOF------------------

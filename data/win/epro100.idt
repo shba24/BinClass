@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EPRO100.dll Pascal=0
+;---------------------------------------
+2 Name=EPRO100_Detect
+3 Name=EPRO100_Configure
+4 Name=EPRO100_Diagnose
+5 Name=EPRO100_Resource_Summary
+6 Name=EPRO100_GetRegistryKey
+7 Name=EPRO100_GetAdapterDescription
+8 Name=EPRO100_InstallAnyway
+9 Name=EPRO100_DeviceExist
+;------------------EOF------------------

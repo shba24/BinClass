@@ -1,0 +1,1 @@
+{"config": {"exports": {"PMAILEXT.DLL.dll:ExchEntryPoint": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

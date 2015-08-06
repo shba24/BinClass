@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SNDSYS32.dll Pascal=0
+;---------------------------------------
+1 Name=DriverProc
+2 Name=auxMessage
+3 Name=modMessage
+4 Name=mxdMessage
+5 Name=widMessage
+6 Name=wodMessage
+;------------------EOF------------------

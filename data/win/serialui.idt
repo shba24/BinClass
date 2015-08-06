@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=serialui.dll Args=0 Drops=6
+;---------------------------------------
+2 Name=drvCommConfigDialogW Pascal=12
+3 Name=drvGetDefaultCommConfigA Pascal=12
+4 Name=drvSetDefaultCommConfigW Pascal=12
+5 Name=drvGetDefaultCommConfigA Pascal=12
+6 Name=drvGetDefaultCommConfigW Pascal=12
+7 Name=drvGetDefaultCommConfigA Pascal=12
+;------------------EOF------------------

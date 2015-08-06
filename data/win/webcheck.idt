@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=webcheck.dll Args=0 Drops=8
+;---------------------------------------
+7 Name=WebCheck_7 Pascal=4
+8 Name=WebCheck_8 Pascal=0
+9 Name=XMLScheduleElementToTaskTrigger Pascal=8
+10 Name=DllCanUnloadNow Pascal=0
+11 Name=DllGetClassObject Pascal=12
+12 Name=DllInstall Pascal=8
+13 Name=DllRegisterServer Pascal=0
+14 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

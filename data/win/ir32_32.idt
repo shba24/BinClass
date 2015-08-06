@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ir32_32.dll Pascal=0
+;---------------------------------------
+1 Name=AboutDialogProc
+2 Name=DllMain
+3 Name=DriverDialogProc
+4 Name=DriverProc
+;------------------EOF------------------

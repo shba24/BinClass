@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=LSAPI16.dll Pascal=0 \
+	Comment=LSAPI16.DLL
+;---------------------------------------
+1 Name=WEP
+2 Name=LIBMAIN
+3 Name=LSREQUEST
+4 Name=LSRELEASE
+5 Name=LSFREEHANDLE
+6 Name=LSUPDATE
+7 Name=LSGETMESSAGE
+8 Name=LSQUERY
+9 Name=LSENUMPROVIDERS
+;------------------EOF------------------

@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msir3jp.dll Args=0 Drops=12
+;---------------------------------------
+10 Name=EnumSelectionOffsets Pascal=20
+11 Name=DllGetClassObject Pascal=12
+12 Name=DllRegisterServer Pascal=0
+13 Name=DllUnregisterServer Pascal=0
+20 Name=EnumSummarizationOffsets Pascal=20
+21 Name=EnumStemInfo Pascal=24
+22 Name=EnumSentenceOffsets Pascal=20
+25 Name=WordBreakInit Pascal=4
+26 Name=WordBreakInitEx Pascal=12
+100 Name=EnumPhrases Pascal=20
+104 Name=EnumSummarizationOffsetsEx Pascal=24
+105 Name=EnumStemOffsets Pascal=24
+;------------------EOF------------------

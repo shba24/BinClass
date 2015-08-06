@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msports.dll Args=0 Drops=11
+;---------------------------------------
+1 Name=ComDBClaimNextFreePort Pascal=8
+2 Name=ComDBClaimPort Pascal=16
+3 Name=ComDBClose Pascal=4
+4 Name=ComDBGetCurrentPortUsage Pascal=20
+5 Name=ComDBOpen Pascal=4
+6 Name=ComDBReleasePort Pascal=8
+7 Name=ComDBResizeDatabase Pascal=8
+8 Name=ParallelPortPropPageProvider Pascal=12
+9 Name=PortsClassInstaller Pascal=12
+10 Name=SerialDisplayAdvancedSettings Pascal=12
+11 Name=SerialPortPropPageProvider Pascal=12
+;------------------EOF------------------

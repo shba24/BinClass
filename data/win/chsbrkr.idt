@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=chsbrkr.dll Args=0 Drops=1
+;---------------------------------------
+1 Name=DllCanUnloadNow
+2 Name=DllGetClassObject Pascal=12
+3 Name=DllRegisterServer
+4 Name=DllUnregisterServer
+;------------------EOF------------------

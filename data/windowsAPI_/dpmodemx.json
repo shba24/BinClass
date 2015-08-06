@@ -1,0 +1,1 @@
+{"config": {"exports": {"DPMODEMX.dll:SPInit": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "1"}}}}

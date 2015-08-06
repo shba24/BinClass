@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=rassapi.dll Args=0 Drops=14
+;---------------------------------------
+1 Name=RasAdminDLLInit Pascal=12
+2 Name=RasAdminUserSetInfo Pascal=12
+3 Name=RasAdminUserGetInfo Pascal=12
+4 Name=RasAdminGetUserAccountServer Pascal=12
+5 Name=RasAdminPortEnum Pascal=12
+6 Name=RasAdminPortGetInfo Pascal=20
+7 Name=RasAdminPortClearStatistics Pascal=8
+8 Name=RasAdminServerGetInfo Pascal=8
+9 Name=RasAdminPortDisconnect Pascal=8
+10 Name=RasAdminFreeBuffer Pascal=4
+11 Name=RasAdminSetUserParms Pascal=12
+12 Name=RasAdminGetUserParms Pascal=8
+13 Name=RasAdminCompressPhoneNumber Pascal=8
+14 Name=RasAdminGetErrorString Pascal=12
+;------------------EOF------------------

@@ -1,0 +1,32 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=uniime.dll Args=0 Drops=25
+;---------------------------------------
+1 Name=UniImeConversionList Pascal=28
+2 Name=UniImeConfigure Pascal=24
+3 Name=UniImeDestroy Pascal=12
+4 Name=UniImeEscape Pascal=20
+5 Name=UniImeInquire Pascal=20
+6 Name=UniImeProcessKey Pascal=24
+7 Name=UniImeSelect Pascal=16
+8 Name=UniImeSetActiveContext Pascal=16
+9 Name=UniImeSetCompositionString Pascal=32
+10 Name=UniImeToAsciiEx Pascal=32
+11 Name=UniNotifyIME Pascal=24
+12 Name=UniImeRegisterWord Pascal=20
+13 Name=UniImeUnregisterWord Pascal=20
+14 Name=UniImeGetRegisterWordStyle Pascal=16
+15 Name=UniImeEnumRegisterWord Pascal=28
+16 Name=UniSearchPhrasePredictionA Pascal=40
+17 Name=UniSearchPhrasePredictionW Pascal=40
+31 Name=UniUIWndProc Pascal=24
+32 Name=UniCompWndProc Pascal=24
+33 Name=UniCandWndProc Pascal=24
+34 Name=UniStatusWndProc Pascal=24
+35 Name=UniOffCaretWndProc Pascal=24
+36 Name=UniContextMenuWndProc Pascal=24
+61 Name=UniAttachMiniIME Pascal=32
+62 Name=UniDetachMiniIME Pascal=8
+;------------------EOF------------------

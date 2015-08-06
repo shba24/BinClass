@@ -1,0 +1,26 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wiadss.dll Args=0 Drops=18
+;---------------------------------------
+1 Name=FindFirstImportDS Pascal=8
+2 Name=FindNextImportDS Pascal=8
+3 Name=CloseFindContext Pascal=4
+4 Name=LoadImportDS Pascal=16
+5 Name=UnloadImportDS Pascal=4
+6 Name=GetLoaderStatus Pascal=4
+7 Name=FindImportDSByDeviceName Pascal=8
+8 Name=??0BUFFER@@QAE@I@Z Pascal=4
+9 Name=??0BUFFER_CHAIN@@QAE@XZ Pascal=0
+10 Name=??0BUFFER_CHAIN_ITEM@@QAE@I@Z Pascal=4
+11 Name=??1BUFFER@@QAE@XZ Pascal=0
+12 Name=??1BUFFER_CHAIN@@QAE@XZ
+13 Name=??1BUFFER_CHAIN_ITEM@@QAE@XZ Pascal=0
+14 Name=??_FBUFFER@@QAEXXZ Pascal=0
+15 Name=??_FBUFFER_CHAIN_ITEM@@QAEXXZ Pascal=0
+16 Name=?QueryPtr@BUFFER@@QBEPAXXZ Pascal=0
+17 Name=?QuerySize@BUFFER@@QBEIXZ Pascal=0
+18 Name=?QueryUsed@BUFFER_CHAIN_ITEM@@QBEKXZ Pascal=0
+19 Name=?SetUsed@BUFFER_CHAIN_ITEM@@QAEXK@Z Pascal=4
+;------------------EOF------------------

@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=iernonce.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=InitCallback Pascal=8
+2 Name=RunOnceExProcess Pascal=16
+;------------------EOF------------------

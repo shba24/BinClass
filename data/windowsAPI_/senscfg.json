@@ -1,0 +1,1 @@
+{"config": {"exports": {"SENSCFG.dll:SensRegister": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "SENSCFG.dll:SensUnregister": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}}}}

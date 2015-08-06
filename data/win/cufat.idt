@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CUFAT.dll Pascal=0
+;---------------------------------------
+1 Name=ConvertFAT
+;------------------EOF------------------

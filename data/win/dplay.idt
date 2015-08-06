@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=dplay.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=DirectPlayCreate Pascal=12
+2 Name=DirectPlayEnumerate Pascal=8
+;------------------EOF------------------

@@ -1,0 +1,51 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msacm32.dll Args=0 Drops=44
+;---------------------------------------
+1 Name=XRegThunkEntry Pascal=36
+2 Name=acmDriverAddA Pascal=20
+3 Name=acmDriverAddW Pascal=20
+4 Name=acmDriverClose Pascal=8
+5 Name=acmDriverDetailsA Pascal=12
+6 Name=acmDriverDetailsW Pascal=12
+7 Name=acmDriverEnum Pascal=12
+8 Name=acmDriverID Pascal=12
+9 Name=acmDriverMessage Pascal=16
+10 Name=acmDriverOpen Pascal=12
+11 Name=acmDriverPriority Pascal=12
+12 Name=acmDriverRemove Pascal=8
+13 Name=acmFilterChooseA Pascal=4
+14 Name=acmFilterChooseW Pascal=4
+15 Name=acmFilterDetailsA Pascal=12
+16 Name=acmFilterDetailsW Pascal=12
+17 Name=acmFilterEnumA Pascal=20
+18 Name=acmFilterEnumW Pascal=20
+19 Name=acmFilterTagDetailsA Pascal=12
+20 Name=acmFilterTagDetailsW Pascal=12
+21 Name=acmFilterTagEnumA Pascal=20
+22 Name=acmFilterTagEnumW Pascal=20
+23 Name=acmFormatChooseA Pascal=4
+24 Name=acmFormatChooseW Pascal=4
+25 Name=acmFormatDetailsA Pascal=12
+26 Name=acmFormatDetailsW Pascal=12
+27 Name=acmFormatEnumA Pascal=20
+28 Name=acmFormatEnumW Pascal=20
+29 Name=acmFormatSuggest Pascal=20
+30 Name=acmFormatTagDetailsA Pascal=12
+31 Name=acmFormatTagDetailsW Pascal=12
+32 Name=acmFormatTagEnumA Pascal=20
+33 Name=acmFormatTagEnumW Pascal=20
+34 Name=acmGetVersion Pascal=0
+35 Name=acmMessage32 Pascal=24
+36 Name=acmMetrics Pascal=12
+37 Name=acmStreamClose Pascal=8
+38 Name=acmStreamConvert Pascal=12
+39 Name=acmStreamMessage Pascal=16
+40 Name=acmStreamOpen Pascal=32
+41 Name=acmStreamPrepareHeader Pascal=12
+42 Name=acmStreamReset Pascal=8
+43 Name=acmStreamSize Pascal=16
+44 Name=acmStreamUnprepareHeader Pascal=12
+;------------------EOF------------------

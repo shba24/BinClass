@@ -1,0 +1,29 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=oleacc.dll Args=0 Drops=15
+;---------------------------------------
+1 Name=DllRegisterServer Pascal=0
+2 Name=DllUnregisterServer Pascal=0
+3 Name=AccessibleChildren Pascal=20
+4 Name=AccessibleObjectFromEvent Pascal=20
+5 Name=AccessibleObjectFromPoint Pascal=16
+6 Name=AccessibleObjectFromWindow Pascal=16
+7 Name=CreateStdAccessibleObject Pascal=16
+8 Name=CreateStdAccessibleProxyA
+9 Name=CreateStdAccessibleProxyW Pascal=20
+10 Name=DllCanUnloadNow Pascal=0
+11 Name=DllGetClassObject Pascal=12
+12 Name=GetOleaccVersionInfo
+13 Name=GetRoleTextA
+14 Name=GetRoleTextW Pascal=12
+15 Name=GetStateTextA
+16 Name=GetStateTextW Pascal=12
+17 Name=IID_IAccessible
+18 Name=IID_IAccessibleHandler
+19 Name=LIBID_Accessibility
+20 Name=LresultFromObject Pascal=12
+21 Name=ObjectFromLresult Pascal=16
+22 Name=WindowFromAccessibleObject Pascal=8
+;------------------EOF------------------

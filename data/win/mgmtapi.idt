@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mgmtapi.dll Args=0 Drops=9
+;---------------------------------------
+1 Name=SnmpMgrClose Pascal=4
+2 Name=SnmpMgrCtl Pascal=28
+3 Name=SnmpMgrGetTrap Pascal=24
+4 Name=SnmpMgrGetTrapEx Pascal=32
+5 Name=SnmpMgrOidToStr Pascal=8
+6 Name=SnmpMgrOpen Pascal=16
+7 Name=SnmpMgrRequest Pascal=20
+8 Name=SnmpMgrStrToOid Pascal=8
+9 Name=SnmpMgrTrapListen Pascal=4
+;------------------EOF------------------

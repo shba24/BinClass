@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mswstr10.dll Args=0 Drops=7
+;---------------------------------------
+1 Name=mswstr10_1 Pascal=24
+2 Name=mswstr10_2 Pascal=24
+3 Name=mswstr10_3 Pascal=8
+4 Name=mswstr10_4 Pascal=24
+5 Name=mswstr10_5 Pascal=44
+6 Name=mswstr10_6 Pascal=24
+7 Name=mswstr10_7 Pascal=8
+;------------------EOF------------------

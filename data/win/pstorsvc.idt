@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=pstorsvc.dll Args=0 Drops=3
+;---------------------------------------
+1 Name=PSTOREServiceMain Pascal=8
+2 Name=ServiceEntry Pascal=16
+3 Name=Start Pascal=4
+;------------------EOF------------------

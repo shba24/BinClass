@@ -1,0 +1,28 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=psbase.dll Args=0 Drops=21
+;---------------------------------------
+1 Name=FPasswordChangeNotify Pascal=24
+2 Name=SPCloseItem Pascal=24
+3 Name=SPOpenItem Pascal=32
+4 Name=SPAcquireContext Pascal=8
+5 Name=SPCreateSubtype Pascal=28
+6 Name=SPCreateType Pascal=20
+7 Name=SPDeleteItem Pascal=28
+8 Name=SPDeleteSubtype Pascal=20
+9 Name=SPDeleteType Pascal=16
+10 Name=SPEnumItems Pascal=28
+11 Name=SPEnumSubtypes Pascal=24
+12 Name=SPEnumTypes Pascal=20
+13 Name=SPGetProvInfo Pascal=8
+14 Name=SPGetProvParam Pascal=20
+15 Name=SPGetSubtypeInfo Pascal=24
+16 Name=SPGetTypeInfo Pascal=20
+17 Name=SPProviderInitialize Pascal=4
+18 Name=SPReadItem Pascal=36
+19 Name=SPReleaseContext Pascal=8
+20 Name=SPSetProvParam Pascal=20
+21 Name=SPWriteItem Pascal=40
+;------------------EOF------------------

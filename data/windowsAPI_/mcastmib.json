@@ -1,0 +1,1 @@
+{"config": {"exports": {"MCASTMIB.dll:SnmpExtensionTrap": {"function": {"delta": "16", "convention": "stdcall"}, "ordinal": "3"}, "MCASTMIB.dll:SnmpExtensionQuery": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "2"}, "MCASTMIB.dll:SnmpExtensionInit": {"function": {"delta": "8", "convention": "stdcall"}, "ordinal": "1"}}}}

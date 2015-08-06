@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=perfos.dll Args=0 Drops=3
+;---------------------------------------
+1 Name=CloseOSObject Pascal=0
+2 Name=CollectOSObjectData Pascal=16
+3 Name=OpenOSObject Pascal=4
+;------------------EOF------------------

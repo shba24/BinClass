@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=udhisapi.dll Args=0 Drops=3
+;---------------------------------------
+1 Name=GetExtensionVersion Pascal=4
+2 Name=HttpExtensionProc Pascal=4
+3 Name=TerminateExtension Pascal=4
+;------------------EOF------------------

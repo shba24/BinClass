@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WINSTRM.dll Pascal=0
+;---------------------------------------
+1 Name=OpenStream
+2 Name=getmsg
+3 Name=poll
+4 Name=putmsg
+5 Name=s_ioctl
+6 Name=s_open
+7 Name=s_perror
+;------------------EOF------------------

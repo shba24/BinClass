@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=rasrad.dll Args=0 Drops=15
+;---------------------------------------
+1 Name=Open Pascal=4
+2 Name=Collect Pascal=16
+3 Name=Close Pascal=0
+4 Name=RasAcctConfigChangeNotification Pascal=4
+5 Name=RasAuthProviderFreeAttributes Pascal=4
+6 Name=RasAcctProviderInitialize Pascal=12
+7 Name=RasAcctProviderInterimAccounting Pascal=8
+8 Name=RasAcctProviderStartAccounting Pascal=8
+9 Name=RasAcctProviderStopAccounting Pascal=8
+10 Name=RasAcctProviderTerminate Pascal=0
+11 Name=RasAuthConfigChangeNotification Pascal=0
+12 Name=RasAuthProviderAuthenticateUser Pascal=12
+13 Name=RasAuthProviderFreeAttributes Pascal=4
+14 Name=RasAuthProviderInitialize Pascal=12
+15 Name=RasAuthProviderTerminate Pascal=0
+;------------------EOF------------------

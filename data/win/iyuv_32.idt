@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=iyuv_32.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=AboutDialogProc Pascal=16
+2 Name=DllMain Pascal=12
+3 Name=DriverDialogProc Pascal=16
+4 Name=DriverProc Pascal=20
+;------------------EOF------------------

@@ -1,0 +1,49 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=LocalSpl.dll Pascal=0
+;---------------------------------------
+1 Name=InitializePrintProvidor
+2 Name=LibMain
+3 Name=SplAddForm
+4 Name=SplAddMonitor
+5 Name=SplAddPort
+6 Name=SplAddPortEx
+7 Name=SplAddPrintProcessor
+8 Name=SplAddPrinter
+9 Name=SplAddPrinterDriver
+10 Name=SplBroadcastChange
+11 Name=SplClosePrinter
+12 Name=SplCloseSpooler
+13 Name=SplCreateSpooler
+14 Name=SplDeleteForm
+15 Name=SplDeleteMonitor
+16 Name=SplDeletePort
+17 Name=SplDeletePrintProcessor
+18 Name=SplDeletePrinter
+19 Name=SplDeletePrinterDriver
+20 Name=SplDeleteSpooler
+21 Name=SplDriverEvent
+22 Name=SplEnumForms
+23 Name=SplEnumMonitors
+24 Name=SplEnumPorts
+25 Name=SplEnumPrintProcessorDatatypes
+26 Name=SplEnumPrintProcessors
+27 Name=SplEnumPrinters
+28 Name=SplGetForm
+29 Name=SplGetPrintProcessorDirectory
+30 Name=SplGetPrinter
+31 Name=SplGetPrinterData
+32 Name=SplGetPrinterDriver
+33 Name=SplGetPrinterDriverDirectory
+34 Name=SplGetPrinterDriverEx
+35 Name=SplGetPrinterExtra
+36 Name=SplMonitorIsInstalled
+37 Name=SplOpenPrinter
+38 Name=SplResetPrinter
+39 Name=SplSetForm
+40 Name=SplSetPrinter
+41 Name=SplSetPrinterData
+42 Name=SplSetPrinterExtra
+;------------------EOF------------------

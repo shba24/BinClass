@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=syncui.dll Args=0 Drops=6
+;---------------------------------------
+4 Name=Briefcase_CreateA Pascal=16
+5 Name=Briefcase_Intro Pascal=16
+6 Name=Briefcase_CreateW Pascal=16
+7 Name=Briefcase_CreateA Pascal=16
+8 Name=DllCanUnloadNow Pascal=0
+9 Name=DllGetClassObject Pascal=12
+;------------------EOF------------------

@@ -1,0 +1,1 @@
+{"config": {"exports": {"DPLAY.dll:DirectPlayCreate": {"function": {"delta": "8", "convention": "stdcall"}, "ordinal": "1"}, "DPLAY.dll:DirectPlayEnumerate": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "2"}}}}

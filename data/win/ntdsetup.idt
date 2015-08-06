@@ -1,0 +1,24 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=NTDSETUP.dll Args=0 Drops=17
+;---------------------------------------
+1 Name=NtdsDemote Pascal=36
+2 Name=NtdsFreeDnsRRInfo Pascal=4
+3 Name=NtdsGetDefaultDnsName Pascal=8
+4 Name=NtdsInstall Pascal=16
+5 Name=NtdsInstallCancel Pascal=0
+6 Name=NtdsInstallReplicateFull Pascal=12
+7 Name=NtdsInstallShutdown Pascal=0
+8 Name=NtdsInstallUndo Pascal=0
+9 Name=NtdsPrepareForDemotion Pascal=36
+10 Name=NtdsPrepareForDemotionUndo Pascal=0
+11 Name=NtdsPrepareForDsUpgrade Pascal=8
+12 Name=NtdsSetReplicaMachineAccount Pascal=24
+13 Name=NtdspConfigRegistry Pascal=8
+14 Name=NtdspDNStoRFC1779Name Pascal=12
+15 Name=NtdspFindSite Pascal=8
+16 Name=NtdspValidateInstallParameters Pascal=4
+17 Name=NtdspVerifyDsEnvironment Pascal=8
+;------------------EOF------------------

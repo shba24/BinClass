@@ -1,0 +1,1 @@
+{"config": {"exports": {"JPEG2X32.dll:jpeg_decmp": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "JPEG2X32.dll:jpeg_decmp_init": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

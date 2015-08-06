@@ -1,0 +1,44 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=snapin32.dll Pascal=0
+;---------------------------------------
+274 Name=NWAGetConsoleWindowHandle
+275 Name=NWAGetNWAdminVersion
+276 Name=NWARegisterMenu
+277 Name=NWARegisterObjectProc
+278 Name=NWAGetSelObject
+279 Name=NWAGetSelObjectCount
+325 Name=NWALaunchDSFlatBrowser
+326 Name=NWACommonStartUp
+327 Name=NWACommonShutDown
+391 Name=NWARemovePropertyNameTranslation
+392 Name=NWAGetTranslatedPropertyName
+393 Name=NWAAddPropertyNameTranslation
+394 Name=NWAGetClassReadOnlyBitmap
+395 Name=NWAGetClassAliasBitmap
+396 Name=NWAGetClassBitmap
+397 Name=NWAGetTranslatedClassName
+398 Name=NWARemoveClassData
+399 Name=NWAAddClassData
+400 Name=NWARegisterToolBarButton
+401 Name=NWARegisterMDIChildWindow
+402 Name=NWACreateMDIChildWindow
+403 Name=NWARegisterObjectProcEx
+404 Name=NWAGetToolsMenuItemCount
+405 Name=NWAGetToolsMenuItem
+406 Name=NWAProcessToolsMenuItemCommand
+407 Name=NWAProcessToolsMenuItemValid
+408 Name=NWAGetSaveSettingsOption
+409 Name=NWAGetTreeName
+410 Name=NWAExitNWAdmin
+411 Name=NWACreateWindowMenu
+413 Name=NWALaunchConfigDialog
+433 Name=NWAGetMvedValue
+434 Name=NWAGetMvedCount
+435 Name=NWACreateMved
+450 Name=NWAGetNLSFilePath
+451 Name=NWALaunchFSFlatBrowser
+500 Name=NWALaunchDetails
+;------------------EOF------------------

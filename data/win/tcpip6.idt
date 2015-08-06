@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=tcpip6.sys Args=0 Drops=10
+;---------------------------------------
+1 Name=AdjustPacketBuffer Pascal=12
+2 Name=CreateInterface Pascal=12
+3 Name=DestroyInterface Pascal=4
+4 Name=IPv6Receive Pascal=4
+5 Name=IPv6ReceiveComplete Pascal=0
+6 Name=IPv6SendComplete Pascal=12
+7 Name=ReleaseInterface Pascal=4
+8 Name=RestartLinkLayerMulticast Pascal=8
+9 Name=SetInterfaceLinkStatus Pascal=8
+10 Name=UndoAdjustPacketBuffer Pascal=4
+;------------------EOF------------------

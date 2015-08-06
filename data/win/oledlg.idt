@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=oledlg.dll Args=0 Drops=11
+;---------------------------------------
+1 Name=OleUIAddVerbMenuA Pascal=36
+2 Name=OleUICanConvertOrActivateAs Pascal=12
+3 Name=OleUIInsertObjectA Pascal=4
+4 Name=OleUIPasteSpecialA Pascal=4
+5 Name=OleUIEditLinksA Pascal=4
+6 Name=OleUIChangeIconA Pascal=4
+7 Name=OleUIConvertA Pascal=4
+8 Name=OleUIBusyA Pascal=4
+9 Name=OleUIUpdateLinksA Pascal=16
+10 Name=OleUIPromptUserA
+11 Name=OleUIObjectPropertiesA Pascal=4
+12 Name=OleUIChangeSourceA Pascal=4
+;------------------EOF------------------

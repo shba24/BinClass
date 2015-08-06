@@ -1,0 +1,39 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ftsrch.dll Args=0 Drops=31
+;---------------------------------------
+1 Name=ClearDisplayText Pascal=4
+2 Name=CompressText Pascal=20
+3 Name=CountHilites Pascal=12
+4 Name=DecompressText Pascal=16
+5 Name=DeleteCompressor Pascal=4
+6 Name=DeleteHiliter Pascal=4
+7 Name=DeleteIndex Pascal=4
+8 Name=DeleteSearcher Pascal=4
+9 Name=DiscardIndex Pascal=8
+10 Name=_DllMain@12 Pascal=12
+11 Name=GetPhraseTable Pascal=24
+12 Name=IsValidIndex Pascal=8
+13 Name=LoadGroup Pascal=8
+14 Name=NewCompressor Pascal=4
+15 Name=NewHiliter Pascal=4
+16 Name=NewIndex Pascal=24
+17 Name=NewSearcher
+18 Name=OpenBiDiTabDialog Pascal=16
+19 Name=OpenDialog Pascal=8
+20 Name=OpenIndex Pascal=24
+21 Name=OpenTabDialog Pascal=12
+22 Name=QueryHilites Pascal=20
+23 Name=QueryOptions Pascal=12
+24 Name=RegisterAnimator Pascal=8
+25 Name=SaveGroup Pascal=8
+26 Name=SaveIndex Pascal=8
+27 Name=ScanDisplayText Pascal=20
+28 Name=ScanText Pascal=16
+29 Name=ScanTopicText Pascal=20
+30 Name=ScanTopicTitle Pascal=28
+31 Name=SetDirectoryLocator Pascal=4
+32 Name=SetPhraseTable Pascal=20
+;------------------EOF------------------

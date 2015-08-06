@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mtxdm.dll Args=0 Drops=1
+;---------------------------------------
+1 Name=GetDispenserManager Pascal=0
+;------------------EOF------------------

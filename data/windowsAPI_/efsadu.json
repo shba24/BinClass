@@ -1,0 +1,1 @@
+{"config": {"exports": {"EFSADU.dll:AddUserToObjectW": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "1"}, "EFSADU.dll:EfsDetail": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "3"}, "EFSADU.dll:BackCurrentEfsCert": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "2"}}}}

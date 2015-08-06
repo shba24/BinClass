@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=STBOGLNT.dll Pascal=0
+;---------------------------------------
+1 Name=DllMain
+2 Name=DrvCopyContext
+3 Name=DrvCreateContext
+4 Name=DrvCreateLayerContext
+5 Name=DrvDeleteContext
+6 Name=DrvDescribeLayerPlane
+7 Name=DrvGetLayerPaletteEntries
+8 Name=DrvGetProcAddress
+9 Name=DrvRealizeLayerPalette
+10 Name=DrvReleaseContext
+11 Name=DrvSetContext
+12 Name=DrvSetLayerPaletteEntries
+13 Name=DrvShareLists
+14 Name=DrvSwapLayerBuffers
+15 Name=DrvValidateVersion
+;------------------EOF------------------

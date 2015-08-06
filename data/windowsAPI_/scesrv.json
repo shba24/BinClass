@@ -1,0 +1,1 @@
+{"config": {"exports": {"SCESRV.dll:ScesrvTerminateServer": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "2"}, "SCESRV.dll:ScesrvInitializeServer": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "1"}}}}

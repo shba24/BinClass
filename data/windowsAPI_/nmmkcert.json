@@ -1,0 +1,1 @@
+{"config": {"exports": {"NMMKCERT.dll:NmMakeCertCleanup": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "2"}, "NMMKCERT.dll:NmMakeCert": {"function": {"delta": "20", "convention": "stdcall"}, "ordinal": "1"}}}}

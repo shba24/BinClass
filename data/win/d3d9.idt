@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=d3d9.dll Args=0 Drops=13
+;---------------------------------------
+1 Name=CheckFullscreen Pascal=0
+2 Name=Direct3DShaderValidatorCreate9 Pascal=0
+3 Name=PSGPError
+4 Name=PSGPSampleTexture Pascal=20
+5 Name=D3DPERF_BeginEvent Pascal=8
+6 Name=D3DPERF_EndEvent Pascal=0
+7 Name=D3DPERF_GetStatus Pascal=0
+8 Name=D3DPERF_QueryRepeatFrame Pascal=0
+9 Name=D3DPERF_SetMarker Pascal=8
+10 Name=D3DPERF_SetOptions Pascal=4
+11 Name=D3DPERF_SetRegion Pascal=8
+12 Name=DebugSetLevel Pascal=0
+13 Name=DebugSetMute Pascal=0
+14 Name=Direct3DCreate9 Pascal=4
+;------------------EOF------------------

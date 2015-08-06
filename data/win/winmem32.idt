@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WINMEM32.dll Pascal=0
+;---------------------------------------
+1 Name=GETWINMEM32VERSION
+2 Name=GLOBAL32ALLOC
+3 Name=GLOBAL32REALLOC
+4 Name=GLOBAL32FREE
+5 Name=GLOBAL16POINTERALLOC
+6 Name=GLOBAL16POINTERFREE
+7 Name=GLOBAL32CODEALIAS
+8 Name=GLOBAL32CODEALIASFREE
+;------------------EOF------------------

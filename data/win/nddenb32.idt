@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=nddenb32.dll Args=0 Drops=15
+;---------------------------------------
+2 Name=NDDEInit Pascal=8
+3 Name=NDDEGetCAPS Pascal=4
+4 Name=NDDEGetNewConnection Pascal=0
+5 Name=NDDEAddConnection Pascal=4
+6 Name=NDDEDeleteConnection Pascal=4
+7 Name=NDDEGetConnectionStatus Pascal=4
+8 Name=NDDERcvPacket Pascal=16
+9 Name=NDDEXmtPacket Pascal=12
+10 Name=NDDESetConnectionConfig Pascal=16
+11 Name=NDDEShutdown Pascal=0
+12 Name=NDDETimeSlice Pascal=0
+13 Name=NDDEGetConnectionConfig Pascal=48
+14 Name=Configure Pascal=0
+15 Name=LogDebugInfo Pascal=8
+16 Name=ConfigureDlgProc Pascal=16
+;------------------EOF------------------

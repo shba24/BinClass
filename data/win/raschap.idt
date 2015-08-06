@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=raschap.dll Args=0 Drops=14
+;---------------------------------------
+1 Name=DllCanUnloadNow Pascal=0
+2 Name=DllGetClassObject Pascal=12
+3 Name=DllRegisterServer Pascal=0
+4 Name=DllUnregisterServer Pascal=0
+5 Name=RasCpEnumProtocolIds Pascal=8
+6 Name=RasCpGetInfo Pascal=8
+7 Name=RasEapCreateConnectionProperties Pascal=28
+8 Name=RasEapCreateUserProperties Pascal=40
+9 Name=RasEapFreeMemory Pascal=4
+10 Name=RasEapGetCredentials Pascal=12
+11 Name=RasEapGetIdentity Pascal=48
+12 Name=RasEapGetInfo Pascal=8
+13 Name=RasEapInvokeConfigUI Pascal=20
+14 Name=RasEapInvokeInteractiveUI Pascal=20
+;------------------EOF------------------

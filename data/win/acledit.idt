@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=acledit.dll Args=0 Drops=8
+;---------------------------------------
+1 Name=EditAuditInfo Pascal=4
+2 Name=EditOwnerInfo Pascal=4
+3 Name=EditPermissionInfo Pascal=4
+4 Name=_DllMain@12 Pascal=12
+5 Name=FMExtensionProcW Pascal=12
+6 Name=SedDiscretionaryAclEditor Pascal=52
+7 Name=SedSystemAclEditor Pascal=48
+8 Name=SedTakeOwnership Pascal=56
+;------------------EOF------------------

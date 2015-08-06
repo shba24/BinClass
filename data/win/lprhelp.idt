@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=lprhelp.dll Args=0 Drops=11
+;---------------------------------------
+1 Name=CancelJob Pascal=4
+2 Name=CloseLPR Pascal=4
+3 Name=EndJob Pascal=4
+4 Name=GetLongQueue Pascal=8
+5 Name=GetShortQueue Pascal=8
+6 Name=InitiateConnection Pascal=4
+7 Name=OpenLPR Pascal=8
+8 Name=PrintWaitingJobs Pascal=4
+9 Name=SetLPRTimeouts Pascal=12
+10 Name=StartJob Pascal=8
+11 Name=WriteJobData Pascal=16
+;------------------EOF------------------

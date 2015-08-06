@@ -1,0 +1,24 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=appmgmts.dll Args=0 Drops=16
+;---------------------------------------
+1 Name=CsSetOptions Pascal=4
+2 Name=CsCreateClassStore Pascal=8
+3 Name=CsEnumApps Pascal=20
+4 Name=CsGetAppCategories Pascal=4
+5 Name=CsGetClassAccess Pascal=4
+6 Name=CsGetClassStore Pascal=8
+7 Name=CsGetClassStorePath Pascal=8
+8 Name=CsRegisterAppCategory Pascal=4
+9 Name=CsServerGetClassStore Pascal=12
+10 Name=CsUnregisterAppCategory Pascal=4
+11 Name=GenerateGroupPolicy Pascal=20
+12 Name=IID_IClassAdmin
+13 Name=ProcessGroupPolicyObjectsEx Pascal=40
+14 Name=ReleaseAppCategoryInfoList Pascal=4
+15 Name=ReleasePackageDetail Pascal=4
+16 Name=ReleasePackageInfo Pascal=4
+17 Name=ServiceMain Pascal=8
+;------------------EOF------------------

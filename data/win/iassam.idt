@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=iassam.dll Args=0 Drops=8
+;---------------------------------------
+1 Name=DllCanUnloadNow Pascal=0
+2 Name=DllGetClassObject Pascal=12
+3 Name=DllRegisterServer Pascal=0
+4 Name=DllUnregisterServer Pascal=0
+5 Name=IASParmsFreeUserParms
+6 Name=IASParmsQueryRasUser0 Pascal=8
+7 Name=IASParmsQueryUserProperty Pascal=12
+8 Name=IASParmsSetRasUser0 Pascal=12
+9 Name=IASParmsSetUserProperty Pascal=16
+;------------------EOF------------------

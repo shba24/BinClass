@@ -1,0 +1,24 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=credui.dll Args=0 Drops=17
+;---------------------------------------
+1 Name=CredUICmdLinePromptForCredentialsA Pascal=36
+2 Name=CredUICmdLinePromptForCredentialsW Pascal=36
+3 Name=CredUIConfirmCredentialsA Pascal=8
+4 Name=CredUIConfirmCredentialsW Pascal=8
+5 Name=CredUIInitControls Pascal=0
+6 Name=CredUIParseUserNameA Pascal=20
+7 Name=CredUIParseUserNameW Pascal=20
+8 Name=CredUIPromptForCredentialsA Pascal=40
+9 Name=CredUIPromptForCredentialsW Pascal=40
+10 Name=CredUIReadSSOCredA Pascal=8
+11 Name=CredUIReadSSOCredW Pascal=8
+12 Name=CredUIStoreSSOCredA Pascal=16
+13 Name=CredUIStoreSSOCredW Pascal=16
+14 Name=DllCanUnloadNow Pascal=0
+15 Name=DllGetClassObject Pascal=12
+16 Name=DllRegisterServer Pascal=0
+17 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

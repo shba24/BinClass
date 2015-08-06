@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=sfcfiles.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=pSfcGetFilesList Pascal=12
+2 Name=SfcGetFiles Pascal=8
+;------------------EOF------------------

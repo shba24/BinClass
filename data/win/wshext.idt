@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wshext.dll Args=0 Drops=10
+;---------------------------------------
+1 Name=CreateIndirectData Pascal=12
+2 Name=GetSignedDataMsg Pascal=20
+3 Name=IsFileSupportedName Pascal=8
+4 Name=PutSignedDataMsg Pascal=20
+5 Name=RemoveSignedDataMsg Pascal=8
+6 Name=VerifyIndirectData Pascal=8
+7 Name=DllCanUnloadNow Pascal=0
+8 Name=DllGetClassObject Pascal=12
+9 Name=DllRegisterServer Pascal=0
+10 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

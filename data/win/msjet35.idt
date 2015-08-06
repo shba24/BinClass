@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msjet35.dll Pascal=0
+;---------------------------------------
+2 Name=DllRegisterServer
+3 Name=DllUnregisterServer
+;------------------EOF------------------

@@ -1,0 +1,86 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=w32topl.dll Args=0 Drops=77
+;---------------------------------------
+1 Name=ToplAddEdgeSetToGraph Pascal=8
+2 Name=ToplAddEdgeToGraph Pascal=16
+3 Name=ToplDeleteComponents Pascal=4
+4 Name=ToplDeleteGraphState Pascal=4
+5 Name=ToplDeleteSpanningTreeEdges Pascal=8
+6 Name=ToplEdgeAssociate Pascal=4
+7 Name=ToplEdgeCreate Pascal=0
+8 Name=ToplEdgeDestroy Pascal=4
+9 Name=ToplEdgeDisassociate Pascal=4
+10 Name=ToplEdgeFree Pascal=4
+11 Name=ToplEdgeGetFromVertex Pascal=4
+12 Name=ToplEdgeGetToVertex Pascal=4
+13 Name=ToplEdgeGetWeight Pascal=4
+14 Name=ToplEdgeInit Pascal=4
+15 Name=ToplEdgeSetFromVertex Pascal=8
+16 Name=ToplEdgeSetToVertex Pascal=8
+17 Name=ToplEdgeSetVtx Pascal=16
+18 Name=ToplEdgeSetWeight Pascal=8
+19 Name=ToplFree Pascal=4
+20 Name=ToplGetAlwaysSchedule Pascal=4
+21 Name=ToplGetSpanningTreeEdgesForVtx Pascal=24
+22 Name=ToplGraphAddVertex Pascal=12
+23 Name=ToplGraphCreate Pascal=0
+24 Name=ToplGraphDestroy Pascal=4
+25 Name=ToplGraphFindEdgesForMST Pascal=20
+26 Name=ToplGraphFree Pascal=8
+27 Name=ToplGraphInit
+28 Name=ToplGraphMakeRing Pascal=20
+29 Name=ToplGraphNumberOfVertices Pascal=4
+30 Name=ToplGraphRemoveVertex Pascal=8
+31 Name=ToplGraphSetVertexIter Pascal=8
+32 Name=ToplHeapCreate Pascal=12
+33 Name=ToplHeapDestroy Pascal=4
+34 Name=ToplHeapExtractMin Pascal=4
+35 Name=ToplHeapInsert Pascal=8
+36 Name=ToplHeapIsElementOf Pascal=8
+37 Name=ToplHeapIsEmpty Pascal=4
+38 Name=ToplIsToplException Pascal=4
+39 Name=ToplIterAdvance Pascal=4
+40 Name=ToplIterCreate
+41 Name=ToplIterFree Pascal=4
+42 Name=ToplIterGetObject Pascal=4
+43 Name=ToplListAddElem Pascal=8
+44 Name=ToplListCreate Pascal=0
+45 Name=ToplListFree Pascal=8
+46 Name=ToplListNumberOfElements Pascal=4
+47 Name=ToplListRemoveElem Pascal=8
+48 Name=ToplListSetIter Pascal=8
+49 Name=ToplMakeGraphState Pascal=16
+50 Name=ToplPScheduleValid Pascal=4
+51 Name=ToplSTHeapAdd Pascal=8
+52 Name=ToplSTHeapCostReduced Pascal=8
+53 Name=ToplSTHeapDestroy Pascal=4
+54 Name=ToplSTHeapExtractMin Pascal=4
+55 Name=ToplSTHeapInit Pascal=20
+56 Name=ToplScheduleCacheCreate Pascal=0
+57 Name=ToplScheduleCacheDestroy Pascal=4
+58 Name=ToplScheduleCreate Pascal=16
+59 Name=ToplScheduleDuration Pascal=4
+60 Name=ToplScheduleExportReadonly Pascal=8
+61 Name=ToplScheduleImport Pascal=8
+62 Name=ToplScheduleIsEqual Pascal=12
+63 Name=ToplScheduleMaxUnavailable Pascal=4
+64 Name=ToplScheduleMerge Pascal=16
+65 Name=ToplScheduleNumEntries Pascal=4
+66 Name=ToplScheduleValid Pascal=4
+67 Name=ToplSetAllocator Pascal=12
+68 Name=ToplVertexCreate Pascal=0
+69 Name=ToplVertexDestroy Pascal=4
+70 Name=ToplVertexFree Pascal=4
+71 Name=ToplVertexGetId Pascal=4
+72 Name=ToplVertexGetInEdge Pascal=8
+73 Name=ToplVertexGetOutEdge Pascal=8
+74 Name=ToplVertexGetParent Pascal=4
+75 Name=ToplVertexInit Pascal=4
+76 Name=ToplVertexNumberOfInEdges Pascal=4
+77 Name=ToplVertexNumberOfOutEdges Pascal=4
+78 Name=ToplVertexSetId Pascal=8
+79 Name=ToplVertexSetParent Pascal=8
+;------------------EOF------------------

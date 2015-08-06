@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MCD.SYS Args=0 Drops=4
+;---------------------------------------
+1 Name=ChangerClassAllocatePool Pascal=8
+2 Name=ChangerClassFreePool Pascal=4
+3 Name=ChangerClassInitialize Pascal=12
+4 Name=ChangerClassSendSrbSynchronous Pascal=20
+;------------------EOF------------------

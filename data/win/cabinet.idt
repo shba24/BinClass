@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=cabinet.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=GetDllVersion Pascal=0
+2 Name=DllGetVersion Pascal=4
+3 Name=Extract Pascal=8
+4 Name=DeleteExtractedFiles Pascal=4
+10 Name=FCICreate
+11 Name=FCIAddFile
+12 Name=FCIFlushFolder
+13 Name=FCIFlushCabinet
+14 Name=FCIDestroy
+20 Name=FDICreate
+21 Name=FDIIsCabinet
+22 Name=FDICopy
+23 Name=FDIDestroy
+24 Name=FDITruncateCabinet
+;------------------EOF------------------

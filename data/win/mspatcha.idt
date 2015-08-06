@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mspatcha.dll Args=0 Drops=12
+;---------------------------------------
+1 Name=ApplyPatchToFileA Pascal=16
+2 Name=ApplyPatchToFileByHandles Pascal=16
+3 Name=ApplyPatchToFileByHandlesEx Pascal=24
+4 Name=ApplyPatchToFileExA Pascal=24
+5 Name=ApplyPatchToFileExW Pascal=24
+6 Name=ApplyPatchToFileW Pascal=16
+7 Name=GetFilePatchSignatureA Pascal=36
+8 Name=GetFilePatchSignatureByHandle Pascal=36
+9 Name=GetFilePatchSignatureW Pascal=36
+10 Name=TestApplyPatchToFileA Pascal=12
+11 Name=TestApplyPatchToFileByHandles Pascal=12
+12 Name=TestApplyPatchToFileW Pascal=12
+;------------------EOF------------------

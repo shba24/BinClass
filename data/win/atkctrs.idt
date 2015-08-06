@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=atkctrs.dll Args=0 Drops=3
+;---------------------------------------
+1 Name=OpenAtkPerformanceData Pascal=4
+2 Name=CollectAtkPerformanceData Pascal=16
+3 Name=CloseAtkPerformanceData Pascal=0
+;------------------EOF------------------

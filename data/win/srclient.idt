@@ -1,0 +1,34 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=srclient.dll Args=0 Drops=27
+;---------------------------------------
+1 Name=CreateFirstRunRp Pascal=16
+2 Name=CreateSnapshot Pascal=4
+3 Name=DisableFIFO Pascal=4
+4 Name=DisableSR Pascal=4
+5 Name=DllCanUnloadNow Pascal=0
+6 Name=DllGetClassObject Pascal=12
+7 Name=DllRegisterServer Pascal=0
+8 Name=DllUnregisterServer Pascal=0
+9 Name=EnableFIFO Pascal=0
+10 Name=EnableSR Pascal=4
+11 Name=EnableSREx Pascal=8
+12 Name=ResetSR Pascal=4
+13 Name=RestoreSnapshot Pascal=4
+14 Name=SRCompress Pascal=4
+15 Name=SRFifo Pascal=20
+16 Name=SRFreeze Pascal=4
+17 Name=SRNotify Pascal=12
+18 Name=SRPrintState Pascal=0
+19 Name=SRRegisterSnapshotCallback Pascal=4
+20 Name=SRRemoveRestorePoint Pascal=4
+21 Name=SRSetRestorePointA Pascal=8
+22 Name=SRSetRestorePointW Pascal=8
+23 Name=SRSwitchLog Pascal=0
+24 Name=SRUnregisterSnapshotCallback Pascal=4
+25 Name=SRUpdateDSSize Pascal=12
+26 Name=SRUpdateMonitoredListA Pascal=4
+27 Name=SRUpdateMonitoredListW Pascal=4
+;------------------EOF------------------

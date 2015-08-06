@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=perfdisk.dll Args=0 Drops=3
+;---------------------------------------
+1 Name=CloseDiskObject Pascal=0
+2 Name=CollectDiskObjectData Pascal=16
+3 Name=OpenDiskObject Pascal=4
+;------------------EOF------------------

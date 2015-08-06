@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=aclui.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=CreateSecurityPage Pascal=4
+2 Name=EditSecurity Pascal=8
+3 Name=EditSecurityAdvanced Pascal=12
+16 Name=IID_ISecurityInformation Pascal=0
+;------------------EOF------------------

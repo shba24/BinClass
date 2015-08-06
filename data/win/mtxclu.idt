@@ -1,0 +1,92 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mtxclu.dll Args=0 Drops=80
+;---------------------------------------
+1 Name=MtxCluBringOnlineDTC2A Pascal=12
+2 Name=MtxCluBringOnlineDTC2W Pascal=12
+3 Name=MtxCluBringOnlineDTCA Pascal=8
+4 Name=MtxCluBringOnlineDTCW Pascal=8
+5 Name=MtxCluCheckIfOkToStartDtc Pascal=0
+6 Name=MtxCluCheckPointCryptoW Pascal=12
+7 Name=MtxCluCheckpointRegistryA Pascal=4
+8 Name=MtxCluCheckpointRegistryW Pascal=4
+9 Name=MtxCluCloseNodeNotify Pascal=4
+10 Name=MtxCluCreateDtcResourceKeyW
+11 Name=MtxCluCreateDtcResourceValueW
+12 Name=MtxCluCreateDtcResourceW Pascal=4
+13 Name=MtxCluCreateRecommendedLogInfo Pascal=12
+14 Name=MtxCluDeleteDtcResourceKeyW Pascal=8
+15 Name=MtxCluDeleteDtcResourceValueW
+16 Name=MtxCluDoesDTCResourceExistA Pascal=4
+17 Name=MtxCluDoesDTCResourceExistW Pascal=4
+18 Name=MtxCluGetComputerNameA Pascal=8
+19 Name=MtxCluGetComputerNameW Pascal=8
+20 Name=MtxCluGetDTCInstallState Pascal=4
+21 Name=MtxCluGetDTCInstallVersion Pascal=4
+22 Name=MtxCluGetDTCIpAddressA Pascal=8
+23 Name=MtxCluGetDTCIpAddressW Pascal=8
+24 Name=MtxCluGetDTCLogPathA Pascal=12
+25 Name=MtxCluGetDTCLogPathW Pascal=12
+26 Name=MtxCluGetDTCLogSizeA Pascal=8
+27 Name=MtxCluGetDTCLogSizeW Pascal=8
+28 Name=MtxCluGetDTCOwnerA Pascal=16
+29 Name=MtxCluGetDTCOwnerW Pascal=16
+30 Name=MtxCluGetDTCStatusA Pascal=8
+31 Name=MtxCluGetDTCStatusW Pascal=8
+32 Name=MtxCluGetDTCVirtualServerNameA Pascal=12
+33 Name=MtxCluGetDTCVirtualServerNameW Pascal=12
+34 Name=MtxCluGetDtcUserInfo Pascal=12
+35 Name=MtxCluGetJoinMasterA Pascal=4
+36 Name=MtxCluGetJoinMasterW Pascal=4
+37 Name=MtxCluGetListOfSharedDisksA Pascal=8
+38 Name=MtxCluGetListOfSharedDisksOnVirtualServerA Pascal=12
+39 Name=MtxCluGetListOfSharedDisksOnVirtualServerW Pascal=12
+40 Name=MtxCluGetListOfSharedDisksW Pascal=8
+41 Name=MtxCluGetListOfVirtualServersA Pascal=8
+42 Name=MtxCluGetListOfVirtualServersW Pascal=8
+43 Name=MtxCluGetNewCryptoKey Pascal=12
+44 Name=MtxCluGetNodeClusterStateW
+45 Name=MtxCluGetSecurityRegValue Pascal=20
+46 Name=MtxCluInitialize Pascal=0
+47 Name=MtxCluIsClusterPresent Pascal=0
+48 Name=MtxCluIsClusterPresentExA Pascal=4
+49 Name=MtxCluIsClusterPresentExW Pascal=4
+50 Name=MtxCluIsNetworkNameInLocalClusterW Pascal=4
+51 Name=MtxCluIsSameClusterW Pascal=8
+52 Name=MtxCluIsSameNodeA Pascal=8
+53 Name=MtxCluIsSameNodeW Pascal=8
+54 Name=MtxCluIsSharedDiskA Pascal=8
+55 Name=MtxCluIsSharedDiskW Pascal=8
+56 Name=MtxCluIsVirtualServerInLocalClusterA Pascal=4
+57 Name=MtxCluIsVirtualServerInLocalClusterW Pascal=4
+58 Name=MtxCluJoinDTCResource Pascal=0
+59 Name=MtxCluListNodesA Pascal=8
+60 Name=MtxCluListNodesW Pascal=8
+61 Name=MtxCluMoveDTCGroupA Pascal=4
+62 Name=MtxCluMoveDTCGroupW Pascal=4
+63 Name=MtxCluNodeNotifyA Pascal=16
+64 Name=MtxCluNodeNotifyW Pascal=16
+65 Name=MtxCluQueryDtcResourceValueW
+66 Name=MtxCluRegisterDTCResourceA Pascal=12
+67 Name=MtxCluRegisterDTCResourceW Pascal=12
+68 Name=MtxCluRemoveAllRegistryCheckpoints Pascal=0
+69 Name=MtxCluRemoveCheckpointRegistryA Pascal=4
+70 Name=MtxCluRemoveCheckpointRegistryW Pascal=4
+71 Name=MtxCluSetDTCLogPathA Pascal=8
+72 Name=MtxCluSetDTCLogPathW Pascal=8
+73 Name=MtxCluSetDTCLogSizeA Pascal=8
+74 Name=MtxCluSetDTCLogSizeW Pascal=8
+75 Name=MtxCluSetDtcUserInfo Pascal=12
+76 Name=MtxCluSetNewCryptoKey Pascal=12
+77 Name=MtxCluSetSecurityRegValue Pascal=20
+78 Name=MtxCluTakeOfflineDTC2W Pascal=12
+79 Name=MtxCluTakeOfflineDTCA Pascal=8
+80 Name=MtxCluTakeOfflineDTCW Pascal=8
+81 Name=MtxCluUninitialize Pascal=0
+82 Name=MtxCluUpgradeDtcResourceW Pascal=8
+83 Name=Startup Pascal=24
+84 Name=WasDTCInstalledBySQL Pascal=0
+85 Name=DllMain Pascal=12
+;------------------EOF------------------

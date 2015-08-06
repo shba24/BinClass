@@ -1,0 +1,1 @@
+{"config": {"exports": {"MSRD3X40.dll:DllRegisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "MSRD3X40.dll:DllUnregisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}, "MSRD3X40.dll:MSRD3X40_1": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "1"}}}}

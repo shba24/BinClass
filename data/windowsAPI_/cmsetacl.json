@@ -1,0 +1,1 @@
+{"config": {"exports": {"CMSETACL.dll:DllRegisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "CMSETACL.dll:DllUnregisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}}}}

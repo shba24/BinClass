@@ -1,0 +1,28 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=d3drampf.dll Pascal=0
+;---------------------------------------
+2 Name=RLDDIGetCaps
+3 Name=RLDDICreateGenRasDriver
+4 Name=RLDDICreatePixmapFromSurface
+5 Name=RLDDIDDrawCreateDriver
+6 Name=RLDDIDestroyPixmap
+7 Name=RLDDIFInvSqrt
+8 Name=RLDDIFree
+9 Name=RLDDIInit
+10 Name=RLDDIMalloc
+11 Name=RLDDIPixmapFill
+12 Name=RLDDIPixmapLock
+13 Name=RLDDIPixmapScale
+14 Name=RLDDIPixmapUnlock
+15 Name=RLDDIPopDriver
+16 Name=RLDDIPushDriver
+17 Name=RLDDIRaise
+18 Name=RLDDIRampmapAllocate
+19 Name=RLDDIRampmapFree
+20 Name=RLDDIRealloc
+21 Name=RLDDITextureDiff
+22 Name=RLDDIZTestTriangle
+;------------------EOF------------------

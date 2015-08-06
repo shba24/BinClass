@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DSSEC.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=DSCreateISecurityInfoObject Pascal=28
+2 Name=DSCreateSecurityPage Pascal=28
+3 Name=DSEditSecurity Pascal=32
+4 Name=DSCreateISecurityInfoObjectEx Pascal=40
+;------------------EOF------------------

@@ -1,0 +1,1 @@
+{"config": {"exports": {"IERNONCE.dll:RunOnceExProcess": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "2"}, "IERNONCE.dll:InitCallback": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "1"}}}}

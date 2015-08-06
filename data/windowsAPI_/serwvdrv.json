@@ -1,0 +1,1 @@
+{"config": {"exports": {"SERWVDRV.dll:DriverProc": {"function": {"delta": "16", "convention": "stdcall"}, "ordinal": "1"}, "SERWVDRV.dll:wodMessage": {"function": {"delta": "16", "convention": "stdcall"}, "ordinal": "3"}, "SERWVDRV.dll:widMessage": {"function": {"delta": "16", "convention": "stdcall"}, "ordinal": "2"}}}}

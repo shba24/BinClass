@@ -1,0 +1,1 @@
+{"config": {"exports": {"PERFNET.dll:CloseNetSvcsObject": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "PERFNET.dll:CollectNetSvcsObjectData": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "2"}, "PERFNET.dll:OpenNetSvcsObject": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "3"}}}}

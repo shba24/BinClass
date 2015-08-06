@@ -1,0 +1,28 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=OIADM400.dll Pascal=0
+;---------------------------------------
+1 Name=GetAppWndw
+3 Name=GetImgWndw
+5 Name=IMGCreateDialog
+7 Name=IMGDeRegWndw
+9 Name=IMGEnumWndws
+13 Name=IMGGetFilePath
+14 Name=IMGGetFileTemplate
+15 Name=IMGGetFileType
+16 Name=IMGGetImgCodingCgbw
+21 Name=IMGIsRegWnd
+22 Name=IMGListWndws
+24 Name=IMGRegWndw
+25 Name=IMGSetFilePath
+26 Name=IMGSetFileTemplate
+27 Name=IMGSetFileType
+28 Name=IMGSetImgCodingCgbw
+29 Name=IMGSetScaling
+30 Name=IsOIUIWndw
+31 Name=OiGetIntfromReg
+33 Name=OiGetStringfromReg
+35 Name=OiWriteStringtoReg
+;------------------EOF------------------

@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=OIGFS400.dll Pascal=0
+;---------------------------------------
+1 Name=DllMain
+2 Name=gfsclose
+3 Name=gfscreat
+4 Name=gfsgeti
+5 Name=gfsopen
+6 Name=gfsopts
+7 Name=gfsputi
+8 Name=gfsread
+9 Name=gfswrite
+10 Name=gfsxtrct
+11 Name=gfsgtdata
+15 Name=gfsdelpgs
+16 Name=IsAWDFile
+17 Name=CopyStorage
+18 Name=IsStorage
+;------------------EOF------------------

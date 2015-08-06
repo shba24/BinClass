@@ -1,0 +1,24 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=netcfgx.dll Args=0 Drops=17
+;---------------------------------------
+1 Name=??4WLBS_REG_PARAMS@@QAEAAU0@ABU0@@Z Pascal=4
+2 Name=DllCanUnloadNow Pascal=0
+3 Name=DllGetClassObject Pascal=12
+4 Name=DllRegisterServer Pascal=0
+5 Name=DllUnregisterServer Pascal=0
+6 Name=HrDiAddComponentToINetCfg Pascal=12
+7 Name=LanaCfgFromCommandArgs Pascal=4
+8 Name=ModemClassCoInstaller Pascal=16
+9 Name=NetCfgDiagFromCommandArgs Pascal=4
+10 Name=NetCfgDiagRepairRegistryBindings Pascal=4
+11 Name=NetClassInstaller Pascal=12
+12 Name=NetPropPageProvider Pascal=12
+13 Name=RasAddBindings Pascal=12
+14 Name=RasCountBindings Pascal=12
+15 Name=RasRemoveBindings Pascal=16
+16 Name=SvchostChangeSvchostGroup Pascal=8
+17 Name=UpdateLanaConfigUsingAnswerfile Pascal=8
+;------------------EOF------------------

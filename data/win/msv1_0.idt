@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msv1_0.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=SpInitialize Pascal=12
+32 Name=SpInstanceInit Pascal=12
+;------------------EOF------------------

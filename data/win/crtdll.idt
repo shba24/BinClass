@@ -1,0 +1,533 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=crtdll.dll Args=0 Drops=448
+;---------------------------------------
+1 Name=??2@YAPAXI@Z Pascal=0
+2 Name=??3@YAXPAX@Z Pascal=0
+3 Name=?_set_new_handler@@YAP6AHI@ZP6AHI@Z@Z Pascal=0
+4 Name=_CIacos
+5 Name=_CIasin
+6 Name=_CIatan
+7 Name=_CIatan2
+8 Name=_CIcos
+9 Name=_CIcosh
+10 Name=_CIexp
+11 Name=_CIfmod
+12 Name=_CIlog
+13 Name=_CIlog10
+14 Name=_CIpow
+15 Name=_CIsin
+16 Name=_CIsinh
+17 Name=_CIsqrt
+18 Name=_CItan
+19 Name=_CItanh
+20 Name=_HUGE_dll
+21 Name=_XcptFilter Pascal=0
+22 Name=__GetMainArgs Pascal=0
+23 Name=__argc_dll
+24 Name=__argv_dll
+25 Name=__dllonexit Pascal=0
+26 Name=__doserrno
+27 Name=__fpecode
+28 Name=__isascii Pascal=0
+29 Name=__iscsym Pascal=0
+30 Name=__iscsymf Pascal=0
+31 Name=__mb_cur_max_dll
+32 Name=__pxcptinfoptrs
+33 Name=__threadhandle
+34 Name=__threadid
+35 Name=__toascii Pascal=0
+36 Name=_abnormal_termination Pascal=0
+37 Name=_access Pascal=0
+38 Name=_acmdln_dll
+39 Name=_aexit_rtn_dll
+40 Name=_amsg_exit Pascal=0
+41 Name=_assert Pascal=0
+42 Name=_basemajor_dll
+43 Name=_baseminor_dll
+44 Name=_baseversion_dll
+45 Name=_beep Pascal=0
+46 Name=_beginthread Pascal=0
+47 Name=_c_exit Pascal=0
+48 Name=_cabs Pascal=0
+49 Name=_cexit Pascal=0
+50 Name=_cgets Pascal=0
+51 Name=_chdir Pascal=0
+52 Name=_chdrive Pascal=0
+53 Name=_chgsign Pascal=0
+54 Name=_chmod Pascal=0
+55 Name=_chsize Pascal=0
+56 Name=_clearfp Pascal=0
+57 Name=_close Pascal=0
+58 Name=_commit Pascal=0
+59 Name=_commode_dll
+60 Name=_control87 Pascal=0
+61 Name=_controlfp Pascal=0
+62 Name=_copysign Pascal=0
+63 Name=_cprintf Pascal=0
+64 Name=_cpumode_dll
+65 Name=_cputs Pascal=0
+66 Name=_creat Pascal=0
+67 Name=_cscanf Pascal=0
+68 Name=_ctype
+69 Name=_cwait Pascal=0
+70 Name=_daylight_dll
+71 Name=_dup Pascal=0
+72 Name=_dup2 Pascal=0
+73 Name=_ecvt Pascal=0
+74 Name=_endthread
+75 Name=_environ_dll
+76 Name=_eof Pascal=0
+77 Name=_errno
+78 Name=_except_handler2 Pascal=0
+79 Name=_execl Pascal=0
+80 Name=_execle Pascal=0
+81 Name=_execlp Pascal=0
+82 Name=_execlpe Pascal=0
+83 Name=_execv Pascal=0
+84 Name=_execve Pascal=0
+85 Name=_execvp Pascal=0
+86 Name=_execvpe Pascal=0
+87 Name=_exit Pascal=0
+88 Name=_expand Pascal=0
+89 Name=_fcloseall Pascal=0
+90 Name=_fcvt Pascal=0
+91 Name=_fdopen Pascal=0
+92 Name=_fgetchar Pascal=0
+93 Name=_fgetwchar Pascal=0
+94 Name=_filbuf Pascal=0
+95 Name=_fileinfo_dll
+96 Name=_filelength Pascal=0
+97 Name=_fileno Pascal=0
+98 Name=_findclose Pascal=0
+99 Name=_findfirst Pascal=0
+100 Name=_findnext Pascal=0
+101 Name=_finite Pascal=0
+102 Name=_flsbuf Pascal=0
+103 Name=_flushall Pascal=0
+104 Name=_fmode_dll
+105 Name=_fpclass Pascal=0
+106 Name=_fpieee_flt Pascal=0
+107 Name=_fpreset Pascal=0
+108 Name=_fputchar Pascal=0
+109 Name=_fputwchar Pascal=0
+110 Name=_fsopen Pascal=0
+111 Name=_fstat Pascal=0
+112 Name=_ftime Pascal=0
+113 Name=_ftol Pascal=0
+114 Name=_fullpath Pascal=0
+115 Name=_futime Pascal=0
+116 Name=_gcvt Pascal=0
+117 Name=_get_osfhandle Pascal=0
+118 Name=_getch Pascal=0
+119 Name=_getche Pascal=0
+120 Name=_getcwd Pascal=0
+121 Name=_getdcwd Pascal=0
+122 Name=_getdiskfree Pascal=0
+123 Name=_getdllprocaddr Pascal=0
+124 Name=_getdrive Pascal=0
+125 Name=_getdrives
+126 Name=_getpid
+127 Name=_getsystime Pascal=0
+128 Name=_getw Pascal=0
+129 Name=_global_unwind2 Pascal=0
+130 Name=_heapchk Pascal=0
+131 Name=_heapmin Pascal=0
+132 Name=_heapset Pascal=0
+133 Name=_heapwalk Pascal=0
+134 Name=_hypot Pascal=0
+135 Name=_initterm Pascal=0
+136 Name=_iob
+137 Name=_isatty Pascal=0
+138 Name=_isctype Pascal=0
+139 Name=_ismbbalnum Pascal=0
+140 Name=_ismbbalpha Pascal=0
+141 Name=_ismbbgraph Pascal=0
+142 Name=_ismbbkalnum Pascal=0
+143 Name=_ismbbkana Pascal=0
+144 Name=_ismbbkpunct Pascal=0
+145 Name=_ismbblead Pascal=0
+146 Name=_ismbbprint Pascal=0
+147 Name=_ismbbpunct Pascal=0
+148 Name=_ismbbtrail Pascal=0
+149 Name=_ismbcalpha Pascal=0
+150 Name=_ismbcdigit Pascal=0
+151 Name=_ismbchira Pascal=0
+152 Name=_ismbckata Pascal=0
+153 Name=_ismbcl0 Pascal=0
+154 Name=_ismbcl1 Pascal=0
+155 Name=_ismbcl2 Pascal=0
+156 Name=_ismbclegal Pascal=0
+157 Name=_ismbclower Pascal=0
+158 Name=_ismbcprint Pascal=0
+159 Name=_ismbcspace Pascal=0
+160 Name=_ismbcsymbol Pascal=0
+161 Name=_ismbcupper Pascal=0
+162 Name=_ismbslead Pascal=0
+163 Name=_ismbstrail Pascal=0
+164 Name=_isnan Pascal=0
+165 Name=_itoa Pascal=0
+166 Name=_itow Pascal=0
+167 Name=_j0 Pascal=0
+168 Name=_j1 Pascal=0
+169 Name=_jn Pascal=0
+170 Name=_kbhit Pascal=0
+171 Name=_lfind Pascal=0
+172 Name=_loaddll Pascal=0
+173 Name=_local_unwind2 Pascal=0
+174 Name=_locking Pascal=0
+175 Name=_logb Pascal=0
+176 Name=_lrotl Pascal=0
+177 Name=_lrotr Pascal=0
+178 Name=_lsearch Pascal=0
+179 Name=_lseek Pascal=0
+180 Name=_ltoa Pascal=0
+181 Name=_ltow Pascal=0
+182 Name=_makepath Pascal=0
+183 Name=_matherr Pascal=0
+184 Name=_mbbtombc Pascal=0
+185 Name=_mbbtype Pascal=0
+186 Name=_mbccpy Pascal=0
+187 Name=_mbcjistojms Pascal=0
+188 Name=_mbcjmstojis Pascal=0
+189 Name=_mbclen Pascal=0
+190 Name=_mbctohira Pascal=0
+191 Name=_mbctokata Pascal=0
+192 Name=_mbctolower Pascal=0
+193 Name=_mbctombb Pascal=0
+194 Name=_mbctoupper Pascal=0
+195 Name=_mbctype
+196 Name=_mbsbtype Pascal=0
+197 Name=_mbscat
+198 Name=_mbschr Pascal=0
+199 Name=_mbscmp Pascal=0
+200 Name=_mbscpy Pascal=0
+201 Name=_mbscspn Pascal=0
+202 Name=_mbsdec Pascal=0
+203 Name=_mbsdup Pascal=0
+204 Name=_mbsicmp Pascal=0
+205 Name=_mbsinc Pascal=0
+206 Name=_mbslen Pascal=0
+207 Name=_mbslwr Pascal=0
+208 Name=_mbsnbcat Pascal=0
+209 Name=_mbsnbcmp Pascal=0
+210 Name=_mbsnbcnt Pascal=0
+211 Name=_mbsnbcpy Pascal=0
+212 Name=_mbsnbicmp Pascal=0
+213 Name=_mbsnbset Pascal=0
+214 Name=_mbsncat Pascal=0
+215 Name=_mbsnccnt Pascal=0
+216 Name=_mbsncmp Pascal=0
+217 Name=_mbsncpy Pascal=0
+218 Name=_mbsnextc Pascal=0
+219 Name=_mbsnicmp Pascal=0
+220 Name=_mbsninc Pascal=0
+221 Name=_mbsnset Pascal=0
+222 Name=_mbspbrk Pascal=0
+223 Name=_mbsrchr Pascal=0
+224 Name=_mbsrev Pascal=0
+225 Name=_mbsset Pascal=0
+226 Name=_mbsspn Pascal=0
+227 Name=_mbsspnp Pascal=0
+228 Name=_mbsstr Pascal=0
+229 Name=_mbstok Pascal=0
+230 Name=_mbstrlen Pascal=0
+231 Name=_mbsupr Pascal=0
+232 Name=_memccpy Pascal=0
+233 Name=_memicmp Pascal=0
+234 Name=_mkdir Pascal=0
+235 Name=_mktemp Pascal=0
+236 Name=_msize Pascal=0
+237 Name=_nextafter Pascal=0
+238 Name=_onexit Pascal=0
+239 Name=_open Pascal=0
+240 Name=_open_osfhandle Pascal=0
+241 Name=_osmajor_dll
+242 Name=_osminor_dll
+243 Name=_osmode_dll
+244 Name=_osver_dll
+245 Name=_osversion_dll
+246 Name=_pclose Pascal=0
+247 Name=_pctype_dll
+248 Name=_pgmptr_dll
+249 Name=_pipe Pascal=0
+250 Name=_popen Pascal=0
+251 Name=_purecall Pascal=0
+252 Name=_putch Pascal=0
+253 Name=_putenv Pascal=0
+254 Name=_putw Pascal=0
+255 Name=_pwctype_dll
+256 Name=_read Pascal=0
+257 Name=_rmdir Pascal=0
+258 Name=_rmtmp Pascal=0
+259 Name=_rotl Pascal=0
+260 Name=_rotr Pascal=0
+261 Name=_scalb Pascal=0
+262 Name=_searchenv Pascal=0
+263 Name=_seterrormode Pascal=0
+264 Name=_setjmp Pascal=0
+265 Name=_setmode Pascal=0
+266 Name=_setsystime Pascal=0
+267 Name=_sleep Pascal=0
+268 Name=_snprintf Pascal=0
+269 Name=_snwprintf Pascal=0
+270 Name=_sopen Pascal=0
+271 Name=_spawnl Pascal=0
+272 Name=_spawnle Pascal=0
+273 Name=_spawnlp Pascal=0
+274 Name=_spawnlpe Pascal=0
+275 Name=_spawnv Pascal=0
+276 Name=_spawnve Pascal=0
+277 Name=_spawnvp Pascal=0
+278 Name=_spawnvpe Pascal=0
+279 Name=_splitpath Pascal=0
+280 Name=_stat Pascal=0
+281 Name=_statusfp Pascal=0
+282 Name=_stricmp Pascal=0
+283 Name=_strdate Pascal=0
+284 Name=_strdec Pascal=0
+285 Name=_strdup Pascal=0
+286 Name=_strerror Pascal=0
+287 Name=_stricmp Pascal=0
+288 Name=_stricoll Pascal=0
+289 Name=_strinc Pascal=0
+290 Name=_strlwr Pascal=0
+291 Name=_strncnt Pascal=0
+292 Name=_strnextc Pascal=0
+293 Name=_strnicmp Pascal=0
+294 Name=_strninc Pascal=0
+295 Name=_strnset Pascal=0
+296 Name=_strrev Pascal=0
+297 Name=_strset Pascal=0
+298 Name=_strspnp Pascal=0
+299 Name=_strtime Pascal=0
+300 Name=_strupr Pascal=0
+301 Name=_swab Pascal=0
+302 Name=_sys_errlist
+303 Name=_sys_nerr_dll
+304 Name=_tell Pascal=0
+305 Name=_tempnam Pascal=0
+306 Name=_timezone_dll
+307 Name=_tolower Pascal=0
+308 Name=_toupper Pascal=0
+309 Name=_tzname
+310 Name=_tzset Pascal=0
+311 Name=_ultoa Pascal=0
+312 Name=_ultow Pascal=0
+313 Name=_umask Pascal=0
+314 Name=_ungetch Pascal=0
+315 Name=_unlink Pascal=0
+316 Name=_unloaddll Pascal=0
+317 Name=_utime Pascal=0
+318 Name=_vsnprintf Pascal=0
+319 Name=_vsnwprintf Pascal=0
+320 Name=_wcsdup Pascal=0
+321 Name=_wcsicmp Pascal=0
+322 Name=_wcsicoll Pascal=0
+323 Name=_wcslwr Pascal=0
+324 Name=_wcsnicmp Pascal=0
+325 Name=_wcsnset Pascal=0
+326 Name=_wcsrev Pascal=0
+327 Name=_wcsset Pascal=0
+328 Name=_wcsupr Pascal=0
+329 Name=_winmajor_dll
+330 Name=_winminor_dll
+331 Name=_winver_dll
+332 Name=_write Pascal=0
+333 Name=_wtoi Pascal=0
+334 Name=_wtol Pascal=0
+335 Name=_y0 Pascal=0
+336 Name=_y1 Pascal=0
+337 Name=_yn Pascal=0
+338 Name=abort
+339 Name=abs Pascal=0
+340 Name=acos
+341 Name=asctime Pascal=0
+342 Name=asin
+343 Name=atan
+344 Name=atan2
+345 Name=atexit Pascal=0
+346 Name=atof Pascal=0
+347 Name=atoi Pascal=0
+348 Name=atol Pascal=0
+349 Name=bsearch Pascal=0
+350 Name=calloc Pascal=0
+351 Name=ceil Pascal=0
+352 Name=clearerr Pascal=0
+353 Name=clock Pascal=0
+354 Name=cos
+355 Name=cosh
+356 Name=ctime Pascal=0
+357 Name=difftime Pascal=0
+358 Name=div Pascal=0
+359 Name=exit Pascal=0
+360 Name=exp
+361 Name=fabs Pascal=0
+362 Name=fclose Pascal=0
+363 Name=feof Pascal=0
+364 Name=ferror Pascal=0
+365 Name=fflush Pascal=0
+366 Name=fgetc Pascal=0
+367 Name=fgetpos Pascal=0
+368 Name=fgets Pascal=0
+369 Name=fgetwc Pascal=0
+370 Name=floor Pascal=0
+371 Name=fmod
+372 Name=fopen Pascal=0
+373 Name=fprintf Pascal=0
+374 Name=fputc Pascal=0
+375 Name=fputs Pascal=0
+376 Name=fputwc Pascal=0
+377 Name=fread Pascal=0
+378 Name=free Pascal=0
+379 Name=freopen Pascal=0
+380 Name=frexp Pascal=0
+381 Name=fscanf Pascal=0
+382 Name=fseek Pascal=0
+383 Name=fsetpos Pascal=0
+384 Name=ftell Pascal=0
+385 Name=fwprintf Pascal=0
+386 Name=fwrite Pascal=0
+387 Name=fwscanf Pascal=0
+388 Name=getc Pascal=0
+389 Name=getchar Pascal=0
+390 Name=getenv Pascal=0
+391 Name=gets Pascal=0
+392 Name=gmtime Pascal=0
+393 Name=is_wctype Pascal=0
+394 Name=isalnum Pascal=0
+395 Name=isalpha Pascal=0
+396 Name=iscntrl Pascal=0
+397 Name=isdigit Pascal=0
+398 Name=isgraph Pascal=0
+399 Name=isleadbyte Pascal=0
+400 Name=islower Pascal=0
+401 Name=isprint Pascal=0
+402 Name=ispunct Pascal=0
+403 Name=isspace Pascal=0
+404 Name=isupper Pascal=0
+405 Name=iswalnum Pascal=0
+406 Name=iswalpha Pascal=0
+407 Name=iswascii Pascal=0
+408 Name=iswcntrl Pascal=0
+409 Name=iswctype Pascal=0
+410 Name=iswdigit Pascal=0
+411 Name=iswgraph Pascal=0
+412 Name=iswlower Pascal=0
+413 Name=iswprint Pascal=0
+414 Name=iswpunct Pascal=0
+415 Name=iswspace Pascal=0
+416 Name=iswupper Pascal=0
+417 Name=iswxdigit Pascal=0
+418 Name=isxdigit Pascal=0
+419 Name=labs Pascal=0
+420 Name=ldexp Pascal=0
+421 Name=ldiv Pascal=0
+422 Name=localeconv Pascal=0
+423 Name=localtime Pascal=0
+424 Name=log
+425 Name=log10
+426 Name=longjmp
+427 Name=malloc Pascal=0
+428 Name=mblen Pascal=0
+429 Name=mbstowcs Pascal=0
+430 Name=mbtowc Pascal=0
+431 Name=memchr Pascal=0
+432 Name=memcmp Pascal=0
+433 Name=memcpy Pascal=0
+434 Name=memmove Pascal=0
+435 Name=memset Pascal=0
+436 Name=mktime Pascal=0
+437 Name=modf Pascal=0
+438 Name=perror Pascal=0
+439 Name=pow
+440 Name=printf Pascal=0
+441 Name=putc Pascal=0
+442 Name=putchar Pascal=0
+443 Name=puts Pascal=0
+444 Name=qsort Pascal=0
+445 Name=raise Pascal=0
+446 Name=rand Pascal=0
+447 Name=realloc Pascal=0
+448 Name=remove Pascal=0
+449 Name=rename Pascal=0
+450 Name=rewind Pascal=0
+451 Name=scanf Pascal=0
+452 Name=setbuf Pascal=0
+453 Name=setlocale Pascal=0
+454 Name=setvbuf Pascal=0
+455 Name=signal Pascal=0
+456 Name=sin
+457 Name=sinh
+458 Name=sprintf Pascal=0
+459 Name=sqrt
+460 Name=srand Pascal=0
+461 Name=sscanf Pascal=0
+462 Name=strcat
+463 Name=strchr Pascal=0
+464 Name=strcmp Pascal=0
+465 Name=strcoll Pascal=0
+466 Name=strcpy Pascal=0
+467 Name=strcspn Pascal=0
+468 Name=strerror Pascal=0
+469 Name=strftime Pascal=0
+470 Name=strlen Pascal=0
+471 Name=strncat Pascal=0
+472 Name=strncmp Pascal=0
+473 Name=strncpy Pascal=0
+474 Name=strpbrk Pascal=0
+475 Name=strrchr Pascal=0
+476 Name=strspn Pascal=0
+477 Name=strstr Pascal=0
+478 Name=strtod Pascal=0
+479 Name=strtok Pascal=0
+480 Name=strtol Pascal=0
+481 Name=strtoul Pascal=0
+482 Name=strxfrm Pascal=0
+483 Name=swprintf Pascal=0
+484 Name=swscanf Pascal=0
+485 Name=system Pascal=0
+486 Name=tan
+487 Name=tanh
+488 Name=time Pascal=0
+489 Name=tmpfile Pascal=0
+490 Name=tmpnam Pascal=0
+491 Name=tolower Pascal=0
+492 Name=toupper Pascal=0
+493 Name=towlower Pascal=0
+494 Name=towupper Pascal=0
+495 Name=ungetc Pascal=0
+496 Name=ungetwc Pascal=0
+497 Name=vfprintf Pascal=0
+498 Name=vfwprintf Pascal=0
+499 Name=vprintf Pascal=0
+500 Name=vsprintf Pascal=0
+501 Name=vswprintf Pascal=0
+502 Name=vwprintf Pascal=0
+503 Name=wcscat Pascal=0
+504 Name=wcschr Pascal=0
+505 Name=wcscmp Pascal=0
+506 Name=wcscoll Pascal=0
+507 Name=wcscpy Pascal=0
+508 Name=wcscspn Pascal=0
+509 Name=wcsftime Pascal=0
+510 Name=wcslen Pascal=0
+511 Name=wcsncat Pascal=0
+512 Name=wcsncmp Pascal=0
+513 Name=wcsncpy Pascal=0
+514 Name=wcspbrk Pascal=0
+515 Name=wcsrchr Pascal=0
+516 Name=wcsspn Pascal=0
+517 Name=wcsstr Pascal=0
+518 Name=wcstod Pascal=0
+519 Name=wcstok Pascal=0
+520 Name=wcstol Pascal=0
+521 Name=wcstombs Pascal=0
+522 Name=wcstoul Pascal=0
+523 Name=wcsxfrm Pascal=0
+524 Name=wctomb Pascal=0
+525 Name=wprintf Pascal=0
+526 Name=wscanf Pascal=0
+;------------------EOF------------------

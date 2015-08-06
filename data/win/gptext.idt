@@ -1,0 +1,20 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=gptext.dll Args=0 Drops=13
+;---------------------------------------
+1 Name=GenerateIPSECPolicy Pascal=20
+2 Name=GenerateScriptsGroupPolicy Pascal=20
+3 Name=GenerateWIRELESSPolicy Pascal=20
+4 Name=ProcessIPSECPolicyEx Pascal=40
+5 Name=ProcessPSCHEDPolicy Pascal=32
+6 Name=ProcessScriptsGroupPolicy Pascal=32
+7 Name=ProcessScriptsGroupPolicyEx Pascal=40
+8 Name=ProcessWIRELESSPolicyEx Pascal=40
+9 Name=DllCanUnloadNow Pascal=0
+10 Name=DllGetClassObject Pascal=12
+11 Name=DllRegisterServer Pascal=0
+12 Name=DllUnregisterServer Pascal=0
+13 Name=ScrRegGPOListToWbem Pascal=8
+;------------------EOF------------------

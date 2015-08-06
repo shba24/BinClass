@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=OLE2NLS.dll Pascal=0
+;---------------------------------------
+1 Name=GETUSERDEFAULTLCID
+2 Name=GETSYSTEMDEFAULTLCID
+3 Name=GETUSERDEFAULTLANGID
+4 Name=GETSYSTEMDEFAULTLANGID
+5 Name=GETLOCALEINFOA
+6 Name=LCMAPSTRINGA
+7 Name=GETSTRINGTYPEA
+8 Name=COMPARESTRINGA
+11 Name=NOTIFYWINDOWPROC
+;------------------EOF------------------

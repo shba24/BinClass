@@ -1,0 +1,86 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msls31.dll Args=0 Drops=79
+;---------------------------------------
+1 Name=LsCreateContext Pascal=8
+2 Name=LsDestroyContext Pascal=4
+3 Name=LsCreateLine Pascal=40
+4 Name=LsModifyLineHeight Pascal=24
+5 Name=LsDestroyLine Pascal=8
+6 Name=LsCreateSubline Pascal=20
+7 Name=LsFetchAppendToCurrentSubline Pascal=36
+8 Name=LsAppendRunToCurrentSubline Pascal=24
+9 Name=LsResetRMInCurrentSubline Pascal=8
+10 Name=LsFinishCurrentSubline Pascal=8
+11 Name=LsTruncateSubline Pascal=12
+12 Name=LsFindPrevBreakSubline Pascal=32
+13 Name=LsFindNextBreakSubline Pascal=32
+14 Name=LsForceBreakSubline Pascal=28
+15 Name=LsSetBreakSubline Pascal=20
+16 Name=LsDestroySubline Pascal=4
+17 Name=LsMatchPresSubline Pascal=4
+18 Name=LsExpandSubline Pascal=12
+19 Name=LsGetSpecialEffectsSubline Pascal=8
+20 Name=LsdnFinishRegular Pascal=24
+21 Name=LsdnFinishRegularAddAdvancePen Pascal=36
+22 Name=LsdnFinishDelete Pascal=8
+23 Name=LsdnFinishByPen Pascal=28
+24 Name=LsdnFinishBySubline Pascal=12
+25 Name=LsdnFinishDeleteAll Pascal=8
+26 Name=LsdnFinishByOneChar Pascal=24
+27 Name=LsdnQueryObjDimRange Pascal=16
+28 Name=LsdnResetObjDim Pascal=12
+29 Name=LsdnQueryPenNode Pascal=20
+30 Name=LsdnResetPenNode Pascal=20
+31 Name=LsdnSetRigidDup Pascal=12
+32 Name=LsdnGetDup Pascal=12
+33 Name=LsdnSetAbsBaseLine Pascal=8
+34 Name=LsdnResolvePrevTab Pascal=4
+35 Name=LsdnGetCurTabInfo Pascal=8
+36 Name=LsdnSkipCurTab Pascal=4
+37 Name=LsdnDistribute Pascal=16
+39 Name=LsdnSubmitSublines Pascal=36
+40 Name=LsDisplayLine Pascal=16
+41 Name=LsDisplaySubline Pascal=16
+42 Name=LsQueryLineCpPpoint Pascal=24
+43 Name=LsQueryLinePointPcp Pascal=24
+44 Name=LsQueryLineDup Pascal=24
+45 Name=LsQueryFLineEmpty Pascal=8
+46 Name=LsQueryPointPcpSubline Pascal=24
+47 Name=LsQueryCpPpointSubline Pascal=24
+48 Name=LsSetDoc Pascal=16
+49 Name=LsSetModWidthPairs Pascal=20
+50 Name=LsSetCompression Pascal=24
+51 Name=LsSetExpansion Pascal=20
+52 Name=LsSetBreaking Pascal=20
+53 Name=LssbGetObjDimSubline Pascal=12
+54 Name=LssbGetDupSubline Pascal=12
+55 Name=LssbFDonePresSubline Pascal=8
+56 Name=LssbGetPlsrunsFromSubline Pascal=12
+57 Name=LssbGetNumberDnodesInSubline Pascal=8
+58 Name=LssbGetVisibleDcpInSubline Pascal=8
+59 Name=LsPointXYFromPointUV Pascal=16
+60 Name=LsPointUV2FromPointUV1 Pascal=20
+61 Name=LsGetWarichuLsimethods Pascal=4
+62 Name=LsGetRubyLsimethods Pascal=4
+63 Name=LsGetTatenakayokoLsimethods Pascal=4
+64 Name=LsSqueezeSubline Pascal=16
+65 Name=LsCompressSubline Pascal=12
+66 Name=LsGetHihLsimethods Pascal=4
+67 Name=LsQueryTextCellDetails Pascal=40
+68 Name=LsFetchAppendToCurrentSublineResume Pascal=44
+69 Name=LsdnGetFormatDepth Pascal=8
+70 Name=LssbFDoneDisplay Pascal=8
+71 Name=LsGetReverseLsimethods Pascal=4
+72 Name=LsEnumLine Pascal=16
+73 Name=LsGetMinDurBreaks Pascal=16
+74 Name=LsGetLineDur Pascal=16
+75 Name=LsEnumSubline Pascal=16
+76 Name=LsdnModifyParaEnding Pascal=8
+77 Name=LssbGetDurTrailInSubline Pascal=8
+78 Name=LssbGetDurTrailWithPensInSubline Pascal=8
+79 Name=LssbFIsSublineEmpty Pascal=8
+80 Name=LsLwMultDivR Pascal=12
+;------------------EOF------------------

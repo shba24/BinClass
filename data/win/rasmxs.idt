@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=rasmxs.dll Args=0 Drops=7
+;---------------------------------------
+1 Name=DeviceConnect Pascal=12
+2 Name=DeviceDone Pascal=4
+3 Name=DeviceEnum Pascal=16
+4 Name=DeviceGetInfo Pascal=20
+5 Name=DeviceListen Pascal=12
+6 Name=DeviceSetInfo Pascal=16
+7 Name=DeviceWork Pascal=4
+;------------------EOF------------------

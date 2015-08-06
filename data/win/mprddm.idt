@@ -1,0 +1,46 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mprddm.dll Args=0 Drops=38
+;---------------------------------------
+1 Name=DDMAdminConnectionClearStats Pascal=4
+2 Name=DDMAdminConnectionEnum Pascal=24
+3 Name=DDMAdminConnectionGetInfo Pascal=12
+4 Name=DDMAdminInterfaceConnect Pascal=16
+5 Name=DDMAdminInterfaceDisconnect Pascal=4
+6 Name=DDMAdminPortClearStats Pascal=4
+7 Name=DDMAdminPortDisconnect Pascal=4
+8 Name=DDMAdminPortEnum Pascal=28
+9 Name=DDMAdminPortGetInfo Pascal=12
+10 Name=DDMAdminPortReset Pascal=4
+11 Name=DDMAdminRemoveQuarantine Pascal=8
+12 Name=DDMAdminServerGetInfo Pascal=8
+13 Name=DDMAdminServerSetInfo Pascal=8
+14 Name=DDMConnectInterface Pascal=8
+15 Name=DDMDisconnectInterface Pascal=8
+16 Name=DDMGetIdentityAttributes Pascal=4
+17 Name=DDMPostCleanup Pascal=0
+18 Name=DDMRegisterConnectionNotification Pascal=12
+19 Name=DDMSendUserMessage Pascal=8
+20 Name=DDMServiceInitialize Pascal=4
+21 Name=DDMServicePostListens Pascal=4
+22 Name=DDMTransportCreate Pascal=4
+23 Name=IfObjectFreePhonebookContext
+24 Name=IfObjectInitiatePersistentConnections Pascal=0
+25 Name=IfObjectLoadPhonebookInfo Pascal=8
+26 Name=IfObjectNotifyOfReachabilityChange Pascal=12
+27 Name=IfObjectSetDialoutHoursRestriction Pascal=4
+28 Name=RasAcctConfigChangeNotification Pascal=4
+29 Name=RasAuthProviderFreeAttributes Pascal=4
+30 Name=RasAcctProviderInitialize Pascal=12
+31 Name=RasAcctProviderInterimAccounting Pascal=8
+32 Name=RasAcctProviderStartAccounting Pascal=8
+33 Name=RasAcctProviderStopAccounting Pascal=8
+34 Name=RasAcctProviderTerminate Pascal=0
+35 Name=RasAuthConfigChangeNotification Pascal=0
+36 Name=RasAuthProviderAuthenticateUser Pascal=12
+37 Name=RasAuthProviderFreeAttributes Pascal=4
+38 Name=RasAuthProviderInitialize Pascal=12
+39 Name=RasAuthProviderTerminate Pascal=0
+;------------------EOF------------------

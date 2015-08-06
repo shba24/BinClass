@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=tcpmon.dll Args=0 Drops=10
+;---------------------------------------
+1 Name=??0CPortABC@@QAE@ABV0@@Z Pascal=4
+2 Name=??0CPortABC@@QAE@XZ Pascal=0
+3 Name=??0CTcpMibABC@@QAE@ABV0@@Z Pascal=4
+4 Name=??0CTcpMibABC@@QAE@XZ Pascal=0
+5 Name=??1CPortABC@@UAE@XZ Pascal=0
+6 Name=??1CTcpMibABC@@UAE@XZ Pascal=0
+7 Name=??4CTcpMibABC@@QAEAAV0@ABV0@@Z Pascal=4
+8 Name=??4CTcpMibABC@@QAEAAV0@ABV0@@Z Pascal=4
+9 Name=??_7CPortABC@@6B@
+10 Name=??_7CTcpMibABC@@6B@
+11 Name=?Read@CPortABC@@UAEKQAXPAEKPAK@Z Pascal=16
+12 Name=InitializePrintMonitor2 Pascal=8
+;------------------EOF------------------

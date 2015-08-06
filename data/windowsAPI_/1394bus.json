@@ -1,0 +1,1 @@
+{"config": {"exports": {"1394BUS.SYS.dll:Bus1394RegisterPortDriver": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "1"}}}}

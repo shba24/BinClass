@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=cscui.dll Args=0 Drops=14
+;---------------------------------------
+1 Name=CSCUIOptionsPropertySheet Pascal=4
+2 Name=ProcessGroupPolicy Pascal=32
+3 Name=CSCOptions_RunDLLA Pascal=16
+4 Name=CSCOptions_RunDLLA Pascal=16
+5 Name=CSCOptions_RunDLLW Pascal=16
+6 Name=CSCUIInitialize Pascal=8
+7 Name=CSCUIMsgProcess Pascal=4
+8 Name=CSCUIRemoveFolderFromCache Pascal=16
+9 Name=CSCUISetState Pascal=12
+10 Name=CscPolicyProcessing_RunDLLW Pascal=16
+11 Name=DllCanUnloadNow Pascal=0
+12 Name=DllGetClassObject Pascal=12
+13 Name=DllRegisterServer Pascal=0
+14 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

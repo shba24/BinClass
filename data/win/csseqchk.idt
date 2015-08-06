@@ -1,0 +1,20 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=csseqchk.dll Args=0 Drops=13
+;---------------------------------------
+1 Name=DllGetClassObject Pascal=12
+2 Name=DllCanUnloadNow Pascal=0
+4 Name=DllRegisterServer Pascal=0
+5 Name=DllUnregisterServer Pascal=0
+100 Name=ISCCreateObject Pascal=0
+101 Name=ISCDestroyObject Pascal=4
+102 Name=ISCCheckSequence Pascal=20
+103 Name=ISCGetContext Pascal=20
+104 Name=ISCGetCurrentState Pascal=4
+105 Name=ISCSetCurrentState Pascal=8
+106 Name=ISCMacroSequenceCheck Pascal=32
+107 Name=ISCDecodeCommand Pascal=40
+108 Name=ISCDecodeCommandEx Pascal=24
+;------------------EOF------------------

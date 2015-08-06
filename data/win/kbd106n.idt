@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=kbd106n.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=KbdLayerDescriptor Pascal=0
+2 Name=KbdNlsLayerDescriptor Pascal=0
+;------------------EOF------------------

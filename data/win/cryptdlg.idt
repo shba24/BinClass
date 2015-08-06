@@ -1,0 +1,28 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=cryptdlg.dll Args=0 Drops=21
+;---------------------------------------
+1 Name=CertConfigureTrustW Pascal=0
+2 Name=CertConfigureTrustW Pascal=0
+3 Name=CertTrustCertPolicy Pascal=16
+4 Name=CertTrustCleanup Pascal=4
+5 Name=CertTrustFinalPolicy Pascal=4
+6 Name=CertTrustInit Pascal=4
+7 Name=DecodeAttrSequence Pascal=28
+8 Name=DecodeRecipientID Pascal=28
+9 Name=EncodeAttrSequence Pascal=20
+10 Name=EncodeRecipientID Pascal=20
+11 Name=FormatPKIXEmailProtection Pascal=36
+12 Name=FormatVerisignExtension Pascal=36
+13 Name=CertModifyCertificatesToTrust Pascal=24
+14 Name=CertSelectCertificateA Pascal=4
+15 Name=CertSelectCertificateW Pascal=4
+16 Name=CertViewPropertiesA Pascal=4
+17 Name=CertViewPropertiesW Pascal=4
+18 Name=DllRegisterServer Pascal=0
+19 Name=DllUnregisterServer Pascal=0
+20 Name=GetFriendlyNameOfCertA Pascal=12
+21 Name=GetFriendlyNameOfCertW Pascal=12
+;------------------EOF------------------

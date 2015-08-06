@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=OIPRT400.dll Pascal=0
+;---------------------------------------
+1 Name=PrtAbortProc
+2 Name=PrtAbortDlgProc
+3 Name=IMGPrtFiles
+4 Name=OiPrtGetOpts
+5 Name=OiPrtSetOpts
+;------------------EOF------------------

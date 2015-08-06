@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=d3drm8f.dll Pascal=0
+;---------------------------------------
+2 Name=RLDDICreateRampDriver
+3 Name=RLDDICreateRampLightingDriver
+;------------------EOF------------------

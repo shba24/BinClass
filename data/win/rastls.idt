@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=rastls.dll Args=0 Drops=14
+;---------------------------------------
+1 Name=DllCanUnloadNow Pascal=0
+2 Name=DllGetClassObject Pascal=12
+3 Name=DllRegisterServer Pascal=0
+4 Name=DllUnregisterServer Pascal=0
+5 Name=PeapUpdateStateToTLV Pascal=4
+6 Name=RasEapCreateConnectionProperties Pascal=28
+7 Name=RasEapCreateUserProperties Pascal=40
+8 Name=RasEapFreeMemory Pascal=4
+9 Name=RasEapGetCredentials Pascal=12
+10 Name=RasEapGetIdentity Pascal=48
+11 Name=RasEapGetInfo Pascal=8
+12 Name=RasEapInvokeConfigUI Pascal=20
+13 Name=RasEapInvokeInteractiveUI Pascal=20
+14 Name=RasEapUpdateServerConfig Pascal=28
+;------------------EOF------------------

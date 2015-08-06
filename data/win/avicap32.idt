@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=avicap32.dll Args=0 Drops=6
+;---------------------------------------
+1 Name=AppCleanup Pascal=4
+2 Name=capCreateCaptureWindowA Pascal=32
+3 Name=capCreateCaptureWindowW Pascal=32
+4 Name=capGetDriverDescriptionA Pascal=20
+5 Name=capGetDriverDescriptionW Pascal=20
+6 Name=videoThunk32 Pascal=20
+;------------------EOF------------------

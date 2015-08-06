@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DLCAPI.dll Args=0 Drops=5
+;---------------------------------------
+1 Name=AcsLan Pascal=8
+2 Name=DlcCallDriver Pascal=24
+3 Name=GetAdapterNameFromNumber Pascal=8
+4 Name=GetAdapterNumberFromName Pascal=8
+5 Name=NtAcsLan Pascal=16
+;------------------EOF------------------

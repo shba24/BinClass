@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=HPSCAN32.dll Pascal=0
+;---------------------------------------
+1 Name=VDDDispatch
+2 Name=VDDInit
+3 Name=VDDScannerCommand
+;------------------EOF------------------

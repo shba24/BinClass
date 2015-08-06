@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MDGNCDET.dll Pascal=0
+;---------------------------------------
+1 Name=NcDetectCloseHandle
+2 Name=NcDetectCreateHandle
+3 Name=NcDetectFirstNext
+4 Name=NcDetectIdentify
+5 Name=NcDetectInitialInit
+6 Name=NcDetectOpenHandle
+7 Name=NcDetectParamRange
+8 Name=NcDetectQueryCfg
+9 Name=NcDetectQueryMask
+10 Name=NcDetectQueryParameterName
+11 Name=NcDetectVerifyCfg
+;------------------EOF------------------

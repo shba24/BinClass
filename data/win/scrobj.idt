@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=scrobj.dll Args=0 Drops=11
+;---------------------------------------
+1 Name=GenerateTypeLib Pascal=16
+2 Name=GenerateTypeLibW Pascal=16
+3 Name=DllCanUnloadNow Pascal=0
+4 Name=DllGetClassObject Pascal=12
+5 Name=DllInstall Pascal=8
+6 Name=DllRegisterServer Pascal=0
+7 Name=DllRegisterServerExA Pascal=4
+8 Name=DllRegisterServerExA Pascal=4
+9 Name=DllRegisterServerExW Pascal=4
+10 Name=DllUnregisterServer Pascal=0
+11 Name=DllUnregisterServerEx Pascal=4
+;------------------EOF------------------

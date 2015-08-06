@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=deskperf.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=DllCanUnloadNow Pascal=0
+2 Name=DllGetClassObject Pascal=12
+;------------------EOF------------------

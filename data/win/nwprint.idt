@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=nwprint.dll Args=0 Drops=6
+;---------------------------------------
+1 Name=ClosePrintProcessor Pascal=4
+2 Name=ControlPrintProcessor Pascal=8
+3 Name=EnumPrintProcessorDatatypesW Pascal=28
+4 Name=InstallPrintProcessor Pascal=4
+5 Name=OpenPrintProcessor Pascal=8
+6 Name=PrintDocumentOnPrintProcessor Pascal=8
+;------------------EOF------------------

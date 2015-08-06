@@ -1,0 +1,25 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=dsquery.dll Args=0 Drops=18
+;---------------------------------------
+256 Name=OpenSavedDsQuery Pascal=16
+257 Name=OpenSavedDsQueryW Pascal=16
+258 Name=OpenQueryWindow Pascal=16
+259 Name=DllCanUnloadNow Pascal=0
+260 Name=DllGetClassObject Pascal=12
+261 Name=DllInstall Pascal=8
+262 Name=DllRegisterServer Pascal=0
+263 Name=DllUnregisterServer Pascal=0
+512 Name=dsquery_512 Pascal=12
+513 Name=dsquery_513 Pascal=20
+514 Name=dsquery_514 Pascal=8
+515 Name=dsquery_515 Pascal=20
+516 Name=dsquery_516 Pascal=12
+517 Name=dsquery_517 Pascal=16
+518 Name=dsquery_518 Pascal=24
+519 Name=dsquery_519 Pascal=20
+520 Name=dsquery_520 Pascal=16
+521 Name=dsquery_521 Pascal=20
+;------------------EOF------------------

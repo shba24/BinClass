@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=pautoenr.dll Args=0 Drops=3
+;---------------------------------------
+1 Name=CertAutoEnrollment Pascal=8
+2 Name=CertAutoRemove Pascal=4
+3 Name=ProvAutoEnrollment Pascal=8
+;------------------EOF------------------

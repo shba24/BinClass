@@ -1,0 +1,1 @@
+{"config": {"exports": {"MSLTUS40.dll:DllUnregisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}, "MSLTUS40.dll:msltus40_1": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "1"}, "MSLTUS40.dll:DllRegisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}}}}

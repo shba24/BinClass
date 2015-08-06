@@ -1,0 +1,1 @@
+{"config": {"exports": {"IPXCFG.dll:RunIpxDlg": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "IPXCFG.dll:IPXCfgChk": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}}}}

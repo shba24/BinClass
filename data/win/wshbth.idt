@@ -1,0 +1,24 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wshbth.dll Args=0 Drops=17
+;---------------------------------------
+1 Name=NSPStartup Pascal=8
+2 Name=WSHAddressToString Pascal=20
+3 Name=WSHEnumProtocols Pascal=16
+4 Name=WSHGetBroadcastSockaddr Pascal=12
+5 Name=WSHGetProviderGuid Pascal=8
+6 Name=WSHGetSockaddrType Pascal=12
+7 Name=WSHGetSocketInformation Pascal=32
+8 Name=WSHGetWSAProtocolInfo Pascal=12
+9 Name=WSHGetWildcardSockaddr Pascal=12
+10 Name=WSHGetWinsockMapping Pascal=8
+11 Name=WSHIoctl Pascal=52
+12 Name=WSHJoinLeaf Pascal=52
+13 Name=WSHNotify Pascal=20
+14 Name=WSHOpenSocket2 Pascal=32
+15 Name=WSHOpenSocket Pascal=24
+16 Name=WSHSetSocketInformation Pascal=32
+17 Name=WSHStringToAddress Pascal=20
+;------------------EOF------------------

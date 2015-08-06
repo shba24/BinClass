@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=olethk32.dll Args=0 Drops=14
+;---------------------------------------
+3 Name=InvokeOn32 Pascal=12
+4 Name=IntOpInitialize Pascal=12
+5 Name=CallbackProcessing_3216 Pascal=12
+6 Name=IUnknownObj32 Pascal=12
+8 Name=CSm16ReleaseHandler_Release32 Pascal=12
+9 Name=ThkMgrInitialize Pascal=12
+10 Name=ThkMgrUninitialize Pascal=12
+11 Name=TransformHRESULT_1632 Pascal=4
+12 Name=TransformHRESULT_3216 Pascal=4
+13 Name=ConvertObjDescriptor Pascal=8
+14 Name=ConvertHr1632Thunk Pascal=12
+15 Name=ConvertHr3216Thunk Pascal=12
+16 Name=IntOpUninitialize Pascal=12
+18 Name=ThkAddAppCompatFlag Pascal=4
+;------------------EOF------------------

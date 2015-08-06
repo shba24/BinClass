@@ -1,0 +1,1 @@
+{"config": {"exports": {"ATKCTRS.dll:OpenAtkPerformanceData": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "1"}, "ATKCTRS.dll:CollectAtkPerformanceData": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "2"}, "ATKCTRS.dll:CloseAtkPerformanceData": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}}}}

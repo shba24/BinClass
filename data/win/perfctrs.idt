@@ -1,0 +1,25 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=perfctrs.dll Args=0 Drops=18
+;---------------------------------------
+1 Name=OpenNbfPerformanceData Pascal=4
+2 Name=CollectNbfPerformanceData Pascal=16
+3 Name=CloseNbfPerformanceData Pascal=0
+4 Name=OpenTcpIpPerformanceData Pascal=4
+5 Name=CollectTcpIpPerformanceData Pascal=16
+6 Name=CloseTcpIpPerformanceData Pascal=0
+7 Name=OpenIPXPerformanceData Pascal=4
+8 Name=CollectIPXPerformanceData Pascal=16
+9 Name=CloseIPXPerformanceData Pascal=0
+10 Name=OpenSPXPerformanceData Pascal=4
+11 Name=CollectSPXPerformanceData Pascal=16
+12 Name=CloseSPXPerformanceData Pascal=0
+13 Name=OpenNWNBPerformanceData Pascal=4
+14 Name=CollectNWNBPerformanceData Pascal=16
+15 Name=CloseNWNBPerformanceData Pascal=0
+16 Name=OpenDhcpPerformanceData Pascal=4
+17 Name=CollectDhcpPerformanceData Pascal=16
+18 Name=CloseDhcpPerformanceData Pascal=0
+;------------------EOF------------------

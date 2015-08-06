@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=NWCFG.dll Pascal=0
+;---------------------------------------
+1 Name=AddNetwarePrinterProvidor
+2 Name=DeleteNetwarePrinterProvidor
+3 Name=AppendSzToFile
+4 Name=RemoveSzFromFile
+5 Name=GetKernelVersion
+6 Name=SetEverybodyPermission
+7 Name=lodctr
+8 Name=unlodctr
+9 Name=DeleteGatewayPassword
+10 Name=SetFileSysChangeValue
+11 Name=CleanupRegistryForNWCS
+12 Name=SetupRegistryForNWCS
+;------------------EOF------------------

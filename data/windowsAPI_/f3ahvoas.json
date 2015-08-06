@@ -1,0 +1,1 @@
+{"config": {"exports": {"F3AHVOAS.dll:KbdLayerDescriptor": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "F3AHVOAS.dll:KbdNlsLayerDescriptor": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "F3AHVOAS.dll:FujitsuOyayubiControl": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "16"}}}}

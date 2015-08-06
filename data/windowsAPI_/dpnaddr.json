@@ -1,0 +1,1 @@
+{"config": {"exports": {"DPNADDR.dll:DirectPlay8AddressCreate": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

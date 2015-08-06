@@ -1,0 +1,64 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=hbaapi.dll Args=0 Drops=57
+;---------------------------------------
+1 Name=HBA_CloseAdapter Pascal=0
+2 Name=HBA_LoadLibrary Pascal=0
+3 Name=HBA_GetAdapterAttributes Pascal=0
+4 Name=HBA_GetAdapterName Pascal=0
+5 Name=HBA_GetAdapterPortAttributes Pascal=0
+6 Name=HBA_GetBindingCapability Pascal=0
+7 Name=HBA_GetBindingSupport Pascal=0
+8 Name=HBA_GetDiscoveredPortAttributes Pascal=0
+9 Name=HBA_GetEventBuffer Pascal=0
+10 Name=HBA_GetFC4Statistics Pascal=0
+11 Name=HBA_GetFCPStatistics Pascal=0
+12 Name=HBA_GetFcpPersistentBinding Pascal=0
+13 Name=HBA_GetFcpTargetMapping Pascal=0
+14 Name=HBA_GetFcpTargetMappingV2 Pascal=0
+15 Name=HBA_GetNumberOfAdapters Pascal=0
+16 Name=HBA_GetPersistentBindingV2 Pascal=0
+17 Name=HBA_GetPortAttributesByWWN Pascal=0
+18 Name=HBA_GetPortStatistics Pascal=0
+19 Name=HBA_GetRNIDMgmtInfo Pascal=0
+20 Name=HBA_GetVendorLibraryAttributes Pascal=0
+21 Name=HBA_RegisterLibraryV2 Pascal=0
+22 Name=HBA_GetWrapperLibraryAttributes Pascal=0
+23 Name=HBA_LoadLibrary Pascal=0
+24 Name=HBA_OpenAdapter Pascal=0
+25 Name=HBA_OpenAdapterByWWN Pascal=0
+26 Name=HBA_RefreshAdapterConfiguration Pascal=0
+27 Name=HBA_RefreshInformation Pascal=0
+28 Name=HBA_RegisterForAdapterAddEvents Pascal=0
+29 Name=HBA_RegisterForAdapterEvents Pascal=0
+30 Name=HBA_RegisterForAdapterPortEvents Pascal=0
+31 Name=HBA_RegisterForAdapterPortStatEvents Pascal=0
+32 Name=HBA_RegisterForLinkEvents Pascal=0
+33 Name=HBA_RegisterForTargetEvents Pascal=0
+34 Name=HBA_RegisterLibraryV2 Pascal=0
+35 Name=HBA_RegisterLibraryV2 Pascal=0
+36 Name=HBA_RemoveAllPersistentBindings Pascal=0
+37 Name=HBA_RemoveCallback Pascal=0
+38 Name=HBA_RemovePersistentBinding Pascal=0
+39 Name=HBA_ResetStatistics Pascal=0
+40 Name=HBA_ScsiInquiryV2 Pascal=0
+41 Name=HBA_ScsiReadCapacityV2 Pascal=0
+42 Name=HBA_ScsiReportLUNsV2 Pascal=0
+43 Name=HBA_SendCTPassThru Pascal=0
+44 Name=HBA_SendCTPassThruV2 Pascal=0
+45 Name=HBA_SendLIRR Pascal=0
+46 Name=HBA_SendRLS Pascal=0
+47 Name=HBA_SendRNID Pascal=0
+48 Name=HBA_SendRNIDV2 Pascal=0
+49 Name=HBA_SendRPL Pascal=0
+50 Name=HBA_SendRPS Pascal=0
+51 Name=HBA_SendReadCapacity Pascal=0
+52 Name=HBA_SendReportLUNs Pascal=0
+53 Name=HBA_SendSRL Pascal=0
+54 Name=HBA_SendScsiInquiry Pascal=0
+55 Name=HBA_SetBindingSupport Pascal=0
+56 Name=HBA_SetPersistentBindingV2 Pascal=0
+57 Name=HBA_SetRNIDMgmtInfo Pascal=0
+;------------------EOF------------------

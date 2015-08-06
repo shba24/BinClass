@@ -1,0 +1,62 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ufat.dll Args=0 Drops=47
+;---------------------------------------
+1 Name=??0CLUSTER_CHAIN@@QAE@XZ Pascal=0
+2 Name=??0EA_HEADER@@QAE@XZ Pascal=0
+3 Name=??0EA_SET@@QAE@XZ Pascal=0
+4 Name=??0FAT_DIRENT@@QAE@XZ Pascal=0
+5 Name=??0FAT_SA@@QAE@XZ Pascal=0
+6 Name=??0FILEDIR@@QAE@XZ Pascal=0
+7 Name=??0REAL_FAT_SA@@QAE@XZ Pascal=0
+8 Name=??0ROOTDIR@@QAE@XZ Pascal=0
+9 Name=??1CLUSTER_CHAIN@@UAE@XZ
+10 Name=??1EA_HEADER@@UAE@XZ
+11 Name=??1EA_SET@@UAE@XZ
+12 Name=??1FAT_DIRENT@@UAE@XZ
+13 Name=??1FAT_SA@@UAE@XZ
+14 Name=??1FILEDIR@@UAE@XZ
+15 Name=??1REAL_FAT_SA@@UAE@XZ
+16 Name=??1ROOTDIR@@UAE@XZ
+17 Name=?AllocChain@FAT@@QAEKKPAK@Z Pascal=8
+18 Name=?FreeChain@FAT@@QAEXK@Z Pascal=4
+19 Name=?GetEa@EA_SET@@QAEPAU_EA@@KPAJPAE@Z Pascal=12
+20 Name=?Index12@FAT@@ABEKK@Z Pascal=4
+21 Name=?InitFATChkDirty@REAL_FAT_SA@@QAEEPAVLOG_IO_DP_DRIVE@@PAVMESSAGE@@@Z Pascal=8
+22 Name=?Initialize@CLUSTER_CHAIN@@QAEEPAVMEM@@PAVLOG_IO_DP_DRIVE@@PAVFAT_SA@@PBVFAT@@KK@Z Pascal=24
+23 Name=?Initialize@EA_HEADER@@QAEEPAVMEM@@PAVLOG_IO_DP_DRIVE@@PAVFAT_SA@@PBVFAT@@KK@Z Pascal=24
+24 Name=?Initialize@EA_SET@@QAEEPAVMEM@@PAVLOG_IO_DP_DRIVE@@PAVFAT_SA@@PBVFAT@@KK@Z Pascal=24
+25 Name=?Initialize@FAT_DIRENT@@QAEEPAX@Z Pascal=4
+26 Name=?Initialize@FAT_DIRENT@@QAEEPAXE@Z Pascal=8
+27 Name=?Initialize@FILEDIR@@QAEEPAVMEM@@PAVLOG_IO_DP_DRIVE@@PAVFAT_SA@@PBVFAT@@K@Z Pascal=20
+28 Name=?Initialize@REAL_FAT_SA@@UAEEPAVLOG_IO_DP_DRIVE@@PAVMESSAGE@@E@Z Pascal=12
+29 Name=?Initialize@ROOTDIR@@QAEEPAVMEM@@PAVLOG_IO_DP_DRIVE@@KJ@Z Pascal=16
+30 Name=?IsValidCreationTime@FAT_DIRENT@@QBEEXZ Pascal=0
+31 Name=?IsValidLastAccessTime@FAT_DIRENT@@QBEEXZ Pascal=0
+32 Name=?IsValidLastWriteTime@FAT_DIRENT@@QBEEXZ Pascal=0
+33 Name=?QueryAllocatedClusters@FAT@@QBEKXZ Pascal=0
+34 Name=?QueryCensusAndRelocate@FAT_SA@@QAEEPAU_CENSUS_REPORT@@PAVINTSTACK@@PAE@Z Pascal=12
+35 Name=?QueryCreationTime@FAT_DIRENT@@QBEEPAT_LARGE_INTEGER@@@Z Pascal=4
+36 Name=?QueryEaSetClusterNumber@EA_HEADER@@QBEGG@Z Pascal=4
+37 Name=?QueryFileStartingCluster@FAT_SA@@QAEKPBVWSTRING@@PAVHMEM@@PAPAVFATDIR@@PAEPAVFAT_DIRENT@@@Z Pascal=20
+38 Name=?QueryFreeSectors@REAL_FAT_SA@@QBEKXZ Pascal=0
+39 Name=?QueryLastAccessTime@FAT_DIRENT@@QBEEPAT_LARGE_INTEGER@@@Z Pascal=4
+40 Name=?QueryLastWriteTime@FAT_DIRENT@@QBEEPAT_LARGE_INTEGER@@@Z Pascal=4
+41 Name=?QueryLengthOfChain@FAT@@QBEKKPAK@Z Pascal=8
+42 Name=?QueryLongName@FATDIR@@QAEEJPAVWSTRING@@@Z Pascal=8
+43 Name=?QueryName@FAT_DIRENT@@QBEEPAVWSTRING@@@Z Pascal=4
+44 Name=?QueryNthCluster@FAT@@QBEKKK@Z Pascal=8
+45 Name=?Read@CLUSTER_CHAIN@@UAEEXZ Pascal=0
+46 Name=?Read@EA_SET@@UAEEXZ Pascal=0
+47 Name=?Read@REAL_FAT_SA@@UAEEPAVMESSAGE@@@Z Pascal=4
+48 Name=?SearchForDirEntry@FATDIR@@QAEPAXPBVWSTRING@@@Z Pascal=4
+49 Name=?Set12@FAT@@AAEXKK@Z Pascal=8
+50 Name=?Write@CLUSTER_CHAIN@@UAEEXZ Pascal=0
+51 Name=Chkdsk Pascal=44
+52 Name=ChkdskEx Pascal=20
+53 Name=Format Pascal=28
+54 Name=FormatEx Pascal=16
+55 Name=Recover Pascal=8
+;------------------EOF------------------

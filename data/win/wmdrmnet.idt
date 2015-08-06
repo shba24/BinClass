@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wmdrmnet.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=WMCreateDRMTranscryptorPriv Pascal=4
+2 Name=DllRegisterServer Pascal=0
+;------------------EOF------------------

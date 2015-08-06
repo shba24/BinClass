@@ -1,0 +1,1 @@
+{"config": {"exports": {"SHCOMPUI.dll:DllGetClassObject": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "SHCOMPUI.dll:ShellChangeCompressionAttribute": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}, "SHCOMPUI.dll:DllCanUnloadNow": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

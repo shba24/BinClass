@@ -1,0 +1,26 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=admparse.dll Args=0 Drops=19
+;---------------------------------------
+12 Name=DllMain Pascal=12
+13 Name=IsAdmDirty Pascal=0
+14 Name=ResetAdmDirtyFlag Pascal=0
+15 Name=AdmClose Pascal=12
+16 Name=AdmFinishedA Pascal=12
+17 Name=AdmFinishedW Pascal=12
+18 Name=AdmInitA Pascal=20
+19 Name=AdmInitW Pascal=20
+20 Name=AdmResetA Pascal=16
+21 Name=AdmResetW Pascal=16
+22 Name=AdmSaveData Pascal=16
+23 Name=CheckDuplicateKeysA Pascal=16
+24 Name=CheckDuplicateKeysW Pascal=16
+25 Name=CreateAdmUiA Pascal=56
+26 Name=CreateAdmUiW Pascal=56
+27 Name=GetAdmCategoriesA Pascal=16
+28 Name=GetAdmCategoriesW Pascal=16
+29 Name=GetFontInfoA Pascal=8
+30 Name=GetFontInfoW Pascal=8
+;------------------EOF------------------

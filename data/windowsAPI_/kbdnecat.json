@@ -1,0 +1,1 @@
+{"config": {"exports": {"KBDNECAT.dll:KbdNlsLayerDescriptor": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "KBDNECAT.dll:KbdLayerDescriptor": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

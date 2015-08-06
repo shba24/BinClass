@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=inseng.dll Args=0 Drops=12
+;---------------------------------------
+1 Name=CheckForVersionConflict Pascal=0
+2 Name=CheckTrust Pascal=12
+3 Name=CheckTrustEx Pascal=20
+4 Name=DllCanUnloadNow Pascal=0
+5 Name=DllGetClassObject Pascal=12
+6 Name=DllInstall Pascal=8
+7 Name=DllRegisterServer Pascal=0
+8 Name=DllUnregisterServer Pascal=0
+9 Name=DownloadFile Pascal=20
+10 Name=GetICifFileFromFile Pascal=8
+11 Name=GetICifRWFileFromFile Pascal=8
+12 Name=PurgeDownloadDirectory Pascal=4
+;------------------EOF------------------

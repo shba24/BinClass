@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=igmpagnt.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=SnmpExtensionClose Pascal=0
+2 Name=SnmpExtensionInit Pascal=12
+3 Name=SnmpExtensionQuery Pascal=16
+4 Name=SnmpExtensionTrap Pascal=20
+;------------------EOF------------------

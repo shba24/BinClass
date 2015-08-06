@@ -1,0 +1,95 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=HAL.DLL Args=0 Drops=87
+;---------------------------------------
+1 Name=ExAcquireFastMutex Pascal=0
+2 Name=ExReleaseFastMutex Pascal=0
+3 Name=ExTryToAcquireFastMutex Pascal=4
+4 Name=HalAcquireDisplayOwnership Pascal=4
+5 Name=HalAdjustResourceList Pascal=4
+6 Name=HalAllProcessorsStarted Pascal=0
+7 Name=HalAllocateAdapterChannel Pascal=16
+8 Name=HalAllocateCommonBuffer Pascal=16
+9 Name=HalAllocateCrashDumpRegisters Pascal=8
+10 Name=HalAssignSlotResources Pascal=32
+11 Name=HalBeginSystemInterrupt Pascal=12
+12 Name=HalCalibratePerformanceCounter Pascal=12
+13 Name=HalClearSoftwareInterrupt Pascal=4
+14 Name=HalDisableSystemInterrupt Pascal=8
+15 Name=HalDisplayString Pascal=4
+16 Name=HalEnableSystemInterrupt Pascal=12
+17 Name=HalEndSystemInterrupt Pascal=8
+18 Name=HalFlushCommonBuffer Pascal=20
+19 Name=HalFreeCommonBuffer Pascal=24
+20 Name=HalGetAdapter Pascal=8
+21 Name=HalGetBusData Pascal=20
+22 Name=HalGetBusDataByOffset Pascal=24
+23 Name=HalGetEnvironmentVariable Pascal=12
+24 Name=HalGetInterruptVector Pascal=24
+25 Name=HalHandleNMI Pascal=4
+26 Name=HalInitSystem Pascal=8
+27 Name=HalInitializeProcessor Pascal=8
+28 Name=HalMakeBeep Pascal=4
+29 Name=HalProcessorIdle Pascal=0
+30 Name=HalQueryDisplayParameters Pascal=16
+31 Name=HalQueryRealTimeClock Pascal=4
+32 Name=HalReadDmaCounter Pascal=4
+33 Name=HalReportResourceUsage Pascal=0
+34 Name=HalRequestIpi Pascal=4
+35 Name=HalRequestSoftwareInterrupt Pascal=4
+36 Name=HalReturnToFirmware Pascal=4
+37 Name=HalSetBusData Pascal=20
+38 Name=HalSetBusDataByOffset Pascal=24
+39 Name=HalSetDisplayParameters Pascal=8
+40 Name=HalSetEnvironmentVariable Pascal=8
+41 Name=HalSetProfileInterval Pascal=4
+42 Name=HalSetRealTimeClock Pascal=4
+43 Name=HalSetTimeIncrement Pascal=4
+44 Name=HalStartNextProcessor Pascal=8
+45 Name=HalStartProfileInterrupt Pascal=4
+46 Name=HalStopProfileInterrupt Pascal=4
+47 Name=HalSystemVectorDispatchEntry Pascal=12
+48 Name=HalTranslateBusAddress Pascal=24
+49 Name=IoFlushAdapterBuffers Pascal=24
+50 Name=IoFreeAdapterChannel Pascal=4
+51 Name=IoFreeMapRegisters Pascal=12
+52 Name=IoMapTransfer Pascal=24
+53 Name=KdComPortInUse
+54 Name=KeAcquireInStackQueuedSpinLock Pascal=8
+55 Name=KeAcquireInStackQueuedSpinLockRaiseToSynch Pascal=8
+56 Name=KeAcquireQueuedSpinLock Pascal=4
+57 Name=KeAcquireQueuedSpinLockRaiseToSynch Pascal=4
+58 Name=KeAcquireSpinLock Pascal=8
+59 Name=KeAcquireSpinLockRaiseToSynch Pascal=4
+60 Name=KeFlushWriteBuffer Pascal=0
+61 Name=KeGetCurrentIrql Pascal=0
+62 Name=KeLowerIrql Pascal=4
+63 Name=KeQueryPerformanceCounter Pascal=4
+64 Name=KeRaiseIrql Pascal=8
+65 Name=KeRaiseIrqlToDpcLevel Pascal=0
+66 Name=KeRaiseIrqlToSynchLevel Pascal=0
+67 Name=KeReleaseInStackQueuedSpinLock Pascal=4
+68 Name=KeReleaseQueuedSpinLock Pascal=8
+69 Name=KeReleaseSpinLock Pascal=8
+70 Name=KeStallExecutionProcessor Pascal=4
+71 Name=KeTryToAcquireQueuedSpinLock Pascal=8
+72 Name=KeTryToAcquireQueuedSpinLockRaiseToSynch Pascal=8
+73 Name=KfAcquireSpinLock Pascal=0
+74 Name=KfLowerIrql Pascal=0
+75 Name=KfRaiseIrql Pascal=0
+76 Name=KfReleaseSpinLock Pascal=0
+77 Name=READ_PORT_BUFFER_UCHAR Pascal=12
+78 Name=READ_PORT_BUFFER_ULONG Pascal=12
+79 Name=READ_PORT_BUFFER_USHORT Pascal=12
+80 Name=READ_PORT_UCHAR Pascal=4
+81 Name=READ_PORT_ULONG Pascal=4
+82 Name=READ_PORT_USHORT Pascal=4
+83 Name=WRITE_PORT_BUFFER_UCHAR Pascal=12
+84 Name=WRITE_PORT_BUFFER_ULONG Pascal=12
+85 Name=WRITE_PORT_BUFFER_USHORT Pascal=12
+86 Name=WRITE_PORT_UCHAR Pascal=8
+87 Name=WRITE_PORT_ULONG Pascal=8
+88 Name=WRITE_PORT_USHORT Pascal=8
+;------------------EOF------------------

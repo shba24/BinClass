@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BDCALLS.dll Pascal=0
+;---------------------------------------
+1 Name=NlsConvertBidiNumerics
+2 Name=NlsConvertBidiString
+3 Name=NlsIntSetBidiAtt
+4 Name=NlsIntQueryBidiAtt
+5 Name=NlsSetBidiAtt
+6 Name=NlsQueryBidiAtt
+7 Name=NlsInverseString
+8 Name=NlsSetBidiPrint
+9 Name=NlsEditShape
+10 Name=NlsShapeBidiString
+11 Name=NlPopUp
+;------------------EOF------------------

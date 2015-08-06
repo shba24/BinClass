@@ -1,0 +1,68 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mscms.dll Args=0 Drops=61
+;---------------------------------------
+1 Name=AssociateColorProfileWithDeviceA Pascal=12
+2 Name=AssociateColorProfileWithDeviceW Pascal=12
+3 Name=CheckBitmapBits Pascal=36
+4 Name=CheckColors Pascal=20
+5 Name=CloseColorProfile Pascal=4
+6 Name=ConvertColorNameToIndex Pascal=16
+7 Name=ConvertIndexToColorName Pascal=16
+8 Name=CreateColorTransformA Pascal=16
+9 Name=CreateColorTransformW Pascal=16
+10 Name=CreateDeviceLinkProfile Pascal=28
+11 Name=CreateMultiProfileTransform Pascal=24
+12 Name=CreateProfileFromLogColorSpaceA Pascal=8
+13 Name=CreateProfileFromLogColorSpaceW Pascal=8
+14 Name=DeleteColorTransform Pascal=4
+15 Name=DisassociateColorProfileFromDeviceA Pascal=12
+16 Name=DisassociateColorProfileFromDeviceW Pascal=12
+17 Name=EnumColorProfilesA Pascal=20
+18 Name=EnumColorProfilesW Pascal=20
+19 Name=GenerateCopyFilePaths Pascal=36
+20 Name=GetCMMInfo Pascal=8
+21 Name=GetColorDirectoryA Pascal=12
+22 Name=GetColorDirectoryW Pascal=12
+23 Name=GetColorProfileElement Pascal=24
+24 Name=GetColorProfileElementTag Pascal=12
+25 Name=GetColorProfileFromHandle Pascal=12
+26 Name=GetColorProfileHeader Pascal=8
+27 Name=GetCountColorProfileElements Pascal=8
+28 Name=GetNamedProfileInfo Pascal=8
+29 Name=GetPS2ColorRenderingDictionary Pascal=20
+30 Name=GetPS2ColorRenderingIntent Pascal=16
+31 Name=GetPS2ColorSpaceArray Pascal=24
+32 Name=GetStandardColorSpaceProfileA Pascal=16
+33 Name=GetStandardColorSpaceProfileW Pascal=16
+34 Name=InstallColorProfileA Pascal=8
+35 Name=InstallColorProfileW Pascal=8
+36 Name=InternalGetDeviceConfig Pascal=20
+37 Name=InternalGetPS2CSAFromLCS Pascal=16
+38 Name=InternalGetPS2ColorRenderingDictionary Pascal=20
+39 Name=InternalGetPS2ColorSpaceArray Pascal=24
+40 Name=InternalGetPS2PreviewCRD Pascal=24
+41 Name=InternalSetDeviceConfig Pascal=20
+42 Name=IsColorProfileTagPresent Pascal=12
+43 Name=IsColorProfileValid Pascal=8
+44 Name=OpenColorProfileA Pascal=16
+45 Name=OpenColorProfileW Pascal=16
+46 Name=RegisterCMMA Pascal=12
+47 Name=RegisterCMMW Pascal=12
+48 Name=SelectCMM Pascal=4
+49 Name=SetColorProfileElement Pascal=20
+50 Name=SetColorProfileElementReference Pascal=12
+51 Name=SetColorProfileElementSize Pascal=12
+52 Name=SetColorProfileHeader Pascal=8
+53 Name=SetStandardColorSpaceProfileA Pascal=12
+54 Name=SetStandardColorSpaceProfileW Pascal=12
+55 Name=SpoolerCopyFileEvent Pascal=12
+56 Name=TranslateBitmapBits Pascal=44
+57 Name=TranslateColors Pascal=24
+58 Name=UninstallColorProfileA Pascal=12
+59 Name=UninstallColorProfileW Pascal=12
+60 Name=UnregisterCMMA Pascal=8
+61 Name=UnregisterCMMW Pascal=8
+;------------------EOF------------------

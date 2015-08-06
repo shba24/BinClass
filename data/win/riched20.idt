@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=riched20.dll Args=0 Drops=4
+;---------------------------------------
+2 Name=IID_IRichEditOle
+3 Name=IID_IRichEditOleCallback
+4 Name=CreateTextServices Pascal=12
+5 Name=IID_ITextServices
+6 Name=IID_ITextHost
+7 Name=IID_ITextHost2
+8 Name=REExtendedRegisterClass Pascal=0
+9 Name=RichEdit10ANSIWndProc Pascal=16
+10 Name=RichEditANSIWndProc Pascal=16
+;------------------EOF------------------

@@ -1,0 +1,1 @@
+{"config": {"exports": {"WEBHITS.dll:GetExtensionVersion": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "1"}, "WEBHITS.dll:TerminateExtension": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "3"}, "WEBHITS.dll:HttpExtensionProc": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "2"}}}}

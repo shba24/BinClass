@@ -1,0 +1,63 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=d3d8thk.dll Pascal=0
+;---------------------------------------
+1 Name=OsThunkD3dContextCreate
+2 Name=OsThunkD3dContextDestroy
+3 Name=OsThunkD3dContextDestroyAll
+4 Name=OsThunkD3dDrawPrimitives2
+5 Name=OsThunkD3dValidateTextureStageState
+6 Name=OsThunkDdAddAttachedSurface
+7 Name=OsThunkDdAlphaBlt
+8 Name=OsThunkDdAttachSurface
+9 Name=OsThunkDdBeginMoCompFrame
+10 Name=OsThunkDdBlt
+11 Name=OsThunkDdCanCreateD3DBuffer
+12 Name=OsThunkDdCanCreateSurface
+13 Name=OsThunkDdColorControl
+14 Name=OsThunkDdCreateD3DBuffer
+15 Name=OsThunkDdCreateDirectDrawObject
+16 Name=OsThunkDdCreateMoComp
+17 Name=OsThunkDdCreateSurface
+18 Name=OsThunkDdCreateSurfaceEx
+19 Name=OsThunkDdCreateSurfaceObject
+20 Name=OsThunkDdDeleteDirectDrawObject
+21 Name=OsThunkDdDeleteSurfaceObject
+22 Name=OsThunkDdDestroyD3DBuffer
+23 Name=OsThunkDdDestroyMoComp
+24 Name=OsThunkDdDestroySurface
+25 Name=OsThunkDdEndMoCompFrame
+26 Name=OsThunkDdFlip
+27 Name=OsThunkDdFlipToGDISurface
+28 Name=OsThunkDdGetAvailDriverMemory
+29 Name=OsThunkDdGetBltStatus
+30 Name=OsThunkDdGetDC
+31 Name=OsThunkDdGetDriverInfo
+32 Name=OsThunkDdGetDriverState
+33 Name=OsThunkDdGetDxHandle
+34 Name=OsThunkDdGetFlipStatus
+35 Name=OsThunkDdGetInternalMoCompInfo
+36 Name=OsThunkDdGetMoCompBuffInfo
+37 Name=OsThunkDdGetMoCompFormats
+38 Name=OsThunkDdGetMoCompGuids
+39 Name=OsThunkDdGetScanLine
+40 Name=OsThunkDdLock
+41 Name=OsThunkDdLockD3D
+42 Name=OsThunkDdQueryDirectDrawObject
+43 Name=OsThunkDdQueryMoCompStatus
+44 Name=OsThunkDdReenableDirectDrawObject
+45 Name=OsThunkDdReleaseDC
+46 Name=OsThunkDdRenderMoComp
+47 Name=OsThunkDdResetVisrgn
+48 Name=OsThunkDdSetColorKey
+49 Name=OsThunkDdSetExclusiveMode
+50 Name=OsThunkDdSetGammaRamp
+51 Name=OsThunkDdSetOverlayPosition
+52 Name=OsThunkDdUnattachSurface
+53 Name=OsThunkDdUnlock
+54 Name=OsThunkDdUnlockD3D
+55 Name=OsThunkDdUpdateOverlay
+56 Name=OsThunkDdWaitForVerticalBlank
+;------------------EOF------------------

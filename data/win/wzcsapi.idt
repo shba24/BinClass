@@ -1,0 +1,45 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wzcsapi.dll Args=0 Drops=34
+;---------------------------------------
+60 Name=MIDL_user_allocate Pascal=4
+61 Name=MIDL_user_free Pascal=4
+62 Name=CloseWZCDbLogSession Pascal=4
+63 Name=CreateEapcfgNode Pascal=0
+64 Name=DestroyEapcfgNode Pascal=4
+65 Name=DtlDestroyList Pascal=8
+66 Name=EapcfgNodeFromKey Pascal=8
+67 Name=EnumWZCDbLogRecords Pascal=28
+68 Name=FlushWZCDbLog Pascal=4
+69 Name=GetEncryptionForAdapter Pascal=20
+70 Name=GetModeForAdapter Pascal=24
+71 Name=GetSSIDForAdapter Pascal=20
+72 Name=GetSignalStrengthForAdapter Pascal=24
+73 Name=GetSpecificLogRecord Pascal=20
+74 Name=OpenWZCDbLogSession Pascal=12
+75 Name=ReadEapcfgList Pascal=4
+76 Name=WZCDeleteIntfObj Pascal=4
+77 Name=WZCEapolFreeState Pascal=4
+78 Name=WZCEapolGetCustomAuthData Pascal=28
+79 Name=WZCEapolGetInterfaceParams Pascal=20
+80 Name=WZCEapolQueryState Pascal=12
+81 Name=WZCEapolReAuthenticate Pascal=8
+82 Name=WZCEapolSetCustomAuthData Pascal=28
+83 Name=WZCEapolSetInterfaceParams Pascal=20
+84 Name=WZCEapolUIResponse Pascal=664
+85 Name=WZCEnumInterfaces Pascal=8
+86 Name=WZCGetAPIVersion Pascal=12
+87 Name=WZCGetEapUserInfo Pascal=28
+88 Name=WZCPassword2Key Pascal=8
+89 Name=WZCProviderCreateConnectionProperties
+90 Name=WZCProviderCreateUserProperties
+91 Name=WZCProviderCreateWirelessProfile
+92 Name=WZCProviderDeleteWirelessProfile
+93 Name=WZCQueryContext Pascal=16
+94 Name=WZCQueryInterface Pascal=16
+95 Name=WZCRefreshInterface Pascal=16
+96 Name=WZCSetContext Pascal=16
+97 Name=WZCSetInterface Pascal=16
+;------------------EOF------------------

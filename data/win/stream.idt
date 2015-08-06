@@ -1,0 +1,24 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=STREAM.SYS Args=0 Drops=17
+;---------------------------------------
+1 Name=StreamClassAbortOutstandingRequests Pascal=12
+2 Name=StreamClassCallAtNewPriority Pascal=20
+3 Name=StreamClassCompleteRequestAndMarkQueueReady Pascal=4
+4 Name=StreamClassDebugAssert Pascal=16
+5 Name=StreamClassFilterReenumerateStreams Pascal=8
+6 Name=StreamClassGetDmaBuffer Pascal=4
+7 Name=StreamClassGetNextEvent Pascal=20
+8 Name=StreamClassGetPhysicalAddress Pascal=20
+9 Name=StreamClassLogError Pascal=16
+10 Name=StreamClassPnPAddDeviceWorker Pascal=12
+11 Name=StreamClassQueryMasterClock Pascal=16
+12 Name=StreamClassQueryMasterClockSync Pascal=8
+13 Name=StreamClassReadWriteConfig Pascal=20
+14 Name=StreamClassReenumerateStreams Pascal=8
+15 Name=StreamClassRegisterAdapter Pascal=12
+16 Name=StreamClassRegisterFilterWithNoKSPins Pascal=24
+17 Name=StreamClassScheduleTimer Pascal=20
+;------------------EOF------------------

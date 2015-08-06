@@ -1,0 +1,35 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=narrhook.dll Args=0 Drops=28
+;---------------------------------------
+1 Name=?BackToApplication@@YGXXZ Pascal=0
+2 Name=?GetAnnounceMenu@@YGHXZ Pascal=0
+3 Name=?GetAnnouncePopup@@YGHXZ Pascal=0
+4 Name=?GetAnnounceToolTips@@YGHXZ Pascal=0
+5 Name=?GetAnnounceWindow@@YGHXZ Pascal=0
+6 Name=?GetCurrentText@@YGXPAGH@Z Pascal=8
+7 Name=?GetEchoChars@@YGHXZ Pascal=0
+8 Name=?GetReviewLevel@@YGHXZ Pascal=0
+9 Name=?GetReviewStyle@@YGHXZ Pascal=0
+10 Name=?GetTrackCaret@@YGHXZ Pascal=0
+11 Name=?GetTrackInputFocus@@YGHXZ Pascal=0
+12 Name=?GetTrackSecondary@@YGHXZ Pascal=0
+13 Name=?InitKeys@@YGHPAUHWND__@@@Z Pascal=4
+14 Name=?InitMSAA@@YGHXZ Pascal=0
+15 Name=?SetAnnounceMenu@@YGXH@Z Pascal=4
+16 Name=?SetAnnouncePopup@@YGXH@Z Pascal=4
+17 Name=?SetAnnounceToolTips@@YGXH@Z Pascal=4
+18 Name=?SetAnnounceWindow@@YGXH@Z Pascal=4
+19 Name=?SetCurrentText@@YGXPBG@Z Pascal=4
+20 Name=?SetEchoChars@@YGXH@Z Pascal=4
+21 Name=?SetReviewLevel@@YGXH@Z Pascal=4
+22 Name=?SetReviewStyle@@YGXH@Z Pascal=4
+23 Name=?SetTrackCaret@@YGXH@Z Pascal=4
+24 Name=?SetTrackInputFocus@@YGXH@Z Pascal=4
+25 Name=?SetTrackSecondary@@YGXH@Z Pascal=4
+26 Name=?UnInitMSAA@@YGHXZ Pascal=0
+27 Name=?UninitKeys@@YGHXZ Pascal=0
+28 Name=?lstrcatn@@YGPAGPAG0H@Z Pascal=12
+;------------------EOF------------------

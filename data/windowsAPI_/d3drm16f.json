@@ -1,0 +1,1 @@
+{"config": {"exports": {"D3DRM16F.dll:RLDDICreateRampDriver": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "D3DRM16F.dll:RLDDICreateRampLightingDriver": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}}}}

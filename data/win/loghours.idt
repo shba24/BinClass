@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=loghours.dll Args=0 Drops=10
+;---------------------------------------
+1 Name=LogonScheduleDialog Pascal=12
+2 Name=ConnectionScheduleDialog Pascal=12
+3 Name=DialinHoursDialog Pascal=12
+4 Name=DirSyncScheduleDialog Pascal=12
+5 Name=LogonScheduleDialogEx Pascal=16
+6 Name=DialinHoursDialogEx Pascal=16
+7 Name=ReplicationScheduleDialog Pascal=12
+8 Name=ReplicationScheduleDialogEx Pascal=16
+9 Name=ConnectionScheduleDialogEx Pascal=16
+10 Name=DirSyncScheduleDialogEx Pascal=16
+;------------------EOF------------------

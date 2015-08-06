@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CLNWINTH.dll Pascal=0 \
+	Comment=NWClient DLL Thunk DLL for Microsoft Windows 95
+;---------------------------------------
+1 Name=NWCLIENT_THUNKDATA16
+2 Name=DLLENTRYPOINT
+3 Name=NWCCLIENTINIT16
+4 Name=NWCCLIENTTERM16
+5 Name=NWCVLMREQ16
+6 Name=NWCSHELLREQ16
+7 Name=___EXPORTEDSTUB
+;------------------EOF------------------

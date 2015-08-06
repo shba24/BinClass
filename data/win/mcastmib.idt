@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mcastmib.dll Args=0 Drops=3
+;---------------------------------------
+1 Name=SnmpExtensionInit Pascal=12
+2 Name=SnmpExtensionQuery Pascal=16
+3 Name=SnmpExtensionTrap Pascal=20
+;------------------EOF------------------

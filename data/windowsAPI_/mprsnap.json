@@ -1,0 +1,1 @@
+{"config": {"exports": {"MPRSNAP.dll:MprConfigServerUnattendedInstall": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "2"}, "MPRSNAP.dll:MprConfigServerInstallPrivate": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

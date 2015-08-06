@@ -1,0 +1,31 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EXSEC32.DLL Args=0 Drops=24
+;---------------------------------------
+1 Name=?STUB_DecodeRecipientID@@YGHKPBDPBEKKPAXPAK@Z Pascal=28
+2 Name=?STUB_EncodeRecipientID@@YGHKPBDPBXPAEPAK@Z Pascal=20
+3 Name=_STUB_HrAddSentFilePropertySecPage@12 Pascal=12
+4 Name=_STUB_HrAddUnsentFilePropertySecPage@12 Pascal=12
+5 Name=_STUB_HrCertNameFromMAPISecUserX509@16 Pascal=16
+6 Name=_STUB_HrDisplayEncInfo@8 Pascal=8
+7 Name=_STUB_HrDisplayMAPISecUserX509Cert@12 Pascal=12
+8 Name=_STUB_HrDisplaySigInfo@16 Pascal=16
+9 Name=_STUB_HrEditSecProfiles@28 Pascal=28
+10 Name=_STUB_HrGetDigitalID@20 Pascal=20
+11 Name=_STUB_HrGetSecOptions@4 Pascal=4
+12 Name=_STUB_HrImportCertsFromFile@12 Pascal=12
+13 Name=_STUB_HrIsSessionSecurityEnabled@8 Pascal=8
+14 Name=_STUB_HrMAPISecUserX509FromCert@12 Pascal=12
+15 Name=_STUB_HrMAPISecUserX509FromSigInfo@12 Pascal=12
+16 Name=_STUB_HrOnApplySecSettings@24 Pascal=24
+17 Name=_STUB_HrOnImportExportDigitalID@8 Pascal=8
+18 Name=_STUB_HrOnInitSecSettings@24 Pascal=24
+19 Name=_STUB_HrSetDefaultMAPISecUserX509Cert@12 Pascal=12
+20 Name=_STUB_HrSetSecOptions@4 Pascal=4
+21 Name=_STUB_HrUpdateSecProfileInfo@28 Pascal=28
+22 Name=_STUB_HrVerifyCertEmailAddr@24 Pascal=24
+23 Name=_STUB_HrWrapMessageForSecurity@16 Pascal=16
+24 Name=_STUB_HrWrapMessageForSecurityEx@20 Pascal=20
+;------------------EOF------------------

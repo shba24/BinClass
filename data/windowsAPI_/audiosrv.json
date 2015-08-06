@@ -1,0 +1,1 @@
+{"config": {"exports": {"AUDIOSRV.dll:ServiceMain": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "1"}, "AUDIOSRV.dll:SvchostPushServiceGlobals": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "2"}}}}

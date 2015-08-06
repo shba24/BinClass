@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=shimeng.dll Args=0 Drops=10
+;---------------------------------------
+1 Name=SE_DllLoaded Pascal=4
+2 Name=SE_DllUnloaded Pascal=4
+3 Name=SE_DynamicShim Pascal=20
+4 Name=SE_DynamicUnshim Pascal=4
+5 Name=SE_InstallAfterInit Pascal=8
+6 Name=SE_InstallBeforeInit Pascal=8
+7 Name=SE_IsShimDll Pascal=4
+8 Name=SE_ProcessDying Pascal=0
+9 Name=SE_RemoveNTVDMTask Pascal=4
+10 Name=SE_ShimNTVDM Pascal=16
+;------------------EOF------------------

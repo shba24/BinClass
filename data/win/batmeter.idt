@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=batmeter.dll Args=0 Drops=5
+;---------------------------------------
+1 Name=BatMeterCapabilities Pascal=4
+2 Name=CreateBatMeter Pascal=16
+3 Name=DestroyBatMeter Pascal=4
+4 Name=PowerCapabilities Pascal=0
+5 Name=UpdateBatMeter Pascal=16
+;------------------EOF------------------

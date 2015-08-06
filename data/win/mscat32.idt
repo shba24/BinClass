@@ -1,0 +1,43 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mscat32.dll Pascal=0
+;---------------------------------------
+1 Name=CryptCATVerifyMember
+2 Name=CatalogCompactHashDatabase
+3 Name=CryptCATAdminAcquireContext
+4 Name=CryptCATAdminAddCatalog
+5 Name=CryptCATAdminCalcHashFromFileHandle
+6 Name=CryptCATAdminEnumCatalogFromHash
+7 Name=CryptCATAdminReleaseCatalogContext
+8 Name=CryptCATAdminReleaseContext
+9 Name=CryptCATCDFClose
+10 Name=CryptCATCDFEnumAttributes
+11 Name=CryptCATCDFEnumAttributesWithCDFTag
+12 Name=CryptCATCDFEnumCatAttributes
+13 Name=CryptCATCDFEnumMembers
+14 Name=CryptCATCDFEnumMembersByCDFTag
+15 Name=CryptCATCDFEnumMembersByCDFTagEx
+16 Name=CryptCATCDFOpen
+17 Name=CryptCATCatalogInfoFromContext
+18 Name=CryptCATClose
+19 Name=CryptCATEnumerateAttr
+20 Name=CryptCATEnumerateCatAttr
+21 Name=CryptCATEnumerateMember
+22 Name=CryptCATGetAttrInfo
+23 Name=CryptCATGetCatAttrInfo
+24 Name=CryptCATGetMemberInfo
+25 Name=CryptCATHandleFromStore
+26 Name=CryptCATOpen
+27 Name=CryptCATPersistStore
+28 Name=CryptCATPutAttrInfo
+29 Name=CryptCATPutCatAttrInfo
+30 Name=CryptCATPutMemberInfo
+31 Name=CryptCATStoreFromHandle
+32 Name=DllRegisterServer
+33 Name=DllUnregisterServer
+34 Name=IsCatalogFile
+35 Name=MsCatConstructHashTag
+36 Name=MsCatFreeHashTag
+;------------------EOF------------------

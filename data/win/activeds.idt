@@ -1,0 +1,38 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=activeds.dll Args=0 Drops=31
+;---------------------------------------
+3 Name=ADsGetObject Pascal=12
+4 Name=ADsBuildEnumerator Pascal=8
+5 Name=ADsFreeEnumerator Pascal=4
+6 Name=ADsEnumerateNext Pascal=16
+7 Name=ADsBuildVarArrayStr Pascal=12
+8 Name=ADsBuildVarArrayInt Pascal=12
+9 Name=ADsOpenObject Pascal=24
+10 Name=DllCanUnloadNow Pascal=0
+11 Name=DllGetClassObject Pascal=12
+12 Name=ADsSetLastError Pascal=12
+13 Name=ADsGetLastError Pascal=20
+14 Name=AllocADsMem Pascal=4
+15 Name=FreeADsMem Pascal=4
+16 Name=ReallocADsMem Pascal=12
+17 Name=AllocADsStr Pascal=4
+18 Name=FreeADsStr Pascal=4
+19 Name=ReallocADsStr Pascal=8
+20 Name=ADsEncodeBinaryData Pascal=12
+21 Name=PropVariantToAdsType Pascal=16
+22 Name=AdsTypeToPropVariant Pascal=12
+23 Name=AdsFreeAdsValues Pascal=8
+24 Name=ADsDecodeBinaryData Pascal=12
+25 Name=AdsTypeToPropVariant2 Pascal=28
+26 Name=PropVariantToAdsType2 Pascal=32
+27 Name=ConvertSecDescriptorToVariant Pascal=24
+28 Name=ConvertSecurityDescriptorToSecDes Pascal=28
+29 Name=BinarySDToSecurityDescriptor Pascal=24
+30 Name=SecurityDescriptorToBinarySD Pascal=40
+31 Name=ConvertTrusteeToSid Pascal=28
+32 Name=DllRegisterServer Pascal=0
+33 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

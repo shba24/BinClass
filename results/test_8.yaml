@@ -1,0 +1,316 @@
+- id: 6  # Unique id of class
+  Virtual Tables:
+    - 0x4041f0  # Virtual table Pointers
+  "Constructors ":
+    - 0x4015e0  # all Constructors found
+  "Virtual Functions ":
+    - 0x4019a0
+    - 0x4023b0
+    - 0x4024c0  # all Virtual Functions found
+  "Function Members ":
+    - 0x4018b0  # all class methods found
+  Data Members:
+    []  # all Data Members found
+  Sure Parent Class:
+    - offset: 0
+      Parent Id: 4  # all Sure Parent Classes found
+  MayBe Parent/Embedded Class:
+    []  # all MayBe Parent/Embedded Classes found
+  Embeded Objects:
+    []  # all Embedded Objects found
+  "Instances ": [0x402fd3]  # all instances found
+- id: 4  # Unique id of class
+  Virtual Tables:
+    - 0x4041bc  # Virtual table Pointers
+  "Constructors ":
+    - 0x4015c0  # all Constructors found
+  "Virtual Functions ":
+    - 0x401970
+    - 0x402350
+    - 0x4024b0  # all Virtual Functions found
+  "Function Members ":
+    []  # all class methods found
+  Data Members:
+    []  # all Data Members found
+  Sure Parent Class:
+    - offset: 0
+      Parent Id: 5  # all Sure Parent Classes found
+  MayBe Parent/Embedded Class:
+    []  # all MayBe Parent/Embedded Classes found
+  Embeded Objects:
+    []  # all Embedded Objects found
+  "Instances ": [0x4015ea, 0x40166a, 0x402fb3]  # all instances found
+- id: 8  # Unique id of class
+  Virtual Tables:
+    []  # Virtual table Pointers
+  "Constructors ":
+    - 0x4017a0  # all Constructors found
+  "Virtual Functions ":
+    []  # all Virtual Functions found
+  "Function Members ":
+    []  # all class methods found
+  Data Members:
+    []  # all Data Members found
+  Sure Parent Class:
+    []  # all Sure Parent Classes found
+  MayBe Parent/Embedded Class:
+    - offset: 0
+      object Id: 9  # all MayBe Parent/Embedded Classes found
+  Embeded Objects:
+    []  # all Embedded Objects found
+  "Instances ": [0x4017ca, 0x403083]  # all instances found
+- id: 7  # Unique id of class
+  Virtual Tables:
+    - 0x404230  # Virtual table Pointers
+  "Constructors ":
+    - 0x401660  # all Constructors found
+  "Virtual Functions ":
+    - 0x4019a0
+    - 0x4020a0
+    - 0x402150
+    - 0x4021a0
+    - 0x402410
+    - 0x4024d0  # all Virtual Functions found
+  "Function Members ":
+    []  # all class methods found
+  Data Members:
+    []  # all Data Members found
+  Sure Parent Class:
+    - offset: 0
+      Parent Id: 4  # all Sure Parent Classes found
+  MayBe Parent/Embedded Class:
+    []  # all MayBe Parent/Embedded Classes found
+  Embeded Objects:
+    []  # all Embedded Objects found
+  "Instances ": [0x403003]  # all instances found
+- id: 10  # Unique id of class
+  Virtual Tables:
+    []  # Virtual table Pointers
+  "Constructors ":
+    - 0x4017c0  # all Constructors found
+  "Virtual Functions ":
+    []  # all Virtual Functions found
+  "Function Members ":
+    []  # all class methods found
+  Data Members:
+    []  # all Data Members found
+  Sure Parent Class:
+    []  # all Sure Parent Classes found
+  MayBe Parent/Embedded Class:
+    - offset: 0
+      object Id: 8  # all MayBe Parent/Embedded Classes found
+  Embeded Objects:
+    []  # all Embedded Objects found
+  "Instances ": [0x403093, 0x4030a3]  # all instances found
+- id: 0  # Unique id of class
+  Virtual Tables:
+    []  # Virtual table Pointers
+  "Constructors ":
+    - 0x4016a0  # all Constructors found
+  "Virtual Functions ":
+    []  # all Virtual Functions found
+  "Function Members ":
+    - 0x401e20  # all class methods found
+  Data Members:
+    - offset: 0
+      Size: 4
+    - offset: 4
+      Size: 4
+    - offset: 8
+      Size: 4
+    - offset: 16
+      Size: 4
+    - offset: 20
+      Size: 4
+    - offset: 24
+      Size: 4
+    - offset: 28
+      Size: 4  # all Data Members found
+  Sure Parent Class:
+    []  # all Sure Parent Classes found
+  MayBe Parent/Embedded Class:
+    []  # all MayBe Parent/Embedded Classes found
+  Embeded Objects:
+    []  # all Embedded Objects found
+  "Instances ": [0x40109a, 0x40103e, 0x4020c5, 0x402102]  # all instances found
+- id: 3  # Unique id of class
+  Virtual Tables:
+    []  # Virtual table Pointers
+  "Constructors ":
+    - 0x401570  # all Constructors found
+  "Virtual Functions ":
+    []  # all Virtual Functions found
+  "Function Members ":
+    - 0x4014a0
+    - 0x4014c0
+    - 0x402060
+    - 0x402080
+    - 0x4022d0
+    - 0x4022f0
+    - 0x401e40
+    - 0x401e60
+    - 0x401390
+    - 0x4013d0
+    - 0x401400  # all class methods found
+  Data Members:
+    - offset: 1
+      Size: 4
+    - offset: 9
+      Size: 4  # all Data Members found
+  Sure Parent Class:
+    []  # all Sure Parent Classes found
+  MayBe Parent/Embedded Class:
+    []  # all MayBe Parent/Embedded Classes found
+  Embeded Objects:
+    []  # all Embedded Objects found
+  "Instances ": [0x401589, 0x40155a]  # all instances found
+- id: 1  # Unique id of class
+  Virtual Tables:
+    []  # Virtual table Pointers
+  "Constructors ":
+    - 0x4016d0  # all Constructors found
+  "Virtual Functions ":
+    []  # all Virtual Functions found
+  "Function Members ":
+    - 0x401860
+    - 0x401940
+    - 0x4017e0  # all class methods found
+  Data Members:
+    - offset: 4
+      Size: 1
+    - offset: 8
+      Size: 4
+    - offset: 12
+      Size: 4
+    - offset: 16
+      Size: 4
+    - offset: 20
+      Size: 4
+    - offset: 24
+      Size: 4
+    - offset: 28
+      Size: 4
+    - offset: 32
+      Size: 4
+    - offset: 36
+      Size: 4
+    - offset: 40
+      Size: 4
+    - offset: 44
+      Size: 4
+    - offset: 48
+      Size: 4
+    - offset: 52
+      Size: 4
+    - offset: 56
+      Size: 4
+    - offset: 60
+      Size: 4
+    - offset: 64
+      Size: 4
+    - offset: 68
+      Size: 4
+    - offset: 72
+      Size: 4
+    - offset: 76
+      Size: 4
+    - offset: 80
+      Size: 4
+    - offset: 84
+      Size: 4
+    - offset: 88
+      Size: 4
+    - offset: 94
+      Size: 1
+    - offset: 95
+      Size: 1
+    - offset: 96
+      Size: 4
+    - offset: 100
+      Size: 4
+    - offset: 104
+      Size: 4
+    - offset: 108
+      Size: 1
+    - offset: 108
+      Size: 4
+    - offset: 112
+      Size: 4
+    - offset: 120
+      Size: 4
+    - offset: 124
+      Size: 4  # all Data Members found
+  Sure Parent Class:
+    []  # all Sure Parent Classes found
+  MayBe Parent/Embedded Class:
+    - offset: 0
+      object Id: 2  # all MayBe Parent/Embedded Classes found
+  Embeded Objects:
+    []  # all Embedded Objects found
+  "Instances ": [0x40115f]  # all instances found
+- id: 2  # Unique id of class
+  Virtual Tables:
+    []  # Virtual table Pointers
+  "Constructors ":
+    - 0x401600  # all Constructors found
+  "Virtual Functions ":
+    []  # all Virtual Functions found
+  "Function Members ":
+    []  # all class methods found
+  Data Members:
+    - offset: 0
+      Size: 4
+    - offset: 4
+      Size: 1  # all Data Members found
+  Sure Parent Class:
+    []  # all Sure Parent Classes found
+  MayBe Parent/Embedded Class:
+    []  # all MayBe Parent/Embedded Classes found
+  Embeded Objects:
+    []  # all Embedded Objects found
+  "Instances ": [0x4016f3]  # all instances found
+- id: 5  # Unique id of class
+  Virtual Tables:
+    - 0x4041a0  # Virtual table Pointers
+  "Constructors ":
+    - 0x401680  # all Constructors found
+  "Virtual Functions ":
+    - 0x4019d0
+    - 0x4020f0
+    - 0x402150
+    - 0x4021a0
+    - 0x4025b0  # all Virtual Functions found
+  "Function Members ":
+    - 0x401840  # all class methods found
+  Data Members:
+    - offset: 0
+      Size: 4  # all Data Members found
+  Sure Parent Class:
+    []  # all Sure Parent Classes found
+  MayBe Parent/Embedded Class:
+    []  # all MayBe Parent/Embedded Classes found
+  Embeded Objects:
+    []  # all Embedded Objects found
+  "Instances ": [0x4015ca]  # all instances found
+- id: 9  # Unique id of class
+  Virtual Tables:
+    - 0x4041a0  # Virtual table Pointers
+  "Constructors ":
+    - 0x401840  # all Constructors found
+  "Virtual Functions ":
+    - 0x4019d0
+    - 0x4020f0
+    - 0x402150
+    - 0x4021a0
+    - 0x4025b0  # all Virtual Functions found
+  "Function Members ":
+    []  # all class methods found
+  Data Members:
+    []  # all Data Members found
+  Sure Parent Class:
+    []  # all Sure Parent Classes found
+  MayBe Parent/Embedded Class:
+    []  # all MayBe Parent/Embedded Classes found
+  Embeded Objects:
+    []  # all Embedded Objects found
+  "Instances ": [0x4017aa]  # all instances found

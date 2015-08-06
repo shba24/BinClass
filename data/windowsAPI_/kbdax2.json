@@ -1,0 +1,1 @@
+{"config": {"exports": {"KBDAX2.dll:KbdLayerDescriptor": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "KBDAX2.dll:KbdNlsLayerDescriptor": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}}}}

@@ -1,0 +1,1133 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msvcrt20.dll Args=0 Drops=1018
+;---------------------------------------
+1 Name=??0Iostream_init@@QAE@AAVios@@H@Z Pascal=8
+2 Name=??0Iostream_init@@QAE@XZ Pascal=0
+3 Name=??0filebuf@@QAE@ABV0@@Z Pascal=4
+4 Name=??0filebuf@@QAE@H@Z Pascal=4
+5 Name=??0filebuf@@QAE@HPADH@Z Pascal=12
+6 Name=??0filebuf@@QAE@XZ Pascal=0
+7 Name=??0fstream@@QAE@ABV0@@Z Pascal=8
+8 Name=??0fstream@@QAE@H@Z Pascal=8
+9 Name=??0fstream@@QAE@HPADH@Z Pascal=16
+10 Name=??0fstream@@QAE@PBDHH@Z Pascal=16
+11 Name=??0fstream@@QAE@XZ Pascal=4
+12 Name=??0ifstream@@QAE@ABV0@@Z Pascal=8
+13 Name=??0ifstream@@QAE@H@Z Pascal=8
+14 Name=??0ifstream@@QAE@HPADH@Z Pascal=16
+15 Name=??0ifstream@@QAE@PBDHH@Z Pascal=16
+16 Name=??0ifstream@@QAE@XZ Pascal=4
+17 Name=??0ios@@IAE@ABV0@@Z Pascal=4
+18 Name=??0ios@@IAE@XZ Pascal=0
+19 Name=??0ios@@QAE@PAVstreambuf@@@Z Pascal=4
+20 Name=??0iostream@@IAE@ABV0@@Z Pascal=8
+21 Name=??0iostream@@IAE@XZ Pascal=4
+22 Name=??0iostream@@QAE@PAVstreambuf@@@Z Pascal=8
+23 Name=??0istream@@IAE@ABV0@@Z Pascal=8
+24 Name=??0istream@@IAE@XZ Pascal=4
+25 Name=??0istream@@QAE@PAVstreambuf@@@Z Pascal=8
+26 Name=??0istream_withassign@@QAE@ABV0@@Z Pascal=8
+27 Name=??0istream_withassign@@QAE@PAVstreambuf@@@Z Pascal=8
+28 Name=??0istream_withassign@@QAE@XZ Pascal=4
+29 Name=??0istrstream@@QAE@ABV0@@Z Pascal=8
+30 Name=??0istrstream@@QAE@PAD@Z Pascal=8
+31 Name=??0istrstream@@QAE@PADH@Z Pascal=12
+32 Name=??0ofstream@@QAE@ABV0@@Z Pascal=8
+33 Name=??0ofstream@@QAE@H@Z Pascal=8
+34 Name=??0ofstream@@QAE@HPADH@Z Pascal=16
+35 Name=??0ofstream@@QAE@PBDHH@Z Pascal=16
+36 Name=??0ofstream@@QAE@XZ Pascal=4
+37 Name=??0ostream@@IAE@ABV0@@Z Pascal=8
+38 Name=??0ostream@@IAE@XZ Pascal=4
+39 Name=??0ostream@@QAE@PAVstreambuf@@@Z Pascal=8
+40 Name=??0ostream_withassign@@QAE@ABV0@@Z Pascal=8
+41 Name=??0ostream_withassign@@QAE@PAVstreambuf@@@Z Pascal=8
+42 Name=??0ostream_withassign@@QAE@XZ Pascal=4
+43 Name=??0ostrstream@@QAE@ABV0@@Z Pascal=8
+44 Name=??0ostrstream@@QAE@PADHH@Z Pascal=16
+45 Name=??0ostrstream@@QAE@XZ Pascal=4
+46 Name=??0stdiobuf@@QAE@ABV0@@Z Pascal=4
+47 Name=??0stdiobuf@@QAE@PAU_iobuf@@@Z Pascal=4
+48 Name=??0stdiostream@@QAE@ABV0@@Z Pascal=8
+49 Name=??0stdiostream@@QAE@PAU_iobuf@@@Z Pascal=8
+50 Name=??0streambuf@@IAE@PADH@Z Pascal=8
+51 Name=??0streambuf@@IAE@XZ Pascal=0
+52 Name=??0streambuf@@QAE@ABV0@@Z Pascal=4
+53 Name=??0strstream@@QAE@ABV0@@Z Pascal=8
+54 Name=??0strstream@@QAE@PADHH@Z Pascal=16
+55 Name=??0strstream@@QAE@XZ Pascal=4
+56 Name=??0strstreambuf@@QAE@ABV0@@Z Pascal=4
+57 Name=??0strstreambuf@@QAE@H@Z Pascal=4
+58 Name=??0strstreambuf@@QAE@P6APAXJ@ZP6AXPAX@Z@Z Pascal=8
+59 Name=??0strstreambuf@@QAE@PADH0@Z Pascal=12
+60 Name=??0strstreambuf@@QAE@XZ Pascal=0
+61 Name=??1Iostream_init@@QAE@XZ Pascal=0
+62 Name=??1filebuf@@UAE@XZ Pascal=0
+63 Name=??1fstream@@UAE@XZ
+64 Name=??1ifstream@@UAE@XZ Pascal=0
+65 Name=??1ios@@UAE@XZ Pascal=0
+66 Name=??1iostream@@UAE@XZ Pascal=0
+67 Name=??1istream@@UAE@XZ Pascal=0
+68 Name=??1istream_withassign@@UAE@XZ
+69 Name=??1istrstream@@UAE@XZ Pascal=0
+70 Name=??1ofstream@@UAE@XZ Pascal=0
+71 Name=??1ostream@@UAE@XZ Pascal=0
+72 Name=??1ostream_withassign@@UAE@XZ
+73 Name=??1ostrstream@@UAE@XZ Pascal=0
+74 Name=??1stdiobuf@@UAE@XZ Pascal=0
+75 Name=??1stdiostream@@UAE@XZ Pascal=0
+76 Name=??1streambuf@@UAE@XZ Pascal=0
+77 Name=??1strstream@@UAE@XZ Pascal=0
+78 Name=??1strstreambuf@@UAE@XZ Pascal=0
+79 Name=??2@YAPAXI@Z Pascal=0
+80 Name=??3@YAXPAX@Z Pascal=0
+81 Name=??4Iostream_init@@QAEAAV0@ABV0@@Z Pascal=4
+82 Name=??4filebuf@@QAEAAV0@ABV0@@Z Pascal=4
+83 Name=??4fstream@@QAEAAV0@AAV0@@Z Pascal=4
+84 Name=??4ifstream@@QAEAAV0@ABV0@@Z Pascal=4
+85 Name=??4ios@@IAEAAV0@ABV0@@Z Pascal=4
+86 Name=??4iostream@@IAEAAV0@AAV0@@Z Pascal=4
+87 Name=??4iostream@@IAEAAV0@PAVstreambuf@@@Z Pascal=4
+88 Name=??4istream@@IAEAAV0@ABV0@@Z Pascal=4
+89 Name=??4istream@@IAEAAV0@PAVstreambuf@@@Z Pascal=4
+90 Name=??4istream_withassign@@QAEAAV0@ABV0@@Z Pascal=4
+91 Name=??4istream_withassign@@QAEAAVistream@@ABV1@@Z Pascal=4
+92 Name=??4istream_withassign@@QAEAAVistream@@PAVstreambuf@@@Z Pascal=4
+93 Name=??4istrstream@@QAEAAV0@ABV0@@Z Pascal=4
+94 Name=??4ofstream@@QAEAAV0@ABV0@@Z Pascal=4
+95 Name=??4ostream@@IAEAAV0@ABV0@@Z Pascal=4
+96 Name=??4ostream@@IAEAAV0@PAVstreambuf@@@Z Pascal=4
+97 Name=??4ostream_withassign@@QAEAAV0@ABV0@@Z Pascal=4
+98 Name=??4ostream_withassign@@QAEAAVostream@@ABV1@@Z Pascal=4
+99 Name=??4ostream_withassign@@QAEAAVostream@@PAVstreambuf@@@Z Pascal=4
+100 Name=??4ostrstream@@QAEAAV0@ABV0@@Z Pascal=4
+101 Name=??4stdiobuf@@QAEAAV0@ABV0@@Z Pascal=4
+102 Name=??4stdiostream@@QAEAAV0@AAV0@@Z Pascal=4
+103 Name=??4streambuf@@QAEAAV0@ABV0@@Z Pascal=4
+104 Name=??4strstream@@QAEAAV0@AAV0@@Z Pascal=4
+105 Name=??4strstreambuf@@QAEAAV0@ABV0@@Z Pascal=4
+106 Name=??5istream@@QAEAAV0@AAC@Z Pascal=4
+107 Name=??5istream@@QAEAAV0@AAD@Z Pascal=4
+108 Name=??5istream@@QAEAAV0@AAE@Z Pascal=4
+109 Name=??5istream@@QAEAAV0@AAF@Z Pascal=4
+110 Name=??5istream@@QAEAAV0@AAG@Z Pascal=4
+111 Name=??5istream@@QAEAAV0@AAH@Z Pascal=4
+112 Name=??5istream@@QAEAAV0@AAI@Z Pascal=4
+113 Name=??5istream@@QAEAAV0@AAJ@Z Pascal=4
+114 Name=??5istream@@QAEAAV0@AAK@Z Pascal=4
+115 Name=??5istream@@QAEAAV0@AAM@Z Pascal=4
+116 Name=??5istream@@QAEAAV0@AAN@Z Pascal=4
+117 Name=??5istream@@QAEAAV0@AAO@Z Pascal=4
+118 Name=??5istream@@QAEAAV0@P6AAAV0@AAV0@@Z@Z Pascal=4
+119 Name=??5istream@@QAEAAV0@P6AAAVios@@AAV1@@Z@Z Pascal=4
+120 Name=??5istream@@QAEAAV0@PAC@Z Pascal=4
+121 Name=??5istream@@QAEAAV0@PAD@Z Pascal=4
+122 Name=??5istream@@QAEAAV0@PAE@Z Pascal=4
+123 Name=??5istream@@QAEAAV0@PAVstreambuf@@@Z Pascal=4
+124 Name=??6ostream@@QAEAAV0@C@Z Pascal=4
+125 Name=??6ostream@@QAEAAV0@D@Z Pascal=4
+126 Name=??6ostream@@QAEAAV0@E@Z Pascal=4
+127 Name=??6ostream@@QAEAAV0@F@Z Pascal=4
+128 Name=??6ostream@@QAEAAV0@G@Z Pascal=4
+129 Name=??6ostream@@QAEAAV0@H@Z Pascal=4
+130 Name=??6ostream@@QAEAAV0@I@Z Pascal=4
+131 Name=??6ostream@@QAEAAV0@J@Z Pascal=4
+132 Name=??6ostream@@QAEAAV0@K@Z Pascal=4
+133 Name=??6ostream@@QAEAAV0@M@Z Pascal=4
+134 Name=??6ostream@@QAEAAV0@N@Z Pascal=8
+135 Name=??6ostream@@QAEAAV0@O@Z Pascal=8
+136 Name=??6ostream@@QAEAAV0@P6AAAV0@AAV0@@Z@Z Pascal=4
+137 Name=??6ostream@@QAEAAV0@P6AAAVios@@AAV1@@Z@Z Pascal=4
+138 Name=??6ostream@@QAEAAV0@PAVstreambuf@@@Z Pascal=4
+139 Name=??6ostream@@QAEAAV0@PBC@Z Pascal=4
+140 Name=??6ostream@@QAEAAV0@PBD@Z Pascal=4
+141 Name=??6ostream@@QAEAAV0@PBE@Z Pascal=4
+142 Name=??6ostream@@QAEAAV0@PBX@Z Pascal=4
+143 Name=??7ios@@QBEHXZ Pascal=0
+144 Name=??Bios@@QBEPAXXZ Pascal=0
+145 Name=??_7filebuf@@6B@
+146 Name=??_7fstream@@6B@
+147 Name=??_7ifstream@@6B@
+148 Name=??_7ios@@6B@
+149 Name=??_7iostream@@6B@
+150 Name=??_7istream@@6B@
+151 Name=??_7istream_withassign@@6B@
+152 Name=??_7istrstream@@6B@
+153 Name=??_7ofstream@@6B@
+154 Name=??_7ostream@@6B@
+155 Name=??_7ostream_withassign@@6B@
+156 Name=??_7ostrstream@@6B@
+157 Name=??_7stdiobuf@@6B@
+158 Name=??_7stdiostream@@6B@
+159 Name=??_7streambuf@@6B@
+160 Name=??_7strstream@@6B@
+161 Name=??_7strstreambuf@@6B@
+162 Name=??_8fstream@@7Bistream@@@
+163 Name=??_8fstream@@7Bostream@@@
+164 Name=??_8ifstream@@7B@
+165 Name=??_8iostream@@7Bistream@@@
+166 Name=??_8iostream@@7Bostream@@@
+167 Name=??_8istream@@7B@
+168 Name=??_8istream_withassign@@7B@
+169 Name=??_8istrstream@@7B@
+170 Name=??_8ofstream@@7B@
+171 Name=??_8ostream@@7B@
+172 Name=??_8ostream_withassign@@7B@
+173 Name=??_8ostrstream@@7B@
+174 Name=??_8stdiostream@@7Bistream@@@
+175 Name=??_8stdiostream@@7Bostream@@@
+176 Name=??_8strstream@@7Bistream@@@
+177 Name=??_8strstream@@7Bostream@@@
+178 Name=??_Dfstream@@QAEXXZ Pascal=0
+179 Name=??_Difstream@@QAEXXZ Pascal=0
+180 Name=??_Diostream@@QAEXXZ Pascal=0
+181 Name=??_Distream@@QAEXXZ Pascal=0
+182 Name=??_Distream_withassign@@QAEXXZ Pascal=0
+183 Name=??_Distrstream@@QAEXXZ Pascal=0
+184 Name=??_Dofstream@@QAEXXZ Pascal=0
+185 Name=??_Dostream@@QAEXXZ Pascal=0
+186 Name=??_Dostream_withassign@@QAEXXZ Pascal=0
+187 Name=??_Dostrstream@@QAEXXZ Pascal=0
+188 Name=??_Dstdiostream@@QAEXXZ Pascal=0
+189 Name=??_Dstrstream@@QAEXXZ Pascal=0
+190 Name=??_EIostream_init@@QAEPAXI@Z Pascal=4
+191 Name=??_Efilebuf@@UAEPAXI@Z Pascal=4
+192 Name=??_Efstream@@UAEPAXI@Z Pascal=4
+193 Name=??_Eifstream@@UAEPAXI@Z Pascal=4
+194 Name=??_Eios@@UAEPAXI@Z Pascal=4
+195 Name=??_Eiostream@@UAEPAXI@Z Pascal=4
+196 Name=??_Eistream@@UAEPAXI@Z Pascal=4
+197 Name=??_Eistream_withassign@@UAEPAXI@Z Pascal=4
+198 Name=??_Eistrstream@@UAEPAXI@Z Pascal=4
+199 Name=??_Eofstream@@UAEPAXI@Z Pascal=4
+200 Name=??_Eostream@@UAEPAXI@Z Pascal=4
+201 Name=??_Eostream_withassign@@UAEPAXI@Z Pascal=4
+202 Name=??_Eostrstream@@UAEPAXI@Z Pascal=4
+203 Name=??_Estdiobuf@@UAEPAXI@Z Pascal=4
+204 Name=??_Estdiostream@@UAEPAXI@Z Pascal=4
+205 Name=??_Estreambuf@@UAEPAXI@Z Pascal=4
+206 Name=??_Estrstream@@UAEPAXI@Z Pascal=4
+207 Name=??_Estrstreambuf@@UAEPAXI@Z Pascal=4
+208 Name=??_GIostream_init@@QAEPAXI@Z Pascal=4
+209 Name=??_Gfilebuf@@UAEPAXI@Z Pascal=4
+210 Name=??_Gfstream@@UAEPAXI@Z Pascal=4
+211 Name=??_Gifstream@@UAEPAXI@Z Pascal=4
+212 Name=??_Gios@@UAEPAXI@Z Pascal=4
+213 Name=??_Giostream@@UAEPAXI@Z Pascal=4
+214 Name=??_Gistream@@UAEPAXI@Z Pascal=4
+215 Name=??_Gistream_withassign@@UAEPAXI@Z Pascal=4
+216 Name=??_Gistrstream@@UAEPAXI@Z Pascal=4
+217 Name=??_Gofstream@@UAEPAXI@Z Pascal=4
+218 Name=??_Gostream@@UAEPAXI@Z Pascal=4
+219 Name=??_Gostream_withassign@@UAEPAXI@Z Pascal=4
+220 Name=??_Gostrstream@@UAEPAXI@Z Pascal=4
+221 Name=??_Gstdiobuf@@UAEPAXI@Z Pascal=4
+222 Name=??_Gstdiostream@@UAEPAXI@Z Pascal=4
+223 Name=??_Gstreambuf@@UAEPAXI@Z Pascal=4
+224 Name=??_Gstrstream@@UAEPAXI@Z Pascal=4
+225 Name=??_Gstrstreambuf@@UAEPAXI@Z Pascal=4
+226 Name=?_query_new_handler@@YAP6AHI@ZXZ Pascal=0
+227 Name=?_query_new_mode@@YAHXZ Pascal=0
+228 Name=?_set_new_handler@@YAP6AHI@ZP6AHI@Z@Z Pascal=0
+229 Name=?_set_new_mode@@YAHH@Z Pascal=0
+230 Name=?_set_se_translator@@YAP6AXIPAU_EXCEPTION_POINTERS@@@ZP6AXI0@Z@Z Pascal=0
+231 Name=?adjustfield@ios@@2JB
+232 Name=?allocate@streambuf@@IAEHXZ Pascal=0
+233 Name=?attach@filebuf@@QAEPAV1@H@Z Pascal=4
+234 Name=?attach@fstream@@QAEXH@Z Pascal=4
+235 Name=?attach@ifstream@@QAEXH@Z Pascal=4
+236 Name=?attach@ofstream@@QAEXH@Z Pascal=4
+237 Name=?bad@ios@@QBEHXZ Pascal=0
+238 Name=?base@streambuf@@IBEPADXZ Pascal=0
+239 Name=?basefield@ios@@2JB
+240 Name=?binary@filebuf@@2HB
+241 Name=?bitalloc@ios@@SAJXZ Pascal=0
+242 Name=?blen@streambuf@@IBEHXZ Pascal=0
+243 Name=?cerr@@3Vostream_withassign@@A
+244 Name=?cin@@3Vistream_withassign@@A
+245 Name=?clear@ios@@QAEXH@Z Pascal=4
+246 Name=?clog@@3Vostream_withassign@@A
+247 Name=?close@filebuf@@QAEPAV1@XZ Pascal=0
+248 Name=?close@fstream@@QAEXXZ Pascal=0
+249 Name=?close@ifstream@@QAEXXZ Pascal=0
+250 Name=?close@ofstream@@QAEXXZ Pascal=0
+251 Name=?clrlock@ios@@QAAXXZ Pascal=0
+252 Name=?clrlock@streambuf@@QAEXXZ Pascal=0
+253 Name=?cout@@3Vostream_withassign@@A
+254 Name=?dbp@streambuf@@QAEXXZ Pascal=0
+255 Name=?dec@@YAAAVios@@AAV1@@Z Pascal=0
+256 Name=?delbuf@ios@@QAEXH@Z Pascal=4
+257 Name=?delbuf@ios@@QBEHXZ Pascal=0
+258 Name=?doallocate@streambuf@@MAEHXZ Pascal=0
+259 Name=?doallocate@strstreambuf@@MAEHXZ Pascal=0
+260 Name=?eatwhite@istream@@QAEXXZ Pascal=0
+261 Name=?eback@streambuf@@IBEPADXZ Pascal=0
+262 Name=?ebuf@streambuf@@IBEPADXZ Pascal=0
+263 Name=?egptr@streambuf@@IBEPADXZ Pascal=0
+264 Name=?endl@@YAAAVostream@@AAV1@@Z Pascal=0
+265 Name=?ends@@YAAAVostream@@AAV1@@Z Pascal=0
+266 Name=?eof@ios@@QBEHXZ Pascal=0
+267 Name=?epptr@streambuf@@IBEPADXZ Pascal=0
+268 Name=?fLockcInit@ios@@0HA
+269 Name=?fail@ios@@QBEHXZ Pascal=0
+270 Name=?fd@filebuf@@QBEHXZ Pascal=0
+271 Name=?fd@fstream@@QBEHXZ Pascal=0
+272 Name=?fd@ifstream@@QBEHXZ Pascal=0
+273 Name=?fd@ofstream@@QBEHXZ Pascal=0
+274 Name=?fill@ios@@QAEDD@Z Pascal=4
+275 Name=?fill@ios@@QBEDXZ Pascal=0
+276 Name=?flags@ios@@QAEJJ@Z Pascal=4
+277 Name=?flags@ios@@QBEJXZ Pascal=0
+278 Name=?floatfield@ios@@2JB
+279 Name=?flush@@YAAAVostream@@AAV1@@Z
+280 Name=?flush@ostream@@QAEAAV1@XZ Pascal=0
+281 Name=?freeze@strstreambuf@@QAEXH@Z Pascal=4
+282 Name=?gbump@streambuf@@IAEXH@Z Pascal=4
+283 Name=?gcount@istream@@QBEHXZ Pascal=0
+284 Name=?get@istream@@QAEAAV1@AAC@Z Pascal=4
+285 Name=?get@istream@@QAEAAV1@AAD@Z Pascal=4
+286 Name=?get@istream@@QAEAAV1@AAE@Z Pascal=4
+287 Name=?get@istream@@QAEAAV1@AAVstreambuf@@D@Z Pascal=8
+288 Name=?get@istream@@QAEAAV1@PACHD@Z Pascal=12
+289 Name=?get@istream@@QAEAAV1@PADHD@Z Pascal=12
+290 Name=?get@istream@@QAEAAV1@PAEHD@Z Pascal=12
+291 Name=?get@istream@@QAEHXZ Pascal=0
+292 Name=?getdouble@istream@@AAEHPADH@Z Pascal=8
+293 Name=?getint@istream@@AAEHPAD@Z Pascal=4
+294 Name=?getline@istream@@QAEAAV1@PACHD@Z Pascal=12
+295 Name=?getline@istream@@QAEAAV1@PADHD@Z Pascal=12
+296 Name=?getline@istream@@QAEAAV1@PAEHD@Z Pascal=12
+297 Name=?good@ios@@QBEHXZ Pascal=0
+298 Name=?gptr@streambuf@@IBEPADXZ Pascal=0
+299 Name=?hex@@YAAAVios@@AAV1@@Z Pascal=0
+300 Name=?ignore@istream@@QAEAAV1@HH@Z Pascal=8
+301 Name=?in_avail@streambuf@@QBEHXZ Pascal=0
+302 Name=?init@ios@@IAEXPAVstreambuf@@@Z Pascal=4
+303 Name=?ipfx@istream@@QAEHH@Z Pascal=4
+304 Name=?is_open@filebuf@@QBEHXZ Pascal=0
+305 Name=?is_open@fstream@@QBEHXZ Pascal=0
+306 Name=?is_open@ifstream@@QBEHXZ Pascal=0
+307 Name=?is_open@ofstream@@QBEHXZ Pascal=0
+308 Name=?isfx@istream@@QAEXXZ Pascal=0
+309 Name=?iword@ios@@QBEAAJH@Z Pascal=4
+310 Name=?lock@ios@@QAAXXZ Pascal=0
+311 Name=?lock@streambuf@@QAEXXZ Pascal=0
+312 Name=?lockbuf@ios@@QAAXXZ Pascal=0
+313 Name=?lockc@ios@@KAXXZ Pascal=0
+314 Name=?lockptr@ios@@IAEPAU_RTL_CRITICAL_SECTION@@XZ Pascal=0
+315 Name=?lockptr@streambuf@@IAEPAU_RTL_CRITICAL_SECTION@@XZ Pascal=0
+316 Name=?oct@@YAAAVios@@AAV1@@Z Pascal=0
+317 Name=?open@filebuf@@QAEPAV1@PBDHH@Z Pascal=12
+318 Name=?open@fstream@@QAEXPBDHH@Z Pascal=12
+319 Name=?open@ifstream@@QAEXPBDHH@Z Pascal=12
+320 Name=?open@ofstream@@QAEXPBDHH@Z Pascal=12
+321 Name=?openprot@filebuf@@2HB
+322 Name=?opfx@ostream@@QAEHXZ Pascal=0
+323 Name=?osfx@ostream@@QAEXXZ Pascal=0
+324 Name=?out_waiting@streambuf@@QBEHXZ Pascal=0
+325 Name=?overflow@filebuf@@UAEHH@Z Pascal=4
+326 Name=?overflow@stdiobuf@@UAEHH@Z Pascal=4
+327 Name=?overflow@strstreambuf@@UAEHH@Z Pascal=4
+328 Name=?pbackfail@stdiobuf@@UAEHH@Z Pascal=4
+329 Name=?pbackfail@streambuf@@UAEHH@Z Pascal=4
+330 Name=?pbase@streambuf@@IBEPADXZ Pascal=0
+331 Name=?pbump@streambuf@@IAEXH@Z Pascal=4
+332 Name=?pcount@ostrstream@@QBEHXZ Pascal=0
+333 Name=?pcount@strstream@@QBEHXZ Pascal=0
+334 Name=?peek@istream@@QAEHXZ Pascal=0
+335 Name=?pptr@streambuf@@IBEPADXZ Pascal=0
+336 Name=?precision@ios@@QAEHH@Z Pascal=4
+337 Name=?precision@ios@@QBEHXZ Pascal=0
+338 Name=?put@ostream@@QAEAAV1@C@Z Pascal=4
+339 Name=?put@ostream@@QAEAAV1@D@Z Pascal=4
+340 Name=?put@ostream@@QAEAAV1@E@Z Pascal=4
+341 Name=?putback@istream@@QAEAAV1@D@Z Pascal=4
+342 Name=?pword@ios@@QBEAAPAXH@Z Pascal=4
+343 Name=?rdbuf@fstream@@QBEPAVfilebuf@@XZ Pascal=0
+344 Name=?rdbuf@ifstream@@QBEPAVfilebuf@@XZ Pascal=0
+345 Name=?rdbuf@ios@@QBEPAVstreambuf@@XZ Pascal=0
+346 Name=?rdbuf@istrstream@@QBEPAVstrstreambuf@@XZ Pascal=0
+347 Name=?rdbuf@ofstream@@QBEPAVfilebuf@@XZ Pascal=0
+348 Name=?rdbuf@ostrstream@@QBEPAVstrstreambuf@@XZ Pascal=0
+349 Name=?rdbuf@stdiostream@@QBEPAVstdiobuf@@XZ Pascal=0
+350 Name=?rdbuf@strstream@@QBEPAVstrstreambuf@@XZ Pascal=0
+351 Name=?rdstate@ios@@QBEHXZ Pascal=0
+352 Name=?read@istream@@QAEAAV1@PACH@Z Pascal=8
+353 Name=?read@istream@@QAEAAV1@PADH@Z Pascal=8
+354 Name=?read@istream@@QAEAAV1@PAEH@Z Pascal=8
+355 Name=?sbumpc@streambuf@@QAEHXZ Pascal=0
+356 Name=?seekg@istream@@QAEAAV1@J@Z Pascal=4
+357 Name=?seekg@istream@@QAEAAV1@JW4seek_dir@ios@@@Z Pascal=8
+358 Name=?seekoff@filebuf@@UAEJJW4seek_dir@ios@@H@Z Pascal=12
+359 Name=?seekoff@stdiobuf@@UAEJJW4seek_dir@ios@@H@Z Pascal=12
+360 Name=?seekoff@streambuf@@UAEJJW4seek_dir@ios@@H@Z Pascal=12
+361 Name=?seekoff@strstreambuf@@UAEJJW4seek_dir@ios@@H@Z Pascal=12
+362 Name=?seekp@ostream@@QAEAAV1@J@Z Pascal=4
+363 Name=?seekp@ostream@@QAEAAV1@JW4seek_dir@ios@@@Z Pascal=8
+364 Name=?seekpos@streambuf@@UAEJJH@Z Pascal=8
+365 Name=?set_terminate@@YAP6AXXZP6AXXZ@Z Pascal=0
+366 Name=?set_unexpected@@YAP6AXXZP6AXXZ@Z Pascal=0
+367 Name=?setb@streambuf@@IAEXPAD0H@Z Pascal=12
+368 Name=?setbuf@filebuf@@UAEPAVstreambuf@@PADH@Z Pascal=8
+369 Name=?setbuf@fstream@@QAEPAVstreambuf@@PADH@Z Pascal=8
+370 Name=?setbuf@ifstream@@QAEPAVstreambuf@@PADH@Z Pascal=8
+371 Name=?setbuf@ofstream@@QAEPAVstreambuf@@PADH@Z Pascal=8
+372 Name=?setbuf@streambuf@@UAEPAV1@PADH@Z Pascal=8
+373 Name=?setbuf@strstreambuf@@UAEPAVstreambuf@@PADH@Z Pascal=8
+374 Name=?setf@ios@@QAEJJ@Z Pascal=4
+375 Name=?setf@ios@@QAEJJJ@Z Pascal=8
+376 Name=?setg@streambuf@@IAEXPAD00@Z Pascal=12
+377 Name=?setlock@ios@@QAAXXZ Pascal=0
+378 Name=?setlock@streambuf@@QAEXXZ Pascal=0
+379 Name=?setmode@filebuf@@QAEHH@Z Pascal=4
+380 Name=?setmode@fstream@@QAEHH@Z Pascal=4
+381 Name=?setmode@ifstream@@QAEHH@Z Pascal=4
+382 Name=?setmode@ofstream@@QAEHH@Z Pascal=4
+383 Name=?setp@streambuf@@IAEXPAD0@Z Pascal=8
+384 Name=?setrwbuf@stdiobuf@@QAEHHH@Z Pascal=8
+385 Name=?sgetc@streambuf@@QAEHXZ Pascal=0
+386 Name=?sgetn@streambuf@@QAEHPADH@Z Pascal=8
+387 Name=?sh_none@filebuf@@2HB
+388 Name=?sh_read@filebuf@@2HB
+389 Name=?sh_write@filebuf@@2HB
+390 Name=?snextc@streambuf@@QAEHXZ Pascal=0
+391 Name=?sputbackc@streambuf@@QAEHD@Z Pascal=4
+392 Name=?sputc@streambuf@@QAEHH@Z Pascal=4
+393 Name=?sputn@streambuf@@QAEHPBDH@Z Pascal=8
+394 Name=?stdiofile@stdiobuf@@QAEPAU_iobuf@@XZ Pascal=0
+395 Name=?stossc@streambuf@@QAEXXZ Pascal=0
+396 Name=?str@istrstream@@QAEPADXZ
+397 Name=?str@ostrstream@@QAEPADXZ Pascal=0
+398 Name=?str@strstream@@QAEPADXZ Pascal=0
+399 Name=?str@strstreambuf@@QAEPADXZ Pascal=0
+400 Name=?sunk_with_stdio@ios@@0HA
+401 Name=?sync@filebuf@@UAEHXZ Pascal=0
+402 Name=?sync@istream@@QAEHXZ Pascal=0
+403 Name=?sync@stdiobuf@@UAEHXZ Pascal=0
+404 Name=?sync@streambuf@@UAEHXZ Pascal=0
+405 Name=?sync@strstreambuf@@UAEHXZ Pascal=0
+406 Name=?sync_with_stdio@ios@@SAXXZ Pascal=0
+407 Name=?tellg@istream@@QAEJXZ Pascal=0
+408 Name=?tellp@ostream@@QAEJXZ Pascal=0
+409 Name=?terminate@@YAXXZ
+410 Name=?text@filebuf@@2HB
+411 Name=?tie@ios@@QAEPAVostream@@PAV2@@Z Pascal=4
+412 Name=?tie@ios@@QBEPAVostream@@XZ Pascal=0
+413 Name=?unbuffered@streambuf@@IAEXH@Z Pascal=4
+414 Name=?unbuffered@streambuf@@IBEHXZ Pascal=0
+415 Name=?underflow@filebuf@@UAEHXZ Pascal=0
+416 Name=?underflow@stdiobuf@@UAEHXZ Pascal=0
+417 Name=?underflow@strstreambuf@@UAEHXZ Pascal=0
+418 Name=?unexpected@@YAXXZ
+419 Name=?unlock@ios@@QAAXXZ Pascal=0
+420 Name=?unlock@streambuf@@QAEXXZ Pascal=0
+421 Name=?unlockbuf@ios@@QAAXXZ Pascal=0
+422 Name=?unlockc@ios@@KAXXZ Pascal=0
+423 Name=?unsetf@ios@@QAEJJ@Z Pascal=4
+424 Name=?width@ios@@QAEHH@Z Pascal=4
+425 Name=?width@ios@@QBEHXZ Pascal=0
+426 Name=?write@ostream@@QAEAAV1@PBCH@Z Pascal=8
+427 Name=?write@ostream@@QAEAAV1@PBDH@Z Pascal=8
+428 Name=?write@ostream@@QAEAAV1@PBEH@Z Pascal=8
+429 Name=?writepad@ostream@@AAEAAV1@PBD0@Z Pascal=8
+430 Name=?ws@@YAAAVistream@@AAV1@@Z Pascal=0
+431 Name=?x_curindex@ios@@0HA
+432 Name=?x_lockc@ios@@0U_RTL_CRITICAL_SECTION@@A
+433 Name=?x_maxbit@ios@@0JA
+434 Name=?x_statebuf@ios@@0QAJA
+435 Name=?xalloc@ios@@SAHXZ Pascal=0
+436 Name=?xsgetn@streambuf@@UAEHPADH@Z Pascal=8
+437 Name=?xsputn@streambuf@@UAEHPBDH@Z Pascal=8
+438 Name=$I10_OUTPUT Pascal=0
+439 Name=_CIacos Pascal=0
+440 Name=_CIasin Pascal=0
+441 Name=_CIatan Pascal=0
+442 Name=_CIatan2 Pascal=0
+443 Name=_CIcos Pascal=0
+444 Name=_CIcosh Pascal=0
+445 Name=_CIexp Pascal=0
+446 Name=_CIfmod Pascal=0
+447 Name=_CIlog Pascal=0
+448 Name=_CIlog10 Pascal=0
+449 Name=_CIpow Pascal=0
+450 Name=_CIsin Pascal=0
+451 Name=_CIsinh Pascal=0
+452 Name=_CIsqrt Pascal=0
+453 Name=_CItan Pascal=0
+454 Name=_CItanh Pascal=0
+455 Name=_CxxThrowException Pascal=8
+456 Name=_HUGE
+457 Name=_XcptFilter Pascal=0
+458 Name=__CxxFrameHandler Pascal=0
+459 Name=__CxxLongjmpUnwind Pascal=4
+460 Name=__STRINGTOLD Pascal=0
+461 Name=__argc
+462 Name=__argv
+463 Name=__dllonexit Pascal=0
+464 Name=__doserrno
+465 Name=__fpecode
+466 Name=__getmainargs Pascal=0
+467 Name=__initenv
+468 Name=__isascii Pascal=0
+469 Name=__iscsym Pascal=0
+470 Name=__iscsymf Pascal=0
+471 Name=__lconv_init Pascal=0
+472 Name=__mb_cur_max
+473 Name=__p___argc Pascal=0
+474 Name=__p___argv Pascal=0
+475 Name=__p___initenv Pascal=0
+476 Name=__p___mb_cur_max Pascal=0
+477 Name=__p___wargv Pascal=0
+478 Name=__p___winitenv Pascal=0
+479 Name=__p__acmdln Pascal=0
+480 Name=__p__amblksiz Pascal=0
+481 Name=__p__commode Pascal=0
+482 Name=__p__daylight Pascal=0
+483 Name=__p__environ Pascal=0
+484 Name=__p__fmode Pascal=0
+485 Name=__p__iob Pascal=0
+486 Name=__p__mbctype Pascal=0
+487 Name=__p__osver Pascal=0
+488 Name=__p__pctype Pascal=0
+489 Name=__p__pgmptr Pascal=0
+490 Name=__p__pwctype Pascal=0
+491 Name=__p__timezone Pascal=0
+492 Name=__p__tzname Pascal=0
+493 Name=__p__wcmdln Pascal=0
+494 Name=__p__wenviron Pascal=0
+495 Name=__p__winmajor Pascal=0
+496 Name=__p__winminor Pascal=0
+497 Name=__p__winver Pascal=0
+498 Name=__p__wpgmptr Pascal=0
+499 Name=__pxcptinfoptrs
+500 Name=__threadhandle
+501 Name=__threadid
+502 Name=__toascii Pascal=0
+503 Name=__wargv
+504 Name=__wgetmainargs Pascal=0
+505 Name=__winitenv
+506 Name=_abnormal_termination Pascal=0
+507 Name=_access Pascal=0
+508 Name=_acmdln
+509 Name=_adj_fdiv_m16i Pascal=4
+510 Name=_adj_fdiv_m32 Pascal=4
+511 Name=_adj_fdiv_m32i Pascal=4
+512 Name=_adj_fdiv_m64 Pascal=8
+513 Name=_adj_fdiv_r Pascal=0
+514 Name=_adj_fdivr_m16i Pascal=4
+515 Name=_adj_fdivr_m32 Pascal=4
+516 Name=_adj_fdivr_m32i Pascal=4
+517 Name=_adj_fdivr_m64 Pascal=8
+518 Name=_adj_fpatan Pascal=0
+519 Name=_adj_fprem Pascal=0
+520 Name=_adj_fprem1 Pascal=0
+521 Name=_adj_fptan Pascal=0
+522 Name=_adjust_fdiv
+523 Name=_aexit_rtn
+524 Name=_amsg_exit Pascal=0
+525 Name=_assert
+526 Name=_atodbl Pascal=0
+527 Name=_atoldbl Pascal=0
+528 Name=_beep Pascal=0
+529 Name=_beginthread Pascal=0
+530 Name=_beginthreadex Pascal=0
+531 Name=_c_exit Pascal=0
+532 Name=_cabs Pascal=0
+533 Name=_cexit Pascal=0
+534 Name=_cgets Pascal=0
+535 Name=_chdir Pascal=0
+536 Name=_chdrive Pascal=0
+537 Name=_chgsign Pascal=0
+538 Name=_chmod Pascal=0
+539 Name=_chsize Pascal=0
+540 Name=_clearfp Pascal=0
+541 Name=_close Pascal=0
+542 Name=_commit Pascal=0
+543 Name=_commode
+544 Name=_control87 Pascal=0
+545 Name=_controlfp Pascal=0
+546 Name=_copysign Pascal=0
+547 Name=_cprintf Pascal=0
+548 Name=_cputs Pascal=0
+549 Name=_creat Pascal=0
+550 Name=_cscanf Pascal=0
+551 Name=_ctype
+552 Name=_cwait Pascal=0
+553 Name=_daylight
+554 Name=_dup Pascal=0
+555 Name=_dup2 Pascal=0
+556 Name=_ecvt Pascal=0
+557 Name=_endthread
+558 Name=_endthreadex
+559 Name=_environ
+560 Name=_eof Pascal=0
+561 Name=_errno
+562 Name=_except_handler2 Pascal=0
+563 Name=_except_handler3 Pascal=0
+564 Name=_execl Pascal=0
+565 Name=_execle Pascal=0
+566 Name=_execlp Pascal=0
+567 Name=_execlpe Pascal=0
+568 Name=_execv Pascal=0
+569 Name=_execve Pascal=0
+570 Name=_execvp Pascal=0
+571 Name=_execvpe Pascal=0
+572 Name=_exit Pascal=0
+573 Name=_expand Pascal=0
+574 Name=_fcloseall Pascal=0
+575 Name=_fcvt Pascal=0
+576 Name=_fdopen Pascal=0
+577 Name=getchar Pascal=0
+578 Name=getwchar Pascal=0
+579 Name=_filbuf Pascal=0
+580 Name=_fileinfo
+581 Name=_filelength Pascal=0
+582 Name=_fileno Pascal=0
+583 Name=_findclose Pascal=0
+584 Name=_findfirst Pascal=0
+585 Name=_findnext Pascal=0
+586 Name=_finite Pascal=0
+587 Name=_flsbuf Pascal=0
+588 Name=_flushall Pascal=0
+589 Name=_fmode
+590 Name=_fpclass Pascal=0
+591 Name=_fpieee_flt Pascal=0
+592 Name=_fpreset Pascal=0
+593 Name=_fputchar Pascal=0
+594 Name=_fputwchar Pascal=0
+595 Name=_fsopen Pascal=0
+596 Name=_fstat Pascal=0
+597 Name=_ftime Pascal=0
+598 Name=_ftol Pascal=0
+599 Name=_fullpath Pascal=0
+600 Name=_futime Pascal=0
+601 Name=_gcvt Pascal=0
+602 Name=_get_osfhandle Pascal=0
+603 Name=_getch Pascal=0
+604 Name=_getche Pascal=0
+605 Name=_getcwd Pascal=0
+606 Name=_getdcwd Pascal=0
+607 Name=_getdiskfree Pascal=0
+608 Name=_getdllprocaddr Pascal=0
+609 Name=_getdrive Pascal=0
+610 Name=_getdrives
+611 Name=_getmbcp Pascal=0
+612 Name=_getpid
+613 Name=_getsystime Pascal=0
+614 Name=_getw Pascal=0
+615 Name=_getws Pascal=0
+616 Name=_global_unwind2 Pascal=0
+617 Name=_heapadd Pascal=0
+618 Name=_heapchk Pascal=0
+619 Name=_heapmin Pascal=0
+620 Name=_heapset Pascal=0
+621 Name=_heapused Pascal=0
+622 Name=_heapwalk Pascal=0
+623 Name=_hypot Pascal=0
+624 Name=_initterm Pascal=0
+625 Name=_iob
+626 Name=_isatty Pascal=0
+627 Name=_isctype Pascal=0
+628 Name=_ismbbalnum Pascal=0
+629 Name=_ismbbalpha Pascal=0
+630 Name=_ismbbgraph Pascal=0
+631 Name=_ismbbkalnum Pascal=0
+632 Name=_ismbbkana Pascal=0
+633 Name=_ismbbkprint Pascal=0
+634 Name=_ismbbkpunct Pascal=0
+635 Name=_ismbblead Pascal=0
+636 Name=_ismbbprint Pascal=0
+637 Name=_ismbbpunct Pascal=0
+638 Name=_ismbbtrail Pascal=0
+639 Name=_ismbcalnum Pascal=0
+640 Name=_ismbcalpha Pascal=0
+641 Name=_ismbcdigit Pascal=0
+642 Name=_ismbcgraph Pascal=0
+643 Name=_ismbchira Pascal=0
+644 Name=_ismbckata Pascal=0
+645 Name=_ismbcl0 Pascal=0
+646 Name=_ismbcl1 Pascal=0
+647 Name=_ismbcl2 Pascal=0
+648 Name=_ismbclegal Pascal=0
+649 Name=_ismbclower Pascal=0
+650 Name=_ismbcprint Pascal=0
+651 Name=_ismbcpunct Pascal=0
+652 Name=_ismbcspace Pascal=0
+653 Name=_ismbcsymbol Pascal=0
+654 Name=_ismbcupper Pascal=0
+655 Name=_ismbslead Pascal=0
+656 Name=_ismbstrail Pascal=0
+657 Name=_isnan Pascal=0
+658 Name=_itoa Pascal=0
+659 Name=_itow Pascal=0
+660 Name=_j0 Pascal=0
+661 Name=_j1 Pascal=0
+662 Name=_jn Pascal=0
+663 Name=_kbhit Pascal=0
+664 Name=_lfind Pascal=0
+665 Name=_loaddll Pascal=0
+666 Name=_local_unwind2 Pascal=0
+667 Name=_locking Pascal=0
+668 Name=_logb Pascal=0
+669 Name=longjmp
+670 Name=_lrotl Pascal=0
+671 Name=_lrotr Pascal=0
+672 Name=_lsearch Pascal=0
+673 Name=_lseek Pascal=0
+674 Name=_ltoa Pascal=0
+675 Name=_ltow Pascal=0
+676 Name=_makepath Pascal=0
+677 Name=_matherr Pascal=0
+678 Name=_mbbtombc Pascal=0
+679 Name=_mbbtype Pascal=0
+680 Name=_mbccpy Pascal=0
+681 Name=_mbcjistojms Pascal=0
+682 Name=_mbcjmstojis Pascal=0
+683 Name=_mbclen Pascal=0
+684 Name=_mbctohira Pascal=0
+685 Name=_mbctokata Pascal=0
+686 Name=_mbctolower Pascal=0
+687 Name=_mbctombb Pascal=0
+688 Name=_mbctoupper Pascal=0
+689 Name=_mbctype
+690 Name=_mbsbtype Pascal=0
+691 Name=_mbscat
+692 Name=_mbschr Pascal=0
+693 Name=_mbscmp Pascal=0
+694 Name=_mbscoll Pascal=0
+695 Name=_mbscpy
+696 Name=_mbscspn Pascal=0
+697 Name=_mbsdec Pascal=0
+698 Name=_mbsdup Pascal=0
+699 Name=_mbsicmp Pascal=0
+700 Name=_mbsicoll Pascal=0
+701 Name=_mbsinc Pascal=0
+702 Name=_mbslen Pascal=0
+703 Name=_mbslwr Pascal=0
+704 Name=_mbsnbcat Pascal=0
+705 Name=_mbsnbcmp Pascal=0
+706 Name=_mbsnbcnt Pascal=0
+707 Name=_mbsnbcoll Pascal=0
+708 Name=_mbsnbcpy Pascal=0
+709 Name=_mbsnbicmp Pascal=0
+710 Name=_mbsnbicoll Pascal=0
+711 Name=_mbsnbset Pascal=0
+712 Name=_mbsncat Pascal=0
+713 Name=_mbsnccnt Pascal=0
+714 Name=_mbsncmp Pascal=0
+715 Name=_mbsncoll Pascal=0
+716 Name=_mbsncpy Pascal=0
+717 Name=_mbsnextc Pascal=0
+718 Name=_mbsnicmp Pascal=0
+719 Name=_mbsnicoll Pascal=0
+720 Name=_mbsninc Pascal=0
+721 Name=_mbsnset Pascal=0
+722 Name=_mbspbrk Pascal=0
+723 Name=_mbsrchr Pascal=0
+724 Name=_mbsrev Pascal=0
+725 Name=_mbsset Pascal=0
+726 Name=_mbsspn Pascal=0
+727 Name=_mbsspnp Pascal=0
+728 Name=_mbsstr Pascal=0
+729 Name=_mbstok Pascal=0
+730 Name=_mbstrlen Pascal=0
+731 Name=_mbsupr Pascal=0
+732 Name=_memccpy Pascal=0
+733 Name=_memicmp Pascal=0
+734 Name=_mkdir Pascal=0
+735 Name=_mktemp Pascal=0
+736 Name=_msize Pascal=0
+737 Name=_mtlock Pascal=0
+738 Name=_mtunlock Pascal=0
+739 Name=_nextafter Pascal=0
+740 Name=_onexit Pascal=0
+741 Name=_open Pascal=0
+742 Name=_open_osfhandle Pascal=0
+743 Name=_osver
+744 Name=_pclose Pascal=0
+745 Name=_pctype
+746 Name=_pgmptr
+747 Name=_pipe Pascal=0
+748 Name=_popen Pascal=0
+749 Name=_purecall Pascal=0
+750 Name=_putch Pascal=0
+751 Name=_putenv Pascal=0
+752 Name=_putw Pascal=0
+753 Name=_putws Pascal=0
+754 Name=_pwctype
+755 Name=_read Pascal=0
+756 Name=_rmdir Pascal=0
+757 Name=_rmtmp Pascal=0
+758 Name=_rotl Pascal=0
+759 Name=_rotr Pascal=0
+760 Name=_safe_fdiv Pascal=0
+761 Name=_safe_fdivr Pascal=0
+762 Name=_safe_fprem Pascal=0
+763 Name=_safe_fprem1 Pascal=0
+764 Name=_scalb Pascal=0
+765 Name=_searchenv Pascal=0
+766 Name=__seh_longjmp_unwind@4 Pascal=4
+767 Name=_seterrormode Pascal=0
+768 Name=_setjmp Pascal=0
+769 Name=_setjmp3 Pascal=0
+770 Name=_setmbcp Pascal=0
+771 Name=_setmode Pascal=0
+772 Name=_setsystime Pascal=0
+773 Name=_sleep Pascal=0
+774 Name=_snprintf Pascal=0
+775 Name=_snwprintf Pascal=0
+776 Name=_sopen Pascal=0
+777 Name=_spawnl Pascal=0
+778 Name=_spawnle Pascal=0
+779 Name=_spawnlp Pascal=0
+780 Name=_spawnlpe Pascal=0
+781 Name=_spawnv Pascal=0
+782 Name=_spawnve Pascal=0
+783 Name=_spawnvp Pascal=0
+784 Name=_spawnvpe Pascal=0
+785 Name=_splitpath Pascal=0
+786 Name=_stat Pascal=0
+787 Name=_statusfp Pascal=0
+788 Name=_stricmp Pascal=0
+789 Name=_strdate Pascal=0
+790 Name=_strdup Pascal=0
+791 Name=_strerror Pascal=0
+792 Name=_stricmp Pascal=0
+793 Name=_stricoll Pascal=0
+794 Name=_strlwr Pascal=0
+795 Name=_strncoll Pascal=0
+796 Name=_strnicmp Pascal=0
+797 Name=_strnicoll Pascal=0
+798 Name=_strnset Pascal=0
+799 Name=_strrev Pascal=0
+800 Name=_strset Pascal=0
+801 Name=_strtime Pascal=0
+802 Name=_strupr Pascal=0
+803 Name=_swab Pascal=0
+804 Name=_sys_errlist
+805 Name=_sys_nerr
+806 Name=_tccpy Pascal=0
+807 Name=_tclen Pascal=0
+808 Name=_tcschr Pascal=0
+809 Name=_tcsclen Pascal=0
+810 Name=_tcscmp Pascal=0
+811 Name=_tcscspn Pascal=0
+812 Name=_tcsdec Pascal=0
+813 Name=_tcsicmp Pascal=0
+814 Name=_tcsinc Pascal=0
+815 Name=_tcslwr Pascal=0
+816 Name=_tcsnbcnt Pascal=0
+817 Name=_tcsncat Pascal=0
+818 Name=_tcsnccat Pascal=0
+819 Name=_tcsnccmp Pascal=0
+820 Name=_tcsnccnt Pascal=0
+821 Name=_tcsnccpy Pascal=0
+822 Name=_tcsncicmp Pascal=0
+823 Name=_tcsncmp Pascal=0
+824 Name=_tcsncpy Pascal=0
+825 Name=_tcsncset Pascal=0
+826 Name=_tcsnextc Pascal=0
+827 Name=_tcsnicmp Pascal=0
+828 Name=_tcsninc Pascal=0
+829 Name=_tcsnset Pascal=0
+830 Name=_tcspbrk Pascal=0
+831 Name=_tcsrchr Pascal=0
+832 Name=_tcsrev Pascal=0
+833 Name=_tcsset Pascal=0
+834 Name=_tcsspn Pascal=0
+835 Name=_tcsspnp Pascal=0
+836 Name=_tcsstr Pascal=0
+837 Name=_tcstok Pascal=0
+838 Name=_tcsupr Pascal=0
+839 Name=_tell Pascal=0
+840 Name=_tempnam Pascal=0
+841 Name=_timezone
+842 Name=_tolower Pascal=0
+843 Name=_toupper Pascal=0
+844 Name=_tzname
+845 Name=_tzset Pascal=0
+846 Name=_ultoa Pascal=0
+847 Name=_ultow Pascal=0
+848 Name=_umask Pascal=0
+849 Name=_ungetch Pascal=0
+850 Name=_unlink Pascal=0
+851 Name=_unloaddll Pascal=0
+852 Name=_utime Pascal=0
+853 Name=_vsnprintf Pascal=0
+854 Name=_vsnwprintf Pascal=0
+855 Name=_waccess Pascal=0
+856 Name=_wasctime Pascal=0
+857 Name=_wchdir Pascal=0
+858 Name=_wchmod Pascal=0
+859 Name=_wcmdln
+860 Name=_wcreat Pascal=0
+861 Name=_wcsdup Pascal=0
+862 Name=_wcsicmp Pascal=0
+863 Name=_wcsicoll Pascal=0
+864 Name=_wcslwr Pascal=0
+865 Name=_wcsncoll Pascal=0
+866 Name=_wcsnicmp Pascal=0
+867 Name=_wcsnicoll Pascal=0
+868 Name=_wcsnset Pascal=0
+869 Name=_wcsrev Pascal=0
+870 Name=_wcsset Pascal=0
+871 Name=_wcsupr Pascal=0
+872 Name=_wctime Pascal=0
+873 Name=_wenviron
+874 Name=_wexecl Pascal=0
+875 Name=_wexecle Pascal=0
+876 Name=_wexeclp Pascal=0
+877 Name=_wexeclpe Pascal=0
+878 Name=_wexecv Pascal=0
+879 Name=_wexecve Pascal=0
+880 Name=_wexecvp Pascal=0
+881 Name=_wexecvpe Pascal=0
+882 Name=_wfdopen Pascal=0
+883 Name=_wfindfirst Pascal=0
+884 Name=_wfindnext Pascal=0
+885 Name=_wfopen Pascal=0
+886 Name=_wfreopen Pascal=0
+887 Name=_wfsopen Pascal=0
+888 Name=_wfullpath Pascal=0
+889 Name=_wgetcwd Pascal=0
+890 Name=_wgetdcwd Pascal=0
+891 Name=_wgetenv Pascal=0
+892 Name=_winmajor
+893 Name=_winminor
+894 Name=_winver
+895 Name=_wmakepath Pascal=0
+896 Name=_wmkdir Pascal=0
+897 Name=_wmktemp Pascal=0
+898 Name=_wopen Pascal=0
+899 Name=_wperror Pascal=0
+900 Name=_wpgmptr
+901 Name=_wpopen Pascal=0
+902 Name=_wputenv Pascal=0
+903 Name=_wremove Pascal=0
+904 Name=_wrename Pascal=0
+905 Name=_write Pascal=0
+906 Name=_wrmdir Pascal=0
+907 Name=_wsearchenv Pascal=0
+908 Name=_wsetlocale Pascal=0
+909 Name=_wsopen Pascal=0
+910 Name=_wspawnl Pascal=0
+911 Name=_wspawnle Pascal=0
+912 Name=_wspawnlp Pascal=0
+913 Name=_wspawnlpe Pascal=0
+914 Name=_wspawnv Pascal=0
+915 Name=_wspawnve Pascal=0
+916 Name=_wspawnvp Pascal=0
+917 Name=_wspawnvpe Pascal=0
+918 Name=_wsplitpath Pascal=0
+919 Name=_wstat Pascal=0
+920 Name=_wstrdate Pascal=0
+921 Name=_wstrtime Pascal=0
+922 Name=_wsystem Pascal=0
+923 Name=_wtempnam Pascal=0
+924 Name=_wtmpnam Pascal=0
+925 Name=_wtoi Pascal=0
+926 Name=_wtol Pascal=0
+927 Name=_wunlink Pascal=0
+928 Name=_wutime Pascal=0
+929 Name=_y0 Pascal=0
+930 Name=_y1 Pascal=0
+931 Name=_yn Pascal=0
+932 Name=abort
+933 Name=abs Pascal=0
+934 Name=acos Pascal=0
+935 Name=asctime Pascal=0
+936 Name=asin Pascal=0
+937 Name=atan Pascal=0
+938 Name=atan2 Pascal=0
+939 Name=atexit Pascal=0
+940 Name=atof Pascal=0
+941 Name=atoi Pascal=0
+942 Name=atol Pascal=0
+943 Name=bsearch Pascal=0
+944 Name=calloc Pascal=0
+945 Name=ceil Pascal=0
+946 Name=clearerr Pascal=0
+947 Name=clock Pascal=0
+948 Name=cos Pascal=0
+949 Name=cosh Pascal=0
+950 Name=ctime Pascal=0
+951 Name=difftime Pascal=0
+952 Name=div Pascal=0
+953 Name=exit
+954 Name=exp Pascal=0
+955 Name=fabs Pascal=0
+956 Name=fclose Pascal=0
+957 Name=feof Pascal=0
+958 Name=ferror Pascal=0
+959 Name=fflush Pascal=0
+960 Name=fgetc Pascal=0
+961 Name=fgetpos Pascal=0
+962 Name=fgets Pascal=0
+963 Name=fgetwc Pascal=0
+964 Name=fgetws Pascal=0
+965 Name=floor Pascal=0
+966 Name=fmod Pascal=0
+967 Name=fopen Pascal=0
+968 Name=fprintf Pascal=0
+969 Name=fputc Pascal=0
+970 Name=fputs Pascal=0
+971 Name=fputwc Pascal=0
+972 Name=fputws Pascal=0
+973 Name=fread Pascal=0
+974 Name=free Pascal=0
+975 Name=freopen Pascal=0
+976 Name=frexp Pascal=0
+977 Name=fscanf Pascal=0
+978 Name=fseek Pascal=0
+979 Name=fsetpos Pascal=0
+980 Name=ftell Pascal=0
+981 Name=fwprintf Pascal=0
+982 Name=fwrite Pascal=0
+983 Name=fwscanf Pascal=0
+984 Name=getc Pascal=0
+985 Name=getchar Pascal=0
+986 Name=getenv Pascal=0
+987 Name=gets Pascal=0
+988 Name=getwc Pascal=0
+989 Name=getwchar Pascal=0
+990 Name=gmtime Pascal=0
+991 Name=is_wctype Pascal=0
+992 Name=isalnum Pascal=0
+993 Name=isalpha Pascal=0
+994 Name=iscntrl Pascal=0
+995 Name=isdigit Pascal=0
+996 Name=isgraph Pascal=0
+997 Name=isleadbyte Pascal=0
+998 Name=islower Pascal=0
+999 Name=isprint Pascal=0
+1000 Name=ispunct Pascal=0
+1001 Name=isspace Pascal=0
+1002 Name=isupper Pascal=0
+1003 Name=iswalnum Pascal=0
+1004 Name=iswalpha Pascal=0
+1005 Name=iswascii Pascal=0
+1006 Name=iswcntrl Pascal=0
+1007 Name=iswctype Pascal=0
+1008 Name=iswdigit Pascal=0
+1009 Name=iswgraph Pascal=0
+1010 Name=iswlower Pascal=0
+1011 Name=iswprint Pascal=0
+1012 Name=iswpunct Pascal=0
+1013 Name=iswspace Pascal=0
+1014 Name=iswupper Pascal=0
+1015 Name=iswxdigit Pascal=0
+1016 Name=isxdigit Pascal=0
+1017 Name=labs Pascal=0
+1018 Name=ldexp Pascal=0
+1019 Name=ldiv Pascal=0
+1020 Name=localeconv Pascal=0
+1021 Name=localtime Pascal=0
+1022 Name=log Pascal=0
+1023 Name=log10 Pascal=0
+1024 Name=longjmp
+1025 Name=malloc Pascal=0
+1026 Name=mblen Pascal=0
+1027 Name=mbstowcs Pascal=0
+1028 Name=mbtowc Pascal=0
+1029 Name=memchr Pascal=0
+1030 Name=memcmp Pascal=0
+1031 Name=memcpy Pascal=0
+1032 Name=memmove Pascal=0
+1033 Name=memset Pascal=0
+1034 Name=mktime Pascal=0
+1035 Name=modf Pascal=0
+1036 Name=perror Pascal=0
+1037 Name=pow Pascal=0
+1038 Name=printf Pascal=0
+1039 Name=putc Pascal=0
+1040 Name=putchar Pascal=0
+1041 Name=puts Pascal=0
+1042 Name=putwc Pascal=0
+1043 Name=putwchar Pascal=0
+1044 Name=qsort Pascal=0
+1045 Name=raise Pascal=0
+1046 Name=rand Pascal=0
+1047 Name=realloc Pascal=0
+1048 Name=remove Pascal=0
+1049 Name=rename Pascal=0
+1050 Name=rewind Pascal=0
+1051 Name=scanf Pascal=0
+1052 Name=setbuf Pascal=0
+1053 Name=setlocale Pascal=0
+1054 Name=setvbuf Pascal=0
+1055 Name=signal Pascal=0
+1056 Name=sin Pascal=0
+1057 Name=sinh Pascal=0
+1058 Name=sprintf Pascal=0
+1059 Name=sqrt Pascal=0
+1060 Name=srand Pascal=0
+1061 Name=sscanf Pascal=0
+1062 Name=strcat Pascal=0
+1063 Name=strchr Pascal=0
+1064 Name=strcmp Pascal=0
+1065 Name=strcoll Pascal=0
+1066 Name=strcpy Pascal=0
+1067 Name=strcspn Pascal=0
+1068 Name=strerror Pascal=0
+1069 Name=strftime Pascal=0
+1070 Name=strlen Pascal=0
+1071 Name=strncat Pascal=0
+1072 Name=strncmp Pascal=0
+1073 Name=strncpy Pascal=0
+1074 Name=strpbrk Pascal=0
+1075 Name=strrchr Pascal=0
+1076 Name=strspn Pascal=0
+1077 Name=strstr Pascal=0
+1078 Name=strtod Pascal=0
+1079 Name=strtok Pascal=0
+1080 Name=strtol Pascal=0
+1081 Name=strtoul Pascal=0
+1082 Name=strxfrm Pascal=0
+1083 Name=swprintf Pascal=0
+1084 Name=swscanf Pascal=0
+1085 Name=system Pascal=0
+1086 Name=tan Pascal=0
+1087 Name=tanh Pascal=0
+1088 Name=time Pascal=0
+1089 Name=tmpfile Pascal=0
+1090 Name=tmpnam Pascal=0
+1091 Name=tolower Pascal=0
+1092 Name=toupper Pascal=0
+1093 Name=towlower Pascal=0
+1094 Name=towupper Pascal=0
+1095 Name=ungetc Pascal=0
+1096 Name=ungetwc Pascal=0
+1097 Name=vfprintf Pascal=0
+1098 Name=vfwprintf Pascal=0
+1099 Name=vprintf Pascal=0
+1100 Name=vsprintf Pascal=0
+1101 Name=vswprintf Pascal=0
+1102 Name=vwprintf Pascal=0
+1103 Name=wcscat Pascal=0
+1104 Name=wcschr Pascal=0
+1105 Name=wcscmp Pascal=0
+1106 Name=wcscoll Pascal=0
+1107 Name=wcscpy Pascal=0
+1108 Name=wcscspn Pascal=0
+1109 Name=wcsftime Pascal=0
+1110 Name=wcslen Pascal=0
+1111 Name=wcsncat Pascal=0
+1112 Name=wcsncmp Pascal=0
+1113 Name=wcsncpy Pascal=0
+1114 Name=wcspbrk Pascal=0
+1115 Name=wcsrchr Pascal=0
+1116 Name=wcsspn Pascal=0
+1117 Name=wcsstr Pascal=0
+1118 Name=wcstod Pascal=0
+1119 Name=wcstok Pascal=0
+1120 Name=wcstol Pascal=0
+1121 Name=wcstombs Pascal=0
+1122 Name=wcstoul Pascal=0
+1123 Name=wcsxfrm Pascal=0
+1124 Name=wctomb Pascal=0
+1125 Name=wprintf Pascal=0
+1126 Name=wscanf Pascal=0
+;------------------EOF------------------

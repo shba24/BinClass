@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=imgutil.dll Args=0 Drops=10
+;---------------------------------------
+1 Name=ComputeInvCMAP Pascal=16
+2 Name=CreateDDrawSurfaceOnDIB Pascal=8
+3 Name=CreateMIMEMap Pascal=4
+4 Name=DecodeImage Pascal=12
+5 Name=DitherTo8 Pascal=56
+6 Name=DllCanUnloadNow Pascal=0
+7 Name=DllGetClassObject Pascal=12
+8 Name=DllRegisterServer
+9 Name=DllUnregisterServer
+10 Name=GetMaxMIMEIDBytes Pascal=4
+11 Name=IdentifyMIMEType Pascal=12
+12 Name=SniffStream Pascal=12
+;------------------EOF------------------

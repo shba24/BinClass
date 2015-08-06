@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=qosname.dll Args=0 Drops=3
+;---------------------------------------
+1 Name=WPUGetQOSTemplate Pascal=12
+2 Name=WSCInstallQOSTemplate Pascal=12
+3 Name=WSCRemoveQOSTemplate Pascal=8
+;------------------EOF------------------

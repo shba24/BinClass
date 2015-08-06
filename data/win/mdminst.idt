@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mdminst.dll Args=0 Drops=1
+;---------------------------------------
+1 Name=ClassInstall32 Pascal=12
+;------------------EOF------------------

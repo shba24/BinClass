@@ -1,0 +1,1 @@
+{"config": {"exports": {"PERFDISK.dll:CloseDiskObject": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "PERFDISK.dll:OpenDiskObject": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "3"}, "PERFDISK.dll:CollectDiskObjectData": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "2"}}}}

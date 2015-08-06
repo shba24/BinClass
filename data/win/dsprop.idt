@@ -1,0 +1,30 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=dsprop.dll Args=0 Drops=20
+;---------------------------------------
+1 Name=CheckADsError Pascal=20
+2 Name=CrackName Pascal=16
+3 Name=DSPROP_GetGCSearchOnDomain Pascal=12
+4 Name=ErrMsg Pascal=8
+5 Name=ErrMsgParam Pascal=12
+6 Name=FindSheet Pascal=4
+7 Name=MsgBox Pascal=8
+8 Name=ReportError Pascal=12
+9 Name=Smart_PADS_ATTR_INFO__Empty Pascal=4
+10 Name=ADsPropCheckIfWritable Pascal=8
+11 Name=ADsPropCreateNotifyObj
+12 Name=ADsPropGetInitInfo
+13 Name=ADsPropSendErrorMessage Pascal=8
+14 Name=ADsPropSetHwnd Pascal=8
+15 Name=ADsPropSetHwndWithTitle Pascal=12
+16 Name=ADsPropShowErrorDialog Pascal=8
+17 Name=BringSheetToForeground Pascal=8
+18 Name=DllCanUnloadNow
+19 Name=DllGetClassObject Pascal=12
+20 Name=DllRegisterServer Pascal=0
+21 Name=DllUnregisterServer Pascal=0
+22 Name=IsSheetAlreadyUp Pascal=4
+23 Name=PostADsPropSheet Pascal=16
+;------------------EOF------------------

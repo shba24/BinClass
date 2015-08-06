@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ocmanage.dll Args=0 Drops=8
+;---------------------------------------
+1 Name=OcComponentState Pascal=12
+2 Name=OcCreateOcPage Pascal=12
+3 Name=OcCreateSetupPage Pascal=8
+4 Name=OcGetWizardPages Pascal=8
+5 Name=OcInitialize Pascal=20
+6 Name=OcRememberWizardDialogHandle Pascal=8
+7 Name=OcSubComponentsPresent Pascal=4
+8 Name=OcTerminate Pascal=4
+;------------------EOF------------------

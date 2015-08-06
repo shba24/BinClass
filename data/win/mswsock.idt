@@ -1,0 +1,39 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mswsock.dll Args=0 Drops=32
+;---------------------------------------
+1 Name=ServiceMain Pascal=8
+2 Name=SvchostPushServiceGlobals Pascal=4
+3 Name=AcceptEx Pascal=32
+4 Name=EnumProtocolsA Pascal=12
+5 Name=EnumProtocolsW Pascal=12
+6 Name=GetAcceptExSockaddrs Pascal=32
+7 Name=GetAddressByNameA Pascal=40
+8 Name=GetAddressByNameW Pascal=40
+9 Name=GetNameByTypeA Pascal=12
+10 Name=GetNameByTypeW Pascal=12
+11 Name=GetServiceA Pascal=28
+12 Name=GetServiceW Pascal=28
+13 Name=GetTypeByNameA Pascal=8
+14 Name=GetTypeByNameW Pascal=8
+15 Name=MigrateWinsockConfiguration Pascal=12
+16 Name=NPLoadNameSpaces Pascal=12
+17 Name=NSPStartup Pascal=8
+18 Name=SetServiceA Pascal=24
+19 Name=SetServiceW Pascal=24
+20 Name=StartWsdpService Pascal=0
+21 Name=StopWsdpService Pascal=0
+22 Name=TransmitFile Pascal=28
+23 Name=WSARecvEx Pascal=16
+24 Name=WSPStartup Pascal=76
+25 Name=dn_expand Pascal=20
+26 Name=getnetbyname Pascal=4
+27 Name=inet_network Pascal=4
+28 Name=rcmd Pascal=24
+29 Name=rexec Pascal=24
+30 Name=rresvport Pascal=4
+31 Name=s_perror Pascal=8
+32 Name=sethostname Pascal=8
+;------------------EOF------------------

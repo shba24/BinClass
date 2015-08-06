@@ -1,0 +1,31 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SAPORT.SYS Args=0 Drops=24
+;---------------------------------------
+1 Name=SaPortAllocatePool Pascal=8
+2 Name=SaPortCompleteRequest Pascal=20
+3 Name=SaPortCopyUnicodeString Pascal=12
+4 Name=SaPortCreateBasenamedEvent Pascal=16
+5 Name=SaPortCreateUnicodeString Pascal=12
+6 Name=SaPortCreateUnicodeStringCat Pascal=16
+7 Name=SaPortDeleteRegistryValue Pascal=8
+8 Name=SaPortFreePool Pascal=8
+9 Name=SaPortFreeUnicodeString Pascal=8
+10 Name=SaPortGetOsVersion Pascal=0
+11 Name=SaPortGetRegistryValueInformation Pascal=16
+12 Name=SaPortGetVirtualAddress Pascal=16
+13 Name=SaPortInitialize Pascal=12
+14 Name=SaPortLockPagesForSystem Pascal=16
+15 Name=SaPortReadBinaryRegistryValue Pascal=16
+16 Name=SaPortReadNumericRegistryValue Pascal=12
+17 Name=SaPortReadUnicodeStringRegistryValue Pascal=12
+18 Name=SaPortReleaseLockedPagesForSystem Pascal=8
+19 Name=SaPortRequestDpc Pascal=8
+20 Name=SaPortShutdownSystem Pascal=4
+21 Name=SaPortSynchronizeExecution Pascal=12
+22 Name=SaPortWriteBinaryRegistryValue Pascal=16
+23 Name=SaPortWriteNumericRegistryValue Pascal=12
+24 Name=SaPortWriteUnicodeStringRegistryValue Pascal=12
+;------------------EOF------------------

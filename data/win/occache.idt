@@ -1,0 +1,24 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=occache.dll Args=0 Drops=17
+;---------------------------------------
+1 Name=FindControlClose Pascal=4
+2 Name=FindFirstControl Pascal=12
+3 Name=FindNextControl Pascal=8
+4 Name=GetControlDependentFile Pascal=20
+5 Name=GetControlInfo Pascal=20
+6 Name=IsModuleRemovable Pascal=4
+7 Name=ReleaseControlHandle Pascal=4
+8 Name=RemoveControlByHandle Pascal=8
+9 Name=RemoveControlByName Pascal=20
+10 Name=RemoveExpiredControls Pascal=8
+11 Name=SweepControlsByLastAccessDate Pascal=16
+12 Name=DllCanUnloadNow Pascal=0
+13 Name=DllGetClassObject Pascal=12
+14 Name=DllInstall Pascal=8
+15 Name=DllMain Pascal=12
+16 Name=DllRegisterServer Pascal=0
+17 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

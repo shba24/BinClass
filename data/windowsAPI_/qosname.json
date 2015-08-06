@@ -1,0 +1,1 @@
+{"config": {"exports": {"QOSNAME.dll:WPUGetQOSTemplate": {"function": {"delta": "8", "convention": "stdcall"}, "ordinal": "1"}, "QOSNAME.dll:WSCInstallQOSTemplate": {"function": {"delta": "8", "convention": "stdcall"}, "ordinal": "2"}, "QOSNAME.dll:WSCRemoveQOSTemplate": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "3"}}}}

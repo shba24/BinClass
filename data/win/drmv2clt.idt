@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=drmv2clt.dll Args=0 Drops=5
+;---------------------------------------
+1 Name=CreateDRMRightsManager Pascal=4
+2 Name=LaunchURL Pascal=4
+3 Name=MakeEscapedURL Pascal=8
+4 Name=DllRegisterServer Pascal=0
+5 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

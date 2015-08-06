@@ -1,0 +1,1 @@
+{"config": {"exports": {"PSTORSVC.dll:PSTOREServiceMain": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "1"}, "PSTORSVC.dll:Start": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "3"}, "PSTORSVC.dll:ServiceEntry": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "2"}}}}
