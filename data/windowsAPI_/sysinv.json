@@ -1,1 +1,0 @@
-{"config": {"exports": {"SYSINV.dll:GetSystemInventoryW": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "2"}, "SYSINV.dll:GetSystemInventoryA": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "1"}}}}

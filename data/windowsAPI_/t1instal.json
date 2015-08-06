@@ -1,1 +1,0 @@
-{"config": {"exports": {"T1INSTAL.dll:CheckType1A": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}, "T1INSTAL.dll:ConvertTypefaceA": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "4"}, "T1INSTAL.dll:CheckCopyrightA": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}}}}

@@ -1,1 +1,0 @@
-{"config": {"exports": {"MSVCRTD.dll:_CxxThrowException": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "1"}, "MSVCRTD.dll:__CxxLongjmpUnwind": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "2"}, "MSVCRTD.dll:_seh_longjmp_unwind": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "3"}}}}

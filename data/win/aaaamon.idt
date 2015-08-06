@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=aaaamon.dll Args=0 Drops=1
-;---------------------------------------
-1 Name=InitHelperDll Pascal=8
-;------------------EOF------------------

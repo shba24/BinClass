@@ -1,1 +1,0 @@
-{"config": {"exports": {"BROWSER.dll:ServiceMain": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "2"}, "BROWSER.dll:SvchostPushServiceGlobals": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "3"}, "BROWSER.dll:I_BrowserServerEnumForXactsrv": {"function": {"delta": "48", "convention": "stdcall"}, "ordinal": "1"}}}}

@@ -1,1 +1,0 @@
-{"config": {"exports": {"MSV1_0.dll:SpInstanceInit": {"function": {"delta": "8", "convention": "stdcall"}, "ordinal": "32"}, "MSV1_0.dll:SpInitialize": {"function": {"delta": "8", "convention": "stdcall"}, "ordinal": "1"}}}}

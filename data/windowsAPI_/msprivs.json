@@ -1,1 +1,0 @@
-{"config": {"exports": {"MSPRIVS.dll:MsPrivsDummyEntry": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

@@ -1,1 +1,0 @@
-{"config": {"exports": {"NTLSAPI.dll:NtLicenseRequestW": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}, "NTLSAPI.dll:NtLicenseRequestA": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "NTLSAPI.dll:NtLSFreeHandle": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

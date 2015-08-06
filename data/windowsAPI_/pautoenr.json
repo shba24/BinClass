@@ -1,1 +1,0 @@
-{"config": {"exports": {"PAUTOENR.dll:CertAutoRemove": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "2"}, "PAUTOENR.dll:CertAutoEnrollment": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "1"}, "PAUTOENR.dll:ProvAutoEnrollment": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "3"}}}}

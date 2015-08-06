@@ -1,1 +1,0 @@
-{"config": {"exports": {"SPINBTN.dll:SpinSubclassEntryfield": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}, "SPINBTN.dll:SpinButtonWndProc": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "SPINBTN.dll:RegisterSpinButton": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

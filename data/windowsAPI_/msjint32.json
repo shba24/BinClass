@@ -1,1 +1,0 @@
-{"config": {"exports": {"MSJINT32.dll:_WEP@4": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}, "MSJINT32.dll:CchLszOfId2": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}}}}

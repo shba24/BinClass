@@ -1,1 +1,0 @@
-{"config": {"exports": {"MSSAP.dll:SapCreateInstance": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

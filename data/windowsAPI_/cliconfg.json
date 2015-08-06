@@ -1,1 +1,0 @@
-{"config": {"exports": {"CLICONFG.dll:OnInitDialogMain": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}, "CLICONFG.dll:CPlApplet": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "1"}, "CLICONFG.dll:ClientConfigureAddEdit": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}}}}

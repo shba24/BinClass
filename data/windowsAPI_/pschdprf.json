@@ -1,1 +1,0 @@
-{"config": {"exports": {"PSCHDPRF.dll:CollectPschedPerformanceData": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "2"}, "PSCHDPRF.dll:OpenPschedPerformanceData": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "3"}, "PSCHDPRF.dll:ClosePschedPerformanceData": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

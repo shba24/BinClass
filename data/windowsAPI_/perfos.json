@@ -1,1 +1,0 @@
-{"config": {"exports": {"PERFOS.dll:CollectOSObjectData": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "2"}, "PERFOS.dll:OpenOSObject": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "3"}, "PERFOS.dll:CloseOSObject": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

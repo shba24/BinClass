@@ -1,1 +1,0 @@
-{"config": {"exports": {"WMILIB.SYS.dll:WmiSystemControl": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "3"}, "WMILIB.SYS.dll:WmiCompleteRequest": {"function": {"delta": "16", "convention": "stdcall"}, "ordinal": "1"}, "WMILIB.SYS.dll:WmiFireEvent": {"function": {"delta": "16", "convention": "stdcall"}, "ordinal": "2"}}}}

@@ -1,1 +1,0 @@
-{"config": {"exports": {"IPRTPRIO.dll:ComputeRouteMetric": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "1"}, "IPRTPRIO.dll:SetPriorityInfo": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "3"}, "IPRTPRIO.dll:GetPriorityInfo": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "2"}}}}

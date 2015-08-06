@@ -1,1 +1,0 @@
-{"config": {"exports": {"SVCPACK.dll:SvcPackCallbackRoutine": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "1"}}}}

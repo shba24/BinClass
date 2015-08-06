@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=olecnv32.dll Args=0 Drops=1
-;---------------------------------------
-1 Name=QD2GDI Pascal=8
-;------------------EOF------------------

@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=prflbmsg.dll Pascal=0
-;---------------------------------------
-1 Name=DummyEntryPoint
-;------------------EOF------------------

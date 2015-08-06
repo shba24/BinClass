@@ -1,1 +1,0 @@
-{"config": {"exports": {"RASSHELL.dll:DllCanUnloadNow": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "RASSHELL.dll:DLLMAIN": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "RASSHELL.dll:DllGetClassObject": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}}}}

@@ -1,1 +1,0 @@
-{"config": {"exports": {"MSCORIES.dll:Install": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "1"}, "MSCORIES.dll:Uninstall": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "2"}}}}

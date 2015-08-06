@@ -1,1 +1,0 @@
-{"config": {"exports": {"PCIIDEX.SYS.dll:PciIdeXSetBusData": {"function": {"delta": "16", "convention": "stdcall"}, "ordinal": "3"}, "PCIIDEX.SYS.dll:PciIdeXInitialize": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "2"}, "PCIIDEX.SYS.dll:PciIdeXGetBusData": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "1"}}}}

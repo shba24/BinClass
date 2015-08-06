@@ -1,1 +1,0 @@
-{"config": {"exports": {"DPNHPAST.dll:DllUnregisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "4"}, "DPNHPAST.dll:DllGetClassObject": {"function": {"delta": "8", "convention": "stdcall"}, "ordinal": "3"}}}}

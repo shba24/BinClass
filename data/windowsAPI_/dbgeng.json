@@ -1,1 +1,0 @@
-{"config": {"exports": {"DBGENG.dll:DebugCreate": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "2"}, "DBGENG.dll:DebugConnect": {"function": {"delta": "8", "convention": "stdcall"}, "ordinal": "1"}}}}

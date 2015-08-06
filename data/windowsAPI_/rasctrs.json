@@ -1,1 +1,0 @@
-{"config": {"exports": {"RASCTRS.dll:CollectRasPerformanceData": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "2"}, "RASCTRS.dll:OpenRasPerformanceData": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "1"}, "RASCTRS.dll:CloseRasPerformanceData": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}}}}

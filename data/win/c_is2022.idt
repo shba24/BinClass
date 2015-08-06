@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=c_is2022.dll Args=0 Drops=1
-;---------------------------------------
-1 Name=NlsDllCodePageTranslation Pascal=28
-;------------------EOF------------------

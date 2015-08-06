@@ -1,1 +1,0 @@
-{"config": {"exports": {"MLL_HP.dll:ClaimMediaLabel": {"function": {"delta": "8", "convention": "stdcall"}, "ordinal": "1"}, "MLL_HP.dll:MaxMediaLabel": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "2"}}}}

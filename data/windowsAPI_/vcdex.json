@@ -1,1 +1,0 @@
-{"config": {"exports": {"VCDEX.dll:VDDDispatch": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "VCDEX.dll:VDDRegisterInit": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}, "VCDEX.dll:VDDInitialize": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}}}}

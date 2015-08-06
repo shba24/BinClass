@@ -1,1 +1,0 @@
-{"config": {"exports": {"MIDIMAP.dll:modmCallback": {"function": {"delta": "16", "convention": "stdcall"}, "ordinal": "4"}, "MIDIMAP.dll:modMessage": {"function": {"delta": "16", "convention": "stdcall"}, "ordinal": "3"}, "MIDIMAP.dll:DriverProc": {"function": {"delta": "16", "convention": "stdcall"}, "ordinal": "2"}}}}

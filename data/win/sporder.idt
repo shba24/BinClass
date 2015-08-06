@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=SPORDER.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=WSCWriteNameSpaceOrder Pascal=8
-2 Name=WSCWriteProviderOrder Pascal=8
-;------------------EOF------------------

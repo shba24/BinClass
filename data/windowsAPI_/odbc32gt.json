@@ -1,1 +1,0 @@
-{"config": {"exports": {"ODBC32GT.dll:Dispatch2": {"function": {"delta": "56", "convention": "stdcall"}, "ordinal": "2"}, "ODBC32GT.dll:Dispatch": {"function": {"delta": "56", "convention": "stdcall"}, "ordinal": "1"}}}}

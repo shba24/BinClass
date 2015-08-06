@@ -1,1 +1,0 @@
-{"config": {"exports": {"PERFPROC.dll:CloseSysProcessObject": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "PERFPROC.dll:CollectSysProcessObjectData": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "2"}, "PERFPROC.dll:OpenSysProcessObject": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "3"}}}}

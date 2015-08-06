@@ -1,1 +1,0 @@
-{"config": {"exports": {"NETOBJS.dll:DllCanUnloadNow": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "NETOBJS.dll:DllGetClassObject": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}}}}

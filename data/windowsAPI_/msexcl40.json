@@ -1,1 +1,0 @@
-{"config": {"exports": {"MSEXCL40.dll:DllUnregisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}, "MSEXCL40.dll:DllRegisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "MSEXCL40.dll:msexcl40_1": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "1"}}}}

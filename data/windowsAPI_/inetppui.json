@@ -1,1 +1,0 @@
-{"config": {"exports": {"INETPPUI.dll:InitializePrintMonitorUI": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

@@ -1,1 +1,0 @@
-{"config": {"exports": {"SHFOLDER.dll:SHGetFolderPathW": {"function": {"delta": "16", "convention": "stdcall"}, "ordinal": "2"}, "SHFOLDER.dll:SHGetFolderPathA": {"function": {"delta": "16", "convention": "stdcall"}, "ordinal": "1"}}}}

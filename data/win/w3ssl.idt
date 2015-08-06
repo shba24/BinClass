@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=w3ssl.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=HTTPFilterServiceMain Pascal=8
-2 Name=ServiceEntry Pascal=12
-;------------------EOF------------------

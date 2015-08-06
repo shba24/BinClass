@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=OUTLWAB.DLL Args=0 Drops=1
-;---------------------------------------
-1 Name=WABOpenStorageProvider Pascal=28
-;------------------EOF------------------

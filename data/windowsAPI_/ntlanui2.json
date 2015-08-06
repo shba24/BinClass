@@ -1,1 +1,0 @@
-{"config": {"exports": {"NTLANUI2.dll:DllCanUnloadNow": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "NTLANUI2.dll:DllGetClassObject": {"function": {"delta": "8", "convention": "stdcall"}, "ordinal": "2"}}}}

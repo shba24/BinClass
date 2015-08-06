@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=MPRSNAP.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=MprConfigServerInstallPrivate Pascal=0
-2 Name=MprConfigServerUnattendedInstall Pascal=8
-;------------------EOF------------------

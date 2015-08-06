@@ -1,1 +1,0 @@
-{"config": {"exports": {"MSVFW32.dll:VideoForWindowsVersion": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}}}}

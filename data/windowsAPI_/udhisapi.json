@@ -1,1 +1,0 @@
-{"config": {"exports": {"UDHISAPI.dll:TerminateExtension": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "3"}, "UDHISAPI.dll:HttpExtensionProc": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "2"}, "UDHISAPI.dll:GetExtensionVersion": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "1"}}}}

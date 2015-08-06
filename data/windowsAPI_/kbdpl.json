@@ -1,1 +1,0 @@
-{"config": {"exports": {"KBDPL.dll:KbdLayerDescriptor": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

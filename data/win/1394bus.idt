@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=1394BUS.SYS Args=0 Drops=1
-;---------------------------------------
-1 Name=Bus1394RegisterPortDriver Pascal=4
-;------------------EOF------------------

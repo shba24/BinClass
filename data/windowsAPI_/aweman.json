@@ -1,1 +1,0 @@
-{"config": {"exports": {"AWEMAN.dll:WEP": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "AWEMAN.dll:AWEMANAGER": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "AWEMAN.dll:___EXPORTEDSTUB": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}}}}

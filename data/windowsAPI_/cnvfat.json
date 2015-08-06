@@ -1,1 +1,0 @@
-{"config": {"exports": {"CNVFAT.dll:IsConversionAvailable": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "1"}, "CNVFAT.dll:ConvertFAT": {"function": {"delta": "20", "convention": "stdcall"}, "ordinal": "2"}}}}

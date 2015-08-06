@@ -1,1 +1,0 @@
-{"config": {"exports": {"SENSAPI.dll:IsDestinationReachableW": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "2"}, "SENSAPI.dll:IsNetworkAlive": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "3"}, "SENSAPI.dll:IsDestinationReachableA": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "1"}}}}

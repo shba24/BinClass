@@ -1,1 +1,0 @@
-{"config": {"exports": {"ESENTPRF.dll:CollectPerformanceData": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "2"}, "ESENTPRF.dll:OpenPerformanceData": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "3"}, "ESENTPRF.dll:ClosePerformanceData": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

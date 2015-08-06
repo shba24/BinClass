@@ -1,1 +1,0 @@
-{"config": {"exports": {"D3DRG16F.dll:RLDDICreateRGBLightingDriver": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}, "D3DRG16F.dll:RLDDICreateRGBDriver": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}}}}

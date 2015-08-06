@@ -1,1 +1,0 @@
-{"config": {"exports": {"MQPERF.dll:PerfClose": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "MQPERF.dll:PerfCollect": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "2"}, "MQPERF.dll:PerfOpen": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "3"}}}}

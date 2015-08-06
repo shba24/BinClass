@@ -1,1 +1,0 @@
-{"config": {"exports": {"HIDSERV.dll:ServiceMain": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "2"}, "HIDSERV.dll:InstallHidserv": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "1"}}}}

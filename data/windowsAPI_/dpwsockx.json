@@ -1,1 +1,0 @@
-{"config": {"exports": {"DPWSOCKX.dll:DPWS_GetEnumPort": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "3"}, "DPWSOCKX.dll:DPWS_BuildIPMessageHeader": {"function": {"delta": "16", "convention": "stdcall"}, "ordinal": "4"}, "DPWSOCKX.dll:SPInit": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "1"}}}}

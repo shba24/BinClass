@@ -1,1 +1,0 @@
-{"config": {"exports": {"NETFXPERF.dll:ClosePerformanceData": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "NETFXPERF.dll:CollectPerformanceData": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "2"}, "NETFXPERF.dll:OpenPerformanceData": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "3"}}}}

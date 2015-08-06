@@ -1,1 +1,0 @@
-{"config": {"exports": {"CMCFG32.dll:_CMConfig@8": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "3"}, "CMCFG32.dll:CMConfigEx": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "4"}, "CMCFG32.dll:CmstpExtensionProc": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "1"}}}}

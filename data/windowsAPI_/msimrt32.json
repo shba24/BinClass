@@ -1,1 +1,0 @@
-{"config": {"exports": {"MSIMRT32.DLL.dll:_AllocAARealTime@4": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "3"}, "MSIMRT32.DLL.dll:_AllocAAClock@4": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "1"}, "MSIMRT32.DLL.dll:_AllocAAMIDIOut@4": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "2"}}}}

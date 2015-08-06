@@ -1,1 +1,0 @@
-{"config": {"exports": {"NETID.dll:CreateNetIDPropertyPage": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "NETID.dll:ShowDcNotFoundErrorDialog": {"function": {"delta": "8", "convention": "stdcall"}, "ordinal": "2"}}}}

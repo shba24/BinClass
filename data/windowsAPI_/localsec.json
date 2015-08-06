@@ -1,1 +1,0 @@
-{"config": {"exports": {"LOCALSEC.dll:DllCanUnloadNow": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "LOCALSEC.dll:DllRegisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}, "LOCALSEC.dll:DllGetClassObject": {"function": {"delta": "8", "convention": "stdcall"}, "ordinal": "2"}}}}

@@ -1,1 +1,0 @@
-{"config": {"exports": {"COMSVCS.dll:DllUnregisterServerWeReallyMeanIt": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "6"}, "COMSVCS.dll:CreateActivityInMTA": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "7"}}}}

@@ -1,1 +1,0 @@
-{"config": {"exports": {"PERFTS.dll:CloseTSObject": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "PERFTS.dll:CollectTSObjectData": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "2"}, "PERFTS.dll:OpenTSObject": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "3"}}}}

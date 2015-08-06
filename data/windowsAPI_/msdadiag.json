@@ -1,1 +1,0 @@
-{"config": {"exports": {"MSDADIAG.dll:DllBidEntryPoint": {"function": {"delta": "32", "convention": "stdcall"}, "ordinal": "1"}}}}

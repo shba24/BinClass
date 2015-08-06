@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=cnvfat.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=IsConversionAvailable Pascal=4
-2 Name=ConvertFAT Pascal=24
-;------------------EOF------------------

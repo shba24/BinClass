@@ -1,1 +1,0 @@
-{"config": {"exports": {"PLUSTAB.dll:DllGetClassObject": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}, "PLUSTAB.dll:DllCanUnloadNow": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}}}}

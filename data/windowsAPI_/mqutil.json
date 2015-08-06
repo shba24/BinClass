@@ -1,1 +1,0 @@
-{"config": {"exports": {"MQUTIL.dll:MQGetResourceHandle": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

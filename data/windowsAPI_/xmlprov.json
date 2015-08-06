@@ -1,1 +1,0 @@
-{"config": {"exports": {"XMLPROV.dll:DllUnregisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "XMLPROV.dll:ServiceMain": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}, "XMLPROV.dll:DllRegisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

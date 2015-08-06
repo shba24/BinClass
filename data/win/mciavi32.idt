@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=mciavi32.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=DriverProc Pascal=20
-2 Name=KeyboardHookProc Pascal=12
-;------------------EOF------------------

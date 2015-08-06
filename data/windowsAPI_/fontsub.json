@@ -1,1 +1,0 @@
-{"config": {"exports": {"FONTSUB.dll:MergeFontPackage": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "FONTSUB.dll:CreateFontPackage": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

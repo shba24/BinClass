@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=MSJINT32.dll Pascal=0
-;---------------------------------------
-2 Name=CchLszOfId2
-3 Name=_WEP@4
-;------------------EOF------------------

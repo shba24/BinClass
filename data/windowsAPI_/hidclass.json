@@ -1,1 +1,0 @@
-{"config": {"exports": {"HIDCLASS.SYS.dll:HidNotifyPresence": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "1"}, "HIDCLASS.SYS.dll:HidRegisterMinidriver": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "2"}}}}

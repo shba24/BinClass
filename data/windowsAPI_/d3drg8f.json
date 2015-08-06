@@ -1,1 +1,0 @@
-{"config": {"exports": {"D3DRG8F.dll:RLDDICreateRGBDriver": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "D3DRG8F.dll:RLDDICreateRGBLightingDriver": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}}}}

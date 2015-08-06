@@ -1,1 +1,0 @@
-{"config": {"exports": {"D3DRAMP.dll:g_RampOld_BeadTbl": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "D3DRAMP.dll:RampOldTri": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

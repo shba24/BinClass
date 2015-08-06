@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=JPEG2X32.dll Pascal=0
-;---------------------------------------
-1 Name=jpeg_decmp_init
-2 Name=jpeg_decmp
-;------------------EOF------------------
