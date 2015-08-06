@@ -7,9 +7,7 @@
 
 ### How to Use ? ###
 
-* Download and Install Rose Compiler from git repository.
-
-**Option 1**: Build Rose and its dependencies on your PC.
+**Option 1**: Download and Install Rose Compiler from git repository. Build Rose and its dependencies on your PC.
 
 #### BOOST Library Installation ####
    * Download BOOST at www.boost.org/users/download (suggested to use version<=1.53 )
@@ -30,18 +28,18 @@
    * make install
    * make installcheck ( for testing the installation ) (optional)
 
-NOTE : This might take from 2-4 hours. If you can't wait that long then look at option 2 [below].
+**NOTE** : This might take from 2-4 hours. If you can't wait that long then look at option 2 [below].
 
 ***Option 2** : [Download](http://www.rosecompiler.org/Ubuntu-ROSE-Demo-V2.tar.gz)(6.8 GB) the Ubuntu 14.04 Virtual machine build with all necessary flags.
   * Username : demo
   * password : password
 
-* Dependencies
+#### Dependencies ####
   * BOOST Library (version<=1.53)
   * YAML library [download](https://github.com/jbeder/yaml-cpp)
   * Yices SMT Solver library [version 1.0.40](http://yices.csl.sri.com/cgi-bin/yices-newlicense.cgi?file=yices-1.0.40-x86_64-unknown-linux-gnu-static-gmp.tar.gz )
 
-* Using BinClass
+#### Using BinClass ####
   * Go to BinClass/src directory
   * make clean
   * make install
