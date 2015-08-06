@@ -1,4 +1,4 @@
-## BinClass
+## BinClass (https://bitbucket.org/iN3O/binclass) - by Shubham Bansal (iN3O) [ illusionist.neo@gmail.com ]
 
 #1 test case
 BinClass[23518] 5.51350s rose::BinaryAnalysis::Partitioner2[INFO ]: Total Classes Found : 1 with a total of : 5 functions
@@ -33,7 +33,7 @@ BinClass[23585] 21.58641s rose::BinaryAnalysis::Partitioner2[INFO ]: Total Class
 #11 test case
 BinClass[23590] 13.99918s rose::BinaryAnalysis::Partitioner2[INFO ]: Total Classes Found : 9 with a total of : 36 functions
 
-## Objdigger
+## Objdigger - (https://github.com/cmu-sei/pharos) - by CMU & CERT
 
 #1 test case
 OPTI[INFO ]: Found 1 classes, 5 methods, 0 virtual calls, and 6 usage instructions.
