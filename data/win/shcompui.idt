@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SHCOMPUI.dll Pascal=0
+;---------------------------------------
+1 Name=DllCanUnloadNow
+2 Name=DllGetClassObject
+3 Name=ShellChangeCompressionAttribute
+;------------------EOF------------------

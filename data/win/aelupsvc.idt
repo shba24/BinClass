@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=aelupsvc.dll Args=0 Drops=1
+;---------------------------------------
+1 Name=ServiceMain Pascal=8
+;------------------EOF------------------

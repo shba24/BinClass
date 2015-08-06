@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=miglibnt.dll Args=0 Drops=10
+;---------------------------------------
+1 Name=MigDllAddDllToListW Pascal=8
+2 Name=MigDllApplySystemSettingsW Pascal=20
+3 Name=MigDllCloseW Pascal=4
+4 Name=MigDllCreateList Pascal=0
+5 Name=MigDllEnumFirstW Pascal=8
+6 Name=MigDllEnumNextW Pascal=4
+7 Name=MigDllFreeList Pascal=4
+8 Name=MigDllInit Pascal=0
+9 Name=MigDllInitializeDstW
+10 Name=MigDllOpenW Pascal=20
+11 Name=MigDllShutdown Pascal=0
+;------------------EOF------------------

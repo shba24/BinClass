@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=autodisc.dll Args=0 Drops=7
+;---------------------------------------
+1 Name=AddEmailToAutoComplete Pascal=4
+2 Name=AutoDiscoverAndOpenEmail Pascal=16
+3 Name=DllCanUnloadNow Pascal=0
+4 Name=DllGetClassObject Pascal=12
+5 Name=DllInstall Pascal=8
+6 Name=DllRegisterServer Pascal=0
+7 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

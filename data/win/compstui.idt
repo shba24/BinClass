@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=compstui.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=CommonPropertySheetUIA Pascal=16
+2 Name=CommonPropertySheetUIW Pascal=16
+3 Name=GetCPSUIUserData Pascal=4
+4 Name=SetCPSUIUserData Pascal=8
+;------------------EOF------------------

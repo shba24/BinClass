@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msconf.dll Args=0 Drops=10
+;---------------------------------------
+6 Name=DllGetVersion Pascal=4
+7 Name=CleanupNetMeetingDispDriverW Pascal=16
+8 Name=DllCanUnloadNow Pascal=0
+9 Name=DllGetClassObject Pascal=12
+10 Name=DllRegisterServer Pascal=0
+11 Name=DllUnregisterServer Pascal=0
+82 Name=NewMediaPhone Pascal=16
+83 Name=CallToProtocolHandler Pascal=16
+84 Name=OpenConfLink Pascal=16
+85 Name=VerifyUserInfo Pascal=8
+;------------------EOF------------------

@@ -1,0 +1,58 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wsnmp32.dll Args=0 Drops=51
+;---------------------------------------
+100 Name=SnmpGetTranslateMode Pascal=4
+101 Name=SnmpSetTranslateMode Pascal=4
+102 Name=SnmpGetRetransmitMode Pascal=4
+103 Name=SnmpSetRetransmitMode Pascal=4
+104 Name=SnmpGetTimeout Pascal=12
+105 Name=SnmpSetTimeout Pascal=8
+106 Name=SnmpGetRetry Pascal=12
+107 Name=SnmpSetRetry Pascal=8
+108 Name=_SnmpConveyAgentAddress@4 Pascal=4
+109 Name=_SnmpSetAgentAddress@4 Pascal=4
+120 Name=SnmpGetVendorInfo Pascal=4
+200 Name=SnmpStartup Pascal=20
+201 Name=SnmpCleanup Pascal=0
+202 Name=SnmpOpen Pascal=8
+203 Name=SnmpClose Pascal=4
+204 Name=SnmpSendMsg Pascal=20
+205 Name=SnmpRecvMsg Pascal=20
+206 Name=SnmpRegister Pascal=24
+220 Name=SnmpCreateSession Pascal=16
+221 Name=SnmpListen Pascal=8
+222 Name=SnmpCancelMsg Pascal=8
+291 Name=SnmpStartupEx Pascal=20
+292 Name=SnmpCleanupEx Pascal=0
+293 Name=SnmpListenEx Pascal=12
+300 Name=SnmpStrToEntity Pascal=8
+301 Name=SnmpEntityToStr Pascal=12
+302 Name=SnmpFreeEntity Pascal=4
+320 Name=SnmpSetPort Pascal=8
+400 Name=SnmpStrToContext Pascal=8
+401 Name=SnmpContextToStr Pascal=8
+402 Name=SnmpFreeContext Pascal=4
+500 Name=SnmpCreatePdu Pascal=24
+501 Name=SnmpGetPduData Pascal=24
+502 Name=SnmpSetPduData Pascal=24
+503 Name=SnmpDuplicatePdu Pascal=8
+504 Name=SnmpFreePdu Pascal=4
+600 Name=SnmpCreateVbl Pascal=12
+601 Name=SnmpDuplicateVbl Pascal=8
+602 Name=SnmpFreeVbl Pascal=4
+603 Name=SnmpCountVbl Pascal=4
+604 Name=SnmpGetVb Pascal=16
+605 Name=SnmpSetVb Pascal=16
+606 Name=SnmpDeleteVb Pascal=8
+900 Name=SnmpFreeDescriptor Pascal=8
+901 Name=SnmpEncodeMsg Pascal=24
+902 Name=SnmpDecodeMsg Pascal=24
+903 Name=SnmpStrToOid Pascal=8
+904 Name=SnmpOidToStr Pascal=12
+905 Name=SnmpOidCopy Pascal=8
+906 Name=SnmpOidCompare Pascal=16
+999 Name=SnmpGetLastError Pascal=4
+;------------------EOF------------------

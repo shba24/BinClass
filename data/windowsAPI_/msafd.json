@@ -1,0 +1,1 @@
+{"config": {"exports": {"MSAFD.dll:WSPStartup": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

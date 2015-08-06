@@ -1,0 +1,1 @@
+{"config": {"exports": {"TAPIPERF.dll:CollectTapiPerformanceData": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "2"}, "TAPIPERF.dll:OpenTapiPerformanceData": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "3"}, "TAPIPERF.dll:CloseTapiPerformanceData": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

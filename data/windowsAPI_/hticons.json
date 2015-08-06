@@ -1,0 +1,1 @@
+{"config": {"exports": {"HTICONS.dll:DllCanUnloadNow": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "HTICONS.dll:DllGetClassObject": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}}}}

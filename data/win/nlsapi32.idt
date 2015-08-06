@@ -1,0 +1,23 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=nlsapi32.dll Pascal=0
+;---------------------------------------
+1 Name=NLSInstalled
+2 Name=NLSInUse
+3 Name=NLSAvailable
+4 Name=NLSUsers
+5 Name=NLSAddAssignment
+6 Name=NLSRemoveAssignment
+7 Name=NLSTransferOwnership
+8 Name=NLSGetTransaction
+9 Name=NLSGetEntry
+10 Name=NLSInstallCertificate
+11 Name=NLSMoveCertificate
+12 Name=NLSDeleteCertificate
+13 Name=NLSGetCertificate
+14 Name=NLSCertificateTagToMessage
+15 Name=NLSAddProductInformation
+16 Name=DllEntryPoint
+;------------------EOF------------------

@@ -1,0 +1,1 @@
+{"config": {"exports": {"USBMON.dll:DllMain": {"function": {"delta": "8", "convention": "stdcall"}, "ordinal": "1"}, "USBMON.dll:InitializePrintMonitor": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "2"}}}}

@@ -1,0 +1,1 @@
+{"config": {"exports": {"SFCFILES.dll:pSfcGetFilesList": {"function": {"delta": "8", "convention": "stdcall"}, "ordinal": "1"}, "SFCFILES.dll:SfcGetFiles": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "2"}}}}

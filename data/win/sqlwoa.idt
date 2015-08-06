@@ -1,0 +1,75 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=sqlwoa.dll Args=0 Drops=68
+;---------------------------------------
+1 Name=AllocConvertMultiSZNameToA Pascal=0
+2 Name=_CallWindowProc@20 Pascal=20
+3 Name=_CharLower@4 Pascal=4
+4 Name=_CharUpper@4 Pascal=4
+5 Name=_CommDlg_OpenSave_GetFilePath@12 Pascal=12
+6 Name=_CommDlg_OpenSave_GetFolderPath@12 Pascal=12
+7 Name=_CommDlg_OpenSave_GetSpec@12 Pascal=12
+8 Name=ConvertMultiSZNameToW Pascal=0
+9 Name=_CreateDialogIndirectParam@20 Pascal=20
+10 Name=_CreateFile@28 Pascal=28
+11 Name=_CreateFont@56 Pascal=56
+12 Name=_CreateFontIndirect@4 Pascal=4
+13 Name=_CreateWindowEx@48 Pascal=48
+14 Name=_DefWindowProc@16 Pascal=16
+15 Name=_DeleteFile@4 Pascal=4
+16 Name=_DrawText@20 Pascal=20
+17 Name=_ExtTextOut@32 Pascal=32
+18 Name=_FindResource@12 Pascal=12
+19 Name=_FormatMessage@28 Pascal=28
+20 Name=_FreeEnvironmentStrings@4 Pascal=4
+21 Name=_GetClassInfo@12 Pascal=12
+22 Name=_GetComputerName@8 Pascal=8
+23 Name=_GetDiskFreeSpaceEx@16 Pascal=16
+24 Name=_GetDlgItemText@16 Pascal=16
+25 Name=_GetFileTitle@12 Pascal=12
+26 Name=_GetModuleFileName@12 Pascal=12
+27 Name=_GetObject@12 Pascal=12
+28 Name=_GetOpenFileName@4 Pascal=4
+29 Name=_GetProp@8 Pascal=8
+30 Name=_GetSaveFileName@4 Pascal=4
+31 Name=_GetTextExtentPoint32@16 Pascal=16
+32 Name=_GetTextExtentPoint@16 Pascal=16
+33 Name=_GetTextMetrics@8 Pascal=8
+34 Name=_GetUserName@8 Pascal=8
+35 Name=_GetVersionEx@4 Pascal=4
+36 Name=_GetWindowLong@8 Pascal=8
+37 Name=_GetWindowText@12 Pascal=12
+38 Name=_GetWindowTextLength@4 Pascal=4
+39 Name=_IsDialogMessage@8 Pascal=8
+40 Name=_LoadBitmap@8 Pascal=8
+41 Name=_LoadCursor@8 Pascal=8
+42 Name=_LoadIcon@8 Pascal=8
+43 Name=_LoadLibrary@4 Pascal=4
+44 Name=_LoadMenu@8 Pascal=8
+45 Name=_LoadString@16 Pascal=16
+46 Name=_MAKEINTRESOURCE@4 Pascal=4
+47 Name=_MessageBox@16 Pascal=16
+48 Name=_MoveFile@8 Pascal=8
+49 Name=_PeekMessage@20 Pascal=20
+50 Name=_PostMessage@16 Pascal=16
+51 Name=_RemoveProp@8 Pascal=8
+52 Name=_SendDlgItemMessage@20 Pascal=20
+53 Name=_SendMessage@16 Pascal=16
+54 Name=_SetDlgItemText@12 Pascal=12
+55 Name=_SetProp@12 Pascal=12
+56 Name=_SetWindowLong@12 Pascal=12
+57 Name=_SetWindowText@8 Pascal=8
+58 Name=_StartDoc@8 Pascal=8
+59 Name=_TextOut@20 Pascal=20
+60 Name=_TranslateAccelerator@12 Pascal=12
+61 Name=_WinHelp@16 Pascal=16
+62 Name=_tfopen Pascal=0
+63 Name=_trename Pascal=0
+64 Name=_tsystem Pascal=0
+65 Name=newMultiByteFromWideChar Pascal=0
+66 Name=newMultiByteFromWideCharEx Pascal=0
+67 Name=newMultiByteFromWideCharSize Pascal=0
+68 Name=newWideCharFromMultiByte Pascal=0
+;------------------EOF------------------

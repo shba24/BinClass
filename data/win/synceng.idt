@@ -1,0 +1,43 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=synceng.dll Args=0 Drops=36
+;---------------------------------------
+1 Name=AddAllTwinsToTwinList Pascal=4
+2 Name=AddFolderTwin Pascal=12
+3 Name=AddObjectTwin Pascal=12
+4 Name=AddTwinToTwinList Pascal=8
+5 Name=AnyTwins Pascal=8
+6 Name=BeginReconciliation Pascal=4
+7 Name=ClearBriefcaseCache Pascal=4
+8 Name=CloseBriefcase Pascal=4
+9 Name=CompareFileStamps Pascal=12
+10 Name=CountSourceFolderTwins Pascal=8
+11 Name=CreateFolderTwinList Pascal=12
+12 Name=CreateRecList Pascal=16
+13 Name=CreateTwinList Pascal=8
+14 Name=DeleteBriefcase Pascal=4
+15 Name=DeleteTwin Pascal=4
+16 Name=DestroyFolderTwinList Pascal=4
+17 Name=DestroyRecList Pascal=4
+18 Name=DestroyTwinList Pascal=4
+19 Name=EndReconciliation Pascal=4
+20 Name=FindBriefcaseClose Pascal=4
+21 Name=FindFirstBriefcase Pascal=8
+22 Name=FindNextBriefcase Pascal=8
+23 Name=GetFileStamp Pascal=8
+24 Name=GetFolderTwinStatus Pascal=16
+25 Name=GetObjectTwinHandle Pascal=16
+26 Name=GetOpenBriefcaseInfo Pascal=8
+27 Name=GetVolumeDescription Pascal=8
+28 Name=IsFolderTwin Pascal=12
+29 Name=IsOrphanObjectTwin Pascal=8
+30 Name=IsPathOnVolume Pascal=12
+31 Name=OpenBriefcase Pascal=16
+32 Name=ReconcileItem Pascal=24
+33 Name=ReleaseTwinHandle Pascal=4
+34 Name=RemoveAllTwinsFromTwinList Pascal=4
+35 Name=RemoveTwinFromTwinList Pascal=8
+36 Name=SaveBriefcase Pascal=4
+;------------------EOF------------------

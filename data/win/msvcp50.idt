@@ -1,0 +1,2060 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msvcp50.dll Args=0 Drops=1821
+;---------------------------------------
+1 Name=??0?$complex@M@std@@QAE@ABM0@Z Pascal=8
+2 Name=??0?$complex@O@std@@QAE@ABO0@Z Pascal=8
+3 Name=??0?$complex@O@std@@QAE@ABO0@Z Pascal=8
+4 Name=??0?$_Mpunct@D@std@@QAE@ABV_Locinfo@1@I_N@Z Pascal=12
+5 Name=??0?$_Mpunct@D@std@@QAE@I_N@Z Pascal=8
+6 Name=??0?$_Mpunct@G@std@@QAE@ABV_Locinfo@1@I_N@Z Pascal=12
+7 Name=??0?$_Mpunct@G@std@@QAE@I_N@Z Pascal=8
+8 Name=??0?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAE@PAU_iobuf@@@Z Pascal=4
+9 Name=??0?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAE@W4_Uninitialized@1@@Z Pascal=4
+10 Name=??0?$basic_filebuf@GU?$char_traits@G@std@@@std@@QAE@PAU_iobuf@@@Z Pascal=4
+11 Name=??0?$basic_filebuf@GU?$char_traits@G@std@@@std@@QAE@W4_Uninitialized@1@@Z Pascal=4
+12 Name=??0?$basic_fstream@DU?$char_traits@D@std@@@std@@QAE@PBDH@Z Pascal=12
+13 Name=??0?$basic_fstream@DU?$char_traits@D@std@@@std@@QAE@XZ Pascal=4
+14 Name=??0?$basic_fstream@GU?$char_traits@G@std@@@std@@QAE@PBDH@Z Pascal=12
+15 Name=??0?$basic_fstream@GU?$char_traits@G@std@@@std@@QAE@XZ Pascal=4
+16 Name=??0?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAE@PBDH@Z Pascal=12
+17 Name=??0?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAE@XZ Pascal=4
+18 Name=??0?$basic_ifstream@GU?$char_traits@G@std@@@std@@QAE@PBDH@Z Pascal=12
+19 Name=??0?$basic_ifstream@GU?$char_traits@G@std@@@std@@QAE@XZ Pascal=4
+20 Name=??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ Pascal=0
+21 Name=??0?$basic_ios@DU?$char_traits@D@std@@@std@@QAE@ABV01@@Z Pascal=4
+22 Name=??0?$basic_ios@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z Pascal=4
+23 Name=??0?$basic_ios@GU?$char_traits@G@std@@@std@@IAE@XZ Pascal=0
+24 Name=??0?$basic_ios@GU?$char_traits@G@std@@@std@@QAE@ABV01@@Z Pascal=4
+25 Name=??0?$basic_ios@GU?$char_traits@G@std@@@std@@QAE@PAV?$basic_streambuf@GU?$char_traits@G@std@@@1@@Z Pascal=4
+26 Name=??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QAE@ABV01@@Z Pascal=8
+27 Name=??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z Pascal=8
+28 Name=??0?$basic_iostream@GU?$char_traits@G@std@@@std@@QAE@ABV01@@Z Pascal=8
+29 Name=??0?$basic_iostream@GU?$char_traits@G@std@@@std@@QAE@PAV?$basic_streambuf@GU?$char_traits@G@std@@@1@@Z Pascal=8
+30 Name=??0?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@ABV01@@Z Pascal=8
+31 Name=??0?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z Pascal=12
+32 Name=??0?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@W4_Uninitialized@1@@Z Pascal=8
+33 Name=??0?$basic_istream@GU?$char_traits@G@std@@@std@@QAE@ABV01@@Z Pascal=8
+34 Name=??0?$basic_istream@GU?$char_traits@G@std@@@std@@QAE@PAV?$basic_streambuf@GU?$char_traits@G@std@@@1@_N@Z Pascal=12
+35 Name=??0?$basic_istream@GU?$char_traits@G@std@@@std@@QAE@W4_Uninitialized@1@@Z Pascal=8
+36 Name=??0?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@H@Z Pascal=12
+37 Name=??0?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z Pascal=8
+38 Name=??0?$basic_istringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE@ABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@1@H@Z Pascal=12
+39 Name=??0?$basic_istringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE@H@Z Pascal=8
+40 Name=??0?$basic_ofstream@DU?$char_traits@D@std@@@std@@QAE@PBDH@Z Pascal=12
+41 Name=??0?$basic_ofstream@DU?$char_traits@D@std@@@std@@QAE@XZ Pascal=4
+42 Name=??0?$basic_ofstream@GU?$char_traits@G@std@@@std@@QAE@PBDH@Z Pascal=12
+43 Name=??0?$basic_ofstream@GU?$char_traits@G@std@@@std@@QAE@XZ Pascal=4
+44 Name=??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@ABV01@@Z Pascal=8
+45 Name=??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N1@Z Pascal=16
+46 Name=??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@W4_Uninitialized@1@@Z Pascal=8
+47 Name=??0?$basic_ostream@GU?$char_traits@G@std@@@std@@QAE@ABV01@@Z Pascal=8
+48 Name=??0?$basic_ostream@GU?$char_traits@G@std@@@std@@QAE@PAV?$basic_streambuf@GU?$char_traits@G@std@@@1@_N1@Z Pascal=16
+49 Name=??0?$basic_ostream@GU?$char_traits@G@std@@@std@@QAE@W4_Uninitialized@1@@Z Pascal=8
+50 Name=??0?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@H@Z Pascal=12
+51 Name=??0?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z Pascal=8
+52 Name=??0?$basic_ostringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE@ABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@1@H@Z Pascal=12
+53 Name=??0?$basic_ostringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE@H@Z Pascal=8
+54 Name=??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@W4_Uninitialized@1@@Z Pascal=4
+55 Name=??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ Pascal=0
+56 Name=??0?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAE@W4_Uninitialized@1@@Z Pascal=4
+57 Name=??0?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAE@XZ Pascal=0
+58 Name=??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z Pascal=4
+59 Name=??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@IIABV?$allocator@D@1@@Z Pascal=16
+60 Name=??0?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE@ABV?$allocator@G@1@@Z Pascal=4
+61 Name=??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@IDABV?$allocator@D@1@@Z Pascal=12
+62 Name=??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD0ABV?$allocator@D@1@@Z Pascal=12
+63 Name=??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBDABV?$allocator@D@1@@Z Pascal=8
+64 Name=??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBDIABV?$allocator@D@1@@Z Pascal=12
+65 Name=??0?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE@ABV01@@Z Pascal=4
+66 Name=??0?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE@ABV01@IIABV?$allocator@G@1@@Z Pascal=16
+67 Name=??0?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE@ABV?$allocator@G@1@@Z Pascal=4
+68 Name=??0?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE@IGABV?$allocator@G@1@@Z Pascal=12
+69 Name=??0?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE@PBG0ABV?$allocator@G@1@@Z Pascal=12
+70 Name=??0?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE@PBGABV?$allocator@G@1@@Z Pascal=8
+71 Name=??0?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE@PBGIABV?$allocator@G@1@@Z Pascal=12
+72 Name=??0?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@H@Z Pascal=8
+73 Name=??0?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z Pascal=4
+74 Name=??0?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE@ABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@1@H@Z Pascal=8
+75 Name=??0?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE@H@Z Pascal=4
+76 Name=??0?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@H@Z Pascal=12
+77 Name=??0?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z Pascal=8
+78 Name=??0?$basic_stringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE@ABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@1@H@Z Pascal=12
+79 Name=??0?$basic_stringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE@H@Z Pascal=8
+80 Name=??0?$codecvt@DDH@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+81 Name=??0?$codecvt@DDH@std@@QAE@I@Z Pascal=4
+82 Name=??0?$codecvt@GDH@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+83 Name=??0?$codecvt@GDH@std@@QAE@I@Z Pascal=4
+84 Name=??0?$collate@D@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+85 Name=??0?$collate@D@std@@QAE@I@Z Pascal=4
+86 Name=??0?$collate@G@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+87 Name=??0?$collate@G@std@@QAE@I@Z Pascal=4
+88 Name=??0?$complex@M@std@@QAE@ABM0@Z Pascal=8
+89 Name=??0?$complex@M@std@@QAE@ABV?$complex@O@1@@Z Pascal=4
+90 Name=??0?$complex@M@std@@QAE@ABV?$complex@O@1@@Z Pascal=4
+91 Name=??0?$complex@O@std@@QAE@ABO0@Z Pascal=8
+92 Name=??0?$complex@O@std@@QAE@ABV?$complex@M@1@@Z Pascal=4
+93 Name=??0?$complex@O@std@@QAE@ABV?$complex@N@1@@Z Pascal=4
+94 Name=??0?$complex@O@std@@QAE@ABO0@Z Pascal=8
+95 Name=??0?$complex@O@std@@QAE@ABV?$complex@M@1@@Z Pascal=4
+96 Name=??0?$complex@O@std@@QAE@ABV?$complex@N@1@@Z Pascal=4
+97 Name=??0?$ctype@D@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+98 Name=??0?$ctype@D@std@@QAE@PBF_NI@Z Pascal=12
+99 Name=??0?$ctype@G@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+100 Name=??0?$ctype@G@std@@QAE@I@Z Pascal=4
+101 Name=??0?$messages@D@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+102 Name=??0?$messages@D@std@@QAE@I@Z Pascal=4
+103 Name=??0?$messages@G@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+104 Name=??0?$messages@G@std@@QAE@I@Z Pascal=4
+105 Name=??0?$money_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+106 Name=??0?$money_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QAE@I@Z Pascal=4
+107 Name=??0?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+108 Name=??0?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QAE@I@Z Pascal=4
+109 Name=??0?$money_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+110 Name=??0?$money_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QAE@I@Z Pascal=4
+111 Name=??0?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+112 Name=??0?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QAE@I@Z Pascal=4
+113 Name=??0?$moneypunct@D$00@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+114 Name=??0?$moneypunct@D$00@std@@QAE@I@Z Pascal=4
+115 Name=??0?$moneypunct@D$0A@@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+116 Name=??0?$moneypunct@D$0A@@std@@QAE@I@Z Pascal=4
+117 Name=??0?$moneypunct@G$00@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+118 Name=??0?$moneypunct@G$00@std@@QAE@I@Z Pascal=4
+119 Name=??0?$moneypunct@G$0A@@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+120 Name=??0?$moneypunct@G$0A@@std@@QAE@I@Z Pascal=4
+121 Name=??0?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+122 Name=??0?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QAE@I@Z Pascal=4
+123 Name=??0?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+124 Name=??0?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QAE@I@Z Pascal=4
+125 Name=??0?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+126 Name=??0?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QAE@I@Z Pascal=4
+127 Name=??0?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+128 Name=??0?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QAE@I@Z Pascal=4
+129 Name=??0?$numpunct@D@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+130 Name=??0?$numpunct@D@std@@QAE@I@Z Pascal=4
+131 Name=??0?$numpunct@G@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+132 Name=??0?$numpunct@G@std@@QAE@I@Z Pascal=4
+133 Name=??0?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+134 Name=??0?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QAE@I@Z Pascal=4
+135 Name=??0?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+136 Name=??0?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QAE@I@Z Pascal=4
+137 Name=??0?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+138 Name=??0?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QAE@I@Z Pascal=4
+139 Name=??0?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QAE@ABV_Locinfo@1@I@Z Pascal=8
+140 Name=??0?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QAE@I@Z Pascal=4
+141 Name=??0Init@ios_base@std@@QAE@XZ Pascal=0
+142 Name=??0_Locinfo@std@@QAE@ABV01@@Z Pascal=4
+143 Name=??0_Locinfo@std@@QAE@HPBD@Z Pascal=8
+144 Name=??0_Locinfo@std@@QAE@PBD@Z Pascal=4
+145 Name=??0_Lockit@std@@QAE@XZ Pascal=0
+146 Name=??4_Timevec@std@@QAEAAV01@ABV01@@Z Pascal=4
+147 Name=??0locale@std@@AAE@PAV_Locimp@01@@Z Pascal=4
+148 Name=??0_Winit@std@@QAE@XZ Pascal=0
+149 Name=??0bad_alloc@std@@QAE@ABV01@@Z Pascal=4
+150 Name=??0bad_alloc@std@@QAE@PBD@Z Pascal=4
+151 Name=??0bad_cast@std@@QAE@ABV01@@Z Pascal=4
+152 Name=??0bad_cast@std@@QAE@PBD@Z Pascal=4
+153 Name=??0bad_exception@std@@QAE@ABV01@@Z Pascal=4
+154 Name=??0bad_exception@std@@QAE@PBD@Z Pascal=4
+155 Name=??0codecvt_base@std@@QAE@I@Z Pascal=4
+156 Name=??0ctype_base@std@@QAE@I@Z Pascal=4
+157 Name=??0domain_error@std@@QAE@ABV01@@Z Pascal=4
+158 Name=??0domain_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z Pascal=4
+159 Name=??0facet@locale@std@@IAE@I@Z Pascal=4
+160 Name=??0ios_base@std@@IAE@XZ Pascal=0
+161 Name=??0ios_base@std@@QAE@ABV01@@Z Pascal=4
+162 Name=??0length_error@std@@QAE@ABV01@@Z Pascal=4
+163 Name=??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z Pascal=4
+164 Name=??0locale@std@@AAE@PAV_Locimp@01@@Z Pascal=4
+165 Name=??0locale@std@@QAE@ABV01@0H@Z Pascal=12
+166 Name=??0locale@std@@QAE@ABV01@@Z Pascal=4
+167 Name=??0locale@std@@QAE@ABV01@PBDH@Z Pascal=12
+168 Name=??0locale@std@@QAE@PBDH@Z Pascal=8
+169 Name=??0locale@std@@QAE@W4_Uninitialized@1@@Z Pascal=4
+170 Name=??0locale@std@@QAE@XZ Pascal=0
+171 Name=??0logic_error@std@@QAE@ABV01@@Z Pascal=4
+172 Name=??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z Pascal=4
+173 Name=??0messages_base@std@@QAE@I@Z Pascal=4
+174 Name=??0money_base@std@@QAE@I@Z Pascal=4
+175 Name=??0ostrstream@std@@QAE@PADHH@Z Pascal=16
+176 Name=??0out_of_range@std@@QAE@ABV01@@Z Pascal=4
+177 Name=??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z Pascal=4
+178 Name=??0overflow_error@std@@QAE@ABV01@@Z Pascal=4
+179 Name=??0overflow_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z Pascal=4
+180 Name=??0range_error@std@@QAE@ABV01@@Z Pascal=4
+181 Name=??0range_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z Pascal=4
+182 Name=??0runtime_error@std@@QAE@ABV01@@Z Pascal=4
+183 Name=??0runtime_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z Pascal=4
+184 Name=??0strstream@std@@QAE@PADHH@Z Pascal=16
+185 Name=??0time_base@std@@QAE@I@Z Pascal=4
+186 Name=??0underflow_error@std@@QAE@ABV01@@Z Pascal=4
+187 Name=??0underflow_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z Pascal=4
+188 Name=??1?$moneypunct@D$0A@@std@@UAE@XZ Pascal=0
+189 Name=??1?$moneypunct@G$0A@@std@@UAE@XZ Pascal=0
+190 Name=??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAE@XZ Pascal=0
+191 Name=??1?$basic_filebuf@GU?$char_traits@G@std@@@std@@UAE@XZ Pascal=0
+192 Name=??1?$basic_fstream@DU?$char_traits@D@std@@@std@@UAE@XZ Pascal=0
+193 Name=??1?$basic_fstream@GU?$char_traits@G@std@@@std@@UAE@XZ Pascal=0
+194 Name=??1?$basic_ifstream@DU?$char_traits@D@std@@@std@@UAE@XZ Pascal=0
+195 Name=??1?$basic_ifstream@GU?$char_traits@G@std@@@std@@UAE@XZ Pascal=0
+196 Name=??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ
+197 Name=??1?$basic_ios@GU?$char_traits@G@std@@@std@@UAE@XZ
+198 Name=??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UAE@XZ Pascal=0
+199 Name=??1?$basic_iostream@GU?$char_traits@G@std@@@std@@UAE@XZ Pascal=0
+200 Name=??1?$basic_istream@DU?$char_traits@D@std@@@std@@UAE@XZ Pascal=0
+201 Name=??1?$basic_istream@GU?$char_traits@G@std@@@std@@UAE@XZ Pascal=0
+202 Name=??1?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UAE@XZ Pascal=0
+203 Name=??1?$basic_istringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@UAE@XZ Pascal=0
+204 Name=??1?$basic_ofstream@DU?$char_traits@D@std@@@std@@UAE@XZ Pascal=0
+205 Name=??1?$basic_ofstream@GU?$char_traits@G@std@@@std@@UAE@XZ Pascal=0
+206 Name=??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UAE@XZ Pascal=0
+207 Name=??1?$basic_ostream@GU?$char_traits@G@std@@@std@@UAE@XZ Pascal=0
+208 Name=??1?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UAE@XZ Pascal=0
+209 Name=??1?$basic_ostringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@UAE@XZ Pascal=0
+210 Name=??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ Pascal=0
+211 Name=??1?$basic_streambuf@GU?$char_traits@G@std@@@std@@UAE@XZ Pascal=0
+212 Name=??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ Pascal=0
+213 Name=??1?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE@XZ Pascal=0
+214 Name=??1?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UAE@XZ Pascal=0
+215 Name=??1?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@UAE@XZ Pascal=0
+216 Name=??1?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UAE@XZ Pascal=0
+217 Name=??1?$basic_stringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@UAE@XZ Pascal=0
+218 Name=??1time_base@std@@UAE@XZ Pascal=0
+219 Name=??1time_base@std@@UAE@XZ Pascal=0
+220 Name=??1time_base@std@@UAE@XZ Pascal=0
+221 Name=??1time_base@std@@UAE@XZ Pascal=0
+222 Name=??1?$ctype@D@std@@UAE@XZ Pascal=0
+223 Name=??1?$ctype@G@std@@UAE@XZ Pascal=0
+224 Name=??1?$messages@D@std@@UAE@XZ Pascal=0
+225 Name=??1?$messages@G@std@@UAE@XZ Pascal=0
+226 Name=??1time_base@std@@UAE@XZ Pascal=0
+227 Name=??1time_base@std@@UAE@XZ Pascal=0
+228 Name=??1time_base@std@@UAE@XZ Pascal=0
+229 Name=??1time_base@std@@UAE@XZ Pascal=0
+230 Name=??1?$moneypunct@D$0A@@std@@UAE@XZ Pascal=0
+231 Name=??1?$moneypunct@D$0A@@std@@UAE@XZ Pascal=0
+232 Name=??1?$moneypunct@G$0A@@std@@UAE@XZ Pascal=0
+233 Name=??1?$moneypunct@G$0A@@std@@UAE@XZ Pascal=0
+234 Name=??1time_base@std@@UAE@XZ Pascal=0
+235 Name=??1time_base@std@@UAE@XZ Pascal=0
+236 Name=??1time_base@std@@UAE@XZ Pascal=0
+237 Name=??1time_base@std@@UAE@XZ Pascal=0
+238 Name=??1?$numpunct@D@std@@UAE@XZ Pascal=0
+239 Name=??1?$numpunct@G@std@@UAE@XZ Pascal=0
+240 Name=??1?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@UAE@XZ Pascal=0
+241 Name=??1?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@UAE@XZ Pascal=0
+242 Name=??1?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@UAE@XZ Pascal=0
+243 Name=??1?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@UAE@XZ Pascal=0
+244 Name=??1Init@ios_base@std@@QAE@XZ Pascal=0
+245 Name=??1_Locinfo@std@@QAE@XZ Pascal=0
+246 Name=??1_Lockit@std@@QAE@XZ Pascal=0
+247 Name=??1_Timevec@std@@QAE@XZ Pascal=0
+248 Name=??1_Winit@std@@QAE@XZ Pascal=0
+249 Name=??1bad_alloc@std@@UAE@XZ
+250 Name=??1bad_cast@std@@UAE@XZ
+251 Name=??1bad_exception@std@@UAE@XZ
+252 Name=??1time_base@std@@UAE@XZ Pascal=0
+253 Name=??1time_base@std@@UAE@XZ Pascal=0
+254 Name=??1out_of_range@std@@UAE@XZ Pascal=0
+255 Name=??1time_base@std@@UAE@XZ Pascal=0
+256 Name=??1ios_base@std@@UAE@XZ Pascal=0
+257 Name=??1istrstream@std@@UAE@XZ Pascal=0
+258 Name=??1out_of_range@std@@UAE@XZ Pascal=0
+259 Name=??1locale@std@@QAE@XZ Pascal=0
+260 Name=??1out_of_range@std@@UAE@XZ Pascal=0
+261 Name=??1time_base@std@@UAE@XZ Pascal=0
+262 Name=??1time_base@std@@UAE@XZ Pascal=0
+263 Name=??1ostrstream@std@@UAE@XZ Pascal=0
+264 Name=??1out_of_range@std@@UAE@XZ Pascal=0
+265 Name=??1underflow_error@std@@UAE@XZ Pascal=0
+266 Name=??1underflow_error@std@@UAE@XZ Pascal=0
+267 Name=??1underflow_error@std@@UAE@XZ Pascal=0
+268 Name=??1strstream@std@@UAE@XZ Pascal=0
+269 Name=??1strstreambuf@std@@UAE@XZ Pascal=0
+270 Name=??1time_base@std@@UAE@XZ Pascal=0
+271 Name=??1underflow_error@std@@UAE@XZ Pascal=0
+272 Name=??4?$complex@M@std@@QAEAAV01@ABV01@@Z Pascal=4
+273 Name=??4?$complex@O@std@@QAEAAV01@ABV01@@Z Pascal=4
+274 Name=??4?$complex@O@std@@QAEAAV01@ABV01@@Z Pascal=4
+275 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+276 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+277 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+278 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+279 Name=??4?$basic_ios@DU?$char_traits@D@std@@@std@@QAEAAV01@ABV01@@Z Pascal=4
+280 Name=??4?$basic_ios@GU?$char_traits@G@std@@@std@@QAEAAV01@ABV01@@Z Pascal=4
+281 Name=??4?$basic_iostream@DU?$char_traits@D@std@@@std@@QAEAAV01@ABV01@@Z Pascal=4
+282 Name=??4?$basic_iostream@GU?$char_traits@G@std@@@std@@QAEAAV01@ABV01@@Z Pascal=4
+283 Name=??4?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@ABV01@@Z Pascal=4
+284 Name=??4?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV01@ABV01@@Z Pascal=4
+285 Name=??4?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@ABV01@@Z Pascal=4
+286 Name=??4?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@ABV01@@Z Pascal=4
+287 Name=?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@@Z Pascal=4
+288 Name=??4?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@D@Z Pascal=4
+289 Name=?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBD@Z Pascal=4
+290 Name=?assign@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@ABV12@@Z Pascal=4
+291 Name=??4?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV01@G@Z Pascal=4
+292 Name=?assign@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@PBG@Z Pascal=4
+293 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+294 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+295 Name=??4?$complex@M@std@@QAEAAV01@ABM@Z Pascal=4
+296 Name=??4?$complex@M@std@@QAEAAV01@ABV01@@Z Pascal=4
+297 Name=??4?$complex@O@std@@QAEAAV01@ABO@Z Pascal=4
+298 Name=??4?$complex@O@std@@QAEAAV01@ABV01@@Z Pascal=4
+299 Name=??4?$complex@O@std@@QAEAAV01@ABO@Z Pascal=4
+300 Name=??4?$complex@O@std@@QAEAAV01@ABV01@@Z Pascal=4
+301 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+302 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+303 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+304 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+305 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+306 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+307 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+308 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+309 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+310 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+311 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+312 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+313 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+314 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+315 Name=??4_Locinfo@std@@QAEAAV01@ABV01@@Z Pascal=4
+316 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+317 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+318 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+319 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+320 Name=??4_Timevec@std@@QAEAAV01@ABV01@@Z Pascal=4
+321 Name=??4_Winit@std@@QAEAAV01@ABV01@@Z Pascal=4
+322 Name=??4bad_exception@std@@QAEAAV01@ABV01@@Z Pascal=4
+323 Name=??4bad_exception@std@@QAEAAV01@ABV01@@Z Pascal=4
+324 Name=??4bad_exception@std@@QAEAAV01@ABV01@@Z Pascal=4
+325 Name=??4underflow_error@std@@QAEAAV01@ABV01@@Z Pascal=4
+326 Name=??4id@locale@std@@QAEAAV012@ABV012@@Z Pascal=4
+327 Name=??4ios_base@std@@QAEAAV01@ABV01@@Z Pascal=4
+328 Name=??4underflow_error@std@@QAEAAV01@ABV01@@Z Pascal=4
+329 Name=??4locale@std@@QAEAAV01@ABV01@@Z Pascal=4
+330 Name=??4logic_error@std@@QAEAAV01@ABV01@@Z Pascal=4
+331 Name=??4underflow_error@std@@QAEAAV01@ABV01@@Z Pascal=4
+332 Name=??4underflow_error@std@@QAEAAV01@ABV01@@Z Pascal=4
+333 Name=??4underflow_error@std@@QAEAAV01@ABV01@@Z Pascal=4
+334 Name=??4underflow_error@std@@QAEAAV01@ABV01@@Z Pascal=4
+335 Name=??4underflow_error@std@@QAEAAV01@ABV01@@Z Pascal=4
+336 Name=??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAF@Z Pascal=4
+337 Name=??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAG@Z Pascal=4
+338 Name=??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAH@Z Pascal=4
+339 Name=??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAI@Z Pascal=4
+340 Name=??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAJ@Z Pascal=4
+341 Name=??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAK@Z Pascal=4
+342 Name=??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAM@Z Pascal=4
+343 Name=??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAN@Z Pascal=4
+344 Name=??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAO@Z Pascal=4
+345 Name=??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAPAX@Z Pascal=4
+346 Name=??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AA_N@Z Pascal=4
+347 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z Pascal=4
+348 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@P6AAAVios_base@1@AAV21@@Z@Z Pascal=4
+349 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@P6AAAVios_base@1@AAV21@@Z@Z Pascal=4
+350 Name=??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z Pascal=4
+351 Name=??5?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV01@AAF@Z Pascal=4
+352 Name=??5?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV01@AAG@Z Pascal=4
+353 Name=??5?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV01@AAH@Z Pascal=4
+354 Name=??5?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV01@AAI@Z Pascal=4
+355 Name=??5?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV01@AAJ@Z Pascal=4
+356 Name=??5?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV01@AAK@Z Pascal=4
+357 Name=??5?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV01@AAM@Z Pascal=4
+358 Name=??5?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV01@AAN@Z Pascal=4
+359 Name=??5?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV01@AAO@Z Pascal=4
+360 Name=??5?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV01@AAPAX@Z Pascal=4
+361 Name=??5?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV01@AA_N@Z Pascal=4
+362 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z Pascal=4
+363 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@P6AAAVios_base@1@AAV21@@Z@Z Pascal=4
+364 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@P6AAAVios_base@1@AAV21@@Z@Z Pascal=4
+365 Name=??5?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV01@PAV?$basic_streambuf@GU?$char_traits@G@std@@@1@@Z Pascal=4
+366 Name=??5std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAE@Z Pascal=0
+367 Name=??5std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAD@Z Pascal=0
+368 Name=??5std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAE@Z Pascal=0
+369 Name=??5std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z Pascal=0
+370 Name=??5std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAV?$complex@M@0@@Z Pascal=0
+371 Name=??5std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAV?$complex@O@0@@Z Pascal=0
+372 Name=??5std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAV?$complex@O@0@@Z Pascal=0
+373 Name=??5std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@PAE@Z Pascal=0
+374 Name=??5std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@PAD@Z Pascal=0
+375 Name=??5std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@PAE@Z Pascal=0
+376 Name=??5std@@YAAAV?$basic_istream@GU?$char_traits@G@std@@@0@AAV10@AAG@Z Pascal=0
+377 Name=??5std@@YAAAV?$basic_istream@GU?$char_traits@G@std@@@0@AAV10@AAV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@@Z Pascal=0
+378 Name=??5std@@YAAAV?$basic_istream@GU?$char_traits@G@std@@@0@AAV10@AAV?$complex@M@0@@Z Pascal=0
+379 Name=??5std@@YAAAV?$basic_istream@GU?$char_traits@G@std@@@0@AAV10@AAV?$complex@O@0@@Z Pascal=0
+380 Name=??5std@@YAAAV?$basic_istream@GU?$char_traits@G@std@@@0@AAV10@AAV?$complex@O@0@@Z Pascal=0
+381 Name=??5std@@YAAAV?$basic_istream@GU?$char_traits@G@std@@@0@AAV10@PAF@Z Pascal=0
+382 Name=??5std@@YAAAV?$basic_istream@GU?$char_traits@G@std@@@0@AAV10@PAG@Z Pascal=0
+383 Name=??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@F@Z Pascal=4
+384 Name=??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@G@Z Pascal=4
+385 Name=??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z Pascal=4
+386 Name=??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@I@Z Pascal=4
+387 Name=??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@J@Z Pascal=4
+388 Name=??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@K@Z Pascal=4
+389 Name=??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@M@Z Pascal=4
+390 Name=??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@N@Z Pascal=8
+391 Name=??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@O@Z Pascal=8
+392 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z Pascal=4
+393 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@P6AAAVios_base@1@AAV21@@Z@Z Pascal=4
+394 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@P6AAAVios_base@1@AAV21@@Z@Z Pascal=4
+395 Name=??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z Pascal=4
+396 Name=??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@PBX@Z Pascal=4
+397 Name=??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@_N@Z Pascal=4
+398 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@F@Z Pascal=4
+399 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@G@Z Pascal=4
+400 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@H@Z Pascal=4
+401 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@I@Z Pascal=4
+402 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@J@Z Pascal=4
+403 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@K@Z Pascal=4
+404 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@M@Z Pascal=4
+405 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@N@Z Pascal=8
+406 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@O@Z Pascal=8
+407 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z Pascal=4
+408 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@P6AAAVios_base@1@AAV21@@Z@Z Pascal=4
+409 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@P6AAAVios_base@1@AAV21@@Z@Z Pascal=4
+410 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@PAV?$basic_streambuf@GU?$char_traits@G@std@@@1@@Z Pascal=4
+411 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@PBX@Z Pascal=4
+412 Name=??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@_N@Z Pascal=4
+413 Name=??6std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z Pascal=0
+414 Name=??6std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@ABV?$complex@M@0@@Z Pascal=0
+415 Name=??6std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@ABV?$complex@N@0@@Z Pascal=0
+416 Name=??6std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@ABV?$complex@O@0@@Z Pascal=0
+417 Name=??6std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@E@Z Pascal=0
+418 Name=??6std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@D@Z Pascal=0
+419 Name=??6std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@E@Z Pascal=0
+420 Name=??6std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBE@Z Pascal=0
+421 Name=??6std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z Pascal=0
+422 Name=??6std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBE@Z Pascal=0
+423 Name=??6std@@YAAAV?$basic_ostream@GU?$char_traits@G@std@@@0@AAV10@ABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@@Z Pascal=0
+424 Name=??6std@@YAAAV?$basic_ostream@GU?$char_traits@G@std@@@0@AAV10@ABV?$complex@M@0@@Z Pascal=0
+425 Name=??6std@@YAAAV?$basic_ostream@GU?$char_traits@G@std@@@0@AAV10@ABV?$complex@N@0@@Z Pascal=0
+426 Name=??6std@@YAAAV?$basic_ostream@GU?$char_traits@G@std@@@0@AAV10@ABV?$complex@O@0@@Z Pascal=0
+427 Name=??6std@@YAAAV?$basic_ostream@GU?$char_traits@G@std@@@0@AAV10@G@Z Pascal=0
+428 Name=??6std@@YAAAV?$basic_ostream@GU?$char_traits@G@std@@@0@AAV10@PBF@Z Pascal=0
+429 Name=??6std@@YAAAV?$basic_ostream@GU?$char_traits@G@std@@@0@AAV10@PBG@Z Pascal=0
+430 Name=?fail@ios_base@std@@QBE_NXZ Pascal=0
+431 Name=??8locale@std@@QBE_NABV01@@Z Pascal=4
+432 Name=??8std@@YA_NABMABV?$complex@M@0@@Z Pascal=0
+433 Name=??8std@@YA_NABNABV?$complex@N@0@@Z Pascal=0
+434 Name=??8std@@YA_NABOABV?$complex@O@0@@Z Pascal=0
+435 Name=??8std@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z Pascal=0
+436 Name=??8std@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PBD@Z Pascal=0
+437 Name=??8std@@YA_NABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@0@Z Pascal=0
+438 Name=??8std@@YA_NABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@PBG@Z Pascal=0
+439 Name=??8std@@YA_NABV?$complex@M@0@0@Z Pascal=0
+440 Name=??8std@@YA_NABV?$complex@M@0@ABM@Z Pascal=0
+441 Name=??8std@@YA_NABV?$complex@O@0@0@Z Pascal=0
+442 Name=??8std@@YA_NABV?$complex@N@0@ABN@Z Pascal=0
+443 Name=??8std@@YA_NABV?$complex@O@0@0@Z Pascal=0
+444 Name=??8std@@YA_NABV?$complex@O@0@ABO@Z Pascal=0
+445 Name=??8std@@YA_NPBDABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z Pascal=0
+446 Name=??8std@@YA_NPBGABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@@Z Pascal=0
+447 Name=??9locale@std@@QBE_NABV01@@Z Pascal=4
+448 Name=??9std@@YA_NABMABV?$complex@M@0@@Z Pascal=0
+449 Name=??9std@@YA_NABNABV?$complex@N@0@@Z Pascal=0
+450 Name=??9std@@YA_NABOABV?$complex@O@0@@Z Pascal=0
+451 Name=??9std@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z Pascal=0
+452 Name=??9std@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PBD@Z Pascal=0
+453 Name=??9std@@YA_NABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@0@Z Pascal=0
+454 Name=??9std@@YA_NABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@PBG@Z Pascal=0
+455 Name=??9std@@YA_NABV?$complex@M@0@0@Z Pascal=0
+456 Name=??9std@@YA_NABV?$complex@M@0@ABM@Z Pascal=0
+457 Name=??9std@@YA_NABV?$complex@O@0@0@Z Pascal=0
+458 Name=??9std@@YA_NABV?$complex@N@0@ABN@Z Pascal=0
+459 Name=??9std@@YA_NABV?$complex@O@0@0@Z Pascal=0
+460 Name=??9std@@YA_NABV?$complex@O@0@ABO@Z Pascal=0
+461 Name=??9std@@YA_NPBDABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z Pascal=0
+462 Name=??9std@@YA_NPBGABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@@Z Pascal=0
+463 Name=??A?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAADI@Z Pascal=4
+464 Name=??A?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEABDI@Z Pascal=4
+465 Name=??A?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAGI@Z Pascal=4
+466 Name=??A?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEABGI@Z Pascal=4
+467 Name=??Bid@locale@std@@QAEIXZ Pascal=0
+468 Name=??Bios_base@std@@QBEPAXXZ Pascal=0
+469 Name=??Dstd@@YA?AV?$complex@M@0@ABMABV10@@Z Pascal=0
+470 Name=??Dstd@@YA?AV?$complex@M@0@ABV10@0@Z Pascal=0
+471 Name=??Dstd@@YA?AV?$complex@M@0@ABV10@ABM@Z Pascal=0
+472 Name=??Dstd@@YA?AV?$complex@O@0@ABOABV10@@Z Pascal=0
+473 Name=??Dstd@@YA?AV?$complex@N@0@ABV10@0@Z Pascal=0
+474 Name=??Dstd@@YA?AV?$complex@O@0@ABV10@ABO@Z Pascal=0
+475 Name=??Dstd@@YA?AV?$complex@O@0@ABOABV10@@Z Pascal=0
+476 Name=??Dstd@@YA?AV?$complex@O@0@ABV10@0@Z Pascal=0
+477 Name=??Dstd@@YA?AV?$complex@O@0@ABV10@ABO@Z Pascal=0
+478 Name=??Gstd@@YA?AV?$complex@M@0@ABMABV10@@Z Pascal=0
+479 Name=??Gstd@@YA?AV?$complex@M@0@ABV10@0@Z Pascal=0
+480 Name=??Gstd@@YA?AV?$complex@M@0@ABV10@@Z Pascal=0
+481 Name=??Gstd@@YA?AV?$complex@M@0@ABV10@ABM@Z Pascal=0
+482 Name=??Gstd@@YA?AV?$complex@O@0@ABOABV10@@Z Pascal=0
+483 Name=??Gstd@@YA?AV?$complex@O@0@ABV10@0@Z Pascal=0
+484 Name=??Gstd@@YA?AV?$complex@O@0@ABV10@@Z Pascal=0
+485 Name=??Gstd@@YA?AV?$complex@O@0@ABV10@ABO@Z Pascal=0
+486 Name=??Gstd@@YA?AV?$complex@O@0@ABOABV10@@Z Pascal=0
+487 Name=??Gstd@@YA?AV?$complex@O@0@ABV10@0@Z Pascal=0
+488 Name=??Gstd@@YA?AV?$complex@O@0@ABV10@@Z Pascal=0
+489 Name=??Gstd@@YA?AV?$complex@O@0@ABV10@ABO@Z Pascal=0
+490 Name=??Hstd@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@0@Z Pascal=0
+491 Name=??Hstd@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@D@Z Pascal=0
+492 Name=??Hstd@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@PBD@Z Pascal=0
+493 Name=??Hstd@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@DABV10@@Z Pascal=0
+494 Name=??Hstd@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PBDABV10@@Z Pascal=0
+495 Name=??Hstd@@YA?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@ABV10@0@Z Pascal=0
+496 Name=??Hstd@@YA?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@ABV10@G@Z Pascal=0
+497 Name=??Hstd@@YA?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@ABV10@PBG@Z Pascal=0
+498 Name=??Hstd@@YA?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@GABV10@@Z Pascal=0
+499 Name=??Hstd@@YA?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@PBGABV10@@Z Pascal=0
+500 Name=??Hstd@@YA?AV?$complex@M@0@ABMABV10@@Z Pascal=0
+501 Name=??Hstd@@YA?AV?$complex@M@0@ABV10@0@Z Pascal=0
+502 Name=??Hstd@@YA?AV?$complex@M@0@ABV10@@Z Pascal=0
+503 Name=??Hstd@@YA?AV?$complex@M@0@ABV10@ABM@Z Pascal=0
+504 Name=??Hstd@@YA?AV?$complex@O@0@ABOABV10@@Z Pascal=0
+505 Name=??Hstd@@YA?AV?$complex@O@0@ABV10@0@Z Pascal=0
+506 Name=??Hstd@@YA?AV?$complex@O@0@ABV10@@Z Pascal=0
+507 Name=??Hstd@@YA?AV?$complex@O@0@ABV10@ABO@Z Pascal=0
+508 Name=??Hstd@@YA?AV?$complex@O@0@ABOABV10@@Z Pascal=0
+509 Name=??Hstd@@YA?AV?$complex@O@0@ABV10@0@Z Pascal=0
+510 Name=??Hstd@@YA?AV?$complex@O@0@ABV10@@Z Pascal=0
+511 Name=??Hstd@@YA?AV?$complex@O@0@ABV10@ABO@Z Pascal=0
+512 Name=??Kstd@@YA?AV?$complex@M@0@ABMABV10@@Z Pascal=0
+513 Name=??Kstd@@YA?AV?$complex@M@0@ABV10@0@Z Pascal=0
+514 Name=??Kstd@@YA?AV?$complex@M@0@ABV10@ABM@Z Pascal=0
+515 Name=??Kstd@@YA?AV?$complex@N@0@ABNABV10@@Z Pascal=0
+516 Name=??Kstd@@YA?AV?$complex@N@0@ABV10@0@Z Pascal=0
+517 Name=??Kstd@@YA?AV?$complex@O@0@ABV10@ABO@Z Pascal=0
+518 Name=??Kstd@@YA?AV?$complex@O@0@ABOABV10@@Z Pascal=0
+519 Name=??Kstd@@YA?AV?$complex@O@0@ABV10@0@Z Pascal=0
+520 Name=??Kstd@@YA?AV?$complex@O@0@ABV10@ABO@Z Pascal=0
+521 Name=??Mstd@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z Pascal=0
+522 Name=??Mstd@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PBD@Z Pascal=0
+523 Name=??Mstd@@YA_NABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@0@Z Pascal=0
+524 Name=??Mstd@@YA_NABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@PBG@Z Pascal=0
+525 Name=??Mstd@@YA_NPBDABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z Pascal=0
+526 Name=??Mstd@@YA_NPBGABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@@Z Pascal=0
+527 Name=??Nstd@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z Pascal=0
+528 Name=??Nstd@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PBD@Z Pascal=0
+529 Name=??Nstd@@YA_NABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@0@Z Pascal=0
+530 Name=??Nstd@@YA_NABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@PBG@Z Pascal=0
+531 Name=??Nstd@@YA_NPBDABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z Pascal=0
+532 Name=??Nstd@@YA_NPBGABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@@Z Pascal=0
+533 Name=??Ostd@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z Pascal=0
+534 Name=??Ostd@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PBD@Z Pascal=0
+535 Name=??Ostd@@YA_NABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@0@Z Pascal=0
+536 Name=??Ostd@@YA_NABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@PBG@Z Pascal=0
+537 Name=??Ostd@@YA_NPBDABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z Pascal=0
+538 Name=??Ostd@@YA_NPBGABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@@Z Pascal=0
+539 Name=??Pstd@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z Pascal=0
+540 Name=??Pstd@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PBD@Z Pascal=0
+541 Name=??Pstd@@YA_NABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@0@Z Pascal=0
+542 Name=??Pstd@@YA_NABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@PBG@Z Pascal=0
+543 Name=??Pstd@@YA_NPBDABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z Pascal=0
+544 Name=??Pstd@@YA_NPBGABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@0@@Z Pascal=0
+545 Name=??Rlocale@std@@QBE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@0@Z Pascal=8
+546 Name=??X?$_Complex_base@M@std@@QAEAAV01@ABM@Z Pascal=4
+547 Name=??X?$_Complex_base@O@std@@QAEAAV01@ABO@Z Pascal=4
+548 Name=??X?$_Complex_base@O@std@@QAEAAV01@ABO@Z Pascal=4
+549 Name=??Xstd@@YAAAV?$complex@M@0@AAV10@ABV10@@Z Pascal=0
+550 Name=??Xstd@@YAAAV?$complex@O@0@AAV10@ABV10@@Z Pascal=0
+551 Name=??Xstd@@YAAAV?$complex@O@0@AAV10@ABV10@@Z Pascal=0
+552 Name=??Y?$_Complex_base@M@std@@QAEAAV01@ABM@Z Pascal=4
+553 Name=??Y?$_Complex_base@O@std@@QAEAAV01@ABO@Z Pascal=4
+554 Name=??Y?$_Complex_base@O@std@@QAEAAV01@ABO@Z Pascal=4
+555 Name=?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@@Z Pascal=4
+556 Name=??Y?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@D@Z Pascal=4
+557 Name=?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBD@Z Pascal=4
+558 Name=?append@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@ABV12@@Z Pascal=4
+559 Name=??Y?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV01@G@Z Pascal=4
+560 Name=?append@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@PBG@Z Pascal=4
+561 Name=??Ystd@@YAAAV?$complex@M@0@AAV10@ABV10@@Z Pascal=0
+562 Name=??Ystd@@YAAAV?$complex@N@0@AAV10@ABV10@@Z Pascal=0
+563 Name=??Ystd@@YAAAV?$complex@O@0@AAV10@ABV10@@Z Pascal=0
+564 Name=??Z?$_Complex_base@M@std@@QAEAAV01@ABM@Z Pascal=4
+565 Name=??Z?$_Complex_base@O@std@@QAEAAV01@ABO@Z Pascal=4
+566 Name=??Z?$_Complex_base@O@std@@QAEAAV01@ABO@Z Pascal=4
+567 Name=??Zstd@@YAAAV?$complex@M@0@AAV10@ABV10@@Z Pascal=0
+568 Name=??Zstd@@YAAAV?$complex@O@0@AAV10@ABV10@@Z Pascal=0
+569 Name=??Zstd@@YAAAV?$complex@O@0@AAV10@ABV10@@Z Pascal=0
+570 Name=??_0?$_Complex_base@M@std@@QAEAAV01@ABM@Z Pascal=4
+571 Name=??_0?$_Complex_base@O@std@@QAEAAV01@ABO@Z Pascal=4
+572 Name=??_0?$_Complex_base@O@std@@QAEAAV01@ABO@Z Pascal=4
+573 Name=??_0std@@YAAAV?$complex@M@0@AAV10@ABV10@@Z Pascal=0
+574 Name=??_0std@@YAAAV?$complex@N@0@AAV10@ABV10@@Z Pascal=0
+575 Name=??_0std@@YAAAV?$complex@O@0@AAV10@ABV10@@Z Pascal=0
+576 Name=??_7?$_Mpunct@D@std@@6B@
+577 Name=??_7?$_Mpunct@G@std@@6B@
+578 Name=??_7?$basic_filebuf@DU?$char_traits@D@std@@@std@@6B@
+579 Name=??_7?$basic_filebuf@GU?$char_traits@G@std@@@std@@6B@
+580 Name=??_7?$basic_fstream@DU?$char_traits@D@std@@@std@@6B@
+581 Name=??_7?$basic_fstream@GU?$char_traits@G@std@@@std@@6B@
+582 Name=??_7?$basic_ifstream@DU?$char_traits@D@std@@@std@@6B@
+583 Name=??_7?$basic_ifstream@GU?$char_traits@G@std@@@std@@6B@
+584 Name=??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
+585 Name=??_7?$basic_ios@GU?$char_traits@G@std@@@std@@6B@
+586 Name=??_7?$basic_iostream@DU?$char_traits@D@std@@@std@@6B@
+587 Name=??_7?$basic_iostream@GU?$char_traits@G@std@@@std@@6B@
+588 Name=??_7?$basic_istream@DU?$char_traits@D@std@@@std@@6B@
+589 Name=??_7?$basic_istream@GU?$char_traits@G@std@@@std@@6B@
+590 Name=??_7?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@
+591 Name=??_7?$basic_istringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@6B@
+592 Name=??_7?$basic_ofstream@DU?$char_traits@D@std@@@std@@6B@
+593 Name=??_7?$basic_ofstream@GU?$char_traits@G@std@@@std@@6B@
+594 Name=??_7?$basic_ostream@DU?$char_traits@D@std@@@std@@6B@
+595 Name=??_7?$basic_ostream@GU?$char_traits@G@std@@@std@@6B@
+596 Name=??_7?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@
+597 Name=??_7?$basic_ostringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@6B@
+598 Name=??_7?$basic_streambuf@DU?$char_traits@D@std@@@std@@6B@
+599 Name=??_7?$basic_streambuf@GU?$char_traits@G@std@@@std@@6B@
+600 Name=??_7?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@
+601 Name=??_7?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@6B@
+602 Name=??_7?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@
+603 Name=??_7?$basic_stringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@6B@
+604 Name=??_7?$codecvt@DDH@std@@6B@
+605 Name=??_7?$codecvt@GDH@std@@6B@
+606 Name=??_7?$collate@D@std@@6B@
+607 Name=??_7?$collate@G@std@@6B@
+608 Name=??_7?$ctype@D@std@@6B@
+609 Name=??_7?$ctype@G@std@@6B@
+610 Name=??_7?$messages@D@std@@6B@
+611 Name=??_7?$messages@G@std@@6B@
+612 Name=??_7?$money_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@6B@
+613 Name=??_7?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@6B@
+614 Name=??_7?$money_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@6B@
+615 Name=??_7?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@6B@
+616 Name=??_7?$moneypunct@D$00@std@@6B@
+617 Name=??_7?$moneypunct@D$0A@@std@@6B@
+618 Name=??_7?$moneypunct@G$00@std@@6B@
+619 Name=??_7?$moneypunct@G$0A@@std@@6B@
+620 Name=??_7?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@6B@
+621 Name=??_7?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@6B@
+622 Name=??_7?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@6B@
+623 Name=??_7?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@6B@
+624 Name=??_7?$numpunct@D@std@@6B@
+625 Name=??_7?$numpunct@G@std@@6B@
+626 Name=??_7?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@6B@
+627 Name=??_7?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@6B@
+628 Name=??_7?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@6B@
+629 Name=??_7?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@6B@
+630 Name=??_7bad_alloc@std@@6B@
+631 Name=??_7bad_cast@std@@6B@
+632 Name=??_7bad_exception@std@@6B@
+633 Name=??_7codecvt_base@std@@6B@
+634 Name=??_7ctype_base@std@@6B@
+635 Name=??_7domain_error@std@@6B@
+636 Name=??_7facet@locale@std@@6B@
+637 Name=??_7ios_base@std@@6B@
+638 Name=??_7length_error@std@@6B@
+639 Name=??_7logic_error@std@@6B@
+640 Name=??_7messages_base@std@@6B@
+641 Name=??_7money_base@std@@6B@
+642 Name=??_7out_of_range@std@@6B@
+643 Name=??_7overflow_error@std@@6B@
+644 Name=??_7range_error@std@@6B@
+645 Name=??_7runtime_error@std@@6B@
+646 Name=??_7time_base@std@@6B@
+647 Name=??_7underflow_error@std@@6B@
+648 Name=??_8?$basic_fstream@DU?$char_traits@D@std@@@std@@7B?$basic_istream@DU?$char_traits@D@std@@@1@@
+649 Name=??_8?$basic_fstream@DU?$char_traits@D@std@@@std@@7B?$basic_ostream@DU?$char_traits@D@std@@@1@@
+650 Name=??_8?$basic_fstream@GU?$char_traits@G@std@@@std@@7B?$basic_istream@GU?$char_traits@G@std@@@1@@
+651 Name=??_8?$basic_fstream@GU?$char_traits@G@std@@@std@@7B?$basic_ostream@GU?$char_traits@G@std@@@1@@
+652 Name=??_8?$basic_ifstream@DU?$char_traits@D@std@@@std@@7B@
+653 Name=??_8?$basic_ifstream@GU?$char_traits@G@std@@@std@@7B@
+654 Name=??_8?$basic_iostream@DU?$char_traits@D@std@@@std@@7B?$basic_istream@DU?$char_traits@D@std@@@1@@
+655 Name=??_8?$basic_iostream@DU?$char_traits@D@std@@@std@@7B?$basic_ostream@DU?$char_traits@D@std@@@1@@
+656 Name=??_8?$basic_iostream@GU?$char_traits@G@std@@@std@@7B?$basic_istream@GU?$char_traits@G@std@@@1@@
+657 Name=??_8?$basic_iostream@GU?$char_traits@G@std@@@std@@7B?$basic_ostream@GU?$char_traits@G@std@@@1@@
+658 Name=??_8?$basic_istream@DU?$char_traits@D@std@@@std@@7B@
+659 Name=??_8?$basic_istream@GU?$char_traits@G@std@@@std@@7B@
+660 Name=??_8?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@7B@
+661 Name=??_8?$basic_istringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@7B@
+662 Name=??_8?$basic_ofstream@DU?$char_traits@D@std@@@std@@7B@
+663 Name=??_8?$basic_ofstream@GU?$char_traits@G@std@@@std@@7B@
+664 Name=??_8?$basic_ostream@DU?$char_traits@D@std@@@std@@7B@
+665 Name=??_8?$basic_ostream@GU?$char_traits@G@std@@@std@@7B@
+666 Name=??_8?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@7B@
+667 Name=??_8?$basic_ostringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@7B@
+668 Name=??_8?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@7B?$basic_istream@DU?$char_traits@D@std@@@1@@
+669 Name=??_8?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@7B?$basic_ostream@DU?$char_traits@D@std@@@1@@
+670 Name=??_8?$basic_stringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@7B?$basic_istream@GU?$char_traits@G@std@@@1@@
+671 Name=??_8?$basic_stringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@7B?$basic_ostream@GU?$char_traits@G@std@@@1@@
+672 Name=??_C@_00A@?$AA@
+673 Name=??_C@_01FKHJ@C?$AA@
+674 Name=??_C@_01GJD@?9?$AA@
+675 Name=??_C@_01KFAL@E?$AA@
+676 Name=??_C@_01KMAE@?0?$AA@
+677 Name=??_C@_01PHOL@e?$AA@
+678 Name=??_C@_02ELCB@no?$AA@
+679 Name=??_C@_02MHAC@?$CFp?$AA@
+680 Name=??_C@_03LGKI@yes?$AA@
+681 Name=??_C@_04HDBI@$?$CLvx?$AA@
+682 Name=??_C@_04HHID@?$CB?$CFx?$AA?$AA@
+683 Name=??_C@_04NCCD@true?$AA@
+684 Name=??_C@_05FFJC@?$CF?40Lf?$AA@
+685 Name=??_C@_05NAGO@false?$AA@
+686 Name=??_C@_08JHLB@bad?5cast?$AA@
+687 Name=??_C@_0BH@CFAI@0123456789abcdefABCDEF?$AA@
+688 Name=??_C@_0FB@PNAB@?$CLv$x?$CLv$xv$?$CLxv?$CL$xv$?$CLx?$CL$vx?$CL$vx$v?$CLx@
+689 Name=??_C@_0FG@ILEN@?3Sun?3Sunday?3Mon?3Monday?3Tue?3Tuesd@
+690 Name=??_C@_0IH@JLLA@?3Jan?3January?3Feb?3February?3Mar?3Ma@
+691 Name=??_C@_0O@NLHM@bad?5exception?$AA@
+692 Name=??_C@_0P@LJNA@bad?5allocation?$AA@
+693 Name=??_D?$basic_fstream@DU?$char_traits@D@std@@@std@@QAEXXZ Pascal=0
+694 Name=??_D?$basic_fstream@GU?$char_traits@G@std@@@std@@QAEXXZ Pascal=0
+695 Name=??_D?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAEXXZ Pascal=0
+696 Name=??_D?$basic_ifstream@GU?$char_traits@G@std@@@std@@QAEXXZ Pascal=0
+697 Name=??_D?$basic_iostream@DU?$char_traits@D@std@@@std@@QAEXXZ Pascal=0
+698 Name=??_D?$basic_iostream@GU?$char_traits@G@std@@@std@@QAEXXZ Pascal=0
+699 Name=??_D?$basic_istream@DU?$char_traits@D@std@@@std@@QAEXXZ
+700 Name=??_D?$basic_istream@GU?$char_traits@G@std@@@std@@QAEXXZ
+701 Name=??_D?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ Pascal=0
+702 Name=??_D?$basic_istringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXXZ Pascal=0
+703 Name=??_D?$basic_ofstream@DU?$char_traits@D@std@@@std@@QAEXXZ Pascal=0
+704 Name=??_D?$basic_ofstream@GU?$char_traits@G@std@@@std@@QAEXXZ Pascal=0
+705 Name=??_D?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ
+706 Name=??_D?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEXXZ
+707 Name=??_D?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ Pascal=0
+708 Name=??_D?$basic_ostringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXXZ Pascal=0
+709 Name=??_D?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ Pascal=0
+710 Name=??_D?$basic_stringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXXZ Pascal=0
+711 Name=??_F?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEXXZ Pascal=0
+712 Name=??_F?$basic_filebuf@GU?$char_traits@G@std@@@std@@QAEXXZ Pascal=0
+713 Name=??_F?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ Pascal=0
+714 Name=??_F?$basic_istringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXXZ Pascal=0
+715 Name=??_F?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ Pascal=0
+716 Name=??_F?$basic_ostringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXXZ Pascal=0
+717 Name=??_F?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXXZ Pascal=0
+718 Name=??_F?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXXZ Pascal=0
+719 Name=??_F?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ Pascal=0
+720 Name=??_F?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXXZ Pascal=0
+721 Name=??_F?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ Pascal=0
+722 Name=??_F?$basic_stringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXXZ Pascal=0
+723 Name=??_F?$codecvt@DDH@std@@QAEXXZ Pascal=0
+724 Name=??_F?$codecvt@GDH@std@@QAEXXZ Pascal=0
+725 Name=??_F?$collate@D@std@@QAEXXZ Pascal=0
+726 Name=??_F?$collate@G@std@@QAEXXZ Pascal=0
+727 Name=??_F?$complex@M@std@@QAEXXZ Pascal=0
+728 Name=??_F?$complex@O@std@@QAEXXZ Pascal=0
+729 Name=??_F?$complex@O@std@@QAEXXZ Pascal=0
+730 Name=??_F?$ctype@D@std@@QAEXXZ Pascal=0
+731 Name=??_F?$ctype@G@std@@QAEXXZ Pascal=0
+732 Name=??_F?$messages@D@std@@QAEXXZ Pascal=0
+733 Name=??_F?$messages@G@std@@QAEXXZ Pascal=0
+734 Name=??_F?$money_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QAEXXZ Pascal=0
+735 Name=??_F?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QAEXXZ Pascal=0
+736 Name=??_F?$money_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QAEXXZ Pascal=0
+737 Name=??_F?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QAEXXZ Pascal=0
+738 Name=??_F?$moneypunct@D$00@std@@QAEXXZ Pascal=0
+739 Name=??_F?$moneypunct@D$0A@@std@@QAEXXZ Pascal=0
+740 Name=??_F?$moneypunct@G$00@std@@QAEXXZ Pascal=0
+741 Name=??_F?$moneypunct@G$0A@@std@@QAEXXZ Pascal=0
+742 Name=??_F?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QAEXXZ Pascal=0
+743 Name=??_F?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QAEXXZ Pascal=0
+744 Name=??_F?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QAEXXZ Pascal=0
+745 Name=??_F?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QAEXXZ Pascal=0
+746 Name=??_F?$numpunct@D@std@@QAEXXZ Pascal=0
+747 Name=??_F?$numpunct@G@std@@QAEXXZ Pascal=0
+748 Name=??_F?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QAEXXZ Pascal=0
+749 Name=??_F?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QAEXXZ Pascal=0
+750 Name=??_F?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QAEXXZ Pascal=0
+751 Name=??_F?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QAEXXZ Pascal=0
+752 Name=??_F_Locinfo@std@@QAEXXZ Pascal=0
+753 Name=??_F_Timevec@std@@QAEXXZ Pascal=0
+754 Name=??_Fbad_alloc@std@@QAEXXZ Pascal=0
+755 Name=??_Fbad_cast@std@@QAEXXZ Pascal=0
+756 Name=??_Fbad_exception@std@@QAEXXZ Pascal=0
+757 Name=??_Fcodecvt_base@std@@QAEXXZ Pascal=0
+758 Name=??_Fctype_base@std@@QAEXXZ Pascal=0
+759 Name=??_Ffacet@locale@std@@QAEXXZ Pascal=0
+760 Name=??_Fmessages_base@std@@QAEXXZ Pascal=0
+761 Name=??_Fmoney_base@std@@QAEXXZ Pascal=0
+762 Name=??_Ftime_base@std@@QAEXXZ Pascal=0
+763 Name=?_Addcats@_Locinfo@std@@QAEAAV12@HPBD@Z Pascal=8
+764 Name=?_Addfac@locale@std@@QAEAAV12@PAVfacet@12@II@Z Pascal=12
+765 Name=?_Addstd@ios_base@std@@IAEXXZ Pascal=0
+766 Name=?_C@?1??_Nullstr@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAPBDXZ@4DB
+767 Name=?_C@?1??_Nullstr@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@CAPBGXZ@4GB
+768 Name=?_Callfns@ios_base@std@@AAEXW4event@12@@Z Pascal=4
+769 Name=?_Cl@?5??log@std@@YA?AV?$complex@M@2@ABV32@@Z@4MB
+770 Name=?_Cl@?5??log@std@@YA?AV?$complex@N@2@ABV32@@Z@4NB
+771 Name=?_Cl@?5??log@std@@YA?AV?$complex@O@2@ABV32@@Z@4OB
+772 Name=?_Clocptr@_Locimp@locale@std@@0PAV123@A
+773 Name=?_Cltab@?$ctype@D@std@@0PBFB
+774 Name=?_Cm@?5??log@std@@YA?AV?$complex@M@2@ABV32@@Z@4MB
+775 Name=?_Cm@?5??log@std@@YA?AV?$complex@N@2@ABV32@@Z@4NB
+776 Name=?_Cm@?5??log@std@@YA?AV?$complex@O@2@ABV32@@Z@4OB
+777 Name=?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXI@Z Pascal=4
+778 Name=?_Copy@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@AAEXI@Z Pascal=4
+779 Name=?_Cosh@?$_Ctr@M@std@@SAMMM@Z Pascal=0
+780 Name=?_Cosh@?$_Ctr@N@std@@SANNN@Z Pascal=0
+781 Name=?_Cosh@?$_Ctr@O@std@@SAOOO@Z Pascal=0
+782 Name=?_Decref@facet@locale@std@@QAEPAV123@XZ Pascal=0
+783 Name=?_Doraise@bad_alloc@std@@MBEXXZ Pascal=0
+784 Name=?_Doraise@bad_cast@std@@MBEXXZ Pascal=0
+785 Name=?_Doraise@bad_exception@std@@MBEXXZ Pascal=0
+786 Name=?_Doraise@domain_error@std@@MBEXXZ Pascal=0
+787 Name=?_Doraise@length_error@std@@MBEXXZ Pascal=0
+788 Name=?_Doraise@logic_error@std@@MBEXXZ Pascal=0
+789 Name=?_Doraise@out_of_range@std@@MBEXXZ Pascal=0
+790 Name=?_Doraise@overflow_error@std@@MBEXXZ Pascal=0
+791 Name=?_Doraise@range_error@std@@MBEXXZ Pascal=0
+792 Name=?_Doraise@runtime_error@std@@MBEXXZ Pascal=0
+793 Name=?_Doraise@underflow_error@std@@MBEXXZ Pascal=0
+794 Name=?_Eos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXI@Z Pascal=4
+795 Name=?_Eos@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@AAEXI@Z Pascal=4
+796 Name=?_Exp@?$_Ctr@M@std@@SAFPAMMF@Z Pascal=0
+797 Name=?_Exp@?$_Ctr@N@std@@SAFPANNF@Z Pascal=0
+798 Name=?_Exp@?$_Ctr@O@std@@SAFPAOOF@Z Pascal=0
+799 Name=?_Fabs@std@@YAMABV?$complex@M@1@PAH@Z Pascal=0
+800 Name=?_Fabs@std@@YANABV?$complex@N@1@PAH@Z Pascal=0
+801 Name=?_Fabs@std@@YAOABV?$complex@O@1@PAH@Z Pascal=0
+802 Name=?_Ffmt@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@KAPADPADDH@Z Pascal=0
+803 Name=?_Ffmt@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@KAPADPADDH@Z Pascal=0
+804 Name=?_Findarr@ios_base@std@@AAEAAU_Iosarray@12@H@Z Pascal=4
+805 Name=?_Fiopen@?$basic_filebuf@GU?$char_traits@G@std@@@std@@CAPAU_iobuf@@PBDH@Z Pascal=0
+806 Name=?_Fiopen@?$basic_filebuf@GU?$char_traits@G@std@@@std@@CAPAU_iobuf@@PBDH@Z Pascal=0
+807 Name=?_Fput@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@KA?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@AAVios_base@2@DPBDII@Z Pascal=0
+808 Name=?_Fput@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@KA?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@GPBDII@Z Pascal=0
+809 Name=?_Fpz@std@@3_JB
+810 Name=?_Freeze@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXXZ Pascal=0
+811 Name=?_Freeze@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@AAEXXZ Pascal=0
+812 Name=?_Getcat@?$numpunct@G@std@@SAIXZ Pascal=0
+813 Name=?_Getcat@?$numpunct@G@std@@SAIXZ Pascal=0
+814 Name=?do_max_length@?$codecvt@GDH@std@@MBEHXZ Pascal=0
+815 Name=?do_max_length@?$codecvt@GDH@std@@MBEHXZ Pascal=0
+816 Name=?do_max_length@codecvt_base@std@@MBEHXZ Pascal=0
+817 Name=?do_max_length@codecvt_base@std@@MBEHXZ Pascal=0
+818 Name=?do_max_length@?$codecvt@GDH@std@@MBEHXZ Pascal=0
+819 Name=?do_max_length@?$codecvt@GDH@std@@MBEHXZ Pascal=0
+820 Name=?_Getcat@?$messages@G@std@@SAIXZ Pascal=0
+821 Name=?_Getcat@?$messages@G@std@@SAIXZ Pascal=0
+822 Name=?_Getcat@?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@SAIXZ Pascal=0
+823 Name=?_Getcat@?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@SAIXZ Pascal=0
+824 Name=?_Getcat@?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@SAIXZ Pascal=0
+825 Name=?_Getcat@?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@SAIXZ Pascal=0
+826 Name=?_Getcat@?$numpunct@G@std@@SAIXZ Pascal=0
+827 Name=?_Getcat@?$numpunct@G@std@@SAIXZ Pascal=0
+828 Name=?_Getcat@?$numpunct@G@std@@SAIXZ Pascal=0
+829 Name=?_Getcat@?$numpunct@G@std@@SAIXZ Pascal=0
+830 Name=?_Getcat@?$numpunct@G@std@@SAIXZ Pascal=0
+831 Name=?_Getcat@?$numpunct@G@std@@SAIXZ Pascal=0
+832 Name=?_Getcat@?$numpunct@G@std@@SAIXZ Pascal=0
+833 Name=?_Getcat@?$numpunct@G@std@@SAIXZ Pascal=0
+834 Name=?_Getcat@?$numpunct@G@std@@SAIXZ Pascal=0
+835 Name=?_Getcat@?$numpunct@G@std@@SAIXZ Pascal=0
+836 Name=?_Getcat@?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@SAIXZ Pascal=0
+837 Name=?_Getcat@?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@SAIXZ Pascal=0
+838 Name=?_Getcat@?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@SAIXZ Pascal=0
+839 Name=?_Getcat@?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@SAIXZ Pascal=0
+840 Name=?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ Pascal=0
+841 Name=?_Getcoll@_Locinfo@std@@QBE?AU_Collvec@@XZ Pascal=4
+842 Name=?_Getctype@_Locinfo@std@@QBE?AU_Ctypevec@@XZ Pascal=4
+843 Name=?_Getcvt@_Locinfo@std@@QBE?AU_Cvtvec@@XZ Pascal=4
+844 Name=?_Getdays@_Locinfo@std@@QBEPBDXZ Pascal=0
+845 Name=?_Getfacet@locale@std@@QBEPBVfacet@12@I_N@Z Pascal=8
+846 Name=?_Getfalse@_Locinfo@std@@QBEPBDXZ Pascal=0
+847 Name=?_Getffld@?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@CAHPADAAV?$istreambuf_iterator@DU?$char_traits@D@std@@@2@1ABVlocale@2@@Z Pascal=0
+848 Name=?_Getffld@?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@CAHPADAAV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@1ABVlocale@2@@Z Pascal=0
+849 Name=?_Getifld@?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@CAHPADAAV?$istreambuf_iterator@DU?$char_traits@D@std@@@2@1HABVlocale@2@@Z Pascal=0
+850 Name=?_Getifld@?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@CAHPADAAV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@1HABVlocale@2@@Z Pascal=0
+851 Name=?_Getint@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@CAHAAV?$istreambuf_iterator@DU?$char_traits@D@std@@@2@0HHAAH@Z Pascal=0
+852 Name=?_Getint@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@CAHAAV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@0HHAAH@Z Pascal=0
+853 Name=?_Getlconv@_Locinfo@std@@QBEPBUlconv@@XZ
+854 Name=?_Getmfld@?$money_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@ABE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@AAV?$istreambuf_iterator@DU?$char_traits@D@std@@@2@0_NAAVios_base@2@@Z Pascal=20
+855 Name=?_Getmfld@?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@ABE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@AAV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@0_NAAVios_base@2@@Z Pascal=20
+856 Name=?_Getmonths@_Locinfo@std@@QBEPBDXZ Pascal=0
+857 Name=?_Getname@_Locinfo@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ Pascal=4
+858 Name=?_Getno@_Locinfo@std@@QBEPBDXZ Pascal=0
+859 Name=?_Getptr@_Timevec@std@@QBEPAXXZ Pascal=0
+860 Name=?_Gettnames@_Locinfo@std@@QBE?AV_Timevec@2@XZ Pascal=4
+861 Name=?_Gettrue@_Locinfo@std@@QBEPBDXZ Pascal=0
+862 Name=?_Getyes@_Locinfo@std@@QBEPBDXZ Pascal=0
+863 Name=?_Global@_Locimp@locale@std@@0PAV123@A
+864 Name=?_Gndec@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ Pascal=0
+865 Name=?_Gndec@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEPAGXZ Pascal=0
+866 Name=?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ Pascal=0
+867 Name=?_Gninc@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEPAGXZ Pascal=0
+868 Name=?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAE_NI_N@Z Pascal=8
+869 Name=?_Grow@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@AAE_NI_N@Z Pascal=8
+870 Name=?_Id_cnt@id@locale@std@@0HA
+871 Name=?_Ifmt@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@KAPADPADDH@Z Pascal=0
+872 Name=?_Ifmt@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@KAPADPADDH@Z Pascal=0
+873 Name=?_Incref@facet@locale@std@@QAEXXZ Pascal=0
+874 Name=?_Index@ios_base@std@@0HA
+875 Name=?infinity@?$numeric_limits@M@std@@SAMXZ Pascal=0
+876 Name=?infinity@?$numeric_limits@N@std@@SANXZ Pascal=0
+877 Name=?infinity@?$numeric_limits@O@std@@SAOXZ Pascal=0
+878 Name=?_Init@?$_Mpunct@D@std@@IAEXABV_Locinfo@2@@Z Pascal=4
+879 Name=?_Init@?$_Mpunct@G@std@@IAEXABV_Locinfo@2@@Z Pascal=4
+880 Name=?_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAEXPAU_iobuf@@W4_Initfl@12@@Z Pascal=8
+881 Name=?_Init@?$basic_filebuf@GU?$char_traits@G@std@@@std@@IAEXPAU_iobuf@@W4_Initfl@12@@Z Pascal=8
+882 Name=?_Init@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEXPAPAG0PAH001@Z Pascal=24
+883 Name=?_Init@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEXXZ Pascal=0
+884 Name=?_Init@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEXPAPAG0PAH001@Z Pascal=24
+885 Name=?_Init@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEXXZ Pascal=0
+886 Name=?_Init@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IAEXPBDIH@Z Pascal=12
+887 Name=?_Init@?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@IAEXPBGIH@Z Pascal=12
+888 Name=?_Init@?$codecvt@GDH@std@@IAEXABV_Locinfo@2@@Z Pascal=4
+889 Name=?_Init@?$codecvt@GDH@std@@IAEXABV_Locinfo@2@@Z Pascal=4
+890 Name=?_Init@?$collate@G@std@@IAEXABV_Locinfo@2@@Z Pascal=4
+891 Name=?_Init@?$collate@G@std@@IAEXABV_Locinfo@2@@Z Pascal=4
+892 Name=?_Init@?$ctype@D@std@@IAEXABV_Locinfo@2@@Z Pascal=4
+893 Name=?_Init@?$ctype@G@std@@IAEXABV_Locinfo@2@@Z Pascal=4
+894 Name=?_Init@?$messages@D@std@@IAEXABV_Locinfo@2@@Z Pascal=4
+895 Name=?_Init@?$messages@G@std@@IAEXABV_Locinfo@2@@Z Pascal=4
+896 Name=?imbue@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEXABVlocale@2@@Z Pascal=4
+897 Name=?imbue@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEXABVlocale@2@@Z Pascal=4
+898 Name=?imbue@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEXABVlocale@2@@Z Pascal=4
+899 Name=?imbue@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEXABVlocale@2@@Z Pascal=4
+900 Name=?imbue@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEXABVlocale@2@@Z Pascal=4
+901 Name=?imbue@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEXABVlocale@2@@Z Pascal=4
+902 Name=?imbue@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEXABVlocale@2@@Z Pascal=4
+903 Name=?imbue@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEXABVlocale@2@@Z Pascal=4
+904 Name=?_Init@?$numpunct@D@std@@IAEXABV_Locinfo@2@@Z Pascal=4
+905 Name=?_Init@?$numpunct@G@std@@IAEXABV_Locinfo@2@@Z Pascal=4
+906 Name=?_Init@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IAEXABV_Locinfo@2@@Z Pascal=4
+907 Name=?_Init@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@IAEXABV_Locinfo@2@@Z Pascal=4
+908 Name=?_Init@?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@IAEXABV_Locinfo@2@@Z Pascal=4
+909 Name=?_Init@?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@IAEXABV_Locinfo@2@@Z Pascal=4
+910 Name=?_Init@ios_base@std@@IAEXXZ Pascal=0
+911 Name=?_Init@locale@std@@CAPAV_Locimp@12@XZ Pascal=0
+912 Name=?_Init@strstreambuf@std@@IAEXHPAD0H@Z Pascal=16
+913 Name=?_Init_cnt@Init@ios_base@std@@0HA
+914 Name=?_Init_cnt@_Winit@std@@0HA
+915 Name=?_Initcvt@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAEXXZ Pascal=0
+916 Name=?_Initcvt@?$basic_filebuf@GU?$char_traits@G@std@@@std@@IAEXXZ Pascal=0
+917 Name=?_Iput@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@KA?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@AAVios_base@2@DPADI@Z Pascal=0
+918 Name=?_Iput@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@KA?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@GPADI@Z Pascal=0
+919 Name=?_Iscloc@locale@std@@QBE_NXZ Pascal=0
+920 Name=?_Isinf@?$_Ctr@M@std@@SA_NM@Z Pascal=0
+921 Name=?_Isinf@?$_Ctr@N@std@@SA_NN@Z Pascal=0
+922 Name=?_Isinf@?$_Ctr@O@std@@SA_NO@Z Pascal=0
+923 Name=?_Isnan@?$_Ctr@M@std@@SA_NM@Z Pascal=0
+924 Name=?_Isnan@?$_Ctr@N@std@@SA_NN@Z Pascal=0
+925 Name=?_Isnan@?$_Ctr@O@std@@SA_NO@Z Pascal=0
+926 Name=?_Makpat@?$_Mpunct@D@std@@AAEXAAUpattern@money_base@2@DDD@Z Pascal=16
+927 Name=?_Makpat@?$_Mpunct@G@std@@AAEXAAUpattern@money_base@2@DDD@Z Pascal=16
+928 Name=?_Mode@?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@AAEHH@Z Pascal=4
+929 Name=?_Mode@?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@AAEHH@Z Pascal=4
+930 Name=?quiet_NaN@?$numeric_limits@M@std@@SAMXZ Pascal=0
+931 Name=?quiet_NaN@?$numeric_limits@N@std@@SANXZ Pascal=0
+932 Name=?quiet_NaN@?$numeric_limits@O@std@@SAOXZ Pascal=0
+933 Name=?_Nomemory@std@@YAXXZ Pascal=0
+934 Name=?_Nullstr@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAPBDXZ Pascal=0
+935 Name=?_Nullstr@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@CAPBGXZ Pascal=0
+936 Name=?_Pdif@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAIPBD0@Z Pascal=0
+937 Name=?_Pdif@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@CAIPBG0@Z Pascal=0
+938 Name=?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ Pascal=0
+939 Name=?_Pninc@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEPAGXZ Pascal=0
+940 Name=?_Psum@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAPBDPBDI@Z Pascal=0
+941 Name=?_Psum@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAPBDPBDI@Z Pascal=0
+942 Name=?_Psum@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@CAPBGPBGI@Z Pascal=0
+943 Name=?_Psum@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@CAPBGPBGI@Z Pascal=0
+944 Name=?_Putc@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@KA?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@PBDI@Z Pascal=0
+945 Name=?_Put@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@KA?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@PBGI@Z Pascal=0
+946 Name=?_Putc@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@KA?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@PBDI@Z Pascal=0
+947 Name=?_Put@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@KA?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@PBGI@Z Pascal=0
+948 Name=?_Putc@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@KA?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@PBDI@Z Pascal=0
+949 Name=?_Putc@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@KA?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@PBDI@Z Pascal=0
+950 Name=?_Putmfld@?$money_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@ABE?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@_NAAVios_base@2@D1V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z Pascal=44
+951 Name=?_Putmfld@?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@ABE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@_NAAVios_base@2@G1V?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@@Z Pascal=44
+952 Name=?_R2@?BN@??_Fabs@std@@YAMABV?$complex@M@2@PAH@Z@4MB
+953 Name=?_R2@?BN@??_Fabs@std@@YANABV?$complex@N@2@PAH@Z@4NB
+954 Name=?_R2@?BN@??_Fabs@std@@YAOABV?$complex@O@2@PAH@Z@4OB
+955 Name=?_Refcnt@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@AAEAAEPBG@Z Pascal=4
+956 Name=?_Refcnt@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@AAEAAEPBG@Z Pascal=4
+957 Name=?_Rep@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@KA?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@DI@Z Pascal=0
+958 Name=?_Rep@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@KA?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@GI@Z Pascal=0
+959 Name=?_Rep@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@KA?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@DI@Z Pascal=0
+960 Name=?_Rep@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@KA?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@GI@Z Pascal=0
+961 Name=?_Sinh@?$_Ctr@M@std@@SAMMM@Z Pascal=0
+962 Name=?_Sinh@?$_Ctr@N@std@@SANNN@Z Pascal=0
+963 Name=?_Sinh@?$_Ctr@O@std@@SAOOO@Z Pascal=0
+964 Name=?_Split@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXXZ Pascal=0
+965 Name=?_Split@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@AAEXXZ Pascal=0
+966 Name=?_Stinit@?1??_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAEXPAU_iobuf@@W4_Initfl@23@@Z@4HA
+967 Name=?_Stinit@?1??_Init@?$basic_filebuf@GU?$char_traits@G@std@@@std@@IAEXPAU_iobuf@@W4_Initfl@23@@Z@4HA
+968 Name=?_Sync@ios_base@std@@0_NA
+969 Name=?_Term@?$ctype@D@std@@KAXXZ Pascal=0
+970 Name=?_Tidy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEX_N@Z Pascal=4
+971 Name=?_Tidy@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@AAEX_N@Z Pascal=4
+972 Name=?_Tidy@?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@IAEXXZ Pascal=0
+973 Name=?_Tidy@?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@IAEXXZ Pascal=0
+974 Name=?_Tidy@ios_base@std@@AAEXXZ Pascal=0
+975 Name=?_Tidy@locale@std@@CAXXZ Pascal=0
+976 Name=?_Tidy@strstreambuf@std@@IAEXXZ Pascal=0
+977 Name=?_Xh@?BN@??_Fabs@std@@YAMABV?$complex@M@2@PAH@Z@4MB
+978 Name=?_Xh@?BN@??_Fabs@std@@YANABV?$complex@N@2@PAH@Z@4NB
+979 Name=?_Xh@?BN@??_Fabs@std@@YAOABV?$complex@O@2@PAH@Z@4OB
+980 Name=?_Xl@?BN@??_Fabs@std@@YAMABV?$complex@M@2@PAH@Z@4MB
+981 Name=?_Xl@?BN@??_Fabs@std@@YANABV?$complex@N@2@PAH@Z@4NB
+982 Name=?_Xl@?BN@??_Fabs@std@@YAOABV?$complex@O@2@PAH@Z@4OB
+983 Name=?_Xlen@std@@YAXXZ Pascal=0
+984 Name=?_Xran@std@@YAXXZ Pascal=0
+985 Name=?__Fiopen@std@@YAPAU_iobuf@@PBDH@Z Pascal=0
+986 Name=?abs@std@@YAMABV?$complex@M@1@@Z Pascal=0
+987 Name=?abs@std@@YANABV?$complex@N@1@@Z Pascal=0
+988 Name=?abs@std@@YAOABV?$complex@O@1@@Z Pascal=0
+989 Name=?decimal_point@?$numpunct@G@std@@QBEGXZ
+990 Name=?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@@Z Pascal=4
+991 Name=?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z Pascal=12
+992 Name=?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ID@Z Pascal=8
+993 Name=?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBD0@Z Pascal=8
+994 Name=?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBD@Z Pascal=4
+995 Name=?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z Pascal=8
+996 Name=?append@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@ABV12@@Z Pascal=4
+997 Name=?append@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@ABV12@II@Z Pascal=12
+998 Name=?append@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@IG@Z Pascal=8
+999 Name=?append@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@PBG0@Z Pascal=8
+1000 Name=?append@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@PBG@Z Pascal=4
+1001 Name=?append@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@PBGI@Z Pascal=8
+1002 Name=?arg@std@@YAMABV?$complex@M@1@@Z Pascal=0
+1003 Name=?arg@std@@YAOABV?$complex@O@1@@Z Pascal=0
+1004 Name=?arg@std@@YAOABV?$complex@O@1@@Z Pascal=0
+1005 Name=?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@@Z Pascal=4
+1006 Name=?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z Pascal=12
+1007 Name=?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ID@Z Pascal=8
+1008 Name=?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBD0@Z Pascal=8
+1009 Name=?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBD@Z Pascal=4
+1010 Name=?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z Pascal=8
+1011 Name=?assign@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@ABV12@@Z Pascal=4
+1012 Name=?assign@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@ABV12@II@Z Pascal=12
+1013 Name=?assign@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@IG@Z Pascal=8
+1014 Name=?assign@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@PBG0@Z Pascal=8
+1015 Name=?assign@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@PBG@Z Pascal=4
+1016 Name=?assign@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@PBGI@Z Pascal=8
+1017 Name=?assign@?$char_traits@D@std@@SAPADPADIABD@Z Pascal=0
+1018 Name=?assign@?$char_traits@D@std@@SAXAADABD@Z Pascal=0
+1019 Name=?assign@?$char_traits@G@std@@SAPAGPAGIABG@Z Pascal=0
+1020 Name=?assign@?$char_traits@G@std@@SAXAAGABG@Z Pascal=0
+1021 Name=?at@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAADI@Z Pascal=4
+1022 Name=?at@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEABDI@Z Pascal=4
+1023 Name=?at@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAGI@Z Pascal=4
+1024 Name=?at@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEABGI@Z Pascal=4
+1025 Name=?atan2@?$_Ctr@M@std@@SAMMM@Z Pascal=0
+1026 Name=?atan2@?$_Ctr@O@std@@SAOOO@Z Pascal=0
+1027 Name=?atan2@?$_Ctr@O@std@@SAOOO@Z Pascal=0
+1028 Name=?bad@ios_base@std@@QBE_NXZ Pascal=0
+1029 Name=?begin@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEPADXZ Pascal=0
+1030 Name=?rdstate@ios_base@std@@QBEHXZ Pascal=0
+1031 Name=?begin@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEPAGXZ Pascal=0
+1032 Name=?rdstate@ios_base@std@@QBEHXZ Pascal=0
+1033 Name=?data@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ Pascal=0
+1034 Name=?data@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEPBGXZ Pascal=0
+1035 Name=?flags@ios_base@std@@QBEHXZ Pascal=0
+1036 Name=?flags@ios_base@std@@QBEHXZ Pascal=0
+1037 Name=?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+1038 Name=?cin@std@@3V?$basic_istream@DU?$char_traits@D@std@@@1@A
+1039 Name=?classic@locale@std@@SAABV12@XZ Pascal=0
+1040 Name=?classic_table@?$ctype@D@std@@KAPBFXZ Pascal=0
+1041 Name=?clear@?$basic_ios@GU?$char_traits@G@std@@@std@@QAEXF@Z Pascal=4
+1042 Name=?clear@?$basic_ios@GU?$char_traits@G@std@@@std@@QAEXH_N@Z Pascal=8
+1043 Name=?clear@?$basic_ios@GU?$char_traits@G@std@@@std@@QAEXF@Z Pascal=4
+1044 Name=?clear@?$basic_ios@GU?$char_traits@G@std@@@std@@QAEXH_N@Z Pascal=8
+1045 Name=?clear@ios_base@std@@QAEXF@Z Pascal=4
+1046 Name=?clear@ios_base@std@@QAEXH_N@Z Pascal=8
+1047 Name=?clog@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+1048 Name=?close@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@XZ Pascal=0
+1049 Name=?close@?$basic_filebuf@GU?$char_traits@G@std@@@std@@QAEPAV12@XZ Pascal=0
+1050 Name=?close@?$basic_fstream@DU?$char_traits@D@std@@@std@@QAEXXZ Pascal=0
+1051 Name=?close@?$basic_fstream@GU?$char_traits@G@std@@@std@@QAEXXZ Pascal=0
+1052 Name=?close@?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAEXXZ Pascal=0
+1053 Name=?close@?$basic_ifstream@GU?$char_traits@G@std@@@std@@QAEXXZ Pascal=0
+1054 Name=?close@?$basic_ofstream@DU?$char_traits@D@std@@@std@@QAEXXZ Pascal=0
+1055 Name=?close@?$basic_ofstream@GU?$char_traits@G@std@@@std@@QAEXXZ Pascal=0
+1056 Name=?close@?$messages@G@std@@QBEXH@Z Pascal=4
+1057 Name=?close@?$messages@G@std@@QBEXH@Z Pascal=4
+1058 Name=?compare@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEHABV12@@Z Pascal=4
+1059 Name=?compare@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEHIIABV12@@Z Pascal=12
+1060 Name=?compare@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEHIIABV12@II@Z Pascal=20
+1061 Name=?compare@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEHIIPBD@Z Pascal=12
+1062 Name=?compare@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEHIIPBDI@Z Pascal=16
+1063 Name=?compare@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEHPBD@Z Pascal=4
+1064 Name=?compare@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEHABV12@@Z Pascal=4
+1065 Name=?compare@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEHIIABV12@@Z Pascal=12
+1066 Name=?compare@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEHIIABV12@II@Z Pascal=20
+1067 Name=?compare@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEHIIPBG@Z Pascal=12
+1068 Name=?compare@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEHIIPBGI@Z Pascal=16
+1069 Name=?compare@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEHPBG@Z Pascal=4
+1070 Name=?compare@?$char_traits@D@std@@SAHPBD0I@Z Pascal=0
+1071 Name=?compare@?$char_traits@G@std@@SAHPBG0I@Z Pascal=0
+1072 Name=?compare@?$collate@G@std@@QBEHPBG000@Z Pascal=16
+1073 Name=?compare@?$collate@G@std@@QBEHPBG000@Z Pascal=16
+1074 Name=?conj@std@@YA?AV?$complex@M@1@ABV21@@Z Pascal=0
+1075 Name=?conj@std@@YA?AV?$complex@O@1@ABV21@@Z Pascal=0
+1076 Name=?conj@std@@YA?AV?$complex@O@1@ABV21@@Z Pascal=0
+1077 Name=?copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIPADII@Z Pascal=12
+1078 Name=?copy@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIPAGII@Z Pascal=12
+1079 Name=?copy@?$char_traits@D@std@@SAPADPADPBDI@Z Pascal=0
+1080 Name=?copy@?$char_traits@G@std@@SAPAGPAGPBGI@Z Pascal=0
+1081 Name=?copyfmt@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEAAV12@ABV12@@Z Pascal=4
+1082 Name=?copyfmt@?$basic_ios@GU?$char_traits@G@std@@@std@@QAEAAV12@ABV12@@Z Pascal=4
+1083 Name=?copyfmt@ios_base@std@@QAEAAV12@ABV12@@Z Pascal=4
+1084 Name=?cos@?$_Ctr@M@std@@SAMM@Z Pascal=0
+1085 Name=?cos@?$_Ctr@O@std@@SAOO@Z Pascal=0
+1086 Name=?cos@?$_Ctr@O@std@@SAOO@Z Pascal=0
+1087 Name=?cos@std@@YA?AV?$complex@M@1@ABV21@@Z Pascal=0
+1088 Name=?cos@std@@YA?AV?$complex@N@1@ABV21@@Z Pascal=0
+1089 Name=?cos@std@@YA?AV?$complex@O@1@ABV21@@Z Pascal=0
+1090 Name=?cosh@std@@YA?AV?$complex@M@1@ABV21@@Z Pascal=0
+1091 Name=?cosh@std@@YA?AV?$complex@N@1@ABV21@@Z Pascal=0
+1092 Name=?cosh@std@@YA?AV?$complex@O@1@ABV21@@Z Pascal=0
+1093 Name=?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+1094 Name=?falsename@?$numpunct@G@std@@QBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=4
+1095 Name=?falsename@?$numpunct@G@std@@QBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=4
+1096 Name=?data@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ Pascal=0
+1097 Name=?data@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEPBGXZ Pascal=0
+1098 Name=?decimal_point@?$numpunct@G@std@@QBEGXZ
+1099 Name=?decimal_point@?$numpunct@G@std@@QBEGXZ
+1100 Name=?decimal_point@?$numpunct@G@std@@QBEGXZ
+1101 Name=?decimal_point@?$numpunct@G@std@@QBEGXZ
+1102 Name=?decimal_point@?$numpunct@G@std@@QBEGXZ
+1103 Name=?decimal_point@?$numpunct@G@std@@QBEGXZ
+1104 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1105 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1106 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1107 Name=?signaling_NaN@?$numeric_limits@G@std@@SAGXZ Pascal=0
+1108 Name=?signaling_NaN@?$numeric_limits@G@std@@SAGXZ Pascal=0
+1109 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1110 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1111 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1112 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1113 Name=?denorm_min@?$numeric_limits@M@std@@SAMXZ Pascal=0
+1114 Name=?denorm_min@?$numeric_limits@N@std@@SANXZ Pascal=0
+1115 Name=?denorm_min@?$numeric_limits@O@std@@SAOXZ Pascal=0
+1116 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1117 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1118 Name=?max@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1119 Name=?imbue@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEXABVlocale@2@@Z Pascal=4
+1120 Name=?imbue@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEXABVlocale@2@@Z Pascal=4
+1121 Name=?do_compare@?$collate@D@std@@MBEHPBD000@Z Pascal=16
+1122 Name=?do_compare@?$collate@G@std@@MBEHPBG000@Z Pascal=16
+1123 Name=?do_falsename@?$numpunct@D@std@@MBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ Pascal=4
+1124 Name=?do_falsename@?$numpunct@G@std@@MBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=4
+1125 Name=?do_max_length@?$codecvt@GDH@std@@MBEHXZ Pascal=0
+1126 Name=?do_max_length@?$codecvt@GDH@std@@MBEHXZ Pascal=0
+1127 Name=?do_decimal_point@?$numpunct@D@std@@MBEDXZ Pascal=0
+1128 Name=?do_decimal_point@?$numpunct@G@std@@MBEGXZ Pascal=0
+1129 Name=?do_decimal_point@?$numpunct@D@std@@MBEDXZ Pascal=0
+1130 Name=?do_decimal_point@?$numpunct@G@std@@MBEGXZ Pascal=0
+1131 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1132 Name=?do_max_length@codecvt_base@std@@MBEHXZ Pascal=0
+1133 Name=?do_falsename@?$numpunct@D@std@@MBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ Pascal=4
+1134 Name=?do_falsename@?$numpunct@G@std@@MBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=4
+1135 Name=?do_frac_digits@?$_Mpunct@G@std@@MBEHXZ Pascal=0
+1136 Name=?do_frac_digits@?$_Mpunct@G@std@@MBEHXZ Pascal=0
+1137 Name=?do_get@?$messages@D@std@@MBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@HHHABV32@@Z Pascal=20
+1138 Name=?do_get@?$messages@G@std@@MBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@HHHABV32@@Z Pascal=20
+1139 Name=?do_get@?$money_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@DU?$char_traits@D@std@@@2@V32@0_NAAVios_base@2@AAHAAO@Z Pascal=36
+1140 Name=?do_get@?$money_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@DU?$char_traits@D@std@@@2@V32@0_NAAVios_base@2@AAHAAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z Pascal=36
+1141 Name=?do_get@?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0_NAAVios_base@2@AAHAAO@Z Pascal=36
+1142 Name=?do_get@?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0_NAAVios_base@2@AAHAAV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@@Z Pascal=36
+1143 Name=?do_get@?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@DU?$char_traits@D@std@@@2@V32@0AAVios_base@2@AAHAAG@Z Pascal=32
+1144 Name=?do_get@?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@DU?$char_traits@D@std@@@2@V32@0AAVios_base@2@AAHAAI@Z Pascal=32
+1145 Name=?do_get@?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@DU?$char_traits@D@std@@@2@V32@0AAVios_base@2@AAHAAJ@Z Pascal=32
+1146 Name=?do_get@?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@DU?$char_traits@D@std@@@2@V32@0AAVios_base@2@AAHAAK@Z Pascal=32
+1147 Name=?do_get@?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@DU?$char_traits@D@std@@@2@V32@0AAVios_base@2@AAHAAM@Z Pascal=32
+1148 Name=?do_get@?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@DU?$char_traits@D@std@@@2@V32@0AAVios_base@2@AAHAAN@Z Pascal=32
+1149 Name=?do_get@?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@DU?$char_traits@D@std@@@2@V32@0AAVios_base@2@AAHAAO@Z Pascal=32
+1150 Name=?do_get@?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@DU?$char_traits@D@std@@@2@V32@0AAVios_base@2@AAHAAPAX@Z Pascal=32
+1151 Name=?do_get@?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@DU?$char_traits@D@std@@@2@V32@0AAVios_base@2@AAHAA_N@Z Pascal=32
+1152 Name=?do_get@?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHAAG@Z Pascal=32
+1153 Name=?do_get@?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHAAI@Z Pascal=32
+1154 Name=?do_get@?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHAAJ@Z Pascal=32
+1155 Name=?do_get@?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHAAK@Z Pascal=32
+1156 Name=?do_get@?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHAAM@Z Pascal=32
+1157 Name=?do_get@?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHAAN@Z Pascal=32
+1158 Name=?do_get@?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHAAO@Z Pascal=32
+1159 Name=?do_get@?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHAAPAX@Z Pascal=32
+1160 Name=?do_get@?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHAA_N@Z Pascal=32
+1161 Name=?do_get_date@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@DU?$char_traits@D@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1162 Name=?do_get_date@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1163 Name=?do_get_monthname@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@DU?$char_traits@D@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1164 Name=?do_get_monthname@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1165 Name=?do_get_time@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@DU?$char_traits@D@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1166 Name=?do_get_time@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1167 Name=?do_get_weekday@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@DU?$char_traits@D@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1168 Name=?do_get_weekday@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1169 Name=?do_get_year@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@DU?$char_traits@D@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1170 Name=?do_get_year@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1171 Name=?do_grouping@?$numpunct@G@std@@MBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ Pascal=4
+1172 Name=?do_grouping@?$numpunct@G@std@@MBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ Pascal=4
+1173 Name=?do_grouping@?$numpunct@G@std@@MBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ Pascal=4
+1174 Name=?do_grouping@?$numpunct@G@std@@MBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ Pascal=4
+1175 Name=?do_hash@?$collate@D@std@@MBEJPBD0@Z Pascal=8
+1176 Name=?do_hash@?$collate@G@std@@MBEJPBG0@Z Pascal=8
+1177 Name=?do_out@?$codecvt@DDH@std@@MBEHAAHPBD1AAPBDPAD3AAPAD@Z Pascal=28
+1178 Name=?do_in@?$codecvt@GDH@std@@MBEHAAHPBD1AAPBDPAG3AAPAG@Z Pascal=28
+1179 Name=?do_is@?$ctype@G@std@@MBEPBGPBG0PAF@Z Pascal=12
+1180 Name=?do_is@?$ctype@G@std@@MBE_NFG@Z Pascal=8
+1181 Name=?do_length@?$codecvt@DDH@std@@MBEHAAHPBD1I@Z Pascal=16
+1182 Name=?do_length@?$codecvt@GDH@std@@MBEHAAHPBG1I@Z Pascal=16
+1183 Name=?do_max_length@?$codecvt@GDH@std@@MBEHXZ Pascal=0
+1184 Name=?do_max_length@codecvt_base@std@@MBEHXZ Pascal=0
+1185 Name=?do_narrow@?$ctype@G@std@@MBEDGD@Z Pascal=8
+1186 Name=?do_narrow@?$ctype@G@std@@MBEPBGPBG0DPAD@Z Pascal=16
+1187 Name=?do_neg_format@?$_Mpunct@G@std@@MBE?AUpattern@money_base@2@XZ Pascal=4
+1188 Name=?do_neg_format@?$_Mpunct@G@std@@MBE?AUpattern@money_base@2@XZ Pascal=4
+1189 Name=?do_negative_sign@?$_Mpunct@D@std@@MBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ Pascal=4
+1190 Name=?do_negative_sign@?$_Mpunct@G@std@@MBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=4
+1191 Name=?do_open@?$messages@G@std@@MBEHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@ABVlocale@2@@Z Pascal=8
+1192 Name=?do_open@?$messages@G@std@@MBEHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@ABVlocale@2@@Z Pascal=8
+1193 Name=?do_out@?$codecvt@DDH@std@@MBEHAAHPBD1AAPBDPAD3AAPAD@Z Pascal=28
+1194 Name=?do_out@?$codecvt@GDH@std@@MBEHAAHPBG1AAPBGPAD3AAPAD@Z Pascal=28
+1195 Name=?do_pos_format@?$_Mpunct@G@std@@MBE?AUpattern@money_base@2@XZ Pascal=4
+1196 Name=?do_pos_format@?$_Mpunct@G@std@@MBE?AUpattern@money_base@2@XZ Pascal=4
+1197 Name=?do_truename@?$numpunct@D@std@@MBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ Pascal=4
+1198 Name=?do_truename@?$numpunct@G@std@@MBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=4
+1199 Name=?do_put@?$money_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@_NAAVios_base@2@DABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z Pascal=28
+1200 Name=?do_put@?$money_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@_NAAVios_base@2@DO@Z Pascal=32
+1201 Name=?do_put@?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@_NAAVios_base@2@GABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@@Z Pascal=28
+1202 Name=?do_put@?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@_NAAVios_base@2@GO@Z Pascal=32
+1203 Name=?do_put@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@AAVios_base@2@DJ@Z Pascal=24
+1204 Name=?do_put@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@AAVios_base@2@DK@Z Pascal=24
+1205 Name=?do_put@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@AAVios_base@2@DN@Z Pascal=28
+1206 Name=?do_put@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@AAVios_base@2@DO@Z Pascal=28
+1207 Name=?do_put@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@AAVios_base@2@DPBX@Z Pascal=24
+1208 Name=?do_put@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@AAVios_base@2@D_N@Z Pascal=24
+1209 Name=?do_put@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@GJ@Z Pascal=24
+1210 Name=?do_put@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@GK@Z Pascal=24
+1211 Name=?do_put@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@GN@Z Pascal=28
+1212 Name=?do_put@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@GO@Z Pascal=28
+1213 Name=?do_put@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@GPBX@Z Pascal=24
+1214 Name=?do_put@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@G_N@Z Pascal=24
+1215 Name=?do_put@?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@MBE?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@AAVios_base@2@PBUtm@@DD@Z Pascal=28
+1216 Name=?do_put@?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@MBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@PBUtm@@DD@Z Pascal=28
+1217 Name=?do_scan_is@?$ctype@G@std@@MBEPBGFPBG0@Z Pascal=12
+1218 Name=?do_scan_not@?$ctype@G@std@@MBEPBGFPBG0@Z Pascal=12
+1219 Name=?do_thousands_sep@?$numpunct@D@std@@MBEDXZ Pascal=0
+1220 Name=?do_thousands_sep@?$numpunct@G@std@@MBEGXZ Pascal=0
+1221 Name=?do_thousands_sep@?$numpunct@D@std@@MBEDXZ Pascal=0
+1222 Name=?do_thousands_sep@?$numpunct@G@std@@MBEGXZ Pascal=0
+1223 Name=?do_tolower@?$ctype@D@std@@MBEDD@Z Pascal=4
+1224 Name=?do_tolower@?$ctype@D@std@@MBEPBDPADPBD@Z Pascal=8
+1225 Name=?do_tolower@?$ctype@G@std@@MBEGG@Z Pascal=4
+1226 Name=?do_tolower@?$ctype@G@std@@MBEPBGPAGPBG@Z Pascal=8
+1227 Name=?do_toupper@?$ctype@D@std@@MBEDD@Z Pascal=4
+1228 Name=?do_toupper@?$ctype@D@std@@MBEPBDPADPBD@Z Pascal=8
+1229 Name=?do_toupper@?$ctype@G@std@@MBEGG@Z Pascal=4
+1230 Name=?do_toupper@?$ctype@G@std@@MBEPBGPAGPBG@Z Pascal=8
+1231 Name=?do_transform@?$collate@D@std@@MBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@PBD0@Z Pascal=12
+1232 Name=?do_transform@?$collate@G@std@@MBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@PBG0@Z Pascal=12
+1233 Name=?do_truename@?$numpunct@D@std@@MBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ Pascal=4
+1234 Name=?do_truename@?$numpunct@G@std@@MBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=4
+1235 Name=?do_widen@?$ctype@G@std@@MBEGD@Z Pascal=4
+1236 Name=?do_widen@?$ctype@G@std@@MBEPBDPBD0PAG@Z Pascal=12
+1237 Name=?eback@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IBEPAGXZ Pascal=0
+1238 Name=?eback@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IBEPAGXZ Pascal=0
+1239 Name=?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ Pascal=0
+1240 Name=?egptr@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IBEPAGXZ Pascal=0
+1241 Name=?empty@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBE_NXZ Pascal=0
+1242 Name=?empty@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBE_NXZ Pascal=0
+1243 Name=?empty@locale@std@@SA?AV12@XZ Pascal=0
+1244 Name=?encoding@codecvt_base@std@@QBEHXZ
+1245 Name=?end@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEPADXZ Pascal=0
+1246 Name=?end@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ Pascal=0
+1247 Name=?end@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEPAGXZ Pascal=0
+1248 Name=?end@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEPBGXZ Pascal=0
+1249 Name=?endl@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@1@AAV21@@Z Pascal=0
+1250 Name=?endl@std@@YAAAV?$basic_ostream@GU?$char_traits@G@std@@@1@AAV21@@Z Pascal=0
+1251 Name=?ends@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@1@AAV21@@Z Pascal=0
+1252 Name=?ends@std@@YAAAV?$basic_ostream@GU?$char_traits@G@std@@@1@AAV21@@Z Pascal=0
+1253 Name=?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ Pascal=0
+1254 Name=?underflow@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEGXZ Pascal=0
+1255 Name=?eof@ios_base@std@@QBE_NXZ Pascal=0
+1256 Name=?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ Pascal=0
+1257 Name=?epptr@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IBEPAGXZ Pascal=0
+1258 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1259 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1260 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1261 Name=?signaling_NaN@?$numeric_limits@G@std@@SAGXZ Pascal=0
+1262 Name=?signaling_NaN@?$numeric_limits@G@std@@SAGXZ Pascal=0
+1263 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1264 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1265 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1266 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1267 Name=?epsilon@?$numeric_limits@M@std@@SAMXZ Pascal=0
+1268 Name=?epsilon@?$numeric_limits@N@std@@SANXZ Pascal=0
+1269 Name=?epsilon@?$numeric_limits@O@std@@SAOXZ Pascal=0
+1270 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1271 Name=?eq@?$char_traits@D@std@@SA_NABD0@Z Pascal=0
+1272 Name=?eq_int_type@?$char_traits@G@std@@SA_NABG0@Z Pascal=0
+1273 Name=?eq_int_type@?$char_traits@D@std@@SA_NABH0@Z Pascal=0
+1274 Name=?eq_int_type@?$char_traits@G@std@@SA_NABG0@Z Pascal=0
+1275 Name=?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@II@Z Pascal=8
+1276 Name=?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEPADPAD0@Z Pascal=8
+1277 Name=?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEPADPAD@Z Pascal=4
+1278 Name=?erase@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@II@Z Pascal=8
+1279 Name=?erase@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEPAGPAG0@Z Pascal=8
+1280 Name=?erase@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEPAGPAG@Z Pascal=4
+1281 Name=?exceptions@ios_base@std@@QAEXH@Z Pascal=4
+1282 Name=?exceptions@ios_base@std@@QAEXH@Z Pascal=4
+1283 Name=?size@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIXZ Pascal=0
+1284 Name=?exp@?$_Ctr@O@std@@SAOO@Z Pascal=0
+1285 Name=?exp@?$_Ctr@O@std@@SAOO@Z Pascal=0
+1286 Name=?exp@?$_Ctr@O@std@@SAOO@Z Pascal=0
+1287 Name=?exp@std@@YA?AV?$complex@M@1@ABV21@@Z Pascal=0
+1288 Name=?exp@std@@YA?AV?$complex@N@1@ABV21@@Z Pascal=0
+1289 Name=?exp@std@@YA?AV?$complex@O@1@ABV21@@Z Pascal=0
+1290 Name=?fail@ios_base@std@@QBE_NXZ Pascal=0
+1291 Name=?falsename@?$numpunct@G@std@@QBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=4
+1292 Name=?falsename@?$numpunct@G@std@@QBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=4
+1293 Name=?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEDD@Z Pascal=4
+1294 Name=?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDXZ Pascal=0
+1295 Name=?fill@?$basic_ios@GU?$char_traits@G@std@@@std@@QAEGG@Z Pascal=4
+1296 Name=?fill@?$basic_ios@GU?$char_traits@G@std@@@std@@QBEGXZ Pascal=0
+1297 Name=?find@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIABV12@I@Z Pascal=8
+1298 Name=?find_first_of@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIDI@Z Pascal=8
+1299 Name=?find@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIPBDI@Z Pascal=8
+1300 Name=?find@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIPBDII@Z Pascal=12
+1301 Name=?find@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIABV12@I@Z Pascal=8
+1302 Name=?find_first_of@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIGI@Z Pascal=8
+1303 Name=?find@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIPBGI@Z Pascal=8
+1304 Name=?find@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIPBGII@Z Pascal=12
+1305 Name=?find@?$char_traits@D@std@@SAPBDPBDIABD@Z Pascal=0
+1306 Name=?find@?$char_traits@G@std@@SAPBGPBGIABG@Z Pascal=0
+1307 Name=?find_first_not_of@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIABV12@I@Z Pascal=8
+1308 Name=?find_first_not_of@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIDI@Z Pascal=8
+1309 Name=?find_first_not_of@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIPBDI@Z Pascal=8
+1310 Name=?find_first_not_of@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIPBDII@Z Pascal=12
+1311 Name=?find_first_not_of@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIABV12@I@Z Pascal=8
+1312 Name=?find_first_not_of@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIGI@Z Pascal=8
+1313 Name=?find_first_not_of@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIPBGI@Z Pascal=8
+1314 Name=?find_first_not_of@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIPBGII@Z Pascal=12
+1315 Name=?find_first_of@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIABV12@I@Z Pascal=8
+1316 Name=?find_first_of@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIDI@Z Pascal=8
+1317 Name=?find_first_of@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIPBDI@Z Pascal=8
+1318 Name=?find_first_of@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIPBDII@Z Pascal=12
+1319 Name=?find_first_of@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIABV12@I@Z Pascal=8
+1320 Name=?find_first_of@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIGI@Z Pascal=8
+1321 Name=?find_first_of@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIPBGI@Z Pascal=8
+1322 Name=?find_first_of@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIPBGII@Z Pascal=12
+1323 Name=?find_last_not_of@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIABV12@I@Z Pascal=8
+1324 Name=?find_last_not_of@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIDI@Z Pascal=8
+1325 Name=?find_last_not_of@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIPBDI@Z Pascal=8
+1326 Name=?find_last_not_of@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIPBDII@Z Pascal=12
+1327 Name=?find_last_not_of@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIABV12@I@Z Pascal=8
+1328 Name=?find_last_not_of@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIGI@Z Pascal=8
+1329 Name=?find_last_not_of@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIPBGI@Z Pascal=8
+1330 Name=?find_last_not_of@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIPBGII@Z Pascal=12
+1331 Name=?find_last_of@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIABV12@I@Z Pascal=8
+1332 Name=?rfind@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIDI@Z Pascal=8
+1333 Name=?find_last_of@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIPBDI@Z Pascal=8
+1334 Name=?find_last_of@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIPBDII@Z Pascal=12
+1335 Name=?find_last_of@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIABV12@I@Z Pascal=8
+1336 Name=?rfind@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIGI@Z Pascal=8
+1337 Name=?find_last_of@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIPBGI@Z Pascal=8
+1338 Name=?find_last_of@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIPBGII@Z Pascal=12
+1339 Name=?flags@ios_base@std@@QAEHH@Z Pascal=4
+1340 Name=?flags@ios_base@std@@QBEHXZ Pascal=0
+1341 Name=?flush@?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV12@XZ Pascal=0
+1342 Name=?flush@?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV12@XZ Pascal=0
+1343 Name=?flush@std@@YAAAV?$basic_ostream@GU?$char_traits@G@std@@@1@AAV21@@Z Pascal=0
+1344 Name=?flush@std@@YAAAV?$basic_ostream@GU?$char_traits@G@std@@@1@AAV21@@Z Pascal=0
+1345 Name=?frac_digits@?$_Mpunct@G@std@@QBEHXZ
+1346 Name=?frac_digits@?$_Mpunct@G@std@@QBEHXZ
+1347 Name=?freeze@strstreambuf@std@@QAEX_N@Z Pascal=4
+1348 Name=?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z Pascal=4
+1349 Name=?gbump@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEXH@Z Pascal=4
+1350 Name=?rdstate@ios_base@std@@QBEHXZ Pascal=0
+1351 Name=?rdstate@ios_base@std@@QBEHXZ Pascal=0
+1352 Name=?get@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@AAD@Z Pascal=4
+1353 Name=?get@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@AAV?$basic_streambuf@DU?$char_traits@D@std@@@2@@Z Pascal=4
+1354 Name=?get@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@AAV?$basic_streambuf@DU?$char_traits@D@std@@@2@D@Z Pascal=8
+1355 Name=?get@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PADH@Z Pascal=8
+1356 Name=?get@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PADHD@Z Pascal=12
+1357 Name=?get@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEHXZ Pascal=0
+1358 Name=?get@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV12@AAG@Z Pascal=4
+1359 Name=?get@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV12@AAV?$basic_streambuf@GU?$char_traits@G@std@@@2@@Z Pascal=4
+1360 Name=?get@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV12@AAV?$basic_streambuf@GU?$char_traits@G@std@@@2@G@Z Pascal=8
+1361 Name=?get@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV12@PAGH@Z Pascal=8
+1362 Name=?get@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV12@PAGHG@Z Pascal=12
+1363 Name=?get@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEGXZ Pascal=0
+1364 Name=?get@?$messages@G@std@@QBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@HHHABV32@@Z Pascal=20
+1365 Name=?get@?$messages@G@std@@QBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@HHHABV32@@Z Pascal=20
+1366 Name=?get@?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0_NAAVios_base@2@AAHAAO@Z Pascal=36
+1367 Name=?get@?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0_NAAVios_base@2@AAHAAV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@@Z Pascal=36
+1368 Name=?get@?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0_NAAVios_base@2@AAHAAO@Z Pascal=36
+1369 Name=?get@?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0_NAAVios_base@2@AAHAAV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@@Z Pascal=36
+1370 Name=?get@?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHAAG@Z Pascal=32
+1371 Name=?get@?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHAAI@Z Pascal=32
+1372 Name=?get_year@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1373 Name=?get_monthname@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1374 Name=?get_weekday@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1375 Name=?get_date@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1376 Name=?put@?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@_NAAVios_base@2@GO@Z Pascal=32
+1377 Name=?get@?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHAAPAX@Z Pascal=32
+1378 Name=?get@?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHAA_N@Z Pascal=32
+1379 Name=?get@?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHAAG@Z Pascal=32
+1380 Name=?get@?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHAAI@Z Pascal=32
+1381 Name=?get_year@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1382 Name=?get_monthname@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1383 Name=?get_weekday@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1384 Name=?get_date@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1385 Name=?put@?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@_NAAVios_base@2@GO@Z Pascal=32
+1386 Name=?get@?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHAAPAX@Z Pascal=32
+1387 Name=?get@?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHAA_N@Z Pascal=32
+1388 Name=?get_allocator@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBE?AV?$allocator@G@2@XZ Pascal=4
+1389 Name=?get_allocator@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBE?AV?$allocator@G@2@XZ Pascal=4
+1390 Name=?get_date@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1391 Name=?get_date@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1392 Name=?get_monthname@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1393 Name=?get_monthname@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1394 Name=?put@?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@_NAAVios_base@2@GO@Z Pascal=32
+1395 Name=?put@?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@_NAAVios_base@2@GO@Z Pascal=32
+1396 Name=?get_weekday@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1397 Name=?get_weekday@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1398 Name=?get_year@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1399 Name=?get_year@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$istreambuf_iterator@GU?$char_traits@G@std@@@2@V32@0AAVios_base@2@AAHPAUtm@@@Z Pascal=32
+1400 Name=?getline@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PADH@Z Pascal=8
+1401 Name=?getline@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PADHD@Z Pascal=12
+1402 Name=?getline@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV12@PAGH@Z Pascal=8
+1403 Name=?getline@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV12@PAGHG@Z Pascal=12
+1404 Name=?getline@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@1@AAV21@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z Pascal=0
+1405 Name=?getline@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@1@AAV21@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@D@Z Pascal=0
+1406 Name=?getline@std@@YAAAV?$basic_istream@GU?$char_traits@G@std@@@1@AAV21@AAV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@1@@Z Pascal=0
+1407 Name=?getline@std@@YAAAV?$basic_istream@GU?$char_traits@G@std@@@1@AAV21@AAV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@1@G@Z Pascal=0
+1408 Name=?getloc@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAE?AVlocale@2@XZ Pascal=4
+1409 Name=?getloc@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAE?AVlocale@2@XZ Pascal=4
+1410 Name=?getloc@ios_base@std@@QBE?AVlocale@2@XZ Pascal=4
+1411 Name=?global@locale@std@@SA?AV12@ABV12@@Z Pascal=0
+1412 Name=?good@ios_base@std@@QBE_NXZ Pascal=0
+1413 Name=?gptr@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IBEPAGXZ Pascal=0
+1414 Name=?gptr@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IBEPAGXZ Pascal=0
+1415 Name=?grouping@?$numpunct@G@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ Pascal=4
+1416 Name=?grouping@?$numpunct@G@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ Pascal=4
+1417 Name=?grouping@?$numpunct@G@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ Pascal=4
+1418 Name=?grouping@?$numpunct@G@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ Pascal=4
+1419 Name=?toupper@?$ctype@D@std@@QBEPBDPADPBD@Z Pascal=8
+1420 Name=?toupper@?$ctype@D@std@@QBEPBDPADPBD@Z Pascal=8
+1421 Name=?id@?$codecvt@DDH@std@@2V0locale@2@A
+1422 Name=?id@?$codecvt@GDH@std@@2V0locale@2@A
+1423 Name=?id@?$collate@D@std@@2V0locale@2@A
+1424 Name=?id@?$collate@G@std@@2V0locale@2@A
+1425 Name=?id@?$ctype@D@std@@2V0locale@2@A
+1426 Name=?id@?$ctype@G@std@@2V0locale@2@A
+1427 Name=?id@?$messages@D@std@@2V0locale@2@A
+1428 Name=?id@?$messages@G@std@@2V0locale@2@A
+1429 Name=?id@?$money_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@2V0locale@2@A
+1430 Name=?id@?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@2V0locale@2@A
+1431 Name=?id@?$money_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@2V0locale@2@A
+1432 Name=?id@?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@2V0locale@2@A
+1433 Name=?id@?$moneypunct@D$00@std@@2V0locale@2@A
+1434 Name=?id@?$moneypunct@D$0A@@std@@2V0locale@2@A
+1435 Name=?id@?$moneypunct@G$00@std@@2V0locale@2@A
+1436 Name=?id@?$moneypunct@G$0A@@std@@2V0locale@2@A
+1437 Name=?id@?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@2V0locale@2@A
+1438 Name=?id@?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@2V0locale@2@A
+1439 Name=?id@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@2V0locale@2@A
+1440 Name=?id@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@2V0locale@2@A
+1441 Name=?id@?$numpunct@D@std@@2V0locale@2@A
+1442 Name=?id@?$numpunct@G@std@@2V0locale@2@A
+1443 Name=?id@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@2V0locale@2@A
+1444 Name=?id@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@2V0locale@2@A
+1445 Name=?id@?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@2V0locale@2@A
+1446 Name=?id@?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@2V0locale@2@A
+1447 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1448 Name=?ignore@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@HH@Z Pascal=8
+1449 Name=?ignore@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV12@HG@Z Pascal=8
+1450 Name=?imag@?$_Complex_base@M@std@@QAEMABM@Z Pascal=4
+1451 Name=?imag@?$_Complex_base@M@std@@QBEMXZ Pascal=0
+1452 Name=?imag@?$_Complex_base@O@std@@QAEOABO@Z Pascal=4
+1453 Name=?imag@?$_Complex_base@O@std@@QBEOXZ Pascal=0
+1454 Name=?imag@?$_Complex_base@O@std@@QAEOABO@Z Pascal=4
+1455 Name=?imag@?$_Complex_base@O@std@@QBEOXZ Pascal=0
+1456 Name=?imag@std@@YAMABV?$complex@M@1@@Z Pascal=0
+1457 Name=?imag@std@@YAOABV?$complex@O@1@@Z Pascal=0
+1458 Name=?imag@std@@YAOABV?$complex@O@1@@Z Pascal=0
+1459 Name=?imbue@?$basic_ios@DU?$char_traits@D@std@@@std@@QAE?AVlocale@2@ABV32@@Z Pascal=8
+1460 Name=?imbue@?$basic_ios@GU?$char_traits@G@std@@@std@@QAE?AVlocale@2@ABV32@@Z Pascal=8
+1461 Name=?imbue@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEXABVlocale@2@@Z Pascal=4
+1462 Name=?imbue@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEXABVlocale@2@@Z Pascal=4
+1463 Name=?imbue@ios_base@std@@QAE?AVlocale@2@ABV32@@Z Pascal=8
+1464 Name=?in@?$codecvt@GDH@std@@QBEHAAHPBD1AAPBDPAG3AAPAG@Z Pascal=28
+1465 Name=?in@?$codecvt@GDH@std@@QBEHAAHPBD1AAPBDPAG3AAPAG@Z Pascal=28
+1466 Name=?in_avail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ Pascal=0
+1467 Name=?in_avail@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAEHXZ Pascal=0
+1468 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1469 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1470 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1471 Name=?signaling_NaN@?$numeric_limits@G@std@@SAGXZ Pascal=0
+1472 Name=?signaling_NaN@?$numeric_limits@G@std@@SAGXZ Pascal=0
+1473 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1474 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1475 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1476 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1477 Name=?infinity@?$numeric_limits@M@std@@SAMXZ Pascal=0
+1478 Name=?infinity@?$numeric_limits@N@std@@SANXZ Pascal=0
+1479 Name=?infinity@?$numeric_limits@O@std@@SAOXZ Pascal=0
+1480 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1481 Name=?init@?$basic_ios@DU?$char_traits@D@std@@@std@@IAEXPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@_N@Z Pascal=8
+1482 Name=?init@?$basic_ios@GU?$char_traits@G@std@@@std@@IAEXPAV?$basic_streambuf@GU?$char_traits@G@std@@@2@_N@Z Pascal=8
+1483 Name=?insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@IABV12@@Z Pascal=8
+1484 Name=?insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@IABV12@II@Z Pascal=16
+1485 Name=?insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@IID@Z Pascal=12
+1486 Name=?insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@IPBD@Z Pascal=8
+1487 Name=?insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@IPBDI@Z Pascal=12
+1488 Name=?insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEPADPADD@Z Pascal=8
+1489 Name=?insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXPADID@Z Pascal=12
+1490 Name=?insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXPADPBD1@Z Pascal=12
+1491 Name=?insert@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@IABV12@@Z Pascal=8
+1492 Name=?insert@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@IABV12@II@Z Pascal=16
+1493 Name=?insert@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@IIG@Z Pascal=12
+1494 Name=?insert@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@IPBG@Z Pascal=8
+1495 Name=?insert@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@IPBGI@Z Pascal=12
+1496 Name=?insert@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEPAGPAGG@Z Pascal=8
+1497 Name=?insert@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXPAGIG@Z Pascal=12
+1498 Name=?insert@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXPAGPBG1@Z Pascal=12
+1499 Name=?ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE_N_N@Z Pascal=4
+1500 Name=?ipfx@?$basic_istream@GU?$char_traits@G@std@@@std@@QAE_N_N@Z Pascal=4
+1501 Name=?is@?$ctype@D@std@@QBEPBDPBD0PAF@Z Pascal=12
+1502 Name=?is@?$ctype@D@std@@QBE_NFD@Z Pascal=8
+1503 Name=?is@?$ctype@G@std@@QBEPBGPBG0PAF@Z Pascal=12
+1504 Name=?is@?$ctype@G@std@@QBE_NFG@Z Pascal=8
+1505 Name=?is_open@?$basic_filebuf@GU?$char_traits@G@std@@@std@@QBE_NXZ Pascal=0
+1506 Name=?is_open@?$basic_filebuf@GU?$char_traits@G@std@@@std@@QBE_NXZ Pascal=0
+1507 Name=?is_open@?$basic_fstream@GU?$char_traits@G@std@@@std@@QBE_NXZ Pascal=0
+1508 Name=?is_open@?$basic_fstream@GU?$char_traits@G@std@@@std@@QBE_NXZ Pascal=0
+1509 Name=?is_open@?$basic_ifstream@GU?$char_traits@G@std@@@std@@QBE_NXZ Pascal=0
+1510 Name=?is_open@?$basic_ifstream@GU?$char_traits@G@std@@@std@@QBE_NXZ Pascal=0
+1511 Name=?is_open@?$basic_ofstream@GU?$char_traits@G@std@@@std@@QBE_NXZ Pascal=0
+1512 Name=?is_open@?$basic_ofstream@GU?$char_traits@G@std@@@std@@QBE_NXZ Pascal=0
+1513 Name=?isfx@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEXXZ Pascal=0
+1514 Name=?isfx@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEXXZ Pascal=0
+1515 Name=?iword@ios_base@std@@QAEAAJH@Z Pascal=4
+1516 Name=?ldexp@?$_Ctr@M@std@@SAMMH@Z Pascal=0
+1517 Name=?ldexp@?$_Ctr@O@std@@SAOOH@Z Pascal=0
+1518 Name=?ldexp@?$_Ctr@O@std@@SAOOH@Z Pascal=0
+1519 Name=?size@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIXZ Pascal=0
+1520 Name=?size@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIXZ Pascal=0
+1521 Name=?length@?$char_traits@D@std@@SAIPBD@Z Pascal=0
+1522 Name=?length@?$char_traits@G@std@@SAIPBG@Z Pascal=0
+1523 Name=?length@?$codecvt@GDH@std@@QBEHAAHPBG1I@Z Pascal=16
+1524 Name=?length@?$codecvt@GDH@std@@QBEHAAHPBG1I@Z Pascal=16
+1525 Name=?log10@std@@YA?AV?$complex@M@1@ABV21@@Z Pascal=0
+1526 Name=?log10@std@@YA?AV?$complex@N@1@ABV21@@Z Pascal=0
+1527 Name=?log10@std@@YA?AV?$complex@O@1@ABV21@@Z Pascal=0
+1528 Name=?log@?$_Ctr@M@std@@SAMM@Z Pascal=0
+1529 Name=?log@?$_Ctr@O@std@@SAOO@Z Pascal=0
+1530 Name=?log@?$_Ctr@O@std@@SAOO@Z Pascal=0
+1531 Name=?log@std@@YA?AV?$complex@M@1@ABV21@@Z Pascal=0
+1532 Name=?log@std@@YA?AV?$complex@N@1@ABV21@@Z Pascal=0
+1533 Name=?log@std@@YA?AV?$complex@O@1@ABV21@@Z Pascal=0
+1534 Name=?lt@?$char_traits@D@std@@SA_NABD0@Z Pascal=0
+1535 Name=?lt@?$char_traits@G@std@@SA_NABG0@Z Pascal=0
+1536 Name=?max@?$numeric_limits@D@std@@SADXZ Pascal=0
+1537 Name=?max@?$numeric_limits@D@std@@SADXZ Pascal=0
+1538 Name=?max@?$numeric_limits@E@std@@SAEXZ Pascal=0
+1539 Name=?max@?$numeric_limits@F@std@@SAFXZ Pascal=0
+1540 Name=?underflow@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEGXZ Pascal=0
+1541 Name=?max@?$numeric_limits@J@std@@SAJXZ Pascal=0
+1542 Name=?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ Pascal=0
+1543 Name=?max@?$numeric_limits@J@std@@SAJXZ Pascal=0
+1544 Name=?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ Pascal=0
+1545 Name=?max@?$numeric_limits@M@std@@SAMXZ Pascal=0
+1546 Name=?max@?$numeric_limits@N@std@@SANXZ Pascal=0
+1547 Name=?max@?$numeric_limits@O@std@@SAOXZ Pascal=0
+1548 Name=?max@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1549 Name=?thousands_sep@?$numpunct@G@std@@QBEGXZ
+1550 Name=?max_size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ Pascal=0
+1551 Name=?max_size@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIXZ Pascal=0
+1552 Name=?min@?$numeric_limits@D@std@@SADXZ Pascal=0
+1553 Name=?min@?$numeric_limits@D@std@@SADXZ Pascal=0
+1554 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1555 Name=?min@?$numeric_limits@F@std@@SAFXZ Pascal=0
+1556 Name=?signaling_NaN@?$numeric_limits@G@std@@SAGXZ Pascal=0
+1557 Name=?min@?$numeric_limits@J@std@@SAJXZ Pascal=0
+1558 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1559 Name=?min@?$numeric_limits@J@std@@SAJXZ Pascal=0
+1560 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1561 Name=?min@?$numeric_limits@M@std@@SAMXZ Pascal=0
+1562 Name=?min@?$numeric_limits@N@std@@SANXZ Pascal=0
+1563 Name=?min@?$numeric_limits@O@std@@SAOXZ Pascal=0
+1564 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1565 Name=?move@?$char_traits@D@std@@SAPADPADPBDI@Z Pascal=0
+1566 Name=?move@?$char_traits@G@std@@SAPAGPAGPBGI@Z Pascal=0
+1567 Name=?name@locale@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ Pascal=4
+1568 Name=?narrow@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDDD@Z Pascal=8
+1569 Name=?narrow@?$basic_ios@GU?$char_traits@G@std@@@std@@QBEDGD@Z Pascal=8
+1570 Name=?narrow@?$ctype@D@std@@QBEDDD@Z Pascal=8
+1571 Name=?narrow@?$ctype@D@std@@QBEPBDPBD0DPAD@Z Pascal=16
+1572 Name=?narrow@?$ctype@G@std@@QBEDGD@Z Pascal=8
+1573 Name=?narrow@?$ctype@G@std@@QBEPBGPBG0DPAD@Z Pascal=16
+1574 Name=?neg_format@?$_Mpunct@G@std@@QBE?AUpattern@money_base@2@XZ Pascal=4
+1575 Name=?neg_format@?$_Mpunct@G@std@@QBE?AUpattern@money_base@2@XZ Pascal=4
+1576 Name=?negative_sign@?$_Mpunct@G@std@@QBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=4
+1577 Name=?negative_sign@?$_Mpunct@G@std@@QBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=4
+1578 Name=?norm@std@@YAMABV?$complex@M@1@@Z Pascal=0
+1579 Name=?norm@std@@YAOABV?$complex@O@1@@Z Pascal=0
+1580 Name=?norm@std@@YAOABV?$complex@O@1@@Z Pascal=0
+1581 Name=?not_eof@?$char_traits@D@std@@SAHABH@Z Pascal=0
+1582 Name=?not_eof@?$char_traits@G@std@@SAGABG@Z Pascal=0
+1583 Name=?nothrow@std@@3Unothrow_t@1@B
+1584 Name=?npos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@2IB
+1585 Name=?npos@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@2IB
+1586 Name=?open@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@PBDF@Z Pascal=8
+1587 Name=?open@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@PBDH@Z Pascal=8
+1588 Name=?open@?$basic_filebuf@GU?$char_traits@G@std@@@std@@QAEPAV12@PBDF@Z Pascal=8
+1589 Name=?open@?$basic_filebuf@GU?$char_traits@G@std@@@std@@QAEPAV12@PBDH@Z Pascal=8
+1590 Name=?open@?$basic_fstream@DU?$char_traits@D@std@@@std@@QAEXPBDF@Z Pascal=8
+1591 Name=?open@?$basic_fstream@DU?$char_traits@D@std@@@std@@QAEXPBDH@Z Pascal=8
+1592 Name=?open@?$basic_fstream@GU?$char_traits@G@std@@@std@@QAEXPBDF@Z Pascal=8
+1593 Name=?open@?$basic_fstream@GU?$char_traits@G@std@@@std@@QAEXPBDH@Z Pascal=8
+1594 Name=?open@?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAEXPBDF@Z Pascal=8
+1595 Name=?open@?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAEXPBDH@Z Pascal=8
+1596 Name=?open@?$basic_ifstream@GU?$char_traits@G@std@@@std@@QAEXPBDF@Z Pascal=8
+1597 Name=?open@?$basic_ifstream@GU?$char_traits@G@std@@@std@@QAEXPBDH@Z Pascal=8
+1598 Name=?open@?$basic_ofstream@DU?$char_traits@D@std@@@std@@QAEXPBDF@Z Pascal=8
+1599 Name=?open@?$basic_ofstream@DU?$char_traits@D@std@@@std@@QAEXPBDH@Z Pascal=8
+1600 Name=?open@?$basic_ofstream@GU?$char_traits@G@std@@@std@@QAEXPBDF@Z Pascal=8
+1601 Name=?open@?$basic_ofstream@GU?$char_traits@G@std@@@std@@QAEXPBDH@Z Pascal=8
+1602 Name=?tolower@?$ctype@D@std@@QBEPBDPADPBD@Z Pascal=8
+1603 Name=?tolower@?$ctype@D@std@@QBEPBDPADPBD@Z Pascal=8
+1604 Name=?opfx@?$basic_ostream@GU?$char_traits@G@std@@@std@@QAE_NXZ Pascal=0
+1605 Name=?opfx@?$basic_ostream@GU?$char_traits@G@std@@@std@@QAE_NXZ Pascal=0
+1606 Name=?osfx@?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEXXZ Pascal=0
+1607 Name=?osfx@?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEXXZ Pascal=0
+1608 Name=?out@?$codecvt@GDH@std@@QBEHAAHPBG1AAPBGPAD3AAPAD@Z Pascal=28
+1609 Name=?out@?$codecvt@GDH@std@@QBEHAAHPBG1AAPBGPAD3AAPAD@Z Pascal=28
+1610 Name=?overflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHH@Z Pascal=4
+1611 Name=?overflow@?$basic_filebuf@GU?$char_traits@G@std@@@std@@MAEGG@Z Pascal=4
+1612 Name=?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHH@Z Pascal=4
+1613 Name=?pbackfail@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEGG@Z Pascal=4
+1614 Name=?overflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MAEHH@Z Pascal=4
+1615 Name=?overflow@?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@MAEGG@Z Pascal=4
+1616 Name=?overflow@strstreambuf@std@@MAEHH@Z Pascal=4
+1617 Name=?pbackfail@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHH@Z Pascal=4
+1618 Name=?pbackfail@?$basic_filebuf@GU?$char_traits@G@std@@@std@@MAEGG@Z Pascal=4
+1619 Name=?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHH@Z Pascal=4
+1620 Name=?pbackfail@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEGG@Z Pascal=4
+1621 Name=?pbackfail@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MAEHH@Z Pascal=4
+1622 Name=?pbackfail@?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@MAEGG@Z Pascal=4
+1623 Name=?pbackfail@strstreambuf@std@@MAEHH@Z Pascal=4
+1624 Name=?pbase@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IBEPAGXZ Pascal=0
+1625 Name=?pbase@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IBEPAGXZ Pascal=0
+1626 Name=?pbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z Pascal=4
+1627 Name=?pbump@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEXH@Z Pascal=4
+1628 Name=?peek@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEHXZ Pascal=0
+1629 Name=?peek@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEGXZ Pascal=0
+1630 Name=?polar@std@@YA?AV?$complex@M@1@ABM0@Z Pascal=0
+1631 Name=?polar@std@@YA?AV?$complex@M@1@ABM@Z Pascal=0
+1632 Name=?polar@std@@YA?AV?$complex@O@1@ABO0@Z Pascal=0
+1633 Name=?polar@std@@YA?AV?$complex@N@1@ABN@Z Pascal=0
+1634 Name=?polar@std@@YA?AV?$complex@O@1@ABO0@Z Pascal=0
+1635 Name=?polar@std@@YA?AV?$complex@O@1@ABO@Z Pascal=0
+1636 Name=?pos_format@?$_Mpunct@G@std@@QBE?AUpattern@money_base@2@XZ Pascal=4
+1637 Name=?pos_format@?$_Mpunct@G@std@@QBE?AUpattern@money_base@2@XZ Pascal=4
+1638 Name=?truename@?$numpunct@G@std@@QBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=4
+1639 Name=?truename@?$numpunct@G@std@@QBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=4
+1640 Name=?pow@?$_Ctr@M@std@@SAMMM@Z Pascal=0
+1641 Name=?pow@?$_Ctr@O@std@@SAOOO@Z Pascal=0
+1642 Name=?pow@?$_Ctr@O@std@@SAOOO@Z Pascal=0
+1643 Name=?pow@std@@YA?AV?$complex@M@1@ABMABV21@@Z Pascal=0
+1644 Name=?pow@std@@YA?AV?$complex@M@1@ABV21@0@Z Pascal=0
+1645 Name=?pow@std@@YA?AV?$complex@M@1@ABV21@ABM@Z Pascal=0
+1646 Name=?pow@std@@YA?AV?$complex@M@1@ABV21@H@Z Pascal=0
+1647 Name=?pow@std@@YA?AV?$complex@N@1@ABNABV21@@Z Pascal=0
+1648 Name=?pow@std@@YA?AV?$complex@N@1@ABV21@0@Z Pascal=0
+1649 Name=?pow@std@@YA?AV?$complex@N@1@ABV21@ABN@Z Pascal=0
+1650 Name=?pow@std@@YA?AV?$complex@N@1@ABV21@H@Z Pascal=0
+1651 Name=?pow@std@@YA?AV?$complex@O@1@ABOABV21@@Z Pascal=0
+1652 Name=?pow@std@@YA?AV?$complex@O@1@ABV21@0@Z Pascal=0
+1653 Name=?pow@std@@YA?AV?$complex@O@1@ABV21@ABO@Z Pascal=0
+1654 Name=?pow@std@@YA?AV?$complex@O@1@ABV21@H@Z Pascal=0
+1655 Name=?pptr@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IBEPAGXZ Pascal=0
+1656 Name=?pptr@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IBEPAGXZ Pascal=0
+1657 Name=?precision@ios_base@std@@QAEHH@Z Pascal=4
+1658 Name=?table@?$ctype@D@std@@IBEPBFXZ Pascal=0
+1659 Name=?pubimbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE?AVlocale@2@ABV32@@Z Pascal=8
+1660 Name=?pubimbue@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAE?AVlocale@2@ABV32@@Z Pascal=8
+1661 Name=?pubseekoff@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAE?AV?$fpos@H@2@JFF@Z Pascal=16
+1662 Name=?pubseekoff@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAE?AV?$fpos@H@2@JW4seekdir@ios_base@2@H@Z Pascal=16
+1663 Name=?pubseekoff@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAE?AV?$fpos@H@2@JFF@Z Pascal=16
+1664 Name=?pubseekoff@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAE?AV?$fpos@H@2@JW4seekdir@ios_base@2@H@Z Pascal=16
+1665 Name=?pubseekpos@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAE?AV?$fpos@H@2@V32@F@Z Pascal=32
+1666 Name=?pubseekpos@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAE?AV?$fpos@H@2@V32@H@Z Pascal=32
+1667 Name=?pubseekpos@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAE?AV?$fpos@H@2@V32@F@Z Pascal=32
+1668 Name=?pubseekpos@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAE?AV?$fpos@H@2@V32@H@Z Pascal=32
+1669 Name=?pubsetbuf@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAEPAV12@PAGH@Z Pascal=8
+1670 Name=?pubsetbuf@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAEPAV12@PAGH@Z Pascal=8
+1671 Name=?pubsync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAEHXZ
+1672 Name=?pubsync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAEHXZ
+1673 Name=?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@D@Z Pascal=4
+1674 Name=?put@?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV12@G@Z Pascal=4
+1675 Name=?put@?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@PBUtm@@DD@Z Pascal=28
+1676 Name=?put@?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@_NAAVios_base@2@GO@Z Pascal=32
+1677 Name=?put@?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@PBUtm@@DD@Z Pascal=28
+1678 Name=?put@?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@_NAAVios_base@2@GO@Z Pascal=32
+1679 Name=?put@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@GJ@Z Pascal=24
+1680 Name=?put@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@GK@Z Pascal=24
+1681 Name=?put@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@GN@Z Pascal=28
+1682 Name=?put@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@GO@Z Pascal=28
+1683 Name=?put@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@GPBX@Z Pascal=24
+1684 Name=?put@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@G_N@Z Pascal=24
+1685 Name=?put@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@GJ@Z Pascal=24
+1686 Name=?put@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@GK@Z Pascal=24
+1687 Name=?put@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@GN@Z Pascal=28
+1688 Name=?put@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@GO@Z Pascal=28
+1689 Name=?put@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@GPBX@Z Pascal=24
+1690 Name=?put@?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@G_N@Z Pascal=24
+1691 Name=?put@?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@PBUtm@@DD@Z Pascal=28
+1692 Name=?put@?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@AAVios_base@2@PBUtm@@PBD3@Z Pascal=28
+1693 Name=?put@?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@PBUtm@@DD@Z Pascal=28
+1694 Name=?put@?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@GU?$char_traits@G@std@@@2@V32@AAVios_base@2@PBUtm@@PBG3@Z Pascal=28
+1695 Name=?putback@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@D@Z Pascal=4
+1696 Name=?putback@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV12@G@Z Pascal=4
+1697 Name=?pword@ios_base@std@@QAEAAPAXH@Z Pascal=4
+1698 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1699 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1700 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1701 Name=?signaling_NaN@?$numeric_limits@G@std@@SAGXZ Pascal=0
+1702 Name=?signaling_NaN@?$numeric_limits@G@std@@SAGXZ Pascal=0
+1703 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1704 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1705 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1706 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1707 Name=?quiet_NaN@?$numeric_limits@M@std@@SAMXZ Pascal=0
+1708 Name=?quiet_NaN@?$numeric_limits@N@std@@SANXZ Pascal=0
+1709 Name=?quiet_NaN@?$numeric_limits@O@std@@SAOXZ Pascal=0
+1710 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1711 Name=?rbegin@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE?AV?$reverse_iterator@PADDAADPADH@2@XZ Pascal=4
+1712 Name=?rbegin@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBE?AV?$reverse_iterator@PBDDABDPBDH@2@XZ Pascal=4
+1713 Name=?rbegin@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE?AV?$reverse_iterator@PAGGAAGPAGH@2@XZ Pascal=4
+1714 Name=?rbegin@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBE?AV?$reverse_iterator@PBGGABGPBGH@2@XZ Pascal=4
+1715 Name=?rdbuf@?$basic_stringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEPAV?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=0
+1716 Name=?rdbuf@?$basic_stringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEPAV?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=0
+1717 Name=?rdbuf@?$basic_istringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEPAV?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=0
+1718 Name=?rdbuf@?$basic_istringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEPAV?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=0
+1719 Name=?rdbuf@?$basic_ios@GU?$char_traits@G@std@@@std@@QAEPAV?$basic_streambuf@GU?$char_traits@G@std@@@2@PAV32@@Z Pascal=4
+1720 Name=?rdbuf@?$basic_ios@GU?$char_traits@G@std@@@std@@QBEPAV?$basic_streambuf@GU?$char_traits@G@std@@@2@XZ Pascal=0
+1721 Name=?rdbuf@?$basic_ios@GU?$char_traits@G@std@@@std@@QAEPAV?$basic_streambuf@GU?$char_traits@G@std@@@2@PAV32@@Z Pascal=4
+1722 Name=?rdbuf@?$basic_ios@GU?$char_traits@G@std@@@std@@QBEPAV?$basic_streambuf@GU?$char_traits@G@std@@@2@XZ Pascal=0
+1723 Name=?rdbuf@?$basic_istringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEPAV?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=0
+1724 Name=?rdbuf@?$basic_istringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEPAV?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=0
+1725 Name=?rdbuf@?$basic_ostringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEPAV?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=0
+1726 Name=?rdbuf@?$basic_ostringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEPAV?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=0
+1727 Name=?rdbuf@?$basic_ostringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEPAV?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=0
+1728 Name=?rdbuf@?$basic_ostringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEPAV?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=0
+1729 Name=?rdbuf@?$basic_stringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEPAV?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=0
+1730 Name=?rdbuf@?$basic_stringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEPAV?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=0
+1731 Name=?rdstate@ios_base@std@@QBEHXZ Pascal=0
+1732 Name=?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PADH@Z Pascal=8
+1733 Name=?read@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV12@PAGH@Z Pascal=8
+1734 Name=?readsome@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEHPADH@Z Pascal=8
+1735 Name=?readsome@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEHPAGH@Z Pascal=8
+1736 Name=?real@?$_Complex_base@M@std@@QAEMABM@Z Pascal=4
+1737 Name=?real@?$_Complex_base@M@std@@QBEMXZ Pascal=0
+1738 Name=?real@?$_Complex_base@O@std@@QAEOABO@Z Pascal=4
+1739 Name=?real@?$_Complex_base@O@std@@QBEOXZ Pascal=0
+1740 Name=?real@?$_Complex_base@O@std@@QAEOABO@Z Pascal=4
+1741 Name=?real@?$_Complex_base@O@std@@QBEOXZ Pascal=0
+1742 Name=?real@std@@YAMABV?$complex@M@1@@Z Pascal=0
+1743 Name=?real@std@@YAOABV?$complex@O@1@@Z Pascal=0
+1744 Name=?real@std@@YAOABV?$complex@O@1@@Z Pascal=0
+1745 Name=?register_callback@ios_base@std@@QAEXP6AXW4event@12@AAV12@H@ZH@Z Pascal=8
+1746 Name=?rend@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE?AV?$reverse_iterator@PADDAADPADH@2@XZ Pascal=4
+1747 Name=?rend@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBE?AV?$reverse_iterator@PBGGABGPBGH@2@XZ Pascal=4
+1748 Name=?rend@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE?AV?$reverse_iterator@PAGGAAGPAGH@2@XZ Pascal=4
+1749 Name=?rend@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBE?AV?$reverse_iterator@PBGGABGPBGH@2@XZ Pascal=4
+1750 Name=?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@IIABV12@@Z Pascal=12
+1751 Name=?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@IIABV12@II@Z Pascal=20
+1752 Name=?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@IIID@Z Pascal=16
+1753 Name=?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@IIPBD@Z Pascal=12
+1754 Name=?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@IIPBDI@Z Pascal=16
+1755 Name=?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PAD0ABV12@@Z Pascal=12
+1756 Name=?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PAD0ID@Z Pascal=16
+1757 Name=?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PAD0PBD1@Z Pascal=16
+1758 Name=?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PAD0PBD@Z Pascal=12
+1759 Name=?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PAD0PBDI@Z Pascal=16
+1760 Name=?replace@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@IIABV12@@Z Pascal=12
+1761 Name=?replace@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@IIABV12@II@Z Pascal=20
+1762 Name=?replace@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@IIIG@Z Pascal=16
+1763 Name=?replace@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@IIPBG@Z Pascal=12
+1764 Name=?replace@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@IIPBGI@Z Pascal=16
+1765 Name=?replace@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@PAG0ABV12@@Z Pascal=12
+1766 Name=?replace@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@PAG0IG@Z Pascal=16
+1767 Name=?replace@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@PAG0PBG1@Z Pascal=16
+1768 Name=?replace@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@PAG0PBG@Z Pascal=12
+1769 Name=?replace@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEAAV12@PAG0PBGI@Z Pascal=16
+1770 Name=?reserve@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXI@Z Pascal=4
+1771 Name=?reserve@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXI@Z Pascal=4
+1772 Name=?resetiosflags@std@@YA?AU?$_Smanip@H@1@H@Z Pascal=0
+1773 Name=?resize@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXI@Z Pascal=4
+1774 Name=?resize@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXID@Z Pascal=8
+1775 Name=?resize@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXI@Z Pascal=4
+1776 Name=?resize@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXIG@Z Pascal=8
+1777 Name=?rfind@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIABV12@I@Z Pascal=8
+1778 Name=?rfind@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIDI@Z Pascal=8
+1779 Name=?rfind@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIPBDI@Z Pascal=8
+1780 Name=?rfind@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIPBDII@Z Pascal=12
+1781 Name=?rfind@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIABV12@I@Z Pascal=8
+1782 Name=?rfind@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIGI@Z Pascal=8
+1783 Name=?rfind@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIPBGI@Z Pascal=8
+1784 Name=?rfind@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIPBGII@Z Pascal=12
+1785 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1786 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1787 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1788 Name=?signaling_NaN@?$numeric_limits@G@std@@SAGXZ Pascal=0
+1789 Name=?signaling_NaN@?$numeric_limits@G@std@@SAGXZ Pascal=0
+1790 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1791 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1792 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1793 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1794 Name=?round_error@?$numeric_limits@M@std@@SAMXZ Pascal=0
+1795 Name=?round_error@?$numeric_limits@N@std@@SANXZ Pascal=0
+1796 Name=?round_error@?$numeric_limits@O@std@@SAOXZ Pascal=0
+1797 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1798 Name=?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ Pascal=0
+1799 Name=?sbumpc@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAEGXZ Pascal=0
+1800 Name=?scan_is@?$ctype@D@std@@QBEPBDFPBD0@Z Pascal=12
+1801 Name=?scan_is@?$ctype@G@std@@QBEPBGFPBG0@Z Pascal=12
+1802 Name=?scan_not@?$ctype@D@std@@QBEPBDFPBD0@Z Pascal=12
+1803 Name=?scan_not@?$ctype@G@std@@QBEPBGFPBG0@Z Pascal=12
+1804 Name=?seekg@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV12@JW4seekdir@ios_base@2@@Z Pascal=8
+1805 Name=?seekg@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV12@V?$fpos@H@2@@Z Pascal=24
+1806 Name=?seekg@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV12@JW4seekdir@ios_base@2@@Z Pascal=8
+1807 Name=?seekg@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV12@V?$fpos@H@2@@Z Pascal=24
+1808 Name=?seekoff@?$basic_filebuf@GU?$char_traits@G@std@@@std@@MAE?AV?$fpos@H@2@JW4seekdir@ios_base@2@H@Z Pascal=16
+1809 Name=?seekoff@?$basic_filebuf@GU?$char_traits@G@std@@@std@@MAE?AV?$fpos@H@2@JW4seekdir@ios_base@2@H@Z Pascal=16
+1810 Name=?seekoff@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAE?AV?$fpos@H@2@JW4seekdir@ios_base@2@H@Z Pascal=16
+1811 Name=?seekoff@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAE?AV?$fpos@H@2@JW4seekdir@ios_base@2@H@Z Pascal=16
+1812 Name=?seekoff@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MAE?AV?$fpos@H@2@JW4seekdir@ios_base@2@H@Z Pascal=16
+1813 Name=?seekoff@?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@MAE?AV?$fpos@H@2@JW4seekdir@ios_base@2@H@Z Pascal=16
+1814 Name=?seekoff@strstreambuf@std@@MAE?AV?$fpos@H@2@JW4seekdir@ios_base@2@H@Z Pascal=16
+1815 Name=?seekp@?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV12@JW4seekdir@ios_base@2@@Z Pascal=8
+1816 Name=?seekp@?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV12@V?$fpos@H@2@@Z Pascal=24
+1817 Name=?seekp@?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV12@JW4seekdir@ios_base@2@@Z Pascal=8
+1818 Name=?seekp@?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV12@V?$fpos@H@2@@Z Pascal=24
+1819 Name=?seekpos@?$basic_filebuf@GU?$char_traits@G@std@@@std@@MAE?AV?$fpos@H@2@V32@H@Z Pascal=32
+1820 Name=?seekpos@?$basic_filebuf@GU?$char_traits@G@std@@@std@@MAE?AV?$fpos@H@2@V32@H@Z Pascal=32
+1821 Name=?seekpos@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAE?AV?$fpos@H@2@V32@H@Z Pascal=32
+1822 Name=?seekpos@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAE?AV?$fpos@H@2@V32@H@Z Pascal=32
+1823 Name=?seekpos@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MAE?AV?$fpos@H@2@V32@H@Z Pascal=32
+1824 Name=?seekpos@?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@MAE?AV?$fpos@H@2@V32@H@Z Pascal=32
+1825 Name=?seekpos@strstreambuf@std@@MAE?AV?$fpos@H@2@V32@H@Z Pascal=32
+1826 Name=?setbase@std@@YA?AU?$_Smanip@H@1@H@Z Pascal=0
+1827 Name=?setbuf@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PADH@Z Pascal=8
+1828 Name=?setbuf@?$basic_filebuf@GU?$char_traits@G@std@@@std@@MAEPAV?$basic_streambuf@GU?$char_traits@G@std@@@2@PAGH@Z Pascal=8
+1829 Name=?setbuf@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEPAV12@PAGH@Z Pascal=8
+1830 Name=?setbuf@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEPAV12@PAGH@Z Pascal=8
+1831 Name=?setf@ios_base@std@@QAEHH@Z Pascal=4
+1832 Name=?setf@ios_base@std@@QAEHHH@Z Pascal=8
+1833 Name=?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z Pascal=12
+1834 Name=?setg@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEXPAG00@Z Pascal=12
+1835 Name=?setiosflags@std@@YA?AU?$_Smanip@H@1@H@Z Pascal=0
+1836 Name=?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z Pascal=12
+1837 Name=?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD0@Z Pascal=8
+1838 Name=?setp@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEXPAG00@Z Pascal=12
+1839 Name=?setp@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEXPAG0@Z Pascal=8
+1840 Name=?setprecision@std@@YA?AU?$_Smanip@H@1@H@Z Pascal=0
+1841 Name=?setstate@?$basic_ios@GU?$char_traits@G@std@@@std@@QAEXF@Z Pascal=4
+1842 Name=?setstate@?$basic_ios@GU?$char_traits@G@std@@@std@@QAEXH_N@Z Pascal=8
+1843 Name=?setstate@?$basic_ios@GU?$char_traits@G@std@@@std@@QAEXF@Z Pascal=4
+1844 Name=?setstate@?$basic_ios@GU?$char_traits@G@std@@@std@@QAEXH_N@Z Pascal=8
+1845 Name=?setstate@ios_base@std@@QAEXF@Z Pascal=4
+1846 Name=?setstate@ios_base@std@@QAEXH_N@Z Pascal=8
+1847 Name=?setw@std@@YA?AU?$_Smanip@H@1@H@Z Pascal=0
+1848 Name=?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ Pascal=0
+1849 Name=?sgetc@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAEGXZ Pascal=0
+1850 Name=?sgetn@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAEHPAGH@Z Pascal=8
+1851 Name=?sgetn@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAEHPAGH@Z Pascal=8
+1852 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1853 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1854 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1855 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1856 Name=?signaling_NaN@?$numeric_limits@G@std@@SAGXZ Pascal=0
+1857 Name=?signaling_NaN@?$numeric_limits@G@std@@SAGXZ Pascal=0
+1858 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1859 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1860 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1861 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1862 Name=?signaling_NaN@?$numeric_limits@M@std@@SAMXZ Pascal=0
+1863 Name=?signaling_NaN@?$numeric_limits@N@std@@SANXZ Pascal=0
+1864 Name=?signaling_NaN@?$numeric_limits@O@std@@SAOXZ Pascal=0
+1865 Name=?signaling_NaN@?$numeric_limits@_N@std@@SA_NXZ Pascal=0
+1866 Name=?sin@?$_Ctr@M@std@@SAMM@Z Pascal=0
+1867 Name=?sin@?$_Ctr@O@std@@SAOO@Z Pascal=0
+1868 Name=?sin@?$_Ctr@O@std@@SAOO@Z Pascal=0
+1869 Name=?sin@std@@YA?AV?$complex@M@1@ABV21@@Z Pascal=0
+1870 Name=?sin@std@@YA?AV?$complex@N@1@ABV21@@Z Pascal=0
+1871 Name=?sin@std@@YA?AV?$complex@O@1@ABV21@@Z Pascal=0
+1872 Name=?sinh@std@@YA?AV?$complex@M@1@ABV21@@Z Pascal=0
+1873 Name=?sinh@std@@YA?AV?$complex@N@1@ABV21@@Z Pascal=0
+1874 Name=?sinh@std@@YA?AV?$complex@O@1@ABV21@@Z Pascal=0
+1875 Name=?size@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIXZ Pascal=0
+1876 Name=?size@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBEIXZ Pascal=0
+1877 Name=?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ Pascal=0
+1878 Name=?snextc@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAEGXZ Pascal=0
+1879 Name=?sputbackc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z Pascal=4
+1880 Name=?sputbackc@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAEGG@Z Pascal=4
+1881 Name=?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z Pascal=4
+1882 Name=?sputc@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAEGG@Z Pascal=4
+1883 Name=?toupper@?$ctype@G@std@@QBEPBGPAGPBG@Z Pascal=8
+1884 Name=?toupper@?$ctype@G@std@@QBEPBGPAGPBG@Z Pascal=8
+1885 Name=?sqrt@?$_Ctr@M@std@@SAMM@Z Pascal=0
+1886 Name=?sqrt@?$_Ctr@O@std@@SAOO@Z Pascal=0
+1887 Name=?sqrt@?$_Ctr@O@std@@SAOO@Z Pascal=0
+1888 Name=?sqrt@std@@YA?AV?$complex@M@1@ABV21@@Z Pascal=0
+1889 Name=?sqrt@std@@YA?AV?$complex@N@1@ABV21@@Z Pascal=0
+1890 Name=?sqrt@std@@YA?AV?$complex@O@1@ABV21@@Z Pascal=0
+1891 Name=?stossc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEXXZ Pascal=0
+1892 Name=?stossc@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAEXXZ Pascal=0
+1893 Name=?str@?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z Pascal=4
+1894 Name=?str@?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ Pascal=4
+1895 Name=?str@?$basic_istringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@@Z Pascal=4
+1896 Name=?str@?$basic_istringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=4
+1897 Name=?str@?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z Pascal=4
+1898 Name=?str@?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ Pascal=4
+1899 Name=?str@?$basic_ostringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@@Z Pascal=4
+1900 Name=?str@?$basic_ostringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=4
+1901 Name=?str@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z Pascal=4
+1902 Name=?str@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ Pascal=4
+1903 Name=?str@?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@@Z Pascal=4
+1904 Name=?str@?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=4
+1905 Name=?str@?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z Pascal=4
+1906 Name=?str@?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ Pascal=4
+1907 Name=?str@?$basic_stringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@@Z Pascal=4
+1908 Name=?str@?$basic_stringstream@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=4
+1909 Name=?substr@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBE?AV12@II@Z Pascal=12
+1910 Name=?substr@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QBE?AV12@II@Z Pascal=12
+1911 Name=?sungetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ Pascal=0
+1912 Name=?sungetc@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAEGXZ Pascal=0
+1913 Name=?swap@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXAAV12@@Z Pascal=4
+1914 Name=?swap@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXAAV12@@Z Pascal=4
+1915 Name=?sync@?$basic_filebuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1916 Name=?sync@?$basic_filebuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1917 Name=?sync@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEHXZ Pascal=0
+1918 Name=?sync@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEHXZ Pascal=0
+1919 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1920 Name=?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ Pascal=0
+1921 Name=?sync_with_stdio@ios_base@std@@SA_N_N@Z Pascal=0
+1922 Name=?table@?$ctype@D@std@@IBEPBFXZ Pascal=0
+1923 Name=?table_size@?$ctype@D@std@@2IB
+1924 Name=?tellg@?$basic_istream@GU?$char_traits@G@std@@@std@@QAE?AV?$fpos@H@2@XZ Pascal=4
+1925 Name=?tellg@?$basic_istream@GU?$char_traits@G@std@@@std@@QAE?AV?$fpos@H@2@XZ Pascal=4
+1926 Name=?tellp@?$basic_ostream@GU?$char_traits@G@std@@@std@@QAE?AV?$fpos@H@2@XZ Pascal=4
+1927 Name=?tellp@?$basic_ostream@GU?$char_traits@G@std@@@std@@QAE?AV?$fpos@H@2@XZ Pascal=4
+1928 Name=?thousands_sep@?$numpunct@G@std@@QBEGXZ
+1929 Name=?thousands_sep@?$numpunct@G@std@@QBEGXZ
+1930 Name=?thousands_sep@?$numpunct@G@std@@QBEGXZ
+1931 Name=?thousands_sep@?$numpunct@G@std@@QBEGXZ
+1932 Name=?tie@?$basic_ios@GU?$char_traits@G@std@@@std@@QAEPAV?$basic_ostream@GU?$char_traits@G@std@@@2@PAV32@@Z Pascal=4
+1933 Name=?tie@?$basic_ios@GU?$char_traits@G@std@@@std@@QBEPAV?$basic_ostream@GU?$char_traits@G@std@@@2@XZ Pascal=0
+1934 Name=?tie@?$basic_ios@GU?$char_traits@G@std@@@std@@QAEPAV?$basic_ostream@GU?$char_traits@G@std@@@2@PAV32@@Z Pascal=4
+1935 Name=?tie@?$basic_ios@GU?$char_traits@G@std@@@std@@QBEPAV?$basic_ostream@GU?$char_traits@G@std@@@2@XZ Pascal=0
+1936 Name=?to_char_type@?$char_traits@D@std@@SADABH@Z Pascal=0
+1937 Name=?to_int_type@?$char_traits@G@std@@SAGABG@Z Pascal=0
+1938 Name=?to_int_type@?$char_traits@D@std@@SAHABD@Z Pascal=0
+1939 Name=?to_int_type@?$char_traits@G@std@@SAGABG@Z Pascal=0
+1940 Name=?tolower@?$ctype@D@std@@QBEDD@Z Pascal=4
+1941 Name=?tolower@?$ctype@D@std@@QBEPBDPADPBD@Z Pascal=8
+1942 Name=?tolower@?$ctype@G@std@@QBEGG@Z Pascal=4
+1943 Name=?tolower@?$ctype@G@std@@QBEPBGPAGPBG@Z Pascal=8
+1944 Name=?toupper@?$ctype@D@std@@QBEDD@Z Pascal=4
+1945 Name=?toupper@?$ctype@D@std@@QBEPBDPADPBD@Z Pascal=8
+1946 Name=?toupper@?$ctype@G@std@@QBEGG@Z Pascal=4
+1947 Name=?toupper@?$ctype@G@std@@QBEPBGPAGPBG@Z Pascal=8
+1948 Name=?transform@?$collate@G@std@@QBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@PBG0@Z Pascal=12
+1949 Name=?transform@?$collate@G@std@@QBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@PBG0@Z Pascal=12
+1950 Name=?truename@?$numpunct@G@std@@QBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=4
+1951 Name=?truename@?$numpunct@G@std@@QBE?AV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@2@XZ Pascal=4
+1952 Name=?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ Pascal=0
+1953 Name=?uflow@?$basic_filebuf@GU?$char_traits@G@std@@@std@@MAEGXZ Pascal=0
+1954 Name=?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ Pascal=0
+1955 Name=?uflow@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEGXZ Pascal=0
+1956 Name=?uncaught_exception@std@@YA_NXZ Pascal=0
+1957 Name=?underflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ Pascal=0
+1958 Name=?underflow@?$basic_filebuf@GU?$char_traits@G@std@@@std@@MAEGXZ Pascal=0
+1959 Name=?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ Pascal=0
+1960 Name=?underflow@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEGXZ Pascal=0
+1961 Name=?underflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MAEHXZ Pascal=0
+1962 Name=?underflow@?$basic_stringbuf@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@MAEGXZ Pascal=0
+1963 Name=?underflow@strstreambuf@std@@MAEHXZ Pascal=0
+1964 Name=?unget@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ Pascal=0
+1965 Name=?unget@?$basic_istream@GU?$char_traits@G@std@@@std@@QAEAAV12@XZ Pascal=0
+1966 Name=?unsetf@ios_base@std@@QAEXH@Z Pascal=4
+1967 Name=?wcerr@std@@3V?$basic_ostream@GU?$char_traits@G@std@@@1@A
+1968 Name=?wcin@std@@3V?$basic_istream@GU?$char_traits@G@std@@@1@A
+1969 Name=?wclog@std@@3V?$basic_ostream@GU?$char_traits@G@std@@@1@A
+1970 Name=?wcout@std@@3V?$basic_ostream@GU?$char_traits@G@std@@@1@A
+1971 Name=?what@runtime_error@std@@UBEPBDXZ Pascal=0
+1972 Name=?what@runtime_error@std@@UBEPBDXZ Pascal=0
+1973 Name=?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z Pascal=4
+1974 Name=?widen@?$basic_ios@GU?$char_traits@G@std@@@std@@QBEGD@Z Pascal=4
+1975 Name=?widen@?$ctype@D@std@@QBEDD@Z Pascal=4
+1976 Name=?widen@?$ctype@D@std@@QBEPBDPBD0PAD@Z Pascal=12
+1977 Name=?widen@?$ctype@G@std@@QBEGD@Z Pascal=4
+1978 Name=?widen@?$ctype@G@std@@QBEPBDPBD0PAG@Z Pascal=12
+1979 Name=?width@ios_base@std@@QAEHH@Z Pascal=4
+1980 Name=?width@ios_base@std@@QBEHXZ Pascal=0
+1981 Name=?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@PBDH@Z Pascal=8
+1982 Name=?write@?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV12@PBGH@Z Pascal=8
+1983 Name=?ws@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@1@AAV21@@Z Pascal=0
+1984 Name=?ws@std@@YAAAV?$basic_istream@GU?$char_traits@G@std@@@1@AAV21@@Z Pascal=0
+1985 Name=?xalloc@ios_base@std@@SAHXZ Pascal=0
+1986 Name=?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHPADH@Z Pascal=8
+1987 Name=?xsgetn@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHPAGH@Z Pascal=8
+1988 Name=?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHPBDH@Z Pascal=8
+1989 Name=?xsputn@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHPBGH@Z Pascal=8
+1990 Name=_Cosh Pascal=0
+1991 Name=_Denorm
+1992 Name=_Dnorm Pascal=0
+1993 Name=_Dscale Pascal=0
+1994 Name=_Dtest Pascal=0
+1995 Name=_Eps
+1996 Name=_Exp Pascal=0
+1997 Name=_FCosh Pascal=0
+1998 Name=_FDenorm
+1999 Name=_FDnorm Pascal=0
+2000 Name=_FDscale Pascal=0
+2001 Name=_FDtest Pascal=0
+2002 Name=_FEps
+2003 Name=_FExp Pascal=0
+2004 Name=_FInf
+2005 Name=_FNan
+2006 Name=_FRteps
+2007 Name=_FSinh Pascal=0
+2008 Name=_FSnan
+2009 Name=_FXbig
+2010 Name=_Getcoll Pascal=0
+2011 Name=_Getctype Pascal=0
+2012 Name=_Getcvt Pascal=0
+2013 Name=_Hugeval
+2014 Name=_Inf
+2015 Name=_LCosh Pascal=0
+2016 Name=_LDenorm
+2017 Name=_LDscale Pascal=0
+2018 Name=_LDtest Pascal=0
+2019 Name=_LEps
+2020 Name=_LExp Pascal=0
+2021 Name=_LInf
+2022 Name=_LNan
+2023 Name=_Poly Pascal=0
+2024 Name=_LRteps
+2025 Name=_LSinh Pascal=0
+2026 Name=_LSnan
+2027 Name=_LXbig
+2028 Name=_Mbrtowc Pascal=0
+2029 Name=_Nan
+2030 Name=_Poly Pascal=0
+2031 Name=_Rteps
+2032 Name=_Sinh Pascal=0
+2033 Name=_Snan
+2034 Name=_Stod Pascal=0
+2035 Name=_Stold Pascal=0
+2036 Name=_Stold Pascal=0
+2037 Name=_Strcoll Pascal=0
+2038 Name=_Strxfrm Pascal=0
+2039 Name=_Tolower Pascal=0
+2040 Name=_Toupper Pascal=0
+2041 Name=_Wcrtomb Pascal=0
+2042 Name=_Xbig
+2043 Name=__Wcrtomb_lk Pascal=0
+2044 Name=btowc Pascal=0
+2045 Name=mbrlen Pascal=0
+2046 Name=mbrtowc Pascal=0
+2047 Name=mbsrtowcs Pascal=0
+2048 Name=towctrans Pascal=0
+2049 Name=wcrtomb Pascal=0
+2050 Name=wcsrtombs Pascal=0
+2051 Name=wctob Pascal=0
+2052 Name=wctrans Pascal=0
+2053 Name=wctype Pascal=0
+;------------------EOF------------------

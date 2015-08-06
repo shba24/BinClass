@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=icwdial.dll Args=0 Drops=6
+;---------------------------------------
+1 Name=AutoDialHandler Pascal=16
+2 Name=AutoDialInit Pascal=12
+3 Name=RasSetEntryPropertiesScriptPatch Pascal=8
+4 Name=DialingDownloadDialog Pascal=4
+5 Name=DialingErrorDialog Pascal=4
+6 Name=ICWGetRasEntry Pascal=20
+;------------------EOF------------------

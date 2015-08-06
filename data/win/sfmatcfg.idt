@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SFMATCFG.dll Pascal=0
+;---------------------------------------
+1 Name=EnterAtalkConfigDLL
+2 Name=ChangeAdapterNum
+;------------------EOF------------------

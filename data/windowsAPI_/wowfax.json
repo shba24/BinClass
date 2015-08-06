@@ -1,0 +1,1 @@
+{"config": {"exports": {"WOWFAX.dll:DrvQueryDriverInfo": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "3"}, "WOWFAX.dll:DrvEnableDriver": {"function": {"delta": "8", "convention": "stdcall"}, "ordinal": "2"}, "WOWFAX.dll:DrvDisableDriver": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

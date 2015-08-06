@@ -1,0 +1,1 @@
+{"config": {"exports": {"NTVDM64.dll:DllInstall": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "1"}, "NTVDM64.dll:NtVdm64RaiseInvalid16BitError": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "3"}, "NTVDM64.dll:NtVdm64CreateProcess": {"function": {"delta": "40", "convention": "stdcall"}, "ordinal": "2"}}}}

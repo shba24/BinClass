@@ -1,0 +1,48 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=authz.dll Args=0 Drops=41
+;---------------------------------------
+1 Name=AuthzAccessCheck Pascal=36
+2 Name=AuthzAddSidsToContext Pascal=24
+3 Name=AuthzCachedAccessCheck Pascal=20
+4 Name=AuthzEnumerateSecurityEventSources Pascal=16
+5 Name=AuthzFreeAuditEvent Pascal=4
+6 Name=AuthzFreeContext Pascal=4
+7 Name=AuthzFreeHandle Pascal=4
+8 Name=AuthzFreeResourceManager Pascal=4
+9 Name=AuthzGetInformationFromContext Pascal=20
+10 Name=AuthzInitializeContextFromAuthzContext Pascal=28
+11 Name=AuthzInitializeContextFromSid Pascal=32
+12 Name=AuthzInitializeContextFromToken Pascal=32
+13 Name=AuthzInitializeObjectAccessAuditEvent Pascal=0
+14 Name=AuthzInitializeObjectAccessAuditEvent2 Pascal=0
+15 Name=AuthzInitializeResourceManager Pascal=24
+16 Name=AuthzInstallSecurityEventSource Pascal=8
+17 Name=AuthzOpenObjectAudit Pascal=32
+18 Name=AuthzRegisterSecurityEventSource Pascal=12
+19 Name=AuthzReportSecurityEvent Pascal=0
+20 Name=AuthzReportSecurityEventFromParams Pascal=20
+21 Name=AuthzUninstallSecurityEventSource Pascal=8
+22 Name=AuthzUnregisterSecurityEventSource Pascal=8
+23 Name=AuthziAllocateAuditParams Pascal=8
+24 Name=AuthziFreeAuditEventType Pascal=4
+25 Name=AuthziFreeAuditParams Pascal=4
+26 Name=AuthziFreeAuditQueue Pascal=4
+27 Name=AuthziInitializeAuditEvent Pascal=44
+28 Name=AuthziInitializeAuditEventType Pascal=20
+29 Name=AuthziInitializeAuditParams Pascal=0
+30 Name=AuthziInitializeAuditParamsFromArray Pascal=20
+31 Name=AuthziInitializeAuditParamsWithRM Pascal=0
+32 Name=AuthziInitializeAuditQueue Pascal=20
+33 Name=AuthziInitializeContextFromSid Pascal=32
+34 Name=AuthziLogAuditEvent Pascal=12
+35 Name=AuthziModifyAuditEvent2 Pascal=32
+36 Name=AuthziModifyAuditEvent Pascal=28
+37 Name=AuthziModifyAuditEventType Pascal=20
+38 Name=AuthziModifyAuditQueue Pascal=24
+39 Name=AuthziQueryAuditPolicy Pascal=24
+40 Name=AuthziSetAuditPolicy Pascal=16
+41 Name=AuthziSourceAudit Pascal=0
+;------------------EOF------------------

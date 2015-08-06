@@ -1,0 +1,79 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=HCAPORT.SYS Args=0 Drops=72
+;---------------------------------------
+1 Name=HcaportAllocateCommonBuffer Pascal=32
+2 Name=HcaportAllocateMemory Pascal=16
+3 Name=HcaportBreakPoint Pascal=0
+4 Name=HcaportClearAllBits Pascal=4
+5 Name=HcaportClearBits Pascal=12
+6 Name=HcaportCompareMemory Pascal=12
+7 Name=HcaportConnectInterrupt Pascal=4
+8 Name=HcaportCreateAdapterRegistryKey Pascal=8
+9 Name=HcaportDelayExecution Pascal=8
+10 Name=HcaportDeregProviderInstance Pascal=12
+11 Name=HcaportDeregisterProvider Pascal=8
+12 Name=HcaportFindClearBitsAndSet Pascal=12
+13 Name=HcaportFreeCommonBuffer Pascal=24
+14 Name=HcaportFreeMemory Pascal=16
+15 Name=HcaportGetBusData Pascal=16
+16 Name=HcaportGetMiniportCqExtension Pascal=8
+17 Name=HcaportGetMiniportPdExtension Pascal=8
+18 Name=HcaportGetMiniportWqExtension Pascal=8
+19 Name=HcaportGetPmiWqExtension Pascal=12
+20 Name=HcaportGetPortMgmtCapabilities Pascal=12
+21 Name=HcaportGetWqAttributes Pascal=16
+22 Name=HcaportInitialize Pascal=12
+23 Name=HcaportInitializeBitMap Pascal=12
+24 Name=HcaportInvokeAsynchronousEvent Pascal=8
+25 Name=HcaportMapIoAddress Pascal=12
+26 Name=HcaportMoveMemory Pascal=12
+27 Name=HcaportPmiAllocateCommonBuffer Pascal=8
+28 Name=HcaportPmiAllocateMemory Pascal=4
+29 Name=HcaportPmiFreeCommonBuffer Pascal=8
+30 Name=HcaportPmiFreeMemory Pascal=4
+31 Name=HcaportQueryAdapterRegistryDirect Pascal=16
+32 Name=HcaportQueryAdapterRegistryKey Pascal=20
+33 Name=HcaportReadPortBufferUchar Pascal=12
+34 Name=HcaportReadPortBufferUlong Pascal=12
+35 Name=HcaportReadPortBufferUshort Pascal=12
+36 Name=HcaportReadPortUchar Pascal=4
+37 Name=HcaportReadPortUlong Pascal=4
+38 Name=HcaportReadPortUshort Pascal=4
+39 Name=HcaportReadRegisterBufferUchar Pascal=12
+40 Name=HcaportReadRegisterBufferUlong Pascal=12
+41 Name=HcaportReadRegisterBufferUshort Pascal=12
+42 Name=HcaportReadRegisterUchar Pascal=4
+43 Name=HcaportReadRegisterUlong Pascal=4
+44 Name=HcaportReadRegisterUshort Pascal=4
+45 Name=HcaportRegProviderInstance Pascal=12
+46 Name=HcaportRegisterMgmtAgent Pascal=8
+47 Name=HcaportRegisterProvider Pascal=12
+48 Name=HcaportRequestDpc Pascal=12
+49 Name=HcaportReserveCompletionQueue Pascal=8
+50 Name=HcaportReserveWorkQueue Pascal=8
+51 Name=HcaportSetBusData Pascal=16
+52 Name=HcaportSetWqStateToError Pascal=8
+53 Name=HcaportTranslateVirtualAddress Pascal=16
+54 Name=HcaportUlongByteSwap Pascal=0
+55 Name=HcaportUlonglongByteSwap Pascal=0
+56 Name=HcaportUnmapIoAddress Pascal=8
+57 Name=HcaportUshortByteSwap Pascal=0
+58 Name=HcaportValidateMkey Pascal=20
+59 Name=HcaportWriteAdapterRegistryValue Pascal=24
+60 Name=HcaportWritePortBufferUchar Pascal=12
+61 Name=HcaportWritePortBufferUlong Pascal=12
+62 Name=HcaportWritePortBufferUshort Pascal=12
+63 Name=HcaportWritePortUchar Pascal=8
+64 Name=HcaportWritePortUlong Pascal=8
+65 Name=HcaportWritePortUshort Pascal=8
+66 Name=HcaportWriteRegisterBufferUchar Pascal=12
+67 Name=HcaportWriteRegisterBufferUlong Pascal=12
+68 Name=HcaportWriteRegisterBufferUshort Pascal=12
+69 Name=HcaportWriteRegisterUchar Pascal=8
+70 Name=HcaportWriteRegisterUlong Pascal=8
+71 Name=HcaportWriteRegisterUshort Pascal=8
+72 Name=HcaportZeroMemory Pascal=8
+;------------------EOF------------------

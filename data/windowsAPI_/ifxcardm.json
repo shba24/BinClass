@@ -1,0 +1,1 @@
+{"config": {"exports": {"IFXCARDM.dll:CardAcquireContext": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "1"}, "IFXCARDM.dll:DllUnregisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}, "IFXCARDM.dll:DllRegisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}}}}

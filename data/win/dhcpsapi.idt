@@ -1,0 +1,100 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=dhcpsapi.dll Args=0 Drops=91
+;---------------------------------------
+1 Name=DhcpAddMScopeElement Pascal=12
+2 Name=DhcpAddServer Pascal=20
+3 Name=DhcpAddSubnetElement Pascal=12
+4 Name=DhcpAddSubnetElementV4 Pascal=12
+5 Name=DhcpAddSubnetElementV5 Pascal=12
+6 Name=DhcpAuditLogGetParams Pascal=24
+7 Name=DhcpAuditLogSetParams Pascal=24
+8 Name=DhcpCreateClass Pascal=12
+9 Name=DhcpCreateClientInfo Pascal=8
+10 Name=DhcpCreateClientInfoV4 Pascal=8
+11 Name=DhcpCreateOption Pascal=12
+12 Name=DhcpCreateOptionV5 Pascal=24
+13 Name=DhcpCreateSubnet Pascal=12
+14 Name=DhcpDeleteClass Pascal=12
+15 Name=DhcpDeleteClientInfo Pascal=8
+16 Name=DhcpDeleteMClientInfo Pascal=8
+17 Name=DhcpDeleteMScope Pascal=12
+18 Name=DhcpDeleteServer Pascal=20
+19 Name=DhcpDeleteSubnet Pascal=12
+20 Name=DhcpDeleteSuperScopeV4 Pascal=8
+21 Name=DhcpDsCleanup Pascal=0
+22 Name=DhcpDsClearHostServerEntries Pascal=0
+23 Name=DhcpDsInit Pascal=0
+24 Name=DhcpEnumClasses Pascal=28
+25 Name=DhcpEnumMScopeClients Pascal=28
+26 Name=DhcpEnumMScopeElements Pascal=32
+27 Name=DhcpEnumMScopes Pascal=24
+28 Name=DhcpEnumOptionValues Pascal=28
+29 Name=DhcpEnumOptionValuesV5 Pascal=40
+30 Name=DhcpEnumOptions Pascal=24
+31 Name=DhcpEnumOptionsV5 Pascal=36
+32 Name=DhcpEnumServers
+33 Name=DhcpEnumSubnetClients Pascal=28
+34 Name=DhcpEnumSubnetClientsV4 Pascal=28
+35 Name=DhcpEnumSubnetClientsV5 Pascal=28
+36 Name=DhcpEnumSubnetElements Pascal=32
+37 Name=DhcpEnumSubnetElementsV4 Pascal=32
+38 Name=DhcpEnumSubnetElementsV5 Pascal=32
+39 Name=DhcpEnumSubnets Pascal=24
+40 Name=DhcpGetAllOptionValues Pascal=16
+41 Name=DhcpGetAllOptions Pascal=12
+42 Name=DhcpGetClassInfo Pascal=16
+43 Name=DhcpGetClientInfo Pascal=12
+44 Name=DhcpGetClientInfoV4 Pascal=12
+45 Name=DhcpGetClientOptions Pascal=16
+46 Name=DhcpGetMCastMibInfo Pascal=8
+47 Name=DhcpGetMScopeInfo Pascal=12
+48 Name=DhcpGetMibInfo Pascal=8
+49 Name=DhcpGetOptionInfo Pascal=12
+50 Name=DhcpGetOptionInfoV5 Pascal=24
+51 Name=DhcpGetOptionValue Pascal=16
+52 Name=DhcpGetOptionValueV5 Pascal=28
+53 Name=DhcpGetServerBindingInfo Pascal=12
+54 Name=DhcpGetSubnetInfo Pascal=12
+55 Name=DhcpGetSuperScopeInfoV4 Pascal=8
+56 Name=DhcpGetThreadOptions Pascal=8
+57 Name=DhcpGetVersion Pascal=12
+58 Name=DhcpModifyClass Pascal=12
+59 Name=DhcpRemoveMScopeElement Pascal=16
+60 Name=DhcpRemoveOption Pascal=8
+61 Name=DhcpRemoveOptionV5 Pascal=20
+62 Name=DhcpRemoveOptionValue Pascal=12
+63 Name=DhcpRemoveOptionValueV5 Pascal=24
+64 Name=DhcpRemoveSubnetElement Pascal=16
+65 Name=DhcpRemoveSubnetElementV4 Pascal=16
+66 Name=DhcpRemoveSubnetElementV5 Pascal=16
+67 Name=DhcpRpcFreeMemory
+68 Name=DhcpScanDatabase Pascal=16
+69 Name=DhcpScanMDatabase Pascal=16
+70 Name=DhcpServerBackupDatabase Pascal=8
+71 Name=DhcpServerGetConfig Pascal=8
+72 Name=DhcpServerGetConfigV4 Pascal=8
+73 Name=DhcpServerQueryAttribute Pascal=16
+74 Name=DhcpServerQueryAttributes Pascal=20
+75 Name=DhcpServerQueryDnsRegCredentials Pascal=20
+76 Name=DhcpServerRedoAuthorization Pascal=8
+77 Name=DhcpServerRestoreDatabase Pascal=8
+78 Name=DhcpServerSetConfig Pascal=12
+79 Name=DhcpServerSetConfigV4 Pascal=12
+80 Name=DhcpServerSetDnsRegCredentials Pascal=16
+81 Name=DhcpSetClientInfo Pascal=8
+82 Name=DhcpSetClientInfoV4 Pascal=8
+83 Name=DhcpSetMScopeInfo Pascal=16
+84 Name=DhcpSetOptionInfo Pascal=12
+85 Name=DhcpSetOptionInfoV5 Pascal=24
+86 Name=DhcpSetOptionValue Pascal=16
+87 Name=DhcpSetOptionValueV5 Pascal=28
+88 Name=DhcpSetOptionValues Pascal=12
+89 Name=DhcpSetOptionValuesV5 Pascal=24
+90 Name=DhcpSetServerBindingInfo Pascal=12
+91 Name=DhcpSetSubnetInfo Pascal=12
+92 Name=DhcpSetSuperScopeV4 Pascal=16
+93 Name=DhcpSetThreadOptions Pascal=8
+;------------------EOF------------------

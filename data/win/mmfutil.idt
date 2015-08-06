@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mmfutil.dll Args=0 Drops=8
+;---------------------------------------
+1 Name=?DisplayAVIBox@@YGHPAUHWND__@@PBG1PAPAU1@@Z Pascal=16
+2 Name=?DisplayUserMessage@@YGHPAUHWND__@@PAUHINSTANCE__@@IIW4ERROR_SRC@@JI@Z Pascal=28
+3 Name=?DisplayUserMessage@@YGHPAUHWND__@@PBG1W4ERROR_SRC@@JI@Z Pascal=24
+4 Name=DllCanUnloadNow Pascal=0
+5 Name=DllGetClassObject Pascal=12
+6 Name=DllRegisterServer Pascal=0
+7 Name=DllUnregisterServer Pascal=0
+8 Name=_ErrorStringEx@16 Pascal=16
+;------------------EOF------------------

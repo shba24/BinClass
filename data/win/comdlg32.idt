@@ -1,0 +1,34 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=comdlg32.dll Args=0 Drops=26
+;---------------------------------------
+100 Name=FormatCharDlgProc Pascal=16
+101 Name=ChooseColorA Pascal=4
+102 Name=ChooseColorW Pascal=4
+103 Name=ChooseFontA Pascal=4
+104 Name=ChooseFontW Pascal=4
+105 Name=CommDlgExtendedError
+106 Name=FindTextA Pascal=4
+107 Name=FindTextW Pascal=4
+108 Name=GetFileTitleA Pascal=12
+109 Name=GetFileTitleW Pascal=12
+110 Name=GetOpenFileNameA Pascal=4
+111 Name=GetOpenFileNameW Pascal=4
+112 Name=GetSaveFileNameA Pascal=4
+113 Name=GetSaveFileNameW Pascal=4
+114 Name=LoadAlterBitmap Pascal=12
+115 Name=PageSetupDlgA Pascal=4
+116 Name=PageSetupDlgW Pascal=4
+117 Name=PrintDlgA Pascal=4
+118 Name=PrintDlgExA Pascal=4
+119 Name=PrintDlgExW Pascal=4
+120 Name=PrintDlgW Pascal=4
+121 Name=ReplaceTextA Pascal=4
+122 Name=ReplaceTextW Pascal=4
+123 Name=Ssync_ANSI_UNICODE_Struct_For_WOW Pascal=12
+124 Name=WantArrows Pascal=16
+125 Name=dwLBSubclass Pascal=16
+126 Name=dwOKSubclass Pascal=16
+;------------------EOF------------------

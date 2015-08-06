@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=umpnpmgr.dll Pascal=0
+;---------------------------------------
+1 Name=PNP_GetDeviceList
+2 Name=PNP_GetDeviceListSize
+3 Name=PNP_HwProfFlags
+4 Name=PNP_ReportLogOn
+5 Name=PNP_SetActiveService
+6 Name=ServiceEntry
+;------------------EOF------------------

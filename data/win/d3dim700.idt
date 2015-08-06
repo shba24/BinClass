@@ -1,0 +1,25 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=d3dim700.dll Args=0 Drops=18
+;---------------------------------------
+1 Name=D3DFree Pascal=4
+2 Name=D3DMalloc Pascal=8
+3 Name=D3DRealloc Pascal=8
+4 Name=Direct3DCreateDevice Pascal=20
+5 Name=CreateTexture Pascal=4
+6 Name=D3DBreakVBLock Pascal=4
+7 Name=D3DTextureUpdate Pascal=4
+8 Name=DestroyTexture Pascal=4
+9 Name=Direct3DCreate Pascal=12
+10 Name=Direct3D_HALCleanUp Pascal=8
+11 Name=FlushD3DDevices Pascal=4
+12 Name=GetLOD Pascal=8
+13 Name=GetPriority Pascal=8
+14 Name=PaletteAssociateNotify Pascal=16
+15 Name=PaletteUpdateNotify Pascal=20
+16 Name=SetLOD Pascal=8
+17 Name=SetPriority Pascal=8
+18 Name=SurfaceFlipNotify Pascal=4
+;------------------EOF------------------

@@ -1,0 +1,1 @@
+{"config": {"exports": {"CNBJMON.dll:InitializePrintMonitor": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "1"}}}}

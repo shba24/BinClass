@@ -1,0 +1,1 @@
+{"config": {"exports": {"LOCALMON.dll:InitializePrintMonitor": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "LOCALMON.dll:DllEntryPoint": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

@@ -1,0 +1,26 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WININET.dll Args=0 Drops=19
+;---------------------------------------
+101 Name=DoConnectoidsExist Pascal=0
+102 Name=GetDiskInfoA Pascal=16
+103 Name=PerformOperationOverUrlCacheA Pascal=40
+104 Name=HttpCheckDavComplianceA Pascal=20
+105 Name=HttpCheckDavComplianceW Pascal=20
+108 Name=ImportCookieFileA Pascal=4
+109 Name=ExportCookieFileA Pascal=8
+110 Name=ImportCookieFileW Pascal=4
+111 Name=ExportCookieFileW Pascal=8
+112 Name=IsProfilesEnabled Pascal=0
+116 Name=IsDomainLegalCookieDomainA Pascal=8
+117 Name=IsDomainLegalCookieDomainW Pascal=8
+118 Name=FindP3PPolicySymbol Pascal=4
+120 Name=MapResourceToPolicy Pascal=16
+121 Name=GetP3PPolicy Pascal=16
+122 Name=FreeP3PObject Pascal=4
+123 Name=GetP3PRequestStatus Pascal=4
+346 Name=InternalInternetGetCookie Pascal=12
+401 Name=ReadGuidsForConnectedNetworks Pascal=24
+;------------------EOF------------------

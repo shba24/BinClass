@@ -1,0 +1,34 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=iuengine.dll Args=0 Drops=27
+;---------------------------------------
+1 Name=DllMain Pascal=12
+2 Name=EngGetSystemSpec Pascal=16
+3 Name=EngGetManifest Pascal=24
+4 Name=EngDetect Pascal=16
+5 Name=EngDownload Pascal=32
+6 Name=EngDownloadAsync Pascal=36
+7 Name=EngInstall Pascal=32
+8 Name=EngInstallAsync Pascal=36
+9 Name=EngSetOperationMode Pascal=12
+10 Name=EngGetOperationMode Pascal=12
+11 Name=EngGetHistory Pascal=24
+12 Name=ShutdownThreads Pascal=0
+13 Name=EngBrowseForFolder Pascal=16
+14 Name=EngRebootMachine Pascal=4
+15 Name=CompleteSelfUpdateProcess Pascal=0
+16 Name=InternalDetFilesDownloaded Pascal=4
+17 Name=InternalDownloadGetUpdatedFiles Pascal=12
+18 Name=InternalDownloadUpdatedFiles Pascal=24
+19 Name=InternalFindMatchingDriver Pascal=12
+20 Name=InternalLogDriverNotFound Pascal=12
+21 Name=InternalQueryDetectionFiles Pascal=12
+22 Name=InternalSetGlobalOfflineFlag Pascal=4
+23 Name=AsyncExtraWorkUponEngineLoad Pascal=0
+24 Name=ShutdownGlobalThreads Pascal=0
+25 Name=CreateEngUpdateInstance Pascal=0
+26 Name=DeleteEngUpdateInstance Pascal=4
+27 Name=PingIUEngineUpdateStatus Pascal=24
+;------------------EOF------------------

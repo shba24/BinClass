@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=iprop.dll Pascal=0
+;---------------------------------------
+1 Name=FmtIdToPropStgName
+2 Name=FreePropVariantArray
+3 Name=PropStgNameToFmtId
+4 Name=PropVariantClear
+5 Name=PropVariantCopy
+6 Name=StgCreatePropSetStg
+7 Name=StgCreatePropStg
+8 Name=StgOpenPropStg
+;------------------EOF------------------

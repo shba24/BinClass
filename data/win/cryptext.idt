@@ -1,0 +1,39 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=cryptext.dll Args=0 Drops=32
+;---------------------------------------
+1 Name=CryptExtAddCER Pascal=16
+2 Name=CryptExtAddCERW Pascal=16
+3 Name=CryptExtAddCRL Pascal=16
+4 Name=CryptExtAddCRLW Pascal=16
+5 Name=CryptExtAddCTL Pascal=16
+6 Name=CryptExtAddCTLW Pascal=16
+7 Name=CryptExtAddP7R Pascal=16
+8 Name=CryptExtAddP7RW Pascal=16
+9 Name=CryptExtAddPFX Pascal=16
+10 Name=CryptExtAddPFXW Pascal=16
+11 Name=CryptExtAddSPC Pascal=16
+12 Name=CryptExtAddSPCW Pascal=16
+13 Name=CryptExtOpenCAT Pascal=16
+14 Name=CryptExtOpenCATW Pascal=16
+15 Name=CryptExtOpenCER Pascal=16
+16 Name=CryptExtOpenCERW Pascal=16
+17 Name=CryptExtOpenCRL Pascal=16
+18 Name=CryptExtOpenCRLW Pascal=16
+19 Name=CryptExtOpenCTL Pascal=16
+20 Name=CryptExtOpenCTLW Pascal=16
+21 Name=CryptExtOpenP10 Pascal=16
+22 Name=CryptExtOpenP10W Pascal=16
+23 Name=CryptExtOpenP7R Pascal=16
+24 Name=CryptExtOpenP7RW Pascal=16
+25 Name=CryptExtOpenPKCS7 Pascal=16
+26 Name=CryptExtOpenPKCS7W Pascal=16
+27 Name=CryptExtOpenSTR Pascal=16
+28 Name=CryptExtOpenSTRW Pascal=16
+29 Name=DllCanUnloadNow Pascal=0
+30 Name=DllGetClassObject Pascal=12
+31 Name=DllRegisterServer Pascal=0
+32 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

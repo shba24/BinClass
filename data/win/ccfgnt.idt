@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ccfgnt.dll Args=0 Drops=11
+;---------------------------------------
+1 Name=IcfgSetInstallSourcePath Pascal=4
+2 Name=InetSetAutodialAddress Pascal=8
+3 Name=IcfgGetLastInstallErrorText Pascal=8
+4 Name=IcfgInstallInetComponents
+5 Name=IcfgInstallModem
+6 Name=IcfgIsFileSharingTurnedOn Pascal=8
+7 Name=IcfgIsGlobalDNS Pascal=4
+8 Name=IcfgNeedInetComponents
+9 Name=IcfgNeedModem
+10 Name=IcfgRemoveGlobalDNS Pascal=0
+11 Name=IcfgStartServices Pascal=0
+12 Name=IcfgTurnOffFileSharing Pascal=8
+13 Name=InetGetAutodial Pascal=12
+14 Name=InetGetSupportedPlatform Pascal=4
+15 Name=InetSetAutodial Pascal=8
+;------------------EOF------------------

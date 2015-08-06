@@ -1,0 +1,33 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=uniplat.dll Args=0 Drops=24
+;---------------------------------------
+100 Name=UmPlatformInitialize Pascal=0
+101 Name=UmPlatformDeinitialize Pascal=4
+102 Name=UnimodemReadFileEx
+103 Name=UnimodemWriteFileEx
+104 Name=UnimodemDeviceIoControlEx Pascal=32
+105 Name=UnimodemWaitCommEventEx Pascal=16
+106 Name=UnimodemQueueUserAPC Pascal=8
+107 Name=CreateUnimodemTimer Pascal=4
+108 Name=FreeUnimodemTimer Pascal=4
+109 Name=SetUnimodemTimer Pascal=20
+110 Name=CancelUnimodemTimer Pascal=4
+111 Name=CreateOverStructPool Pascal=8
+112 Name=DestroyOverStructPool Pascal=4
+113 Name=AllocateOverStructEx Pascal=8
+114 Name=FreeOverStruct Pascal=4
+115 Name=ReinitOverStruct Pascal=4
+116 Name=SyncDeviceIoControl Pascal=28
+117 Name=WinntIsWorkstation Pascal=0
+207 Name=UnimodemNotifyTSP Pascal=20
+210 Name=StartMonitorThread Pascal=0
+211 Name=StopMonitorThread Pascal=0
+212 Name=MonitorHandle Pascal=12
+213 Name=StopMonitoringHandle Pascal=4
+214 Name=CallBeginning Pascal=0
+215 Name=CallEnding Pascal=0
+216 Name=ResetCallCount Pascal=0
+;------------------EOF------------------

@@ -1,0 +1,35 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=vdmdbg.dll Args=0 Drops=28
+;---------------------------------------
+1 Name=VDMBreakThread Pascal=8
+2 Name=VDMKillWOW Pascal=0
+3 Name=VDMEnumProcessWOW Pascal=8
+4 Name=VDMEnumTaskWOW Pascal=12
+5 Name=VDMEnumTaskWOWEx Pascal=12
+6 Name=VDMGetAddrExpression Pascal=20
+7 Name=VDMGetContext Pascal=12
+8 Name=VDMGetDbgFlags Pascal=4
+9 Name=VDMGetModuleSelector Pascal=20
+10 Name=VDMGetPointer Pascal=20
+11 Name=VDMGetSegmentInfo Pascal=16
+12 Name=VDMGetSegtablePointer Pascal=0
+13 Name=VDMGetSelectorModule Pascal=32
+14 Name=VDMGetSymbol Pascal=28
+15 Name=VDMGetThreadContext Pascal=8
+16 Name=VDMGetThreadSelectorEntry Pascal=16
+17 Name=VDMGlobalFirst Pascal=24
+18 Name=VDMGlobalNext Pascal=24
+19 Name=VDMIsModuleLoaded Pascal=4
+20 Name=VDMKillWOW Pascal=0
+21 Name=VDMModuleFirst Pascal=20
+22 Name=VDMModuleNext Pascal=20
+23 Name=VDMProcessException Pascal=4
+24 Name=VDMSetContext Pascal=12
+25 Name=VDMSetDbgFlags Pascal=8
+26 Name=VDMSetThreadContext Pascal=8
+27 Name=VDMStartTaskInWOW Pascal=12
+28 Name=VDMTerminateTaskWOW Pascal=8
+;------------------EOF------------------

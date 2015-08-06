@@ -1,0 +1,1 @@
+{"config": {"exports": {"MSTEXT40.dll:mstext40_1": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "1"}, "MSTEXT40.dll:DllUnregisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}, "MSTEXT40.dll:DllRegisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}}}}

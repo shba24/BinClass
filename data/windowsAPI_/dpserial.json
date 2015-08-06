@@ -1,0 +1,1 @@
+{"config": {"exports": {"DPSERIAL.dll:CreateNewDirectPlay": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

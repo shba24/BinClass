@@ -1,0 +1,1 @@
+{"config": {"exports": {"MSPBDE40.dll:DllUnregisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}, "MSPBDE40.dll:mspbde40_1": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "1"}, "MSPBDE40.dll:DllRegisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}}}}

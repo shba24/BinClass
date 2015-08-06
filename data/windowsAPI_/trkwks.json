@@ -1,0 +1,1 @@
+{"config": {"exports": {"TRKWKS.dll:ServiceMain": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "2"}, "TRKWKS.dll:ServiceEntry": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "1"}}}}

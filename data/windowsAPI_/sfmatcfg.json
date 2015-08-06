@@ -1,0 +1,1 @@
+{"config": {"exports": {"SFMATCFG.dll:EnterAtalkConfigDLL": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "SFMATCFG.dll:ChangeAdapterNum": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}}}}

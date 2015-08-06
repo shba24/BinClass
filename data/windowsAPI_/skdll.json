@@ -1,0 +1,1 @@
+{"config": {"exports": {"SKDLL.dll:SKEY_SystemParametersInfo": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "2"}}}}

@@ -1,0 +1,1 @@
+{"config": {"exports": {"SECSSPI.dll:Ssp_Load": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

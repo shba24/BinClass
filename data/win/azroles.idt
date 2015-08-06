@@ -1,0 +1,51 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=azroles.dll Args=0 Drops=43
+;---------------------------------------
+1 Name=AzAddPropertyItem Pascal=16
+2 Name=AzApplicationClose Pascal=12
+3 Name=AzApplicationCreate Pascal=16
+4 Name=AzApplicationDelete Pascal=12
+5 Name=AzApplicationEnum Pascal=16
+6 Name=AzApplicationOpen Pascal=16
+7 Name=AzAuthorizationStoreDelete Pascal=8
+8 Name=AzCloseHandle Pascal=8
+9 Name=AzContextAccessCheck Pascal=60
+10 Name=AzContextGetAssignedScopesPage Pascal=20
+11 Name=AzContextGetRoles Pascal=16
+12 Name=AzFreeMemory Pascal=4
+13 Name=AzGetProperty Pascal=16
+14 Name=AzGroupCreate Pascal=16
+15 Name=AzGroupDelete Pascal=12
+16 Name=AzGroupEnum Pascal=16
+17 Name=AzGroupOpen Pascal=16
+18 Name=AzInitialize Pascal=16
+19 Name=AzInitializeContextFromName Pascal=20
+20 Name=AzInitializeContextFromToken Pascal=16
+21 Name=AzOperationCreate Pascal=16
+22 Name=AzOperationDelete Pascal=12
+23 Name=AzOperationEnum Pascal=16
+24 Name=AzOperationOpen Pascal=16
+25 Name=AzRemovePropertyItem Pascal=16
+26 Name=AzRoleCreate Pascal=16
+27 Name=AzRoleDelete Pascal=12
+28 Name=AzRoleEnum Pascal=16
+29 Name=AzRoleOpen Pascal=16
+30 Name=AzScopeCreate Pascal=16
+31 Name=AzScopeDelete Pascal=12
+32 Name=AzScopeEnum Pascal=16
+33 Name=AzScopeOpen Pascal=16
+34 Name=AzSetProperty
+35 Name=AzSubmit Pascal=12
+36 Name=AzTaskCreate Pascal=16
+37 Name=AzTaskDelete Pascal=12
+38 Name=AzTaskEnum Pascal=16
+39 Name=AzTaskOpen Pascal=16
+40 Name=AzUpdateCache Pascal=4
+41 Name=DllCanUnloadNow Pascal=0
+42 Name=DllGetClassObject Pascal=12
+43 Name=DllRegisterServer Pascal=0
+44 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

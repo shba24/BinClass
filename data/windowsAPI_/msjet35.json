@@ -1,0 +1,1 @@
+{"config": {"exports": {"MSJET35.dll:DllUnregisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}, "MSJET35.dll:DllRegisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}}}}

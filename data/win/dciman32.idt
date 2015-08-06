@@ -1,0 +1,27 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=dciman32.dll Args=0 Drops=20
+;---------------------------------------
+1 Name=DCIBeginAccess Pascal=20
+2 Name=DCICloseProvider Pascal=4
+3 Name=DCICreateOffscreen Pascal=40
+4 Name=DCISetDestination Pascal=12
+5 Name=DCICreatePrimary Pascal=8
+6 Name=DCIDestroy Pascal=4
+7 Name=DCIDraw Pascal=4
+8 Name=DCIEndAccess Pascal=4
+9 Name=DCIEnum Pascal=20
+10 Name=DCIOpenProvider Pascal=0
+11 Name=DCISetClipList Pascal=8
+12 Name=DCISetDestination Pascal=12
+13 Name=DCISetSrcDestClip Pascal=16
+14 Name=GetDCRegionData Pascal=12
+15 Name=GetWindowRegionData Pascal=12
+16 Name=WinWatchClose Pascal=4
+17 Name=WinWatchDidStatusChange Pascal=4
+18 Name=WinWatchGetClipList Pascal=16
+19 Name=WinWatchNotify Pascal=12
+20 Name=WinWatchOpen Pascal=4
+;------------------EOF------------------

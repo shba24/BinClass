@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=icmui.dll Args=0 Drops=3
+;---------------------------------------
+1 Name=DllCanUnloadNow
+2 Name=DllGetClassObject Pascal=12
+3 Name=SetupColorMatchingA Pascal=4
+4 Name=SetupColorMatchingW Pascal=4
+;------------------EOF------------------

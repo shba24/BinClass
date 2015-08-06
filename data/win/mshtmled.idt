@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mshtmled.dll Args=0 Drops=5
+;---------------------------------------
+1 Name=DllCanUnloadNow Pascal=0
+2 Name=DllEnumClassObjects Pascal=12
+3 Name=DllGetClassObject Pascal=12
+4 Name=DllRegisterServer Pascal=0
+5 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

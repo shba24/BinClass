@@ -1,0 +1,35 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=dbnetlib.dll Args=0 Drops=25
+;---------------------------------------
+1 Name=ConnectionObjectSize Pascal=0
+2 Name=ConnectionRead Pascal=0
+3 Name=ConnectionWrite Pascal=0
+4 Name=ConnectionTransact Pascal=0
+5 Name=ConnectionWriteOOB Pascal=0
+6 Name=ConnectionMode Pascal=0
+7 Name=ConnectionStatus Pascal=0
+8 Name=ConnectionOpen
+9 Name=ConnectionClose Pascal=0
+10 Name=ConnectionCheckForData Pascal=0
+11 Name=ConnectionError Pascal=0
+12 Name=ConnectionVer Pascal=0
+13 Name=ConnectionSqlVer Pascal=0
+14 Name=ConnectionServerEnum Pascal=0
+15 Name=ConnectionServerEnumW Pascal=0
+16 Name=ConnectionOpenW Pascal=0
+17 Name=ConnectionErrorW Pascal=0
+18 Name=ConnectionOption
+19 Name=ConnectionGetSvrUser Pascal=0
+20 Name=InitEnumServers Pascal=0
+21 Name=GetNextEnumeration Pascal=0
+22 Name=CloseEnumServers Pascal=0
+23 Name=InitSSPIPackage
+24 Name=TermSSPIPackage Pascal=0
+25 Name=InitSession Pascal=0
+26 Name=TermSession Pascal=0
+27 Name=GenClientContext Pascal=0
+28 Name=ConnectionFlushCache Pascal=0
+;------------------EOF------------------

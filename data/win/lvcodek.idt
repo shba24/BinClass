@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=LVCODEK.SYS Args=0 Drops=2
+;---------------------------------------
+1 Name=CodecOpen Pascal=4
+2 Name=DllUnload Pascal=0
+;------------------EOF------------------

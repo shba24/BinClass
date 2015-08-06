@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=d3dhalf.dll Pascal=0
+;---------------------------------------
+2 Name=RLDDIGetCaps
+3 Name=D3DHAL_CleanUp
+4 Name=RLDDIDDrawCreateDriver
+5 Name=RLDDIFree
+6 Name=RLDDIInit
+7 Name=RLDDIMalloc
+8 Name=RLDDIPopDriver
+9 Name=RLDDIPushDriver
+10 Name=RLDDIRaise
+11 Name=RLDDIRealloc
+;------------------EOF------------------

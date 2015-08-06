@@ -1,0 +1,35 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=NDdeApi.dll Args=0 Drops=28
+;---------------------------------------
+500 Name=NDdeShareAddA Pascal=20
+501 Name=NDdeShareDelA Pascal=12
+502 Name=NDdeShareEnumA Pascal=24
+503 Name=NDdeShareGetInfoA Pascal=28
+504 Name=NDdeShareSetInfoA Pascal=24
+505 Name=NDdeGetErrorStringA Pascal=12
+506 Name=NDdeIsValidShareNameA Pascal=4
+507 Name=NDdeIsValidAppTopicListA Pascal=4
+508 Name=NDdeSpecialCommandA Pascal=24
+509 Name=NDdeGetShareSecurityA Pascal=24
+510 Name=NDdeSetShareSecurityA Pascal=16
+511 Name=NDdeGetTrustedShareA Pascal=20
+512 Name=NDdeSetTrustedShareA Pascal=12
+513 Name=NDdeTrustedShareEnumA Pascal=24
+600 Name=NDdeShareAddW Pascal=20
+601 Name=NDdeShareDelW Pascal=12
+602 Name=NDdeShareEnumW Pascal=24
+603 Name=NDdeShareGetInfoW Pascal=28
+604 Name=NDdeShareSetInfoW Pascal=24
+605 Name=NDdeGetErrorStringW Pascal=12
+606 Name=NDdeIsValidShareNameW Pascal=4
+607 Name=NDdeIsValidAppTopicListW Pascal=4
+608 Name=NDdeSpecialCommandW Pascal=24
+609 Name=NDdeGetShareSecurityW Pascal=24
+610 Name=NDdeSetShareSecurityW Pascal=16
+611 Name=NDdeGetTrustedShareW Pascal=20
+612 Name=NDdeSetTrustedShareW Pascal=12
+613 Name=NDdeTrustedShareEnumW Pascal=24
+;------------------EOF------------------

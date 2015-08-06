@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=TAPE.SYS Args=0 Drops=7
+;---------------------------------------
+1 Name=TapeClassAllocateSrbBuffer Pascal=8
+2 Name=TapeClassCompareMemory Pascal=12
+3 Name=TapeClassInitialize Pascal=12
+4 Name=TapeClassLiDiv Pascal=16
+5 Name=TapeClassLogicalBlockToPhysicalBlock Pascal=16
+6 Name=TapeClassPhysicalBlockToLogicalBlock Pascal=16
+7 Name=TapeClassZeroMemory Pascal=8
+;------------------EOF------------------

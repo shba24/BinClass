@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=OISSQ400.dll Pascal=0
+;---------------------------------------
+1 Name=ScanStatDlgProc
+2 Name=IMGScantoFile
+6 Name=IMGScanCheckTypeWithExt
+7 Name=IMGScantoDest
+8 Name=IMGScanOCXService
+;------------------EOF------------------

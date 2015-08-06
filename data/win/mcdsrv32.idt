@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MCDSRV32.dll Args=0 Drops=5
+;---------------------------------------
+1 Name=MCDEngEscFilter Pascal=28
+2 Name=MCDEngInit Pascal=8
+3 Name=MCDEngInitEx Pascal=12
+4 Name=MCDEngSetMemStatus Pascal=8
+5 Name=MCDEngUninit Pascal=4
+;------------------EOF------------------

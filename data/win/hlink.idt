@@ -1,0 +1,35 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=hlink.dll Args=0 Drops=28
+;---------------------------------------
+3 Name=HlinkCreateFromMoniker Pascal=32
+4 Name=HlinkCreateFromString Pascal=32
+5 Name=HlinkCreateFromData Pascal=24
+6 Name=HlinkCreateBrowseContext Pascal=12
+7 Name=HlinkClone Pascal=20
+8 Name=HlinkNavigateToStringReference Pascal=36
+9 Name=HlinkOnNavigate Pascal=28
+10 Name=HlinkNavigate Pascal=24
+11 Name=HlinkUpdateStackItem Pascal=24
+12 Name=HlinkOnRenameDocument Pascal=16
+14 Name=HlinkResolveMonikerForData Pascal=28
+15 Name=HlinkResolveStringForData Pascal=28
+16 Name=OleSaveToStreamEx Pascal=12
+18 Name=HlinkParseDisplayName Pascal=20
+20 Name=HlinkQueryCreateFromData Pascal=4
+21 Name=HlinkSetSpecialReference Pascal=8
+22 Name=HlinkGetSpecialReference Pascal=8
+23 Name=HlinkCreateShortcut Pascal=24
+24 Name=HlinkResolveShortcut Pascal=24
+25 Name=HlinkIsShortcut Pascal=4
+26 Name=HlinkResolveShortcutToString Pascal=12
+27 Name=HlinkCreateShortcutFromString Pascal=28
+28 Name=HlinkGetValueFromParams Pascal=12
+29 Name=HlinkCreateShortcutFromMoniker Pascal=28
+30 Name=HlinkResolveShortcutToMoniker Pascal=12
+31 Name=HlinkTranslateURL Pascal=12
+32 Name=HlinkCreateExtensionServices Pascal=28
+33 Name=HlinkPreprocessMoniker Pascal=12
+;------------------EOF------------------

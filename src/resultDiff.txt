@@ -1,0 +1,75 @@
+## BinClass (https://bitbucket.org/iN3O/binclass)[PRIVATE] - From Shubham Bansal (iN3O) (illusionist.nei@gmail.com)
+
+#1 test case
+BinClass[23518] 5.51350s rose::BinaryAnalysis::Partitioner2[INFO ]: Total Classes Found : 1 with a total of : 5 functions
+
+#2 test case
+BinClass[23535] 5.68245s rose::BinaryAnalysis::Partitioner2[INFO ]: Total Classes Found : 2 with a total of : 6 functions
+
+#3 test case
+BinClass[23538] 5.30193s rose::BinaryAnalysis::Partitioner2[INFO ]: Total Classes Found : 2 with a total of : 4 functions
+
+#4 test case
+BinClass[23556] 5.31849s rose::BinaryAnalysis::Partitioner2[INFO ]: Total Classes Found : 3 with a total of : 4 functions
+
+#5 test case
+BinClass[23559] 6.09668s rose::BinaryAnalysis::Partitioner2[INFO ]: Total Classes Found : 2 with a total of : 6 functions
+
+#6 test case
+BinClass[23562] 6.24010s rose::BinaryAnalysis::Partitioner2[INFO ]: Total Classes Found : 3 with a total of : 10 functions
+
+#7 test case
+BinClass[23566] 6.03318s rose::BinaryAnalysis::Partitioner2[INFO ]: Total Classes Found : 2 with a total of : 8 functions
+
+#8 test case
+BinClass[23569] 17.78141s rose::BinaryAnalysis::Partitioner2[INFO ]: Total Classes Found : 11 with a total of : 41 functions
+
+#9 test case
+BinClass[23576] 21.46096s rose::BinaryAnalysis::Partitioner2[INFO ]: Total Classes Found : 15 with a total of : 53 functions
+
+#10 test case
+BinClass[23585] 21.58641s rose::BinaryAnalysis::Partitioner2[INFO ]: Total Classes Found : 15 with a total of : 53 functions
+
+#11 test case
+BinClass[23590] 13.99918s rose::BinaryAnalysis::Partitioner2[INFO ]: Total Classes Found : 9 with a total of : 36 functions
+
+## Objdigger(https://github.com/cmu-sei/pharos)[PRIVATE] - From CMU & CERT
+
+#1 test case
+OPTI[INFO ]: Found 1 classes, 5 methods, 0 virtual calls, and 6 usage instructions.
+
+#2 test case
+OPTI[INFO ]: Found 1 classes, 3 methods, 0 virtual calls, and 6 usage instructions.
+
+#3 test case
+OPTI[ERROR]: No C++ classes were detected in the program.
+
+#4 test case
+OPTI[ERROR]: No C++ classes were detected in the program.
+
+#5 test case
+OPTI[INFO ]: Found 2 classes, 8 methods, 1 virtual calls, and 30 usage instructions.
+
+#6 test case
+OPTI[INFO ]: Found 3 classes, 12 methods, 2 virtual calls, and 29 usage instructions.
+=>My comment : showing few wrong functions.
+
+#7 test case
+OPTI[INFO ]: Found 3 classes, 10 methods, 1 virtual calls, and 32 usage instructions.
+=>My Comment : Showing 1 wrong class. Showing destructor as a class constructor.
+
+#8 test case
+OPTI[INFO ]: Found 13 classes, 30 methods, 0 virtual calls, and 58 usage instructions.
+=>My comment : Many wrong classes identified.
+
+#9 test case
+OPTI[INFO ]: Found 18 classes, 36 methods, 0 virtual calls, and 75 usage instructions.
+=>My comment : many wrong classes identified and many functions were not found.
+
+#10 test case
+OPTI[INFO ]: Found 18 classes, 36 methods, 0 virtual calls, and 75 usage instructions
+=> My comment: many wrong classes identified and many functions were not found.
+
+#11 test case
+OPTI[INFO ]: Found 9 classes, 22 methods, 0 virtual calls, and 41 usage instructions.
+=> My comment: Many unknown classes identified. Many classes were not identified. Many functions were not identified.

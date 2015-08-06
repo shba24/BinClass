@@ -1,0 +1,1 @@
+{"config": {"exports": {"D3DXOF.dll:DllCanUnloadNow": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "D3DXOF.dll:DllGetClassObject": {"function": {"delta": "8", "convention": "stdcall"}, "ordinal": "3"}, "D3DXOF.dll:DirectXFileCreate": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "1"}}}}

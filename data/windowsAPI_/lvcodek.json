@@ -1,0 +1,1 @@
+{"config": {"exports": {"LVCODEK.SYS.dll:DllUnload": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "LVCODEK.SYS.dll:CodecOpen": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "1"}}}}

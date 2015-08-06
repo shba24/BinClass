@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=senscfg.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=SensRegister Pascal=0
+2 Name=SensUnregister Pascal=0
+;------------------EOF------------------

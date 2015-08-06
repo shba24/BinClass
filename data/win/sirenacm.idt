@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=sirenacm.dll Args=0 Drops=15
+;---------------------------------------
+1 Name=_Siren7_DecodeFrame@16 Pascal=16
+2 Name=_Siren7_EncodeFrame@16 Pascal=16
+3 Name=_Siren7_InitDecoderContext@4 Pascal=4
+4 Name=_Siren7_InitEncoderContext@4 Pascal=4
+5 Name=_Siren7_SizeofBitstream@4 Pascal=4
+6 Name=_Siren7_SizeofEncoderContext@0 Pascal=0
+7 Name=_Siren7_SizeofEncoderContext@0 Pascal=0
+8 Name=DriverProc Pascal=20
+9 Name=_Siren7_DecodeFrame@16 Pascal=16
+10 Name=_Siren7_EncodeFrame@16 Pascal=16
+11 Name=_Siren7_InitDecoderContext@4 Pascal=4
+12 Name=_Siren7_InitEncoderContext@4 Pascal=4
+13 Name=_Siren7_SizeofBitstream@4 Pascal=4
+14 Name=_Siren7_SizeofEncoderContext@0 Pascal=0
+15 Name=_Siren7_SizeofEncoderContext@0 Pascal=0
+;------------------EOF------------------

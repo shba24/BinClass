@@ -1,0 +1,1 @@
+{"config": {"exports": {"MSW3PRT.dll:GetExtensionVersion": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "1"}, "MSW3PRT.dll:HttpExtensionProc": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "2"}}}}

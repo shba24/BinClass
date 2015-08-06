@@ -1,0 +1,31 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=OISLB400.dll Pascal=0
+;---------------------------------------
+4 Name=IMGScanProp
+5 Name=IMGOpenScanner
+6 Name=IMGCloseScanner
+7 Name=IMGScanOpts
+8 Name=IMGDefScanOpts
+9 Name=IMGGetScanOpts
+10 Name=IMGSaveScanOpts
+11 Name=IMGResetScanner
+12 Name=IMGScannerStatus
+18 Name=IMGGetScanDataInfo
+21 Name=IMGScannerPaperEject
+22 Name=IMGScannerPaperFeed
+23 Name=IMGScannerBeep
+24 Name=IMGGetCapability
+25 Name=IMGEnaKeypanel
+26 Name=IMGSetDataOpts
+28 Name=IMGGetScanInfoItem
+29 Name=IMGEnaPreFeed
+30 Name=IMGInqPreFeed
+31 Name=IMGGetScanVersion
+33 Name=IMGScanOpts_Enh
+34 Name=IMGGetScanImageInfo
+35 Name=TwainWndProc
+36 Name=IMGTwainScanPages
+;------------------EOF------------------

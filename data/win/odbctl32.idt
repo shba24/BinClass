@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=odbctl32.dll Pascal=0
+;---------------------------------------
+1 Name=SQLConvertString
+2 Name=SQLFreeConvertString
+3 Name=EbToSqlTimestamp
+4 Name=PutCData
+5 Name=CDataSize
+6 Name=LibMain
+7 Name=SQLPatternMatch
+8 Name=ValidSQLConversion
+9 Name=Convert
+10 Name=SQLAllocConvertString
+;------------------EOF------------------

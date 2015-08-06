@@ -1,0 +1,33 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=sccbase.dll Args=0 Drops=26
+;---------------------------------------
+1 Name=CPAcquireContext Pascal=16
+2 Name=CPAcquireContextW Pascal=16
+3 Name=CPCreateHash Pascal=20
+4 Name=CPDecrypt Pascal=28
+5 Name=CPDeriveKey Pascal=20
+6 Name=CPDestroyHash Pascal=8
+7 Name=CPDestroyKey Pascal=8
+8 Name=CPEncrypt Pascal=32
+9 Name=CPExportKey Pascal=28
+10 Name=CPGenKey Pascal=16
+11 Name=CPGenRandom Pascal=12
+12 Name=CPGetHashParam Pascal=24
+13 Name=CPGetKeyParam Pascal=24
+14 Name=CPGetProvParam Pascal=20
+15 Name=CPGetUserKey Pascal=12
+16 Name=CPHashData Pascal=20
+17 Name=CPHashSessionKey Pascal=16
+18 Name=CPImportKey Pascal=24
+19 Name=CPReleaseContext Pascal=8
+20 Name=CPSetHashParam Pascal=20
+21 Name=CPSetKeyParam Pascal=20
+22 Name=CPSetProvParam Pascal=16
+23 Name=CPSignHash Pascal=28
+24 Name=CPVerifySignature Pascal=28
+25 Name=DllRegisterServer Pascal=0
+26 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

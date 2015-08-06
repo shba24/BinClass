@@ -1,0 +1,47 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mtxoci.dll Args=0 Drops=40
+;---------------------------------------
+1 Name=obndra Pascal=0
+2 Name=obndrn Pascal=0
+3 Name=obndrv Pascal=0
+4 Name=obreak Pascal=0
+5 Name=ocan Pascal=0
+6 Name=oclose Pascal=0
+7 Name=ocof Pascal=0
+8 Name=ocom Pascal=0
+9 Name=ocon Pascal=0
+10 Name=odefin Pascal=0
+11 Name=odescr Pascal=0
+12 Name=odessp Pascal=0
+13 Name=oerhms Pascal=0
+14 Name=oermsg Pascal=0
+15 Name=oexec Pascal=0
+16 Name=oexfet Pascal=0
+17 Name=oexn Pascal=0
+18 Name=ofen Pascal=0
+19 Name=ofetch Pascal=0
+20 Name=oflng Pascal=0
+21 Name=olog Pascal=0
+22 Name=ologof Pascal=0
+23 Name=DllRegisterServer Pascal=0
+24 Name=DllUnregisterServer Pascal=0
+26 Name=oopen Pascal=0
+27 Name=oopt Pascal=0
+28 Name=oparse Pascal=0
+29 Name=orol Pascal=0
+37 Name=obindps Pascal=0
+38 Name=odefinps Pascal=0
+39 Name=ogetpi Pascal=0
+40 Name=osetpi Pascal=0
+41 Name=MTxOciInit Pascal=0
+1000 Name=ologTransacted Pascal=0
+1001 Name=Enlist Pascal=0
+1002 Name=GetXaSwitch Pascal=0
+1003 Name=MTxOciInit Pascal=0
+1004 Name=MTxolog Pascal=0
+1005 Name=MTxOciGetVersion Pascal=0
+1006 Name=MTxOciRegisterCursor Pascal=8
+;------------------EOF------------------

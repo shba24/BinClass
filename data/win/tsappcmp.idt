@@ -1,0 +1,36 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=tsappcmp.dll Args=0 Drops=29
+;---------------------------------------
+1 Name=TermServPrepareAppInstallDueMSI Pascal=0
+2 Name=TermServProcessAppInstallDueMSI Pascal=4
+3 Name=GetTermsrCompatFlags Pascal=12
+4 Name=GetTermsrCompatFlagsEx Pascal=12
+5 Name=TermsrvAdjustPhyMemLimits Pascal=12
+6 Name=TermsrvBuildIniFileName Pascal=8
+7 Name=TermsrvBuildSysIniPath Pascal=12
+8 Name=TermsrvCORIniFile Pascal=4
+9 Name=TermsrvCheckNewIniFiles Pascal=0
+10 Name=TermsrvConvertSysRootToUserDir Pascal=8
+11 Name=TermsrvCopyIniFile Pascal=12
+12 Name=TermsrvCreateRegEntry Pascal=20
+13 Name=TermsrvDeleteKey Pascal=4
+14 Name=TermsrvDeleteValue Pascal=8
+15 Name=TermsrvFormatObjectName Pascal=4
+16 Name=TermsrvGetComputerName Pascal=8
+17 Name=TermsrvGetPreSetValue Pascal=16
+18 Name=TermsrvGetString Pascal=28
+19 Name=TermsrvGetWindowsDirectoryA Pascal=8
+20 Name=TermsrvGetWindowsDirectoryW Pascal=8
+21 Name=TermsrvLogInstallIniFile Pascal=4
+22 Name=TermsrvLogInstallIniFileEx Pascal=4
+23 Name=TermsrvOpenRegEntry Pascal=12
+24 Name=TermsrvOpenUserClasses Pascal=8
+25 Name=TermsrvRemoveClassesKey Pascal=4
+26 Name=TermsrvRestoreKey Pascal=12
+27 Name=TermsrvSetKeySecurity Pascal=12
+28 Name=TermsrvSetValueKey Pascal=24
+29 Name=TermsrvUpdateAllUserMenu Pascal=4
+;------------------EOF------------------

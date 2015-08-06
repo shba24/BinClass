@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=vfpodbc.dll Args=0 Drops=6
+;---------------------------------------
+1 Name=fnVfpodbc Pascal=0
+2 Name=ConfigDSN Pascal=16
+3 Name=ConfigDSNEx Pascal=24
+4 Name=LibMain Pascal=0
+5 Name=SQLSetConnectOption Pascal=12
+6 Name=??4CVfpodbc@@QAEAAV0@ABV0@@Z Pascal=4
+;------------------EOF------------------

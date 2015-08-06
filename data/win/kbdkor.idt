@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=kbdkor.dll Args=0 Drops=5
+;---------------------------------------
+1 Name=KbdLayerDescriptor Pascal=0
+2 Name=KbdNlsLayerDescriptor Pascal=0
+3 Name=KbdLayerRealDllFileNT4 Pascal=4
+5 Name=KbdLayerRealDllFile Pascal=20
+6 Name=KbdLayerMultiDescriptor Pascal=8
+;------------------EOF------------------

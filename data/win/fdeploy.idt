@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=fdeploy.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=DllRegisterServer Pascal=0
+2 Name=DllUnregisterServer Pascal=0
+3 Name=GenerateGroupPolicy Pascal=20
+4 Name=ProcessGroupPolicyEx Pascal=40
+;------------------EOF------------------

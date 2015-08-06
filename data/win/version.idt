@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=version.dll Args=0 Drops=12
+;---------------------------------------
+1 Name=GetFileVersionInfoA Pascal=16
+2 Name=GetFileVersionInfoSizeA Pascal=8
+3 Name=GetFileVersionInfoSizeW Pascal=8
+4 Name=GetFileVersionInfoW Pascal=16
+5 Name=VerFindFileA Pascal=32
+6 Name=VerFindFileW Pascal=32
+7 Name=VerInstallFileA Pascal=32
+8 Name=VerInstallFileW Pascal=32
+9 Name=VerLanguageNameA
+10 Name=VerLanguageNameW
+11 Name=VerQueryValueA Pascal=16
+12 Name=VerQueryValueIndexA Pascal=24
+13 Name=VerQueryValueIndexW Pascal=24
+14 Name=VerQueryValueW Pascal=16
+;------------------EOF------------------

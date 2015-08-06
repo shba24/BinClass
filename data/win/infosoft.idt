@@ -1,0 +1,48 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=infosoft.dll Args=0 Drops=41
+;---------------------------------------
+1 Name=_IIapp@8 Pascal=8
+2 Name=_IIapp_mem@8 Pascal=8
+3 Name=_IIbuf@8 Pascal=8
+4 Name=_IIbuf_mem@12 Pascal=12
+5 Name=_IIdb@8 Pascal=8
+6 Name=_IIdb_mem@12 Pascal=12
+7 Name=DllCanUnloadNow Pascal=0
+8 Name=DllGetClassObject Pascal=12
+9 Name=_IIword@8 Pascal=8
+10 Name=DllRegisterServer Pascal=0
+11 Name=DllUnregisterServer Pascal=0
+12 Name=_IIGetAppElem@4 Pascal=4
+13 Name=_IIdiagoff@4 Pascal=4
+14 Name=_IIGetFM@0 Pascal=0
+15 Name=_IIdiagon@4 Pascal=4
+16 Name=_NTFMClose@4 Pascal=4
+17 Name=_NTFMCompare@8 Pascal=8
+18 Name=_NTFMCopy@4 Pascal=4
+19 Name=_NTFMCreate@4 Pascal=4
+20 Name=_NTFMDelete@4 Pascal=4
+21 Name=_NTFMDestruct@4 Pascal=4
+22 Name=_NTFMFlushMapping@8 Pascal=8
+23 Name=_NTFMGetDirtyBit@8 Pascal=8
+24 Name=_NTFMGetLength@4 Pascal=4
+25 Name=_NTFMGetMapHandle@8 Pascal=8
+26 Name=_NTFMGetMapping@20 Pascal=20
+27 Name=_NTFMGetName@12 Pascal=12
+28 Name=_NTFMGetPosition@4 Pascal=4
+29 Name=_NTFMGetStatus@4 Pascal=4
+30 Name=_NTFMLockMapping@8 Pascal=8
+31 Name=_NTFMOpen@8 Pascal=8
+32 Name=_NTFMRead@12 Pascal=12
+33 Name=_NTFMReleaseMapHandle@8 Pascal=8
+34 Name=_NTFMSeek@12 Pascal=12
+35 Name=_NTFMSetDirtyBit@12 Pascal=12
+36 Name=_NTFMSetLength@8 Pascal=8
+37 Name=_NTFMSetMapping@20 Pascal=20
+38 Name=_NTFMSetMutexProc@8 Pascal=8
+39 Name=_NTFMSetName@8 Pascal=8
+40 Name=_NTFMUnlockMapping@8 Pascal=8
+41 Name=_NTFMWrite@12 Pascal=12
+;------------------EOF------------------

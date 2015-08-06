@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=rasmontr.dll Args=0 Drops=13
+;---------------------------------------
+1 Name=GetDiagnosticFunctions Pascal=4
+2 Name=InitHelperDll Pascal=8
+3 Name=RutlAlloc Pascal=8
+4 Name=RutlAssignmentFromTokenAndDword Pascal=16
+5 Name=RutlAssignmentFromTokens Pascal=12
+6 Name=RutlCloseDumpFile
+7 Name=RutlCreateDumpFile Pascal=8
+8 Name=RutlDwordDup Pascal=4
+9 Name=RutlFree Pascal=4
+10 Name=RutlGetOsVersion Pascal=4
+11 Name=RutlGetTagToken Pascal=28
+12 Name=RutlIsHelpToken Pascal=4
+13 Name=RutlParse Pascal=24
+14 Name=RutlStrDup Pascal=4
+;------------------EOF------------------

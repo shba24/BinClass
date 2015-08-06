@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msdmo.dll Args=0 Drops=15
+;---------------------------------------
+1 Name=DMOEnum Pascal=28
+2 Name=DMOGetName Pascal=8
+3 Name=DMOGetTypes Pascal=28
+4 Name=DMOGuidToStrA Pascal=8
+5 Name=DMOGuidToStrW Pascal=8
+6 Name=DMORegister Pascal=32
+7 Name=DMOStrToGuidA Pascal=8
+8 Name=DMOStrToGuidW Pascal=8
+9 Name=DMOUnregister Pascal=8
+10 Name=MoCopyMediaType Pascal=8
+11 Name=MoCreateMediaType Pascal=8
+12 Name=MoDeleteMediaType Pascal=4
+13 Name=MoDuplicateMediaType Pascal=8
+14 Name=MoFreeMediaType Pascal=4
+15 Name=MoInitMediaType Pascal=8
+;------------------EOF------------------

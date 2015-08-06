@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=avicap.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=WEP Pascal=2
+2 Name=CAPCREATECAPTUREWINDOW Pascal=20
+3 Name=CAPGETDRIVERDESCRIPTION Pascal=14
+4 Name=___EXPORTEDSTUB
+5 Name=CAPWNDPROC Pascal=10
+;------------------EOF------------------

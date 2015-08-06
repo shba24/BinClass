@@ -1,0 +1,116 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=imagehlp.dll Args=0 Drops=66
+;---------------------------------------
+1 Name=RemoveRelocations Pascal=4
+2 Name=BindImage Pascal=12
+3 Name=BindImageEx Pascal=20
+4 Name=CheckSumMappedFile Pascal=16
+5 Name=EnumDirTree
+6 Name=EnumerateLoadedModules64
+7 Name=EnumerateLoadedModules Pascal=12
+8 Name=FindDebugInfoFile Pascal=12
+9 Name=FindDebugInfoFileEx
+10 Name=FindExecutableImage Pascal=12
+11 Name=FindExecutableImageEx
+12 Name=FindFileInPath
+13 Name=FindFileInSearchPath
+14 Name=GetImageConfigInformation Pascal=8
+15 Name=GetImageUnusedHeaderBytes Pascal=8
+16 Name=GetTimestampForLoadedLibrary Pascal=4
+17 Name=ImageAddCertificate Pascal=12
+18 Name=ImageDirectoryEntryToData Pascal=16
+19 Name=ImageDirectoryEntryToDataEx Pascal=20
+20 Name=ImageEnumerateCertificates Pascal=20
+21 Name=ImageGetCertificateData Pascal=16
+22 Name=ImageGetCertificateHeader Pascal=12
+23 Name=ImageGetDigestStream Pascal=16
+24 Name=ImageLoad Pascal=8
+25 Name=ImageNtHeader Pascal=4
+26 Name=ImageRemoveCertificate Pascal=8
+27 Name=ImageRvaToSection Pascal=12
+28 Name=ImageRvaToVa Pascal=16
+29 Name=ImageUnload Pascal=4
+30 Name=ImagehlpApiVersion
+31 Name=ImagehlpApiVersionEx Pascal=4
+32 Name=MakeSureDirectoryPathExists Pascal=4
+33 Name=MapAndLoad Pascal=20
+34 Name=MapDebugInformation Pascal=16
+35 Name=MapFileAndCheckSumA Pascal=12
+36 Name=MapFileAndCheckSumW Pascal=12
+37 Name=ReBaseImage64 Pascal=44
+38 Name=ReBaseImage Pascal=44
+39 Name=RemovePrivateCvSymbolic Pascal=12
+40 Name=RemovePrivateCvSymbolicEx Pascal=16
+41 Name=SearchTreeForFile Pascal=12
+42 Name=SetImageConfigInformation Pascal=8
+43 Name=SplitSymbols Pascal=16
+44 Name=StackWalk64
+45 Name=StackWalk Pascal=36
+46 Name=SymCleanup Pascal=4
+47 Name=SymEnumSym
+48 Name=SymEnumSymbols
+49 Name=SymEnumSymbolsForAddr
+50 Name=SymEnumTypes
+51 Name=SymEnumerateModules64
+52 Name=SymEnumerateModules Pascal=12
+53 Name=SymEnumerateSymbols64
+54 Name=SymEnumerateSymbols Pascal=16
+55 Name=SymEnumerateSymbolsW64
+56 Name=SymEnumerateSymbolsW
+57 Name=SymFindFileInPath
+58 Name=SymFromAddr
+59 Name=SymFromName
+60 Name=SymFunctionTableAccess64
+61 Name=SymFunctionTableAccess Pascal=8
+62 Name=SymGetLineFromAddr64
+63 Name=SymGetLineFromAddr Pascal=16
+64 Name=SymGetLineFromName64
+65 Name=SymGetLineFromName Pascal=24
+66 Name=SymGetLineNext64
+67 Name=SymGetLineNext Pascal=8
+68 Name=SymGetLinePrev64
+69 Name=SymGetLinePrev Pascal=8
+70 Name=SymGetModuleBase64
+71 Name=SymGetModuleBase Pascal=8
+72 Name=SymGetModuleInfo64
+73 Name=SymGetModuleInfo Pascal=12
+74 Name=SymGetModuleInfoW64
+75 Name=SymGetModuleInfoW
+76 Name=SymGetOptions
+77 Name=SymGetSearchPath Pascal=12
+78 Name=SymGetSymFromAddr64
+79 Name=SymGetSymFromAddr Pascal=16
+80 Name=SymGetSymFromName64
+81 Name=SymGetSymFromName Pascal=12
+82 Name=SymGetSymNext64
+83 Name=SymGetSymNext Pascal=8
+84 Name=SymGetSymPrev64
+85 Name=SymGetSymPrev Pascal=8
+86 Name=SymGetTypeFromName
+87 Name=SymGetTypeInfo
+88 Name=SymInitialize Pascal=12
+89 Name=SymLoadModule64
+90 Name=SymLoadModule Pascal=24
+91 Name=SymMatchFileName Pascal=16
+92 Name=SymMatchString
+93 Name=SymRegisterCallback64
+94 Name=SymRegisterCallback Pascal=12
+95 Name=SymRegisterFunctionEntryCallback64
+96 Name=SymRegisterFunctionEntryCallback
+97 Name=SymSetContext
+98 Name=SymSetOptions Pascal=4
+99 Name=SymSetSearchPath Pascal=8
+100 Name=SymUnDName64
+101 Name=SymUnDName Pascal=12
+102 Name=SymUnloadModule64
+103 Name=SymUnloadModule Pascal=8
+104 Name=TouchFileTimes Pascal=8
+105 Name=UnDecorateSymbolName Pascal=16
+106 Name=UnMapAndLoad Pascal=4
+107 Name=UnmapDebugInformation Pascal=4
+108 Name=UpdateDebugInfoFile Pascal=16
+109 Name=UpdateDebugInfoFileEx Pascal=20
+;------------------EOF------------------

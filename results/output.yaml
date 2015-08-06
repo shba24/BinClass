@@ -1,0 +1,24 @@
+- id: 0  # Unique id of class
+  Virtual Tables:
+    - 0x2a  # Virtual table Pointers
+  "Constructors ":
+    - 0x401110  # all Constructors found
+  "Virtual Functions ":
+    []  # all Virtual Functions found
+  "Function Members ":
+    - 0x401190
+    - 0x4011b0
+    - 0x401160
+    - 0x401140  # all class methods found
+  Data Members:
+    - offset: 0
+      Size: 4
+    - offset: 4
+      Size: 4
+    - offset: 8
+      Size: 2  # all Data Members found
+  Sure Parent Class:
+    []  # all Sure Parent Classes found
+  MayBe Parent/Embedded Class:
+    []  # all MayBe Parent/Embedded Classes found
+  "Instances ": [0x40101e, 0x401039, 0x4010b6, 0x4010b9]  # all instances found

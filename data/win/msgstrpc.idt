@@ -1,0 +1,54 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MSGSTRPC.DLL Args=0 Drops=47
+;---------------------------------------
+1 Name=MailError Pascal=0
+2 Name=MailErrorMsg Pascal=0
+3 Name=MailOpen Pascal=0
+4 Name=MailPutFolder Pascal=0
+5 Name=MailGetFolderName Pascal=0
+6 Name=MailGetFolderId Pascal=0
+7 Name=MailPut Pascal=0
+8 Name=MailPutAttachment Pascal=0
+9 Name=MailGet Pascal=0
+10 Name=MailGetAttachment Pascal=0
+11 Name=MailRequestAttachment Pascal=0
+12 Name=MailGetSvcId Pascal=0
+13 Name=MailFirst Pascal=0
+14 Name=MailNext Pascal=0
+15 Name=MailUpdate Pascal=0
+16 Name=MailDelete Pascal=0
+17 Name=MailDeleteAttachment Pascal=0
+18 Name=MailFree Pascal=0
+19 Name=MailClose Pascal=0
+20 Name=MailHeaderLen Pascal=0
+21 Name=MailGetField Pascal=0
+22 Name=MailSetField Pascal=0
+23 Name=MailSetAttachmentOptions Pascal=0
+24 Name=MailRegOpenKeyExW Pascal=0
+25 Name=MailRegEnumKeyExW Pascal=0
+26 Name=MailRegCloseKey Pascal=0
+27 Name=MailReadAttachment Pascal=0
+28 Name=MailWriteAttachment Pascal=0
+29 Name=MailRefresh Pascal=0
+30 Name=MailMove Pascal=0
+31 Name=MailTouchOutboxMessages Pascal=0
+32 Name=MailIsMultiPartnered Pascal=0
+33 Name=MailGetFolderNameEx Pascal=0
+34 Name=MailGetParent Pascal=0
+35 Name=MailGetFolderInfo Pascal=0
+36 Name=MailGetFirstSubFolder Pascal=0
+37 Name=MailGetNextSubFolder Pascal=0
+38 Name=MailFreeIterator Pascal=0
+39 Name=MailFirstEx Pascal=0
+40 Name=MailNextEx Pascal=0
+41 Name=MailGetSpecialFolderId Pascal=0
+42 Name=MailOpenNotifyEx Pascal=0
+43 Name=MailReadNonIPMProperties Pascal=0
+44 Name=MailWriteNonIPMProperties Pascal=0
+45 Name=MailGetFolderIdEx Pascal=0
+46 Name=MailUpdateEx Pascal=0
+47 Name=MailPutEx Pascal=0
+;------------------EOF------------------

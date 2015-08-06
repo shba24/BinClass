@@ -1,0 +1,1 @@
+{"config": {"exports": {"WINRNR.dll:InstallNTDSProvider": {"function": {"delta": "8", "convention": "stdcall"}, "ordinal": "1"}, "WINRNR.dll:NSPStartup": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "2"}, "WINRNR.dll:RemoveNTDSProvider": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "3"}}}}

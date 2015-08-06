@@ -1,0 +1,1 @@
+{"config": {"exports": {"KBDDLL.dll:LibMain": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}, "KBDDLL.dll:KbdGetMsgProc": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "KBDDLL.dll:InitKbdHook": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}}}}

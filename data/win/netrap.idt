@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=netrap.dll Args=0 Drops=14
+;---------------------------------------
+1 Name=RapArrayLength Pascal=12
+2 Name=RapAsciiToDecimal Pascal=4
+3 Name=RapAuxDataCount Pascal=16
+4 Name=RapAuxDataCountOffset Pascal=12
+5 Name=RapConvertSingleEntry Pascal=44
+6 Name=RapConvertSingleEntryEx Pascal=48
+7 Name=RapExamineDescriptor Pascal=36
+8 Name=RapGetFieldSize Pascal=12
+9 Name=RapIsValidDescriptorSmb Pascal=4
+10 Name=RapLastPointerOffset Pascal=12
+11 Name=RapParmNumDescriptor Pascal=16
+12 Name=RapStructureAlignment Pascal=12
+13 Name=RapStructureSize Pascal=12
+14 Name=RapTotalSize Pascal=24
+;------------------EOF------------------

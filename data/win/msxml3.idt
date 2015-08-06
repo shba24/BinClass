@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msxml3.dll Args=0 Drops=12
+;---------------------------------------
+6 Name=MSXML3_6 Pascal=12
+7 Name=MSXML3_7 Pascal=12
+8 Name=MSXML3_8 Pascal=0
+9 Name=MSXML3_9 Pascal=8
+10 Name=MSXML3_10 Pascal=8
+11 Name=MSXML3_11 Pascal=12
+12 Name=MSXML3_12 Pascal=4
+13 Name=DllCanUnloadNow Pascal=0
+14 Name=DllGetClassObject Pascal=12
+15 Name=DllMain Pascal=12
+16 Name=DllRegisterServer Pascal=0
+17 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

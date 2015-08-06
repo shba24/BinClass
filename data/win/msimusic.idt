@@ -1,0 +1,33 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MSIMUSIC.DLL Args=0 Drops=26
+;---------------------------------------
+1 Name=_AllocAAEngine@4 Pascal=4
+2 Name=_AllocAAMIDIIn@4 Pascal=4
+3 Name=DllCanUnloadNow Pascal=0
+4 Name=DllGetClassObject Pascal=12
+5 Name=DllRegisterServer Pascal=0
+6 Name=DllUnregisterServer Pascal=0
+7 Name=_GetFinalMIDISink@4 Pascal=4
+8 Name=_LoadBandFile@12 Pascal=12
+9 Name=_LoadMotifFile@12 Pascal=12
+10 Name=_LoadPatternFile@12 Pascal=12
+11 Name=_LoadPersonalityByName@12 Pascal=12
+12 Name=_LoadPersonalityFile@12 Pascal=12
+13 Name=_LoadPersonalityFromMemory@12 Pascal=12
+14 Name=_LoadSectionFile@12 Pascal=12
+15 Name=_LoadSongFile@12 Pascal=12
+16 Name=_LoadStyleByName@12 Pascal=12
+17 Name=_LoadStyleFile@12 Pascal=12
+18 Name=_LoadStyleFromMemory@12 Pascal=12
+19 Name=_LoadTemplateFile@12 Pascal=12
+20 Name=_MusicEngineSimpleInit95@12 Pascal=12
+21 Name=_MusicEngineSimpleInit@12 Pascal=12
+22 Name=_MusicEngineSimpleInitNT@12 Pascal=12
+23 Name=_Panic@4 Pascal=4
+24 Name=_SaveSectionAsMIDIFile@8 Pascal=8
+25 Name=_SaveSectionFile@8 Pascal=8
+26 Name=_SetAADebug@4 Pascal=4
+;------------------EOF------------------

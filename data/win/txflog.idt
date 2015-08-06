@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=txflog.dll Args=0 Drops=3
+;---------------------------------------
+1 Name=DllGetClassObject Pascal=12
+2 Name=DllRegisterServer Pascal=0
+3 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

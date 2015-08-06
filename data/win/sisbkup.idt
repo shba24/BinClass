@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=sisbkup.dll Args=0 Drops=8
+;---------------------------------------
+1 Name=SisCSFilesToBackupForLink Pascal=28
+2 Name=SisCreateBackupStructure Pascal=20
+3 Name=SisCreateRestoreStructure Pascal=20
+4 Name=SisFreeAllocatedMemory Pascal=4
+5 Name=SisFreeBackupStructure Pascal=4
+6 Name=SisFreeRestoreStructure Pascal=4
+7 Name=SisRestoredCommonStoreFile Pascal=8
+8 Name=SisRestoredLink Pascal=24
+;------------------EOF------------------

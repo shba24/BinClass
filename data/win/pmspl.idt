@@ -1,0 +1,88 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=pmspl.dll Args=0 Drops=78
+;---------------------------------------
+1 Name=WEP Pascal=2
+80 Name=DOSPRINTDESTCONTROL Pascal=10
+81 Name=DOSPRINTDESTGETINFO Pascal=20
+82 Name=DOSPRINTDESTENUM Pascal=20
+84 Name=DOSPRINTJOBCONTINUE Pascal=6
+85 Name=DOSPRINTJOBPAUSE Pascal=6
+86 Name=DOSPRINTJOBDEL Pascal=6
+90 Name=DOSPRINTJOBGETINFO Pascal=18
+91 Name=DOSPRINTJOBSETINFO Pascal=16
+92 Name=DOSPRINTJOBENUM Pascal=24
+93 Name=DOSPRINTQADD Pascal=12
+94 Name=DOSPRINTQPAUSE Pascal=8
+95 Name=DOSPRINTQCONTINUE Pascal=8
+96 Name=DOSPRINTQDEL Pascal=8
+97 Name=DOSPRINTQGETINFO Pascal=20
+98 Name=DOSPRINTQSETINFO Pascal=18
+99 Name=DOSPRINTQENUM Pascal=20
+101 Name=DOSPRINTDESTADD Pascal=12
+102 Name=DOSPRINTDESTSETINFO Pascal=18
+103 Name=DOSPRINTDESTDEL Pascal=8
+104 Name=DOSPRINTQPURGE Pascal=8
+105 Name=DOSPRINTJOBGETID Pascal=8
+106 Name=pmspl_106 Pascal=0
+107 Name=pmspl_107 Pascal=6
+108 Name=pmspl_108 Pascal=6
+109 Name=pmspl_109 Pascal=4
+110 Name=pmspl_110 Pascal=0
+111 Name=LibMain
+112 Name=pmspl_112 Pascal=6
+113 Name=pmspl_113 Pascal=4
+114 Name=pmspl_114 Pascal=4
+115 Name=pmspl_115 Pascal=18
+116 Name=pmspl_116 Pascal=8
+117 Name=pmspl_117 Pascal=8
+118 Name=pmspl_118 Pascal=16
+119 Name=pmspl_119 Pascal=2
+120 Name=pmspl_120 Pascal=0
+122 Name=pmspl_122 Pascal=10
+123 Name=pmspl_123 Pascal=0
+124 Name=pmspl_124 Pascal=4
+125 Name=pmspl_125 Pascal=0
+126 Name=pmspl_126 Pascal=24
+127 Name=pmspl_127 Pascal=0
+128 Name=pmspl_128 Pascal=0
+129 Name=pmspl_129 Pascal=0
+130 Name=pmspl_130 Pascal=20
+131 Name=pmspl_131 Pascal=20
+132 Name=pmspl_132 Pascal=20
+133 Name=pmspl_133 Pascal=0
+134 Name=pmspl_134 Pascal=0
+135 Name=pmspl_135 Pascal=4
+136 Name=pmspl_136 Pascal=8
+137 Name=pmspl_137 Pascal=0
+138 Name=pmspl_138 Pascal=2
+139 Name=pmspl_139 Pascal=8
+140 Name=pmspl_140 Pascal=0
+141 Name=pmspl_141 Pascal=0
+142 Name=pmspl_142 Pascal=0
+144 Name=pmspl_144 Pascal=0
+145 Name=pmspl_145
+146 Name=pmspl_146 Pascal=14
+147 Name=pmspl_147 Pascal=10
+148 Name=pmspl_148 Pascal=26
+149 Name=pmspl_149 Pascal=18
+150 Name=pmspl_150 Pascal=18
+151 Name=pmspl_151 Pascal=12
+152 Name=pmspl_152 Pascal=0
+153 Name=pmspl_153 Pascal=6
+154 Name=pmspl_154 Pascal=0
+155 Name=pmspl_155 Pascal=14
+156 Name=pmspl_156
+157 Name=pmspl_157 Pascal=0
+158 Name=pmspl_158 Pascal=0
+159 Name=pmspl_159 Pascal=0
+160 Name=pmspl_160 Pascal=16
+161 Name=pmspl_161 Pascal=0
+162 Name=pmspl_162 Pascal=0
+163 Name=pmspl_163 Pascal=14
+164 Name=pmspl_164 Pascal=0
+165 Name=pmspl_165 Pascal=0
+166 Name=pmspl_166 Pascal=0
+;------------------EOF------------------

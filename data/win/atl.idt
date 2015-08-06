@@ -1,0 +1,58 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=atl.dll Args=0 Drops=51
+;---------------------------------------
+10 Name=AtlAdvise Pascal=16
+11 Name=AtlUnadvise Pascal=12
+12 Name=AtlFreeMarshalStream Pascal=4
+13 Name=AtlMarshalPtrInProc Pascal=12
+14 Name=AtlUnmarshalPtr Pascal=12
+15 Name=AtlModuleGetClassObject Pascal=16
+16 Name=AtlModuleInit Pascal=12
+17 Name=AtlModuleRegisterClassObjects Pascal=12
+18 Name=AtlModuleRegisterServer Pascal=12
+19 Name=AtlModuleRegisterTypeLib Pascal=8
+20 Name=AtlModuleRevokeClassObjects Pascal=4
+21 Name=AtlModuleTerm Pascal=4
+22 Name=AtlModuleUnregisterServer Pascal=8
+23 Name=AtlModuleUpdateRegistryFromResourceD Pascal=20
+24 Name=AtlWaitWithMessageLoop Pascal=4
+25 Name=AtlSetErrorInfo Pascal=28
+26 Name=AtlCreateTargetDC Pascal=8
+27 Name=AtlHiMetricToPixel Pascal=8
+28 Name=AtlPixelToHiMetric Pascal=8
+29 Name=AtlDevModeW2A Pascal=8
+30 Name=AtlComPtrAssign Pascal=8
+31 Name=AtlComQIPtrAssign Pascal=12
+32 Name=AtlInternalQueryInterface Pascal=16
+33 Name=DllCanUnloadNow Pascal=0
+34 Name=AtlGetVersion Pascal=4
+35 Name=AtlAxDialogBoxW Pascal=20
+36 Name=AtlAxDialogBoxA Pascal=20
+37 Name=AtlAxCreateDialogW Pascal=20
+38 Name=AtlAxCreateDialogA Pascal=20
+39 Name=AtlAxCreateControl Pascal=16
+40 Name=AtlAxCreateControlEx Pascal=28
+41 Name=AtlAxAttachControl Pascal=12
+42 Name=AtlAxWinInit Pascal=0
+43 Name=AtlModuleAddCreateWndData Pascal=12
+44 Name=AtlModuleExtractCreateWndData Pascal=4
+45 Name=AtlModuleRegisterWndClassInfoW Pascal=12
+46 Name=AtlModuleRegisterWndClassInfoA Pascal=12
+47 Name=AtlAxGetControl Pascal=8
+48 Name=AtlAxGetHost Pascal=8
+49 Name=AtlRegisterClassCategoriesHelper Pascal=12
+50 Name=AtlIPersistStreamInit_Load Pascal=16
+51 Name=AtlIPersistStreamInit_Save Pascal=20
+52 Name=AtlIPersistPropertyBag_Load Pascal=20
+53 Name=AtlIPersistPropertyBag_Save Pascal=24
+54 Name=AtlGetObjectSourceInterface Pascal=20
+55 Name=AtlModuleUnRegisterTypeLib Pascal=8
+56 Name=AtlModuleLoadTypeLib Pascal=16
+57 Name=AtlModuleUnregisterServerEx Pascal=12
+58 Name=AtlModuleAddTermFunc Pascal=12
+59 Name=AtlSetErrorInfo2 Pascal=32
+60 Name=AtlIPersistStreamInit_GetSizeMax Pascal=16
+;------------------EOF------------------

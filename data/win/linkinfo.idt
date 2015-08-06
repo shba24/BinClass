@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=linkinfo.dll Args=0 Drops=13
+;---------------------------------------
+1 Name=CompareLinkInfoReferents Pascal=8
+2 Name=CompareLinkInfoVolumes Pascal=8
+3 Name=CreateLinkInfoA Pascal=8
+4 Name=CreateLinkInfoA Pascal=8
+5 Name=CreateLinkInfoW
+6 Name=DestroyLinkInfo
+7 Name=DisconnectLinkInfo Pascal=4
+8 Name=GetCanonicalPathInfoA Pascal=20
+9 Name=GetCanonicalPathInfoA Pascal=20
+10 Name=GetCanonicalPathInfoW Pascal=20
+11 Name=GetLinkInfoData Pascal=12
+12 Name=IsValidLinkInfo Pascal=4
+13 Name=ResolveLinkInfoA Pascal=24
+14 Name=ResolveLinkInfoA Pascal=24
+15 Name=ResolveLinkInfoW Pascal=24
+;------------------EOF------------------

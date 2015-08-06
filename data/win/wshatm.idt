@@ -1,0 +1,23 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wshatm.dll Args=0 Drops=16
+;---------------------------------------
+1 Name=WSHAddressToString Pascal=20
+2 Name=WSHEnumProtocols Pascal=16
+3 Name=WSHGetBroadcastSockaddr Pascal=12
+4 Name=WSHGetProviderGuid Pascal=8
+5 Name=WSHGetSockaddrType Pascal=12
+6 Name=WSHGetSocketInformation Pascal=32
+7 Name=WSHGetWSAProtocolInfo Pascal=12
+8 Name=WSHGetWildcardSockaddr Pascal=12
+9 Name=WSHGetWinsockMapping Pascal=8
+10 Name=WSHIoctl Pascal=52
+11 Name=WSHJoinLeaf Pascal=52
+12 Name=WSHNotify Pascal=20
+13 Name=WSHOpenSocket2 Pascal=32
+14 Name=WSHOpenSocket Pascal=24
+15 Name=WSHSetSocketInformation Pascal=32
+16 Name=WSHStringToAddress Pascal=20
+;------------------EOF------------------

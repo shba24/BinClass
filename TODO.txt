@@ -1,0 +1,153 @@
+[[[ ITE Expression ]]] [[[TEMP DONE]]]
+
+May 22
+
+Quite recently it has come to our attention that in this case we were simply choosing one of the two values from the conditional branch, and continuing to reason as if there was no conditional. :-(  Surprisingly that didn't seem to be a large problem for any of our test cases, possibly because it only results in a loss of information if there's no other place to recover that information.  We’ve since changed that code to create ITE (if-then-else) expressions representing the two possible values, and in at least some cases are reasoning about both possible values by extracting them from the ITE expression.   Sadly that code is not complete or correct, so we do not claim have a complete solution for this part of the problem.
+
+23 May
+
+I'm not sure I remember what we did at the time of the paper for this part.  I know that until recently we have picked one of the possible values and proceeded (in part due to a bug in our code).There was also a significantly broken portion of our code that attempted to track  ultiple values that has recently been replaced with the ITE approach that I mentioned.
+Yes.  The TreeNode/InternalNode/LeafNode objects from InsnSemanticsExpr supports an "ite(condition, value1, value2)" expression as one of the  iscOperators.  Thus it's possible to create an expression that contains two sub-values.
+The idea is to use ite(c1, x, ite(c2, y, z)).  We also keep a list of [x, y, z].  This code is not well tested and there is disagreement within our team about this, so please do not think that this is how you should do it.  The conditions are currently just unknown variables, which is bad, but it does permit a list of values.
+We merge states and introduce ITE expressions or unknown variables in places where it's not possible to reason correctly. We don't use this a lot, but will sometimes we will use it to answer questions like: Does this function return the same this-pointer?  It may also be used in other places that I've forgotten.
+
+28 May
+
+We store the list of values in the SymbolicValue.  We update the list whenever we create an ITE expression.  I haven't found any places in the standard ROSE code that creates ITE expressions.  I suppose you could update the list whenever set_expression() was called.
+
+2 Jun
+
+Good question.  We wrote a function to extract the expressions from the ITE operator.  That worked pretty good, but because they were TreeNodes and not SValues, we lost our custom fields on the SValue.It seemed easiest to just store the lost again, but it's not required.
+Until very recently, we used the value from the "false" side of the branch.   Our experience is that the compiler is pretty consistent about testing for zero and branching to the failure case.  Thus the "other" branch is the one you want. It's not very good, but it mostly works in practice.
+
+> Also what do you put in the "if condition" of the ite expression? as it is doesn't exists.
+
+This is a place where we often make up new variables. :-( In a way this is still correct, since ite(<some-unknown>, A, B) means that it could be A or B, and we'll never know.  It would be better to put the correct condition here.
+
+
+[[[ Simplex Method ]]]
+
+23 May
+
+For Windows yes, for Linux no.   We're interested in malware which is 95% Windows, so we do the more complex thing which is to set ESP to the correct value for that function (which is hard to know). There's a great blog article by Ilfak Guilfanov (IDA/Hexrays) about how to solve for likely ESP values as a minimization problem. Search for "Simplex Method in IDA Pro".   We do something similar.  We assume that APIs return a value in EAX, and create a new variable for EAX at each call.  We assume that EIP is set to the instruction after the call.  Otherwise our approaches seem similar.
+
+We are now currently using teh Simplex method, but something very similar (and in many ways more complicated).  I recommend the simplex method.  YICES should be able to do it and is already used in ROSE. Setup the constraints, solve, and the add a constraint to search for a solution with a smaller stack delta (for the minimize part of the solution).  Ours doesn't actually work because the student quit before it worked.
+
+We are now currently using teh Simplex method, but something very similar (and in many ways more complicated).  I recommend the simplex method.  YICES should be able to do it and is already used in ROSE. Setup the constraints, solve, and the add a constraint to search for a solution with a smaller stack delta (for the minimize part of the solution).  Ours doesn't actually work because the student quit before it worked.
+
+
+[[[ Memory State Overwrite ]]] [[[DONE]]]
+
+We overrode the memory classes because we encountered some situations in which the ordered list of writes approach was not performing well 
+-- Big O performance linear to the numnber of writes.  That might be due to a mistake in our code, but we replaced it with a map keyed by
+the SymbolicValue fo the address written to -- Big O performance of log(N) for number addresess written to.  This will produce incorrect
+results for certain situations where the SymbolicValue does not simplify to the same value, and so is incorrect.  Our changes have the same API as the existing MemoryMap.
+
+I mean the ordered list of all writes to memory for multiple instructions.  There's a complicated problem involving memory aliasing (instructions that write to the same address using different expressions). ROSE attempts to solve this problem by using an SMT solver.  I can't explain better because Robb MAtzke wrote that code, but we found that while it was more correct, it didn't always perform well.  That's why we rewrote the MemoryState class.  Look for the the may_alias() and must_alias() code in ROSE for more details. 
+
+I'm not sure I understand completely, but I believe that our code will do the right thing in your example.  I think it might be related to the memory aliasing problem I mentioned earlier.  In particular, if the initial value of ecx was ebp+var4, then instruction 00412C3F wrote the value in [419A58] into the stack variable [ebp+var4].
+This is memory aliasing, and ROSE does the "correct" thing, which is to say that we don't know the value of EAX without knowing whether the initial ECX was ebp+var4 or not.  Our memory model is both faster and simpler in that it just assumes that the aliasing does NOT happen.  We return that eax is the initial value of ECX, but technically, we're incorrect we do so.
+
+[[[ General ]]]
+
+23 May
+
+[[[ Pass-by-register ]]] [[[DONE]]]
+We use the use-def analysis to determine which registers and stack addresses were read and written during the function. This information is used to determine which calling convention the function uses (e.g.  if we read ECX but not EDX then we're probably __thiscall).
+We analyze each function when we're done with it to determine how many values on the stack (in the positive parameter area) we read during the function.  This is pretty close to the correct value.  It sometimes misses unused parameters, and sometimes when stack delta analysis is wrong it fails.
+We also use use-def analysis to figure out which registers were read by the function before being written to, and declare those as pass-by-register parameters.  But this also required saved and restored (pushed and popped) registers to be excluded.
+Yes.  When you start trying to identify which registers are passed between functions, you will find that simple use-def chains are not good enough because of saved and restored registers.  Maybe it is not required if you just save and restored the value correctly, but it's confusing for this like this-call detection
+What we did exactly was this:
+
+For each instruction in the function:
+
+   Instructions that are NOPs do not cause parameters (e.g. mov edi, edi)  [DONE]
+
+   Instructions that aren't really dependent on the reg do not cause parameters (e.g. xor reg,reg)[[DONE]]
+Actually, this is an unsolved problem for us as well.  There's a copy of specific cases hard coded at this point in our logic.    More are implemented in our extensions to RiscOperators, to prevent bad dependencies from being created in the first place, and some are in the default RiscOperators maintained in ROSE.    I've discussed this with Robb Matzke, and he doesn't see a better solution than additional filters in the RiscOperators.
+
+   Only continue for instructions that read the uninitialized register value...[DONE]
+
+   Only continue if the register is written to a stack address...[DONE]
+
+        (in practice this is usually a push but could be a mov as well)[DONE]
+
+    If the register being saved on the stack is ESP, don't count that one (e.g. call)[DONE]
+
+    This instruction is possibly a "saved register instruction"[DONE]
+
+    From here on the default behavior is to label the register as a parameter.[DONE]
+
+    Now we begin looking for the "restored register instruction"[DONE]
+
+    For each instruction dependent on the "saved register instruction"[DONE]
+
+         Did it read from the stack address where the register was saved?[DONE]
+
+         If it did not, it's not the "restored register instruction".[DONE]
+
+         Does this instruction write the value back to same register?[DONE]
+
+          If yes, this instruction is possibly a "restored register instruction".[DONE]
+
+          If not continue with the next dependent instruction.[DONE]
+
+          Are there any instructions dependent on the restored register instruction?[DONE]
+
+          If not, this is officially a saved & restored register.  All other cases are parameters.[DONE]
+
+
+[[[ Call Connection ]]] [[[DONE]]]
+We gather these facts, and when we come to each call instruction, we use that information to better "emulate" the call. For example, we'll create use-def dependencies between the last writer to ECX and the call instruction that uses __thiscall.  We'll also create use-def dependencies between the call and the push instructions that pushes parameters onto the stack.  We do this while emulating the basic blocks for creating the input/output states. [[For each function we also keep track of whether it returns a value in EAX]], and whether that value is a copy of the value of ECX at the start of the function.
+
+[[[CALCULATE STACK OFFSET]]] [[[DONE]]]
+I tried to find the offset between initial ESP and the address which is getting written to by using RiscOperator's subtract operation.
+This is what we do.  We have a little helper function that says whether and expression is the original value of ESP plus or minus a delta.
+
+[[[FUNCTION RETURN CHECK]]] [[[TEMP DONE]]]
+Poorly. :-)  This is still a complex unsolved problem.
+Void functions (which do not return a value) are able to use EAX as a scratch register and may modify the value without "returning" it.
+Checking whether the value is read helps, but is not sufficient either.   There's no requirement to read the returned value in every case, although if any caller reads the return value, then the function really does return the value.  Also there can only be a return value if the function writes to the return value register (EAX) for the detect convention.
+
+[[[TARGET ADDRESS ]]] [[[DONE]]]
+There is a problem in calculating the target address of a call. simple getBranchTarget() will not give the target address of instructions like this "call ds:[address]". So, for that you have to go through the Control flow graph because the control flow graph knows because of the cross reference.
+
+[[[CONSTRUCTOR IDENTIFICATION]]] [[[DONE]]]
+This is what we do.  We have some other checks for constructors, such as: constructors are only ever called as the first method on a class and never as a later method.  This reduces errors, but we still have them.  Initialization of global objects is a very similar case.  Please describe your check in more detail. :-)  Is it that you require the call to be the first read of the local stack variable?   This will probably reduce some errors and introduce others caused be reuse of the local variable.   I still thin kyour check would be an improvement though.
+
+
+[[[TOP-DOWN THIS POINTER TRACKING]]]  [[[DONE]]]
+For this-pointer tracking we keep track of which calls use a this-pointer in ECX, and then inspect the use-def dependencies for the calls to this function to figure out which SValues are the same type of object in the calling function.  We can also use this to know that the object pointer was pushed onto the stack as some parameter for another non __thiscall function, and so go to that function (from the call instruction that uses the parameter) and identify the SValue that represents an object of the same type inside the called function.  We gradually build groups of functions that we know are all methods callable from the same class.
+Yes.  We're doing the same thing.   For stack variables, our rule is once we've identified constructors, we can identify the type of the stack variable when it uses the same constructor as a different new() this-pointer.
+Yes. We're storing information about each method and class in their own data structures.   So a function using __thiscall has a ThisCallMethod object with a member named "thisptr" that stores the SValue of ECX in the function (and a pointer to an SgAsmFunction).     A class definition includes a list of the ThisCallMethods known to be associated with that class and so on.  We did not turn the whole problem into a big data-flow problem (that confuse me sometimes).
+
+[[BOTTOM-UP THIS POINTER LINKING]] [[DONE]]
+
+[[[ Vtable setup ]]]  [[[DONE]]]
+> One more thing, How are tracking the Vtable Ptr? connecting thisptr is done by you but how did you connect the dependency of Vtable Ptr? I mean connecting ecx value can be done but what about connecting ptr present at [ecx] ? How did you connect that?
+
+This is another very good question (and tricky) question. Our rule for finding constructors is a heuristic based on several things:
+* The first function called on an object pointer is more likely to be  a constructor.  (But doesn't have to be because it might have been
+  inlined).
+* Functions that are not the first function called on an object can NOT be a constructor.
+* If a function returns the same pointer in EAX that it received in ECX it's more likely to be a constructor.  (Although you can be a constructor and return a different object in EAX, but we can't detect that properly.)
+Once we've decided which functions are likely to be constructors we do two more things:
+* Look for calls to other constructors in the constructor.  This  represents either inheritance relationships or embedded objects.
+* Look for instructions of the form: "mov [ecx+Y], offset xxx".
+This latter type of instruction where XXX is a constant address is _very_ likely to be a virtual function table for the class created by
+the constructor that was being analyzed.  We can use this information to find candidate virtual function tables.  We then check that are at
+least some valid function pointers in the table, and associate the table with the constructor/class so that we know all the objects using that class have that table.
+In some cases, we can even handle values of Y that are non-zero (multiple inheritance).  But's it's all driven by educated guesses, including picking the right functions for the constructors.
+The "connections" are not done using use-def dependencies directly. By this point in the program logic, we've begun creating C++ classes in our code to represent the classes, vtables, methods, and members in the program being analyzed, and we're associating a class definition object with the SymbolicValues used in a function.  The VTable field should be filled in on the class definition by then if we've been able to figure it out.
+
+[[[ INHERITANCE FINDING ]]] [[[DONE]]]
+
+
+TO DO LIST :-
+1. Analyse Virtual function ( test_7.exe) [[DONE]]
+2. check if .rodata or .text [[DONE]]
+3. remove parent class methods from child class [[DONE]]
+4. remove parent class data member from the child class
+5. remove sureConstructor from the code[[DONE]]
+6. run classfrommethod till 0 [[DONE]]
+

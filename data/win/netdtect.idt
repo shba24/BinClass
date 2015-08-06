@@ -1,0 +1,27 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=netdtect.dll Pascal=0
+;---------------------------------------
+1 Name=DetectCheckMemoryUsage
+2 Name=DetectCheckPortUsage
+3 Name=DetectClaimResource
+4 Name=DetectFreeSpecificTemporaryResource
+5 Name=DetectFreeTemporaryResources
+6 Name=DetectInitialInit
+7 Name=DetectQueryInterruptTrap
+8 Name=DetectReadMappedMemory
+9 Name=DetectReadPciSlotInformation
+10 Name=DetectReadPortUchar
+11 Name=DetectReadPortUlong
+12 Name=DetectReadPortUshort
+13 Name=DetectRemoveInterruptTrap
+14 Name=DetectSetInterruptTrap
+15 Name=DetectTemporaryClaimResource
+16 Name=DetectWriteMappedMemory
+17 Name=DetectWritePciSlotInformation
+18 Name=DetectWritePortUchar
+19 Name=DetectWritePortUlong
+20 Name=DetectWritePortUshort
+;------------------EOF------------------

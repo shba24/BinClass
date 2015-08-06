@@ -1,0 +1,24 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=storage.dll Args=0 Drops=15
+;---------------------------------------
+1 Name=STGCREATEDOCFILE Pascal=16
+2 Name=STGCREATEDOCFILEONILOCKBYTES Pascal=16
+3 Name=STGOPENSTORAGE Pascal=24
+4 Name=STGOPENSTORAGEONILOCKBYTES Pascal=24
+5 Name=STGISSTORAGEFILE Pascal=4
+6 Name=STGISSTORAGEILOCKBYTES Pascal=4
+7 Name=STGSETTIMES Pascal=16
+8 Name=WEP Pascal=2
+9 Name=___EXPORTEDSTUB
+103 Name=DLLGETCLASSOBJECT Pascal=12
+104 Name=STORAGE_104
+105 Name=__cinit Pascal=0
+106 Name=__setenvp Pascal=0
+107 Name=__stubmain Pascal=0
+108 Name=LMAIN Pascal=10
+109 Name=__fmalloc Pascal=0
+110 Name=__GetDGROUP Pascal=0
+;------------------EOF------------------

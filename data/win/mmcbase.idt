@@ -1,0 +1,83 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mmcbase.dll Args=0 Drops=68
+;---------------------------------------
+1 Name=??0?$CEventLock@UAppEvents@@@@QAE@XZ Pascal=0
+2 Name=??0CEventBuffer@@QAE@ABV0@@Z Pascal=4
+3 Name=??0CEventBuffer@@QAE@XZ Pascal=0
+4 Name=??0CMMCStrongReferences@@AAE@XZ Pascal=0
+5 Name=??4SC@mmcerror@@QAEAAV01@J@Z Pascal=4
+6 Name=??1?$CEventLock@UAppEvents@@@@QAE@XZ Pascal=0
+7 Name=??1CEventBuffer@@QAE@XZ
+8 Name=??4?$CEventLock@UAppEvents@@@@QAEAAV0@ABV0@@Z Pascal=4
+9 Name=??4CEventBuffer@@QAEAAV0@ABV0@@Z Pascal=4
+10 Name=??4SC@mmcerror@@QAEAAV01@ABV01@@Z Pascal=4
+11 Name=??4SC@mmcerror@@QAEAAV01@ABV01@@Z Pascal=4
+12 Name=??4SC@mmcerror@@QAEAAV01@J@Z Pascal=4
+13 Name=??7SC@mmcerror@@QBEHXZ Pascal=0
+14 Name=??8SC@mmcerror@@QBE_NABV01@@Z Pascal=4
+15 Name=??8SC@mmcerror@@QBE_NJ@Z Pascal=4
+16 Name=??9SC@mmcerror@@QBE_NABV01@@Z Pascal=4
+17 Name=??9SC@mmcerror@@QBE_NJ@Z Pascal=4
+18 Name=??BSC@mmcerror@@QBE_NXZ Pascal=0
+19 Name=?TraceAndClear@SC@mmcerror@@QAEXXZ Pascal=0
+20 Name=?AddRef@CMMCStrongReferences@@SGKXZ Pascal=0
+21 Name=?TraceAndClear@SC@mmcerror@@QAEXXZ Pascal=0
+22 Name=?FatalError@SC@mmcerror@@QBEXXZ
+23 Name=?FormatErrorIds@@YGXIVSC@mmcerror@@IPAG@Z Pascal=20
+24 Name=?FormatErrorShort@@YGXVSC@mmcerror@@IPAG@Z Pascal=16
+25 Name=?FormatErrorString@@YGXPBGVSC@mmcerror@@IPAGH@Z Pascal=24
+26 Name=?FromLastError@SC@mmcerror@@QAEAAV12@XZ Pascal=0
+27 Name=?FromMMC@SC@mmcerror@@QAEAAV12@J@Z Pascal=4
+28 Name=?FromWin32@SC@mmcerror@@QAEAAV12@J@Z Pascal=4
+29 Name=?GetCode@SC@mmcerror@@QBEJXZ Pascal=0
+30 Name=?GetComObjectEventSource@@YGAAV?$CEventSource@VCComObjectObserver@@VCVoid@@V2@V2@V2@@@XZ Pascal=0
+31 Name=?GetErrorMessage@SC@mmcerror@@QBEXIPAG@Z Pascal=8
+32 Name=?GetEventBuffer@@YGAAVCEventBuffer@@XZ Pascal=0
+33 Name=?GetFacility@SC@mmcerror@@ABE?AW4facility_type@12@XZ Pascal=0
+34 Name=?GetHWnd@SC@mmcerror@@SGPAUHWND__@@XZ Pascal=0
+35 Name=?GetHelpFile@SC@mmcerror@@SGPBGXZ Pascal=0
+36 Name=?GetHelpID@SC@mmcerror@@QAEKXZ Pascal=0
+37 Name=?GetStringModule@@YGPAUHINSTANCE__@@XZ Pascal=0
+38 Name=?GetMainThreadID@SC@mmcerror@@SGKXZ Pascal=0
+39 Name=?GetSingletonObject@CMMCStrongReferences@@CGAAV1@XZ Pascal=0
+40 Name=?GetStringModule@@YGPAUHINSTANCE__@@XZ Pascal=0
+41 Name=?SCODEFromSc@@YGJABVSC@mmcerror@@@Z Pascal=4
+42 Name=?InternalAddRef@CMMCStrongReferences@@AAEKXZ Pascal=0
+43 Name=?InternalLastRefReleased@CMMCStrongReferences@@AAE_NXZ Pascal=0
+44 Name=?InternalRelease@CMMCStrongReferences@@AAEKXZ Pascal=0
+45 Name=?IsError@SC@mmcerror@@QBE_NXZ Pascal=0
+46 Name=?IsLocked@CEventBuffer@@QAE_NXZ Pascal=0
+47 Name=?LastRefReleased@CMMCStrongReferences@@SG_NXZ Pascal=0
+48 Name=?Lock@CEventBuffer@@QAEXXZ Pascal=0
+49 Name=?MMCErrorBox@@YGHII@Z Pascal=8
+50 Name=?MMCErrorBox@@YGHIVSC@mmcerror@@I@Z Pascal=16
+51 Name=?MMCErrorBox@@YGHPBGI@Z Pascal=8
+52 Name=?MMCErrorBox@@YGHPBGVSC@mmcerror@@I@Z Pascal=16
+53 Name=?MMCErrorBox@@YGHVSC@mmcerror@@I@Z Pascal=12
+54 Name=?MMCUpdateRegistry@@YGJHPBVCObjectRegParams@@PBVCControlRegParams@@@Z Pascal=12
+55 Name=?MMC_PickIconDlg@@YGHPAUHWND__@@PAGIPAH@Z Pascal=16
+56 Name=?MakeSc@SC@mmcerror@@AAEXW4facility_type@12@J@Z Pascal=8
+57 Name=?Release@CMMCStrongReferences@@SGKXZ Pascal=0
+58 Name=?SCODEFromSc@@YGJABVSC@mmcerror@@@Z Pascal=4
+59 Name=?ScEmitOrPostpone@CEventBuffer@@QAE?AVSC@mmcerror@@PAUIDispatch@@JPAVCComVariant@ATL@@H@Z Pascal=20
+60 Name=?ScFlushPostponed@CEventBuffer@@AAE?AVSC@mmcerror@@XZ Pascal=4
+61 Name=?ScFromMMC@@YG?AVSC@mmcerror@@J@Z Pascal=8
+62 Name=?ScGetConsoleEventDispatcher@CConsoleEventDispatcherProvider@@SG?AVSC@mmcerror@@AAPAVCConsoleEventDispatcher@@@Z Pascal=8
+63 Name=?ScSetConsoleEventDispatcher@CConsoleEventDispatcherProvider@@SG?AVSC@mmcerror@@PAVCConsoleEventDispatcher@@@Z Pascal=8
+64 Name=?SetHWnd@SC@mmcerror@@SGXPAUHWND__@@@Z Pascal=4
+65 Name=?SetHinst@SC@mmcerror@@SGXPAUHINSTANCE__@@@Z Pascal=4
+66 Name=?SetMainThreadID@SC@mmcerror@@SGXK@Z Pascal=4
+67 Name=?Throw@SC@mmcerror@@QAEXJ@Z
+68 Name=?Throw@SC@mmcerror@@QAEXXZ
+69 Name=?ToHr@SC@mmcerror@@QBEJXZ Pascal=0
+70 Name=?TraceAndClear@SC@mmcerror@@QAEXXZ Pascal=0
+71 Name=?Trace_@SC@mmcerror@@QBEXXZ Pascal=0
+72 Name=?Unlock@CEventBuffer@@QAEXXZ Pascal=0
+73 Name=?s_dwMainThreadID@SC@mmcerror@@0KA
+74 Name=?s_hInst@SC@mmcerror@@0PAUHINSTANCE__@@A
+75 Name=?s_hWnd@SC@mmcerror@@0PAUHWND__@@A
+76 Name=?s_pDispatcher@CConsoleEventDispatcherProvider@@0PAVCConsoleEventDispatcher@@A
+;------------------EOF------------------

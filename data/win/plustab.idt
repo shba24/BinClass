@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PLUSTAB.dll Pascal=0
+;---------------------------------------
+2 Name=DllCanUnloadNow
+3 Name=DllGetClassObject
+;------------------EOF------------------

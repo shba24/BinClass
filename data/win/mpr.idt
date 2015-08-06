@@ -1,0 +1,85 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mpr.dll Args=0 Drops=77
+;---------------------------------------
+1 Name=WNetConnectionDialog2 Pascal=16
+2 Name=WNetDisconnectDialog2 Pascal=16
+3 Name=I_MprSaveConn Pascal=36
+4 Name=MultinetGetConnectionPerformanceA Pascal=8
+5 Name=MultinetGetConnectionPerformanceW Pascal=8
+6 Name=MultinetGetErrorTextA Pascal=16
+7 Name=MultinetGetErrorTextW Pascal=16
+8 Name=RestoreConnectionA0 Pascal=8
+9 Name=WNetAddConnection2A Pascal=16
+10 Name=WNetAddConnection2W Pascal=16
+11 Name=WNetAddConnection3A Pascal=20
+12 Name=WNetAddConnection3W Pascal=20
+13 Name=WNetAddConnectionA Pascal=12
+14 Name=WNetAddConnectionW Pascal=12
+15 Name=WNetCancelConnection2A Pascal=12
+16 Name=WNetCancelConnection2W Pascal=12
+17 Name=WNetCancelConnectionA Pascal=8
+18 Name=WNetCancelConnectionW Pascal=8
+19 Name=WNetClearConnections
+20 Name=WNetCloseEnum Pascal=4
+21 Name=WNetConnectionDialog1A Pascal=4
+22 Name=WNetConnectionDialog1W Pascal=4
+23 Name=WNetConnectionDialog Pascal=8
+24 Name=WNetDirectoryNotifyA Pascal=12
+25 Name=WNetDirectoryNotifyW Pascal=12
+26 Name=WNetDisconnectDialog1A Pascal=4
+27 Name=WNetDisconnectDialog1W Pascal=4
+28 Name=WNetDisconnectDialog Pascal=8
+29 Name=WNetEnumResourceA Pascal=16
+30 Name=WNetEnumResourceW Pascal=16
+31 Name=WNetFMXEditPerm Pascal=12
+32 Name=WNetFMXGetPermCaps Pascal=4
+33 Name=WNetFMXGetPermHelp Pascal=24
+34 Name=WNetFormatNetworkNameA Pascal=24
+35 Name=WNetFormatNetworkNameW Pascal=24
+36 Name=WNetGetConnection2A Pascal=12
+37 Name=WNetGetConnection2W Pascal=12
+38 Name=WNetGetConnection3A Pascal=20
+39 Name=WNetGetConnection3W Pascal=20
+40 Name=WNetGetConnectionA Pascal=12
+41 Name=WNetGetConnectionW Pascal=12
+42 Name=WNetGetDirectoryTypeA Pascal=12
+43 Name=WNetGetDirectoryTypeW Pascal=12
+44 Name=WNetGetHomeDirectoryW Pascal=12
+45 Name=WNetGetLastErrorA Pascal=20
+46 Name=WNetGetLastErrorW Pascal=20
+47 Name=WNetGetNetworkInformationA Pascal=8
+48 Name=WNetGetNetworkInformationW Pascal=8
+49 Name=WNetGetPropertyTextA Pascal=24
+50 Name=WNetGetPropertyTextW Pascal=24
+51 Name=WNetGetProviderNameA Pascal=12
+52 Name=WNetGetProviderNameW Pascal=12
+53 Name=WNetGetProviderTypeA Pascal=8
+54 Name=WNetGetProviderTypeW Pascal=8
+55 Name=WNetGetResourceInformationA Pascal=16
+56 Name=WNetGetResourceInformationW Pascal=16
+57 Name=WNetGetResourceParentA Pascal=12
+58 Name=WNetGetResourceParentW Pascal=12
+59 Name=WNetGetSearchDialog Pascal=4
+60 Name=WNetGetUniversalNameA Pascal=16
+61 Name=WNetGetUniversalNameW Pascal=16
+62 Name=WNetGetUserA Pascal=12
+63 Name=WNetGetUserW Pascal=12
+64 Name=WNetLogonNotify Pascal=36
+65 Name=WNetOpenEnumA Pascal=20
+66 Name=WNetOpenEnumW Pascal=20
+67 Name=WNetPasswordChangeNotify Pascal=32
+68 Name=WNetPropertyDialogA Pascal=20
+69 Name=WNetPropertyDialogW Pascal=20
+70 Name=WNetRestoreConnection2W Pascal=16
+71 Name=WNetRestoreConnectionW Pascal=8
+72 Name=WNetSetConnectionA Pascal=12
+73 Name=WNetSetConnectionW Pascal=12
+74 Name=WNetSetLastErrorA Pascal=12
+75 Name=WNetSetLastErrorW Pascal=12
+76 Name=WNetSupportGlobalEnum Pascal=4
+77 Name=WNetUseConnectionA Pascal=32
+78 Name=WNetUseConnectionW Pascal=32
+;------------------EOF------------------

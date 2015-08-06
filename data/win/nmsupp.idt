@@ -1,0 +1,24 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=NMSUPP.dll Args=0 Drops=17
+;---------------------------------------
+1 Name=AllocMemory Pascal=4
+2 Name=AllocObject Pascal=4
+3 Name=BhAllocSystemMemory Pascal=4
+4 Name=BhFreeSystemMemory Pascal=4
+5 Name=BhGetLastError Pascal=0
+6 Name=BhSetLastError Pascal=4
+7 Name=CreateObjectHeap Pascal=8
+8 Name=DestroyObjectHeap Pascal=4
+9 Name=FreeMemory Pascal=4
+10 Name=FreeObject Pascal=8
+11 Name=GetObjectHeapSize Pascal=4
+12 Name=GrowObjectHeap Pascal=8
+13 Name=MemorySize Pascal=4
+14 Name=NormalizeAddress Pascal=4
+15 Name=PurgeObjectHeap Pascal=4
+16 Name=ReallocMemory Pascal=8
+17 Name=TestMemory Pascal=4
+;------------------EOF------------------

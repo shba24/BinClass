@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=dxtrans.dll Args=0 Drops=11
+;---------------------------------------
+1 Name=?DXConstOverArray@@YGXPAVDXPMSAMPLE@@ABV1@K@Z Pascal=12
+2 Name=?DXConstUnderArray@@YGXPAVDXPMSAMPLE@@ABV1@K@Z Pascal=12
+3 Name=?DXDitherArray@@YGXPBUDXDITHERDESC@@@Z Pascal=4
+4 Name=?DXLinearInterpolateArray@@YGXPBVDXBASESAMPLE@@PAUDXLIMAPINFO@@PAV1@K@Z Pascal=16
+5 Name=?DXOverArray@@YGXPAVDXPMSAMPLE@@PBV1@K@Z Pascal=12
+6 Name=?DXOverArrayMMX@@YGXPAVDXPMSAMPLE@@PBV1@K@Z Pascal=12
+7 Name=DllCanUnloadNow Pascal=0
+8 Name=DllEnumClassObjects Pascal=12
+9 Name=DllGetClassObject Pascal=12
+10 Name=DllRegisterServer Pascal=0
+11 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

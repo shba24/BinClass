@@ -1,0 +1,39 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mfcapwz Args=0 Drops=1
+;---------------------------------------
+1 Name=GetAppWizIFace Pascal=0
+2 Name=??_G?$CTypedPtrMap@VCMapPtrToPtr@@PAVCAppWizStepDlg@@PAVCSeqDlg@@@@UAEPAXI@Z
+3 Name=??_G?$CTypedPtrMap@VCMapPtrToPtr@@PAVCAppWizStepDlg@@PAX@@UAEPAXI@Z
+4 Name=??0CAppWizStepDlg@@QAE@I@Z
+5 Name=??1CAppWizStepDlg@@UAE@XZ
+6 Name=?Back@CCustomAppWiz@@UAEPAVCAppWizStepDlg@@PAV2@@Z
+7 Name=?CopyTemplate@CCustomAppWiz@@UAEXPBDKPAVOutputStream@@@Z
+8 Name=?Create@CAppWizStepDlg@@UAEHIPAVCWnd@@@Z
+9 Name=?CustomizeProject@CCustomAppWiz@@UAEXPAUIBuildProject@@@Z
+10 Name=?ExitCustomAppWiz@CCustomAppWiz@@UAEXXZ
+11 Name=?ExtKeyFromID@CMainDlg@@QAEPAVCAppWizStepDlg@@W4AppWizDlgID@@@Z
+12 Name=?ExtSeqDlgFromKey@CMainDlg@@QAEPAVCSeqDlg@@PAVCAppWizStepDlg@@@Z
+13 Name=?FindInterface@@YAJABU_GUID@@PAPAX@Z
+14 Name=?GetAWX@@YAPAVCCustomAppWiz@@XZ
+15 Name=?GetDialog@@YAPAVCAppWizStepDlg@@W4AppWizDlgID@@@Z
+16 Name=?GetPlatforms@CCustomAppWiz@@UAEXAAVCStringList@@@Z
+17 Name=?InitCustomAppWiz@CCustomAppWiz@@UAEXXZ
+18 Name=?LoadTemplate@CCustomAppWiz@@UAEPBDPBDAAKPAUHINSTANCE__@@@Z
+19 Name=?Next@CCustomAppWiz@@UAEPAVCAppWizStepDlg@@PAV2@@Z
+20 Name=?OnDismiss@CAppWizStepDlg@@UAEHXZ
+21 Name=?PostProcessTemplate@CCustomAppWiz@@UAEXPBD@Z
+22 Name=?PreTranslateMessage@CAppWizStepDlg@@UAEHPAUtagMSG@@@Z
+23 Name=?ProcessTemplate@CCustomAppWiz@@UAEXPBDKPAVOutputStream@@@Z
+24 Name=?ScanForAvailableLanguages@@YAHAAVCStringList@@@Z
+25 Name=?ScanForAvailableLanguages@AvailableLangDlls@@QAEHXZ
+26 Name=?SetCustomAppWizClass@@YAXPAVCCustomAppWiz@@@Z
+27 Name=?SetCustomAppWizClass@CUserExtension@@QAEXPAVCCustomAppWiz@@@Z
+28 Name=?SetNumberOfSteps@@YAXH@Z
+29 Name=?SetNumberOfSteps@CMainDlg@@QAEXH@Z
+30 Name=?SetSupportedLanguages@@YAXPBD@Z
+31 Name=?SetSupportedLanguages@AvailableLangDlls@@QAEXPBDH@Z
+32 Name=?UserDeletedStandardStep@CMainDlg@@QAEXPAVCAppWizStepDlg@@@Z
+;------------------EOF------------------

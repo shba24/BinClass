@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wshisn.dll Args=0 Drops=10
+;---------------------------------------
+1 Name=WSHAddressToString Pascal=20
+2 Name=WSHEnumProtocols Pascal=16
+3 Name=WSHGetProviderGuid Pascal=8
+4 Name=WSHGetSockaddrType Pascal=12
+5 Name=WSHGetSocketInformation Pascal=32
+6 Name=WSHGetWildcardSockaddr Pascal=12
+7 Name=WSHGetWinsockMapping Pascal=8
+8 Name=WSHNotify Pascal=20
+9 Name=WSHOpenSocket Pascal=24
+10 Name=WSHSetSocketInformation Pascal=32
+;------------------EOF------------------

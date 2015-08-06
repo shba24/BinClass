@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PROPCI.dll Pascal=0
+;---------------------------------------
+1 Name=FindPCIDevices
+2 Name=PciReadConfigByte
+3 Name=PciReadConfigWord
+4 Name=PciReadConfigDWord
+5 Name=PciWriteConfigByte
+6 Name=PciWriteConfigWord
+7 Name=PciWriteConfigDWord
+8 Name=PciEnableConfigSpace
+9 Name=PciDisableConfigSpace
+10 Name=ReadEEprom
+;------------------EOF------------------

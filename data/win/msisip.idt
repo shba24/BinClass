@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msisip.dll Args=0 Drops=8
+;---------------------------------------
+5 Name=MsiSIPIsMyTypeOfFile Pascal=8
+6 Name=MsiSIPGetSignedDataMsg Pascal=20
+7 Name=MsiSIPPutSignedDataMsg Pascal=20
+8 Name=MsiSIPRemoveSignedDataMsg Pascal=8
+9 Name=MsiSIPCreateIndirectData Pascal=12
+10 Name=MsiSIPVerifyIndirectData Pascal=8
+11 Name=DllRegisterServer Pascal=0
+12 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

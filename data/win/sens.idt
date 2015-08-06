@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=sens.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=ServiceMain Pascal=8
+2 Name=SensNotifyNetconEvent Pascal=4
+3 Name=SensNotifyRasEvent Pascal=4
+4 Name=SensNotifyWinlogonEvent Pascal=4
+;------------------EOF------------------

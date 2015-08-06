@@ -1,0 +1,72 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=samlib.dll Args=0 Drops=64
+;---------------------------------------
+1 Name=SamAddMemberToAlias Pascal=8
+2 Name=SamAddMemberToGroup Pascal=12
+3 Name=SamAddMultipleMembersToAlias Pascal=12
+4 Name=SamChangePasswordUser2 Pascal=16
+5 Name=SamChangePasswordUser3 Pascal=24
+6 Name=SamChangePasswordUser Pascal=12
+7 Name=SamCloseHandle Pascal=4
+8 Name=SamConnect Pascal=16
+9 Name=SamConnectWithCreds Pascal=28
+10 Name=SamCreateAliasInDomain Pascal=20
+11 Name=SamCreateGroupInDomain Pascal=20
+12 Name=SamCreateUser2InDomain Pascal=28
+13 Name=SamCreateUserInDomain Pascal=20
+14 Name=SamDeleteAlias Pascal=4
+15 Name=SamDeleteGroup Pascal=4
+16 Name=SamDeleteUser Pascal=4
+17 Name=SamEnumerateAliasesInDomain Pascal=20
+18 Name=SamEnumerateDomainsInSamServer Pascal=20
+19 Name=SamEnumerateGroupsInDomain Pascal=20
+20 Name=SamEnumerateUsersInDomain Pascal=24
+21 Name=SamFreeMemory Pascal=4
+22 Name=SamGetAliasMembership Pascal=20
+23 Name=SamGetCompatibilityMode Pascal=8
+24 Name=SamGetDisplayEnumerationIndex Pascal=16
+25 Name=SamGetGroupsForUser Pascal=12
+26 Name=SamGetMembersInAlias Pascal=12
+27 Name=SamGetMembersInGroup Pascal=16
+28 Name=SamLookupDomainInSamServer Pascal=12
+29 Name=SamLookupIdsInDomain Pascal=20
+30 Name=SamLookupNamesInDomain
+31 Name=SamOpenAlias Pascal=16
+32 Name=SamOpenDomain Pascal=16
+33 Name=SamOpenGroup Pascal=16
+34 Name=SamOpenUser Pascal=16
+35 Name=SamQueryDisplayInformation Pascal=36
+36 Name=SamQueryInformationAlias Pascal=12
+37 Name=SamQueryInformationDomain Pascal=12
+38 Name=SamQueryInformationGroup Pascal=12
+39 Name=SamQueryInformationUser Pascal=12
+40 Name=SamQuerySecurityObject Pascal=12
+41 Name=SamRemoveMemberFromAlias Pascal=8
+42 Name=SamRemoveMemberFromForeignDomain Pascal=8
+43 Name=SamRemoveMemberFromGroup Pascal=8
+44 Name=SamRemoveMultipleMembersFromAlias Pascal=12
+45 Name=SamRidToSid Pascal=12
+46 Name=SamSetInformationAlias Pascal=12
+47 Name=SamSetInformationDomain Pascal=12
+48 Name=SamSetInformationGroup Pascal=12
+49 Name=SamSetInformationUser Pascal=12
+50 Name=SamSetMemberAttributesOfGroup Pascal=12
+51 Name=SamSetSecurityObject Pascal=12
+52 Name=SamShutdownSamServer Pascal=4
+53 Name=SamTestPrivateFunctionsUser Pascal=4
+54 Name=SamTestPrivateFunctionsUser Pascal=4
+55 Name=SamValidatePassword Pascal=16
+56 Name=SamiChangeKeys Pascal=0
+57 Name=SamiChangePasswordUser2 Pascal=28
+58 Name=SamiChangePasswordUser Pascal=28
+59 Name=SamiEncryptPasswords Pascal=28
+60 Name=SamiGetBootKeyInformation Pascal=8
+61 Name=SamiLmChangePasswordUser Pascal=12
+62 Name=SamiOemChangePasswordUser2 Pascal=16
+63 Name=SamiSetBootKeyInformation Pascal=16
+64 Name=SamiSetDSRMPassword Pascal=12
+65 Name=SamiSetDSRMPasswordOWF Pascal=12
+;------------------EOF------------------

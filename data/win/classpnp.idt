@@ -1,0 +1,63 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CLASSPNP.SYS Args=0 Drops=56
+;---------------------------------------
+1 Name=ClassAcquireChildLock Pascal=4
+2 Name=ClassAcquireRemoveLockEx Pascal=16
+3 Name=ClassAsynchronousCompletion Pascal=12
+4 Name=ClassBuildRequest Pascal=8
+5 Name=ClassCheckMediaState Pascal=4
+6 Name=ClassClaimDevice Pascal=8
+7 Name=ClassCleanupMediaChangeDetection Pascal=4
+8 Name=ClassCompleteRequest Pascal=12
+9 Name=ClassCreateDeviceObject Pascal=20
+10 Name=ClassDeleteSrbLookasideList Pascal=4
+11 Name=ClassDeviceControl Pascal=8
+12 Name=ClassDisableMediaChangeDetection Pascal=4
+13 Name=ClassEnableMediaChangeDetection Pascal=4
+14 Name=ClassFindModePage Pascal=16
+15 Name=ClassForwardIrpSynchronous Pascal=8
+16 Name=ClassGetDescriptor Pascal=12
+17 Name=ClassGetDeviceParameter Pascal=16
+18 Name=ClassGetDriverExtension Pascal=4
+19 Name=ClassGetVpb Pascal=4
+20 Name=ClassInitialize Pascal=12
+21 Name=ClassInitializeEx Pascal=12
+22 Name=ClassInitializeMediaChangeDetection Pascal=8
+23 Name=ClassInitializeSrbLookasideList Pascal=8
+24 Name=ClassInitializeTestUnitPolling Pascal=8
+25 Name=ClassInternalIoControl Pascal=8
+26 Name=ClassInterpretSenseInfo Pascal=28
+27 Name=ClassInvalidateBusRelations Pascal=4
+28 Name=ClassIoComplete Pascal=12
+29 Name=ClassIoCompleteAssociated Pascal=12
+30 Name=ClassMarkChildMissing Pascal=8
+31 Name=ClassMarkChildrenMissing Pascal=4
+32 Name=ClassModeSense Pascal=16
+33 Name=ClassNotifyFailurePredicted Pascal=32
+34 Name=ClassQueryTimeOutRegistryValue Pascal=4
+35 Name=ClassReadDriveCapacity Pascal=4
+36 Name=ClassReleaseChildLock Pascal=4
+37 Name=ClassReleaseQueue Pascal=4
+38 Name=ClassReleaseRemoveLock Pascal=8
+39 Name=ClassRemoveDevice Pascal=8
+40 Name=ClassResetMediaChangeTimer Pascal=4
+41 Name=ClassScanForSpecial Pascal=12
+42 Name=ClassSendDeviceIoControlSynchronous Pascal=28
+43 Name=ClassSendIrpSynchronous Pascal=8
+44 Name=ClassSendSrbAsynchronous Pascal=24
+45 Name=ClassSendSrbSynchronous Pascal=20
+46 Name=ClassSendStartUnit Pascal=4
+47 Name=ClassSetDeviceParameter Pascal=16
+48 Name=ClassSetFailurePredictionPoll Pascal=12
+49 Name=ClassSetMediaChangeState Pascal=12
+50 Name=ClassSignalCompletion Pascal=12
+51 Name=ClassSpinDownPowerHandler Pascal=8
+52 Name=ClassSplitRequest Pascal=12
+53 Name=ClassStopUnitPowerHandler Pascal=8
+54 Name=ClassUpdateInformationInRegistry Pascal=20
+55 Name=ClassWmiCompleteRequest Pascal=20
+56 Name=ClassWmiFireEvent Pascal=20
+;------------------EOF------------------

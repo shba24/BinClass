@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=HLINKPRX.dll Pascal=0
+;---------------------------------------
+1 Name=DllGetClassObject
+2 Name=DllCanUnloadNow
+3 Name=DllRegisterServer
+4 Name=DllUnregisterServer
+;------------------EOF------------------

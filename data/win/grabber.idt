@@ -1,0 +1,30 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=GRABBER.dll Pascal=0
+;---------------------------------------
+1 Name=PaintScreen
+2 Name=ScreenFree
+3 Name=BeginSelection
+4 Name=KeySelection
+5 Name=MakeSelctRect
+6 Name=InvertSelection
+7 Name=RenderSelection
+8 Name=ConsSelecRec
+9 Name=EndSelection
+10 Name=GetFontList
+11 Name=SetPaintFnt
+12 Name=UpdateScreen
+13 Name=CursorOn
+14 Name=CursorPosit
+15 Name=CursorOff
+16 Name=CheckGRBVersion
+17 Name=AdjustInitEndPt
+18 Name=GetDisplayUpd
+19 Name=GrabEvent
+20 Name=GrabComplete
+21 Name=GrbGetTextColor
+22 Name=GrbUnlockApp
+23 Name=TranslateWinToFScreen
+;------------------EOF------------------

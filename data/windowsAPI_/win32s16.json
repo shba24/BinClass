@@ -1,0 +1,1 @@
+{"config": {"exports": {"WIN32S16.dll:UTSELECTOROFFSETTOLINEAR": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "23"}, "WIN32S16.dll:UTLINEARTOSELECTOROFFSET": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "24"}}}}

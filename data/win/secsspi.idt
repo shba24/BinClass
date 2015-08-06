@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SECSSPI.dll Pascal=0
+;---------------------------------------
+1 Name=Ssp_Load
+;------------------EOF------------------

@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DPWSOCKX.dll Args=0 Drops=3
+;---------------------------------------
+1 Name=SPInit Pascal=4
+3 Name=DPWS_GetEnumPort Pascal=8
+4 Name=DPWS_BuildIPMessageHeader Pascal=20
+;------------------EOF------------------

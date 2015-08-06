@@ -1,0 +1,34 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CLXWIN32.dll Pascal=0
+;---------------------------------------
+3 Name=NWCLXInit
+4 Name=NWCLXTerm
+5 Name=NWCCGetCLXVersion
+100 Name=NWCCOpenConnByName
+101 Name=NWCCOpenConnByAddr
+102 Name=NWCCOpenConnByRef
+103 Name=NWCCCloseConn
+104 Name=NWCCSysCloseConnRef
+105 Name=NWCCMakeConnPermanent
+106 Name=NWCCLicenseConn
+107 Name=NWCCUnlicenseConn
+108 Name=NWCCGetConnRef
+109 Name=NWCCGetPrefServerName
+110 Name=NWCCSetPrefServerName
+111 Name=NWCCGetPrimConnRef
+112 Name=NWCCSetPrimConn
+113 Name=NWCCScanConnRefs
+114 Name=NWCCGetConnInfo
+115 Name=NWCCGetConnRefInfo
+116 Name=NWCCGetAllConnInfo
+117 Name=NWCCGetAllConnRefInfo
+118 Name=NWCCGetConnAddressLength
+119 Name=NWCCGetConnRefAddressLength
+120 Name=NWCCGetConnAddress
+121 Name=NWCCGetConnRefAddress
+122 Name=NWCCOpenConnByPref
+123 Name=NWCCQueryFeature
+;------------------EOF------------------

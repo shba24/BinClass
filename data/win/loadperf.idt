@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=loadperf.dll Args=0 Drops=12
+;---------------------------------------
+1 Name=BackupPerfRegistryToFileW Pascal=8
+2 Name=InstallPerfDllA Pascal=12
+3 Name=InstallPerfDllW Pascal=12
+4 Name=LoadPerfCounterTextStringsA Pascal=8
+5 Name=LoadPerfCounterTextStringsW Pascal=8
+6 Name=RestorePerfRegistryFromFileW Pascal=8
+7 Name=SetServiceAsTrustedA Pascal=8
+8 Name=SetServiceAsTrustedW Pascal=8
+9 Name=UnloadPerfCounterTextStringsA Pascal=8
+10 Name=UnloadPerfCounterTextStringsW Pascal=8
+11 Name=UpdatePerfNameFilesA Pascal=16
+12 Name=UpdatePerfNameFilesW Pascal=16
+;------------------EOF------------------

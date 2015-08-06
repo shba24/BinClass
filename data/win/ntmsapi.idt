@@ -1,0 +1,82 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ntmsapi.dll Args=0 Drops=75
+;---------------------------------------
+1 Name=AccessNtmsLibraryDoor Pascal=12
+2 Name=AddNtmsMediaType Pascal=12
+3 Name=AllocateNtmsMedia Pascal=24
+4 Name=EndNtmsDeviceChangeDetection Pascal=8
+5 Name=CancelNtmsLibraryRequest Pascal=8
+6 Name=CancelNtmsOperatorRequest Pascal=8
+7 Name=ChangeNtmsMediaType Pascal=12
+8 Name=CleanNtmsDrive Pascal=8
+9 Name=CloseNtmsNotification Pascal=4
+10 Name=CloseNtmsSession Pascal=4
+11 Name=CreateNtmsMediaA Pascal=16
+12 Name=CreateNtmsMediaPoolA Pascal=24
+13 Name=CreateNtmsMediaPoolW Pascal=24
+14 Name=CreateNtmsMediaW Pascal=16
+15 Name=DeallocateNtmsMedia Pascal=12
+16 Name=DecommissionNtmsMedia Pascal=8
+17 Name=DeleteNtmsDrive Pascal=8
+18 Name=DeleteNtmsLibrary Pascal=8
+19 Name=DeleteNtmsMedia Pascal=8
+20 Name=DeleteNtmsMediaPool Pascal=8
+21 Name=DeleteNtmsMediaType Pascal=12
+22 Name=DeleteNtmsRequests Pascal=16
+23 Name=DisableNtmsObject Pascal=12
+24 Name=DismountNtmsDrive Pascal=8
+25 Name=DismountNtmsMedia Pascal=16
+26 Name=DoEjectFromSADriveW Pascal=24
+27 Name=EjectDiskFromSADriveA Pascal=28
+28 Name=EjectDiskFromSADriveW Pascal=28
+29 Name=EjectNtmsCleaner Pascal=16
+30 Name=EjectNtmsMedia Pascal=16
+31 Name=EnableNtmsObject Pascal=12
+32 Name=EndNtmsDeviceChangeDetection Pascal=8
+33 Name=EnumerateNtmsObject Pascal=24
+34 Name=ExportNtmsDatabase Pascal=4
+35 Name=GetNtmsMediaPoolNameA Pascal=16
+36 Name=GetNtmsMediaPoolNameW Pascal=16
+37 Name=GetNtmsObjectAttributeA Pascal=24
+38 Name=GetNtmsObjectAttributeW Pascal=24
+39 Name=GetNtmsObjectInformationA Pascal=12
+40 Name=GetNtmsObjectInformationW Pascal=12
+41 Name=GetNtmsObjectSecurity Pascal=28
+42 Name=GetNtmsRequestOrder Pascal=12
+43 Name=GetNtmsUIOptionsA Pascal=20
+44 Name=GetNtmsUIOptionsW Pascal=20
+45 Name=GetVolumesFromDriveA Pascal=12
+46 Name=GetVolumesFromDriveW Pascal=12
+47 Name=IdentifyNtmsSlot Pascal=12
+48 Name=ImportNtmsDatabase Pascal=4
+49 Name=InjectNtmsCleaner Pascal=20
+50 Name=InjectNtmsMedia Pascal=16
+51 Name=InventoryNtmsLibrary Pascal=12
+52 Name=MountNtmsMedia Pascal=28
+53 Name=MoveToNtmsMediaPool Pascal=12
+54 Name=OpenNtmsNotification Pascal=8
+55 Name=OpenNtmsSessionA Pascal=12
+56 Name=OpenNtmsSessionW Pascal=12
+57 Name=ReleaseNtmsCleanerSlot Pascal=8
+58 Name=ReserveNtmsCleanerSlot Pascal=12
+59 Name=SatisfyNtmsOperatorRequest Pascal=8
+60 Name=SetNtmsDeviceChangeDetection Pascal=20
+61 Name=SetNtmsMediaComplete Pascal=8
+62 Name=SetNtmsObjectAttributeA Pascal=24
+63 Name=SetNtmsObjectAttributeW Pascal=24
+64 Name=SetNtmsObjectInformationA Pascal=12
+65 Name=SetNtmsObjectInformationW Pascal=12
+66 Name=SetNtmsObjectSecurity Pascal=20
+67 Name=SetNtmsRequestOrder Pascal=12
+68 Name=SetNtmsUIOptionsA Pascal=20
+69 Name=SetNtmsUIOptionsW Pascal=20
+70 Name=SubmitNtmsOperatorRequestA Pascal=24
+71 Name=SubmitNtmsOperatorRequestW Pascal=24
+72 Name=SwapNtmsMedia Pascal=12
+73 Name=UpdateNtmsOmidInfo Pascal=20
+74 Name=WaitForNtmsNotification Pascal=12
+75 Name=WaitForNtmsOperatorRequest Pascal=12
+;------------------EOF------------------

@@ -1,0 +1,51 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=hid.dll Args=0 Drops=44
+;---------------------------------------
+1 Name=HidD_FlushQueue Pascal=4
+2 Name=HidD_FreePreparsedData Pascal=4
+3 Name=HidD_GetAttributes Pascal=8
+4 Name=HidD_GetConfiguration Pascal=12
+5 Name=HidD_GetFeature Pascal=12
+6 Name=HidD_GetHidGuid Pascal=4
+7 Name=HidD_GetIndexedString Pascal=16
+8 Name=HidD_GetInputReport Pascal=12
+9 Name=HidD_GetManufacturerString Pascal=12
+10 Name=HidD_GetMsGenreDescriptor Pascal=12
+11 Name=HidD_GetNumInputBuffers Pascal=8
+12 Name=HidD_GetPhysicalDescriptor Pascal=12
+13 Name=HidD_GetPreparsedData Pascal=8
+14 Name=HidD_GetProductString Pascal=12
+15 Name=HidD_GetSerialNumberString Pascal=12
+16 Name=HidD_Hello Pascal=8
+17 Name=HidD_SetConfiguration Pascal=12
+18 Name=HidD_SetFeature Pascal=12
+19 Name=HidD_SetNumInputBuffers Pascal=8
+20 Name=HidD_SetOutputReport Pascal=12
+21 Name=HidP_GetButtonCaps Pascal=16
+22 Name=HidP_GetCaps Pascal=8
+23 Name=HidP_GetData Pascal=24
+24 Name=HidP_GetExtendedAttributes Pascal=20
+25 Name=HidP_GetLinkCollectionNodes Pascal=12
+26 Name=HidP_GetScaledUsageValue Pascal=32
+27 Name=HidP_GetSpecificButtonCaps Pascal=28
+28 Name=HidP_GetSpecificValueCaps Pascal=28
+29 Name=HidP_GetUsageValue Pascal=32
+30 Name=HidP_GetUsageValueArray Pascal=36
+31 Name=HidP_GetUsages Pascal=32
+32 Name=HidP_GetUsagesEx Pascal=28
+33 Name=HidP_GetValueCaps Pascal=16
+34 Name=HidP_InitializeReportForID Pascal=20
+35 Name=HidP_MaxDataListLength Pascal=8
+36 Name=HidP_MaxUsageListLength Pascal=12
+37 Name=HidP_SetData Pascal=24
+38 Name=HidP_SetScaledUsageValue Pascal=32
+39 Name=HidP_SetUsageValue Pascal=32
+40 Name=HidP_SetUsageValueArray Pascal=36
+41 Name=HidP_SetUsages Pascal=32
+42 Name=HidP_TranslateUsagesToI8042ScanCodes Pascal=24
+43 Name=HidP_UnsetUsages Pascal=32
+44 Name=HidP_UsageListDifference Pascal=20
+;------------------EOF------------------

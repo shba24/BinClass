@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=VBAME.DLL Args=0 Drops=11
+;---------------------------------------
+1 Name=_DllMain@12 Pascal=12
+2 Name=DestroyCaretBiVBA Pascal=4
+3 Name=CreateCaretBiVBA Pascal=20
+4 Name=PaintLineCoreBiVBA Pascal=4
+5 Name=XFromIchCoreBiVBA Pascal=4
+6 Name=IchFromXCoreBiVBA Pascal=4
+7 Name=PickFontBiVBA Pascal=16
+8 Name=ObTextOutBiVBA Pascal=24
+9 Name=WCheckPlatformBiVBA
+10 Name=VersionNumberBiVBA Pascal=0
+11 Name=ResetFontCacheBiVBA Pascal=4
+12 Name=PaintLineCoreROClipBiVBA Pascal=12
+;------------------EOF------------------

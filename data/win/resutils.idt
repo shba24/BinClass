@@ -1,0 +1,79 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=resutils.dll Args=0 Drops=55
+;---------------------------------------
+1 Name=ClusWorkerCheckTerminate Pascal=4
+2 Name=ClusWorkerCreate Pascal=12
+3 Name=ClusWorkerStart Pascal=4
+4 Name=ClusWorkerTerminate Pascal=4
+5 Name=ResUtilAddUnknownProperties Pascal=24
+6 Name=ResUtilCreateDirectoryTree
+7 Name=ResUtilDupParameterBlock
+8 Name=ResUtilDupString Pascal=4
+9 Name=ResUtilEnumPrivateProperties Pascal=20
+10 Name=ResUtilEnumProperties
+11 Name=ResUtilEnumResources Pascal=16
+12 Name=ResUtilEnumResourcesEx Pascal=20
+13 Name=ResUtilExpandEnvironmentStrings
+14 Name=ResUtilFindBinaryProperty
+15 Name=ResUtilFindDependentDiskResourceDriveLetter Pascal=16
+16 Name=ResUtilFindDwordProperty
+17 Name=ResUtilFindSzProperty
+18 Name=ResUtilFindExpandedSzProperty
+19 Name=ResUtilFindLongProperty
+20 Name=ResUtilFindMultiSzProperty
+21 Name=ResUtilFindSzProperty
+22 Name=ResUtilFreeEnvironment Pascal=4
+23 Name=ResUtilFreeParameterBlock
+24 Name=ResUtilGetAllProperties Pascal=24
+25 Name=ResUtilGetBinaryProperty Pascal=28
+26 Name=ResUtilGetBinaryValue Pascal=16
+27 Name=ResUtilGetCoreClusterResources Pascal=16
+28 Name=ResUtilGetDwordProperty Pascal=28
+29 Name=ResUtilGetDwordValue Pascal=16
+30 Name=ResUtilGetEnvironmentWithNetName Pascal=4
+31 Name=ResUtilGetMultiSzProperty Pascal=28
+32 Name=ResUtilGetPrivateProperties Pascal=20
+33 Name=ResUtilGetProperties Pascal=24
+34 Name=ResUtilGetPropertiesToParameterBlock Pascal=20
+35 Name=ResUtilGetProperty Pascal=16
+36 Name=ResUtilGetPropertyFormats
+37 Name=ResUtilGetPropertySize Pascal=16
+38 Name=ResUtilGetResourceDependency Pascal=8
+39 Name=ResUtilGetResourceDependencyByClass Pascal=16
+40 Name=ResUtilGetResourceDependencyByName Pascal=16
+41 Name=ResUtilGetResourceDependentIPAddressProps Pascal=28
+42 Name=ResUtilGetResourceName Pascal=12
+43 Name=ResUtilGetResourceNameDependency Pascal=8
+44 Name=ResUtilGetSzProperty Pascal=20
+45 Name=ResUtilGetSzValue Pascal=8
+46 Name=ResUtilIsPathValid
+47 Name=ResUtilIsResourceClassEqual Pascal=8
+48 Name=ResUtilPropertyListFromParameterBlock
+49 Name=ResUtilRemoveResourceServiceEnvironment Pascal=12
+50 Name=ResUtilResourceTypesEqual Pascal=8
+51 Name=ResUtilResourcesEqual Pascal=8
+52 Name=ResUtilSetBinaryValue Pascal=24
+53 Name=ResUtilSetDwordValue Pascal=16
+54 Name=ResUtilSetExpandSzValue Pascal=16
+55 Name=ResUtilSetMultiSzValue Pascal=24
+56 Name=ResUtilSetPrivatePropertyList Pascal=12
+57 Name=ResUtilSetPropertyParameterBlock Pascal=28
+58 Name=ResUtilSetPropertyParameterBlockEx Pascal=32
+59 Name=ResUtilSetPropertyTable Pascal=28
+60 Name=ResUtilSetPropertyTableEx Pascal=32
+61 Name=ResUtilSetResourceServiceEnvironment Pascal=16
+62 Name=ResUtilSetResourceServiceStartParameters Pascal=20
+63 Name=ResUtilSetSzValue Pascal=16
+64 Name=ResUtilSetUnknownProperties Pascal=16
+65 Name=ResUtilStartResourceService Pascal=8
+66 Name=ResUtilStopResourceService Pascal=4
+67 Name=ResUtilStopService Pascal=4
+68 Name=ResUtilTerminateServiceProcessFromResDll Pascal=20
+69 Name=ResUtilVerifyPrivatePropertyList
+70 Name=ResUtilVerifyPropertyTable
+71 Name=ResUtilVerifyResourceService Pascal=4
+72 Name=ResUtilVerifyService Pascal=4
+;------------------EOF------------------

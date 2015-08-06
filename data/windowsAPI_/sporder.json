@@ -1,0 +1,1 @@
+{"config": {"exports": {"SPORDER.dll:WSCWriteProviderOrder": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "2"}, "SPORDER.dll:WSCWriteNameSpaceOrder": {"function": {"delta": "4", "convention": "stdcall"}, "ordinal": "1"}}}}

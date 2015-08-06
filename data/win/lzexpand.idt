@@ -1,0 +1,37 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=lzexpand.dll Args=0 Drops=27
+;---------------------------------------
+1 Name=LZCOPY Pascal=4
+2 Name=LZOPENFILE Pascal=10
+3 Name=LZINIT Pascal=2
+4 Name=LZSEEK Pascal=8
+5 Name=LZREAD Pascal=8
+6 Name=LZCLOSE Pascal=2
+7 Name=LZSTART Pascal=0
+8 Name=COPYLZFILE Pascal=4
+9 Name=LZDONE Pascal=0
+10 Name=GETEXPANDEDNAME Pascal=8
+11 Name=WEP Pascal=2
+12 Name=___EXPORTEDSTUB
+13 Name=LZEXPAND_13 Pascal=0
+14 Name=LZEXPAND_14 Pascal=0
+15 Name=LZEXPAND_15 Pascal=0
+16 Name=LZEXPAND_16 Pascal=0
+17 Name=LZEXPAND_17 Pascal=0
+18 Name=LZEXPAND_18 Pascal=0
+19 Name=LZEXPAND_19 Pascal=0
+20 Name=LZEXPAND_20 Pascal=0
+21 Name=LZEXPAND_21 Pascal=0
+22 Name=LZEXPAND_22 Pascal=0
+23 Name=LZEXPAND_23 Pascal=0
+24 Name=LZEXPAND_24 Pascal=0
+25 Name=LZEXPAND_25 Pascal=0
+26 Name=LZEXPAND_26 Pascal=0
+27 Name=LZEXPAND_27 Pascal=0
+28 Name=LZEXPAND_28
+29 Name=LZEXPAND_29
+30 Name=LZEXPAND_30 Pascal=0
+;------------------EOF------------------

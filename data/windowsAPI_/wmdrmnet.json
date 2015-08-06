@@ -1,0 +1,1 @@
+{"config": {"exports": {"WMDRMNET.dll:DllRegisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "WMDRMNET.dll:WMCreateDRMTranscryptorPriv": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "1"}}}}

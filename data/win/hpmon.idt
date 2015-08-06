@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=HPMON.dll Args=0 Drops=12
+;---------------------------------------
+1 Name=AddPortW Pascal=12
+2 Name=ClosePort Pascal=4
+3 Name=ConfigurePortW Pascal=12
+4 Name=DeletePortW Pascal=12
+5 Name=EndDocPort Pascal=4
+6 Name=EnumPortsW Pascal=24
+7 Name=InitializeMonitor Pascal=4
+8 Name=LibMain Pascal=12
+9 Name=OpenPort Pascal=8
+10 Name=ReadPort Pascal=16
+11 Name=StartDocPort Pascal=20
+12 Name=WritePort Pascal=16
+;------------------EOF------------------

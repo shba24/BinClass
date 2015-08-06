@@ -1,0 +1,1 @@
+{"config": {"exports": {"DNSPERF.dll:CollectDnsPerformanceData": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "2"}, "DNSPERF.dll:OpenDnsPerformanceData": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "1"}, "DNSPERF.dll:CloseDnsPerformanceData": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "3"}}}}

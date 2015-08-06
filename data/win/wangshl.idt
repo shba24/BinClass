@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WANGSHL.dll Pascal=0
+;---------------------------------------
+1 Name=DllCanUnloadNow
+2 Name=DllGetClassObject
+;------------------EOF------------------

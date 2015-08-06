@@ -1,0 +1,57 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msgina.dll Args=0 Drops=26
+;---------------------------------------
+1 Name=MSGINA_1
+2 Name=MSGINA_2
+3 Name=MSGINA_3 Pascal=0
+4 Name=MSGINA_4
+5 Name=MSGINA_5
+6 Name=MSGINA_6
+7 Name=MSGINA_7
+8 Name=MSGINA_8
+9 Name=MSGINA_9
+10 Name=MSGINA_10
+11 Name=MSGINA_11
+12 Name=MSGINA_12
+13 Name=MSGINA_13
+14 Name=MSGINA_14 Pascal=8
+15 Name=MSGINA_15
+16 Name=MSGINA_16
+17 Name=MSGINA_17
+18 Name=MSGINA_18
+19 Name=MSGINA_19
+20 Name=MSGINA_20
+21 Name=MSGINA_21
+22 Name=MSGINA_22
+23 Name=MSGINA_23
+24 Name=MSGINA_24
+25 Name=MSGINA_25 Pascal=4
+26 Name=MSGINA_26
+27 Name=MSGINA_27
+28 Name=MSGINA_28 Pascal=0
+29 Name=ShellShutdownDialog Pascal=12
+30 Name=WlxActivateUserShell Pascal=16
+31 Name=WlxDisconnectNotify Pascal=4
+32 Name=WlxDisplayLockedNotice Pascal=4
+33 Name=WlxDisplaySASNotice Pascal=4
+34 Name=WlxDisplayStatusMessage Pascal=20
+35 Name=WlxGetConsoleSwitchCredentials Pascal=8
+36 Name=WlxGetStatusMessage Pascal=16
+37 Name=WlxInitialize Pascal=20
+38 Name=WlxIsLockOk Pascal=4
+39 Name=WlxIsLogoffOk Pascal=4
+40 Name=WlxLoggedOnSAS Pascal=12
+41 Name=WlxLoggedOutSAS Pascal=32
+42 Name=WlxLogoff Pascal=4
+43 Name=WlxNegotiate Pascal=8
+44 Name=WlxNetworkProviderLoad Pascal=8
+45 Name=WlxReconnectNotify Pascal=4
+46 Name=WlxRemoveStatusMessage Pascal=4
+47 Name=WlxScreenSaverNotify Pascal=8
+48 Name=WlxShutdown Pascal=8
+49 Name=WlxStartApplication Pascal=16
+50 Name=WlxWkstaLockedSAS Pascal=8
+;------------------EOF------------------

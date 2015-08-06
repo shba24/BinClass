@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=sfc_os.dll Args=0 Drops=11
+;---------------------------------------
+1 Name=sfc_os_1 Pascal=28
+2 Name=sfc_os_2 Pascal=0
+3 Name=sfc_os_3 Pascal=4
+4 Name=sfc_os_4 Pascal=4
+5 Name=sfc_os_5 Pascal=12
+6 Name=sfc_os_6 Pascal=8
+7 Name=sfc_os_7 Pascal=28
+8 Name=SfcGetNextProtectedFile Pascal=8
+9 Name=SfcIsFileProtected Pascal=8
+10 Name=SfcWLEventLogoff Pascal=4
+11 Name=SfcWLEventLogon Pascal=4
+;------------------EOF------------------

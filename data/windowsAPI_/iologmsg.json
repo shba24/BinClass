@@ -1,0 +1,1 @@
+{"config": {"exports": {"IOLOGMSG.dll:DummyEntryPoint": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

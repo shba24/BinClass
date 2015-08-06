@@ -1,0 +1,52 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=httpapi.dll Args=0 Drops=45
+;---------------------------------------
+1 Name=HttpAddFragmentToCache Pascal=20
+2 Name=HttpAddUrl Pascal=12
+3 Name=HttpAddUrlToConfigGroup Pascal=24
+4 Name=HttpCreateAppPool Pascal=16
+5 Name=HttpCreateConfigGroup Pascal=8
+6 Name=HttpCreateFilter Pascal=16
+7 Name=HttpCreateHttpHandle Pascal=8
+8 Name=HttpDeleteConfigGroup Pascal=12
+9 Name=HttpDeleteServiceConfiguration Pascal=20
+10 Name=HttpFilterAccept Pascal=20
+11 Name=HttpFilterAppRead Pascal=28
+12 Name=HttpFilterAppWrite Pascal=28
+13 Name=HttpFilterAppWriteAndRawRead Pascal=12
+14 Name=HttpFilterClose Pascal=16
+15 Name=HttpFilterRawRead Pascal=28
+16 Name=HttpFilterRawWrite Pascal=28
+17 Name=HttpFilterRawWriteAndAppRead Pascal=12
+18 Name=HttpFlushResponseCache Pascal=16
+19 Name=HttpGetCounters Pascal=20
+20 Name=HttpInitialize Pascal=12
+21 Name=HttpOpenAppPool Pascal=12
+22 Name=HttpOpenControlChannel Pascal=8
+23 Name=HttpOpenFilter Pascal=12
+24 Name=HttpQueryAppPoolInformation Pascal=20
+25 Name=HttpQueryConfigGroupInformation Pascal=28
+26 Name=HttpQueryControlChannelInformation Pascal=20
+27 Name=HttpQueryServiceConfiguration Pascal=32
+28 Name=HttpReadFragmentFromCache Pascal=28
+29 Name=HttpReceiveClientCertificate Pascal=32
+30 Name=HttpReceiveHttpRequest Pascal=32
+31 Name=HttpReceiveRequestEntityBody Pascal=32
+32 Name=HttpRemoveAllUrlsFromConfigGroup Pascal=12
+33 Name=HttpRemoveUrl Pascal=8
+34 Name=HttpRemoveUrlFromConfigGroup Pascal=16
+35 Name=HttpSendHttpResponse Pascal=44
+36 Name=HttpSendResponseEntityBody Pascal=44
+37 Name=HttpSetAppPoolInformation Pascal=16
+38 Name=HttpSetConfigGroupInformation Pascal=24
+39 Name=HttpSetControlChannelInformation Pascal=16
+40 Name=HttpSetServiceConfiguration Pascal=20
+41 Name=HttpShutdownAppPool Pascal=4
+42 Name=HttpShutdownFilter Pascal=4
+43 Name=HttpTerminate Pascal=8
+44 Name=HttpWaitForDemandStart Pascal=20
+45 Name=HttpWaitForDisconnect Pascal=16
+;------------------EOF------------------

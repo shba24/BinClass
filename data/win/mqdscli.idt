@@ -1,0 +1,33 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mqdscli.dll Args=0 Drops=25
+;---------------------------------------
+1 Name=DSBeginDeleteNotification Pascal=8
+2 Name=DSClientInit Pascal=16
+3 Name=DSCreateObject Pascal=28
+4 Name=DSCreateServersCache Pascal=0
+5 Name=DSDeleteObject Pascal=8
+6 Name=DSDeleteObjectGuid Pascal=8
+7 Name=DSEndDeleteNotification Pascal=4
+8 Name=DSFreeMemory
+9 Name=DSGetComputerSites Pascal=12
+10 Name=DSGetObjectProperties Pascal=20
+11 Name=DSGetObjectPropertiesEx Pascal=20
+12 Name=DSGetObjectPropertiesGuid Pascal=20
+13 Name=DSGetObjectPropertiesGuidEx Pascal=20
+14 Name=DSGetObjectSecurity Pascal=24
+15 Name=DSGetObjectSecurityGuid Pascal=24
+16 Name=DSGetUserParams Pascal=32
+17 Name=DSLookupBegin Pascal=20
+18 Name=DSLookupEnd Pascal=4
+19 Name=DSLookupNext Pascal=12
+20 Name=DSNotifyDelete Pascal=4
+21 Name=DSQMGetObjectSecurity Pascal=32
+22 Name=DSSetObjectProperties Pascal=20
+23 Name=DSSetObjectPropertiesGuid Pascal=20
+24 Name=DSSetObjectSecurity Pascal=16
+25 Name=DSSetObjectSecurityGuid Pascal=16
+26 Name=DSTerminate Pascal=0
+;------------------EOF------------------

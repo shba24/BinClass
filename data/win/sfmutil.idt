@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SFMUTIL.dll Pascal=0
+;---------------------------------------
+1 Name=UtilDLLInit
+2 Name=CopyUamFiles
+3 Name=WriteAfpMgrIniStrings
+4 Name=GetPrintProcDir
+5 Name=AddPrintProc
+6 Name=DeletePrintProc
+7 Name=SfmAddPrintMonitor
+8 Name=SfmDeletePrintMonitor
+9 Name=DelFile
+10 Name=SfmSetUamSecurity
+;------------------EOF------------------

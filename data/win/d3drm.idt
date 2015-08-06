@@ -1,0 +1,30 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=d3drm.dll Args=0 Drops=23
+;---------------------------------------
+1 Name=D3DRMColorGetAlpha Pascal=4
+2 Name=D3DRMColorGetBlue Pascal=4
+3 Name=D3DRMColorGetGreen Pascal=4
+4 Name=D3DRMColorGetRed Pascal=4
+5 Name=D3DRMCreateColorRGB Pascal=12
+6 Name=D3DRMCreateColorRGBA Pascal=16
+7 Name=D3DRMMatrixFromQuaternion Pascal=68
+8 Name=D3DRMQuaternionFromRotation Pascal=12
+9 Name=D3DRMQuaternionMultiply Pascal=12
+10 Name=D3DRMQuaternionSlerp Pascal=16
+11 Name=D3DRMVectorAdd Pascal=12
+12 Name=D3DRMVectorCrossProduct Pascal=12
+13 Name=D3DRMVectorDotProduct Pascal=8
+14 Name=D3DRMVectorModulus Pascal=4
+15 Name=D3DRMVectorNormalize Pascal=4
+16 Name=D3DRMVectorRandom Pascal=4
+17 Name=D3DRMVectorReflect Pascal=12
+18 Name=D3DRMVectorRotate Pascal=16
+19 Name=D3DRMVectorScale Pascal=12
+20 Name=D3DRMVectorSubtract Pascal=12
+21 Name=Direct3DRMCreate Pascal=4
+22 Name=DllCanUnloadNow Pascal=0
+23 Name=DllGetClassObject Pascal=12
+;------------------EOF------------------

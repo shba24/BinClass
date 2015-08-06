@@ -1,0 +1,81 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WSOCK32.dll Args=0 Drops=73
+;---------------------------------------
+1 Name=accept Pascal=12
+2 Name=bind Pascal=12
+3 Name=closesocket Pascal=4
+4 Name=connect Pascal=12
+5 Name=getpeername Pascal=12
+6 Name=getsockname Pascal=12
+7 Name=getsockopt Pascal=20
+8 Name=htonl Pascal=4
+9 Name=htons Pascal=4
+10 Name=inet_addr Pascal=4
+11 Name=inet_ntoa Pascal=4
+12 Name=ioctlsocket Pascal=12
+13 Name=listen Pascal=8
+14 Name=ntohl Pascal=4
+15 Name=ntohs Pascal=4
+16 Name=recv Pascal=16
+17 Name=recvfrom Pascal=24
+18 Name=select Pascal=20
+19 Name=send Pascal=16
+20 Name=sendto Pascal=24
+21 Name=setsockopt Pascal=20
+22 Name=shutdown Pascal=8
+23 Name=socket Pascal=12
+51 Name=gethostbyaddr Pascal=12
+52 Name=gethostbyname Pascal=4
+53 Name=getprotobyname Pascal=4
+54 Name=getprotobynumber Pascal=4
+55 Name=getservbyname Pascal=8
+56 Name=getservbyport Pascal=8
+57 Name=gethostname Pascal=8
+101 Name=WSAAsyncSelect Pascal=16
+102 Name=WSAAsyncGetHostByAddr Pascal=28
+103 Name=WSAAsyncGetHostByName Pascal=20
+104 Name=WSAAsyncGetProtoByNumber Pascal=20
+105 Name=WSAAsyncGetProtoByName Pascal=20
+106 Name=WSAAsyncGetServByPort Pascal=24
+107 Name=WSAAsyncGetServByName Pascal=24
+108 Name=WSACancelAsyncRequest Pascal=4
+109 Name=WSASetBlockingHook Pascal=4
+110 Name=WSAUnhookBlockingHook Pascal=0
+111 Name=WSAGetLastError Pascal=0
+112 Name=WSASetLastError Pascal=4
+113 Name=WSACancelBlockingCall Pascal=0
+114 Name=WSAIsBlocking Pascal=0
+115 Name=WSAStartup Pascal=8
+116 Name=WSACleanup Pascal=0
+151 Name=__WSAFDIsSet Pascal=8
+500 Name=WEP Pascal=0
+1000 Name=?WSApSetPostRoutine@@YGHPAX@Z
+1100 Name=inet_network Pascal=4
+1101 Name=getnetbyname Pascal=4
+1102 Name=rcmd Pascal=24
+1103 Name=rexec Pascal=24
+1104 Name=rresvport Pascal=4
+1105 Name=sethostname Pascal=8
+1106 Name=dn_expand Pascal=20
+1107 Name=WSARecvEx Pascal=16
+1108 Name=s_perror Pascal=8
+1109 Name=GetAddressByNameA Pascal=40
+1110 Name=GetAddressByNameW Pascal=40
+1111 Name=EnumProtocolsA Pascal=12
+1112 Name=EnumProtocolsW Pascal=12
+1113 Name=GetTypeByNameA Pascal=8
+1114 Name=GetTypeByNameW Pascal=8
+1115 Name=GetNameByTypeA Pascal=12
+1116 Name=GetNameByTypeW Pascal=12
+1117 Name=SetServiceA Pascal=24
+1118 Name=SetServiceW Pascal=24
+1119 Name=GetServiceA Pascal=28
+1120 Name=GetServiceW Pascal=28
+1130 Name=NPLoadNameSpaces Pascal=12
+1140 Name=TransmitFile Pascal=28
+1141 Name=AcceptEx Pascal=32
+1142 Name=GetAcceptExSockaddrs Pascal=32
+;------------------EOF------------------

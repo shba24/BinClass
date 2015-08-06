@@ -1,0 +1,70 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=rpcns4.dll Args=0 Drops=59
+;---------------------------------------
+1 Name=I_GetDefaultEntrySyntax Pascal=0
+2 Name=I_RpcNsGetBuffer Pascal=4
+3 Name=I_RpcNsNegotiateTransferSyntax Pascal=4
+4 Name=I_RpcNsRaiseException
+5 Name=I_RpcNsSendReceive
+6 Name=I_RpcReBindBuffer
+7 Name=RpcIfIdVectorFree
+8 Name=RpcNsBindingExportA Pascal=20
+9 Name=RpcNsBindingExportPnPA Pascal=16
+10 Name=RpcNsBindingExportPnPW Pascal=16
+11 Name=RpcNsBindingExportW Pascal=20
+12 Name=RpcNsBindingImportBeginA Pascal=20
+13 Name=RpcNsBindingImportBeginW Pascal=20
+14 Name=RpcNsBindingImportDone Pascal=4
+15 Name=RpcNsBindingImportNext Pascal=8
+16 Name=RpcNsBindingLookupBeginA Pascal=24
+17 Name=RpcNsBindingLookupBeginW Pascal=24
+18 Name=RpcNsBindingLookupDone Pascal=4
+19 Name=RpcNsBindingLookupNext Pascal=8
+20 Name=RpcNsBindingSelect Pascal=8
+21 Name=RpcNsBindingUnexportA Pascal=16
+22 Name=RpcNsBindingUnexportPnPA Pascal=16
+23 Name=RpcNsBindingUnexportPnPW Pascal=16
+24 Name=RpcNsBindingUnexportW Pascal=16
+25 Name=RpcNsEntryExpandNameA Pascal=12
+26 Name=RpcNsEntryExpandNameW Pascal=12
+27 Name=RpcNsEntryObjectInqBeginA Pascal=12
+28 Name=RpcNsEntryObjectInqBeginW Pascal=12
+29 Name=RpcNsEntryObjectInqDone Pascal=4
+30 Name=RpcNsEntryObjectInqNext Pascal=8
+31 Name=RpcNsGroupDeleteA Pascal=8
+32 Name=RpcNsGroupDeleteW Pascal=8
+33 Name=RpcNsGroupMbrAddA Pascal=16
+34 Name=RpcNsGroupMbrAddW Pascal=16
+35 Name=RpcNsGroupMbrInqBeginA Pascal=16
+36 Name=RpcNsGroupMbrInqBeginW Pascal=16
+37 Name=RpcNsGroupMbrInqDone Pascal=4
+38 Name=RpcNsGroupMbrInqNextA Pascal=8
+39 Name=RpcNsGroupMbrInqNextW Pascal=8
+40 Name=RpcNsGroupMbrRemoveA Pascal=16
+41 Name=RpcNsGroupMbrRemoveW Pascal=16
+42 Name=RpcNsMgmtBindingUnexportA Pascal=20
+43 Name=RpcNsMgmtBindingUnexportW Pascal=20
+44 Name=RpcNsMgmtEntryCreateA Pascal=8
+45 Name=RpcNsMgmtEntryCreateW Pascal=8
+46 Name=RpcNsMgmtEntryDeleteA Pascal=8
+47 Name=RpcNsMgmtEntryDeleteW Pascal=8
+48 Name=RpcNsMgmtEntryInqIfIdsA Pascal=12
+49 Name=RpcNsMgmtEntryInqIfIdsW Pascal=12
+50 Name=RpcNsMgmtHandleSetExpAge Pascal=8
+51 Name=RpcNsMgmtInqExpAge Pascal=4
+52 Name=RpcNsMgmtSetExpAge Pascal=4
+53 Name=RpcNsProfileDeleteA Pascal=8
+54 Name=RpcNsProfileDeleteW Pascal=8
+55 Name=RpcNsProfileEltAddA Pascal=28
+56 Name=RpcNsProfileEltAddW Pascal=28
+57 Name=RpcNsProfileEltInqBeginA Pascal=32
+58 Name=RpcNsProfileEltInqBeginW Pascal=32
+59 Name=RpcNsProfileEltInqDone Pascal=4
+60 Name=RpcNsProfileEltInqNextA Pascal=20
+61 Name=RpcNsProfileEltInqNextW Pascal=20
+62 Name=RpcNsProfileEltRemoveA Pascal=20
+63 Name=RpcNsProfileEltRemoveW Pascal=20
+;------------------EOF------------------

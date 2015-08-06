@@ -1,0 +1,33 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=VB5STKIT.dll Pascal=0
+;---------------------------------------
+1 Name=SyncShell
+2 Name=DLLSelfRegister
+3 Name=AllocUnit
+4 Name=SetTime
+5 Name=DISKSPACEFREE
+6 Name=GetWinPlatform
+7 Name=lmemcpy
+8 Name=fNTWithShell
+20 Name=AbortAction
+21 Name=AddActionNote
+22 Name=ChangeActionKey
+23 Name=CommitAction
+24 Name=fWithinAction
+25 Name=LogError
+26 Name=LogWarning
+27 Name=NewAction
+28 Name=EnableLogging
+29 Name=DisableLogging
+30 Name=LogNote
+31 Name=LogConfig
+50 Name=fCreateShellFolder
+51 Name=fCreateShellLink
+53 Name=fRemoveShellLink
+54 Name=GetLongPathName
+55 Name=RegisterTLB
+56 Name=GetClsidFromActXFile
+;------------------EOF------------------

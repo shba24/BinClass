@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=RASCFG.dll Pascal=0
+;---------------------------------------
+1 Name=DllMain
+2 Name=InitRasmanSecurityDescriptor
+3 Name=InitRemoteSecurityDescriptor
+4 Name=RasNotStrstr
+5 Name=RasPortsConfig
+6 Name=RenameIpxRouterToNwlnkRip
+7 Name=RenameRasHubToNdisWan
+;------------------EOF------------------

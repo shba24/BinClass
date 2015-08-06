@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=iuctl.dll Args=0 Drops=9
+;---------------------------------------
+1 Name=BeginSelfUpdate Pascal=0
+2 Name=LoadIUEngine Pascal=8
+3 Name=UnLoadIUEngine Pascal=4
+4 Name=CtlCancelEngineLoad Pascal=0
+5 Name=GetControlUpdateInfo Pascal=8
+6 Name=DllCanUnloadNow Pascal=0
+7 Name=DllGetClassObject Pascal=12
+8 Name=DllRegisterServer Pascal=0
+9 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

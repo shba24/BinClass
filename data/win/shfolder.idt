@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=shfolder.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=SHGetFolderPathA Pascal=20
+2 Name=SHGetFolderPathW Pascal=20
+;------------------EOF------------------

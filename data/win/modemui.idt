@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=modemui.dll Args=0 Drops=14
+;---------------------------------------
+2 Name=drvCommConfigDialogW Pascal=12
+3 Name=drvGetDefaultCommConfigA Pascal=12
+4 Name=drvSetDefaultCommConfigW Pascal=12
+5 Name=drvGetDefaultCommConfigA Pascal=12
+6 Name=drvGetDefaultCommConfigW Pascal=12
+7 Name=drvGetDefaultCommConfigA Pascal=12
+8 Name=UnimodemDevConfigDialog Pascal=32
+9 Name=CountryRunOnce Pascal=0
+10 Name=UnimodemGetDefaultCommConfig Pascal=12
+11 Name=UnimodemGetExtendedCaps Pascal=12
+12 Name=InvokeControlPanel Pascal=12
+13 Name=ModemCplDlgProc Pascal=16
+14 Name=ModemPropPagesProvider Pascal=12
+15 Name=QueryModemForCountrySettings Pascal=8
+;------------------EOF------------------

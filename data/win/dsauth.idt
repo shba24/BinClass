@@ -1,0 +1,31 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=dsauth.dll Args=0 Drops=23
+;---------------------------------------
+1 Name=DhcpAddServerDS Pascal=20
+2 Name=DhcpDeleteServerDS Pascal=20
+3 Name=DhcpDsAddServer Pascal=28
+4 Name=DhcpDsCleanupDS
+5 Name=DhcpDsDelServer Pascal=24
+6 Name=DhcpDsEnumServers Pascal=16
+7 Name=DhcpDsGetAttribs Pascal=40
+8 Name=DhcpDsGetLists Pascal=60
+9 Name=DhcpDsGetRoot Pascal=12
+10 Name=DhcpDsInitDS Pascal=8
+11 Name=DhcpDsSetLists Pascal=64
+12 Name=DhcpDsValidateService Pascal=32
+13 Name=DhcpEnumServersDS Pascal=20
+14 Name=StoreBeginSearch Pascal=12
+15 Name=StoreCleanupHandle Pascal=8
+16 Name=StoreCollectAttributes Pascal=20
+17 Name=StoreCreateObjectVA Pascal=0
+18 Name=StoreDeleteObject Pascal=12
+19 Name=StoreEndSearch Pascal=8
+20 Name=StoreGetHandle Pascal=20
+21 Name=StoreInitHandle Pascal=24
+22 Name=StoreSearchGetNext Pascal=12
+23 Name=StoreSetSearchOneLevel Pascal=8
+24 Name=StoreSetSearchSubTree Pascal=8
+;------------------EOF------------------

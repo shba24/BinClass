@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PMAILEXT.DLL Args=0 Drops=1
+;---------------------------------------
+1 Name=ExchEntryPoint Pascal=0
+;------------------EOF------------------

@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=cards.dll Args=0 Drops=6
+;---------------------------------------
+1 Name=WEP Pascal=4
+2 Name=cdtAnimate Pascal=20
+3 Name=cdtDraw Pascal=24
+4 Name=cdtDrawExt Pascal=32
+5 Name=cdtInit Pascal=8
+6 Name=cdtTerm Pascal=0
+;------------------EOF------------------

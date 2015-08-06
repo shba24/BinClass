@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=nls32.dll Pascal=0
+;---------------------------------------
+1 Name=LSRequest
+2 Name=LSRelease
+3 Name=LSFreeHandle
+4 Name=LSUpdate
+5 Name=LSGetMessage
+6 Name=LSQuery
+7 Name=LSEnumProviders
+8 Name=DllEntryPoint
+;------------------EOF------------------

@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wowfax.dll Args=0 Drops=3
+;---------------------------------------
+1 Name=DrvDisableDriver Pascal=0
+2 Name=DrvEnableDriver Pascal=12
+3 Name=DrvQueryDriverInfo Pascal=16
+;------------------EOF------------------

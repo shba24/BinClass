@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=IpxCfg.dll Pascal=0
+;---------------------------------------
+1 Name=RunIpxDlg
+2 Name=IPXCfgChk
+;------------------EOF------------------

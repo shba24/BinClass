@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=odbc32gt.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=Dispatch Pascal=60
+2 Name=Dispatch2 Pascal=60
+;------------------EOF------------------

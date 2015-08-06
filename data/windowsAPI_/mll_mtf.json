@@ -1,0 +1,1 @@
+{"config": {"exports": {"MLL_MTF.dll:MaxMediaLabel": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "2"}, "MLL_MTF.dll:ClaimMediaLabel": {"function": {"delta": "8", "convention": "stdcall"}, "ordinal": "1"}}}}

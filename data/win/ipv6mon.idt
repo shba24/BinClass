@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ipv6mon.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=GetResourceString Pascal=12
+2 Name=InitHelperDll Pascal=8
+;------------------EOF------------------

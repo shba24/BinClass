@@ -1,0 +1,1 @@
+{"config": {"exports": {"SCP32.DLL.dll:FTranslateUniToCp": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "4"}, "SCP32.DLL.dll:FTranslateCpToUni": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "3"}, "SCP32.DLL.dll:FTranslateScp": {"function": {"delta": "12", "convention": "stdcall"}, "ordinal": "1"}}}}

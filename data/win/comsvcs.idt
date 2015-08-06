@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=comsvcs.dll Args=0 Drops=2
+;---------------------------------------
+6 Name=DllUnregisterServerWeReallyMeanIt Pascal=0
+7 Name=CreateActivityInMTA Pascal=8
+;------------------EOF------------------

@@ -1,0 +1,27 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=traffic.dll Args=0 Drops=20
+;---------------------------------------
+1 Name=TcAddFilter Pascal=12
+2 Name=TcAddFlow Pascal=20
+3 Name=TcCloseInterface Pascal=4
+4 Name=TcDeleteFilter Pascal=4
+5 Name=TcDeleteFlow Pascal=4
+6 Name=TcDeregisterClient Pascal=4
+7 Name=TcEnumerateFlows Pascal=20
+8 Name=TcEnumerateInterfaces Pascal=12
+9 Name=TcGetFlowNameA Pascal=12
+10 Name=TcGetFlowNameW Pascal=12
+11 Name=TcModifyFlow Pascal=8
+12 Name=TcOpenInterfaceA Pascal=16
+13 Name=TcOpenInterfaceW Pascal=16
+14 Name=TcQueryFlowA Pascal=16
+15 Name=TcQueryFlowW Pascal=16
+16 Name=TcQueryInterface Pascal=20
+17 Name=TcRegisterClient Pascal=16
+18 Name=TcSetFlowA Pascal=16
+19 Name=TcSetFlowW Pascal=16
+20 Name=TcSetInterface Pascal=16
+;------------------EOF------------------

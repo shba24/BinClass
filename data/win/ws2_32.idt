@@ -1,0 +1,55 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WS2_32.dll Args=0 Drops=48
+;---------------------------------------
+1 Name=accept Pascal=12
+2 Name=bind Pascal=12
+3 Name=closesocket Pascal=4
+4 Name=connect Pascal=12
+5 Name=getpeername Pascal=12
+6 Name=getsockname Pascal=12
+7 Name=getsockopt Pascal=20
+8 Name=htonl Pascal=4
+9 Name=htons Pascal=4
+10 Name=ioctlsocket Pascal=12
+11 Name=inet_addr Pascal=4
+12 Name=inet_ntoa Pascal=4
+13 Name=listen Pascal=8
+14 Name=ntohl Pascal=4
+15 Name=ntohs Pascal=4
+16 Name=recv Pascal=16
+17 Name=recvfrom Pascal=24
+18 Name=select Pascal=20
+19 Name=send Pascal=16
+20 Name=sendto Pascal=24
+21 Name=setsockopt Pascal=20
+22 Name=shutdown Pascal=8
+23 Name=socket Pascal=12
+51 Name=gethostbyaddr Pascal=12
+52 Name=gethostbyname Pascal=4
+53 Name=getprotobyname Pascal=4
+54 Name=getprotobynumber Pascal=4
+55 Name=getservbyname Pascal=8
+56 Name=getservbyport Pascal=8
+57 Name=gethostname Pascal=8
+101 Name=WSAAsyncSelect Pascal=16
+102 Name=WSAAsyncGetHostByAddr Pascal=28
+103 Name=WSAAsyncGetHostByName Pascal=20
+104 Name=WSAAsyncGetProtoByNumber Pascal=20
+105 Name=WSAAsyncGetProtoByName Pascal=20
+106 Name=WSAAsyncGetServByPort Pascal=24
+107 Name=WSAAsyncGetServByName Pascal=24
+108 Name=WSACancelAsyncRequest Pascal=4
+109 Name=WSASetBlockingHook Pascal=4
+110 Name=WSAUnhookBlockingHook Pascal=0
+111 Name=WSAGetLastError Pascal=0
+112 Name=WSASetLastError Pascal=4
+113 Name=WSACancelBlockingCall Pascal=0
+114 Name=WSAIsBlocking Pascal=0
+115 Name=WSAStartup Pascal=8
+116 Name=WSACleanup Pascal=0
+151 Name=__WSAFDIsSet Pascal=8
+500 Name=WEP Pascal=0
+;------------------EOF------------------

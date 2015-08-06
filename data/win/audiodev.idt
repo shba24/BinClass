@@ -1,0 +1,33 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=audiodev.dll Args=0 Drops=26
+;---------------------------------------
+1 Name=_CDefFolderMenu_MergeMenu@16 Pascal=16
+2 Name=_CIDLData_CreateFromIDArray@16 Pascal=16
+3 Name=_ConnectToConnectionPoint@24 Pascal=24
+4 Name=DllCanUnloadNow Pascal=0
+5 Name=DllGetClassObject Pascal=12
+6 Name=DllRegisterServer Pascal=0
+7 Name=DllUnregisterServer Pascal=0
+8 Name=_GUIDFromStringW@8 Pascal=8
+9 Name=_GetUIVersion@0 Pascal=0
+10 Name=_IUnknown_AtomicRelease@4 Pascal=4
+11 Name=_IUnknown_GetWindow@8 Pascal=8
+12 Name=_IUnknown_QueryService@16 Pascal=16
+13 Name=_IUnknown_Set@8 Pascal=8
+14 Name=_IUnknown_SetSite@8 Pascal=8
+15 Name=_IsOS@4 Pascal=4
+16 Name=_ParseURLW@8 Pascal=8
+17 Name=_SHUnicodeToAnsi@12 Pascal=12
+18 Name=_SHCoCreateInstanceAC@20 Pascal=20
+19 Name=_SHFormatDateTimeW@16 Pascal=16
+20 Name=_SHGetMenuFromID@8 Pascal=8
+21 Name=_SHGetObjectCompatFlags@8 Pascal=8
+22 Name=_SHInvokeCommandOnContextMenu@20 Pascal=20
+23 Name=_SHInvokeCommandsOnContextMenu@24 Pascal=24
+24 Name=_SHLoadRegUIStringW@16 Pascal=16
+25 Name=_SHStringFromGUIDW@12 Pascal=12
+26 Name=_SHUnicodeToAnsi@12 Pascal=12
+;------------------EOF------------------

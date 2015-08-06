@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=upnpui.dll Args=0 Drops=7
+;---------------------------------------
+1 Name=DllCanUnloadNow Pascal=0
+2 Name=DllGetClassObject Pascal=12
+3 Name=DllRegisterServer Pascal=0
+4 Name=DllUnregisterServer Pascal=0
+5 Name=InstallUPnPUI Pascal=4
+6 Name=IsUPnPUIInstalled Pascal=0
+7 Name=UnInstallUPnPUI Pascal=4
+;------------------EOF------------------

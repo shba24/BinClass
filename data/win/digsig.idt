@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=digsig.dll Pascal=0
+;---------------------------------------
+1 Name=DllCanUnloadNow
+2 Name=DllGetClassObject
+3 Name=DllRegisterServer
+4 Name=DllUnregisterServer
+10 Name=CreatePkcs10
+11 Name=CreateX509
+12 Name=CreatePkcs7SignedData
+13 Name=CreateX500Name
+14 Name=OpenCertificateStore
+15 Name=CreateMsDefKeyPair
+16 Name=CreateCABSigner
+;------------------EOF------------------

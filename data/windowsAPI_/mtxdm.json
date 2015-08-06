@@ -1,0 +1,1 @@
+{"config": {"exports": {"MTXDM.dll:GetDispenserManager": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "1"}}}}

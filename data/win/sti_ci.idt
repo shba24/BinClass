@@ -1,0 +1,30 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=sti_ci.dll Args=0 Drops=22
+;---------------------------------------
+1 Name=??0BUFFER@@QAE@I@Z Pascal=4
+2 Name=??0BUFFER_CHAIN@@QAE@XZ Pascal=0
+3 Name=??0BUFFER_CHAIN_ITEM@@QAE@I@Z Pascal=4
+4 Name=??1BUFFER@@QAE@XZ Pascal=0
+5 Name=??1BUFFER_CHAIN@@QAE@XZ
+6 Name=??1BUFFER_CHAIN_ITEM@@QAE@XZ Pascal=0
+7 Name=??_FBUFFER@@QAEXXZ Pascal=0
+8 Name=??_FBUFFER_CHAIN_ITEM@@QAEXXZ Pascal=0
+9 Name=AddDevice Pascal=16
+10 Name=InstallWiaService Pascal=16
+11 Name=MigrateDevice Pascal=4
+12 Name=?QueryPtr@BUFFER@@QBEPAXXZ Pascal=0
+13 Name=?QuerySize@BUFFER@@QBEIXZ Pascal=0
+14 Name=?QueryUsed@BUFFER_CHAIN_ITEM@@QBEKXZ Pascal=0
+15 Name=?SetUsed@BUFFER_CHAIN_ITEM@@QAEXK@Z Pascal=4
+16 Name=WiaAddDevice Pascal=0
+17 Name=WiaCreatePortList Pascal=4
+18 Name=WiaCreateWizardMenu Pascal=16
+19 Name=WiaDestroyPortList Pascal=4
+20 Name=WiaRemoveDevice Pascal=4
+21 Name=ClassInstall Pascal=12
+22 Name=CoinstallerEntry Pascal=16
+23 Name=PTPCoinstallerEntry Pascal=16
+;------------------EOF------------------

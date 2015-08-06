@@ -1,0 +1,44 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=schannel.dll Args=0 Drops=13
+;---------------------------------------
+1 Name=AcceptSecurityContext
+2 Name=AcquireCredentialsHandleA
+3 Name=AcquireCredentialsHandleW
+4 Name=ApplyControlToken
+5 Name=CloseSslPerformanceData Pascal=0
+6 Name=CollectSslPerformanceData Pascal=16
+7 Name=CompleteAuthToken
+8 Name=DeleteSecurityContext
+9 Name=EnumerateSecurityPackagesA
+10 Name=EnumerateSecurityPackagesW
+11 Name=FreeContextBuffer
+12 Name=FreeCredentialsHandle
+13 Name=ImpersonateSecurityContext
+14 Name=InitSecurityInterfaceA
+15 Name=InitSecurityInterfaceW
+16 Name=InitializeSecurityContextA
+17 Name=InitializeSecurityContextW
+18 Name=MakeSignature
+19 Name=OpenSslPerformanceData Pascal=4
+20 Name=QueryContextAttributesA
+21 Name=QueryContextAttributesW
+22 Name=QuerySecurityPackageInfoA
+23 Name=QuerySecurityPackageInfoW
+24 Name=RevertSecurityContext
+25 Name=SealMessage
+26 Name=SpLsaModeInitialize Pascal=16
+27 Name=SpUserModeInitialize Pascal=16
+28 Name=SslCrackCertificate Pascal=16
+29 Name=SslEmptyCacheA Pascal=8
+30 Name=SslEmptyCacheW Pascal=8
+31 Name=SslFreeCertificate Pascal=4
+32 Name=SslGenerateKeyPair Pascal=16
+33 Name=SslGenerateRandomBits Pascal=8
+34 Name=SslGetMaximumKeySize Pascal=4
+35 Name=SslLoadCertificate Pascal=12
+36 Name=UnsealMessage
+37 Name=VerifySignature
+;------------------EOF------------------

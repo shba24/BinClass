@@ -1,0 +1,95 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=syssetup.dll Args=0 Drops=85
+;---------------------------------------
+1 Name=AsrAddSifEntryA Pascal=12
+2 Name=AsrAddSifEntryW Pascal=12
+3 Name=AsrCreateStateFileA Pascal=20
+4 Name=AsrCreateStateFileW Pascal=20
+5 Name=AsrFreeContext Pascal=4
+6 Name=AsrRestorePlugPlayRegistryData Pascal=16
+7 Name=AsrpGetLocalDiskInfo Pascal=20
+8 Name=AsrpGetLocalVolumeInfo Pascal=20
+9 Name=AsrpRestoreNonCriticalDisksW Pascal=8
+10 Name=ComputerClassInstaller Pascal=12
+11 Name=CreateLocalAdminAccount Pascal=12
+12 Name=CreateLocalAdminAccountEx Pascal=16
+13 Name=CreateLocalUserAccount Pascal=12
+14 Name=CriticalDeviceCoInstaller Pascal=16
+15 Name=SetupCreateOptionalComponentsPage Pascal=8
+16 Name=DeviceBayClassInstaller Pascal=12
+17 Name=TapePropPageProvider Pascal=12
+18 Name=DoInstallComponentInfs Pascal=20
+19 Name=EisaUpHalCoInstaller
+20 Name=GenerateName Pascal=8
+21 Name=GetAnswerFileSetting Pascal=16
+22 Name=VolumeClassInstaller Pascal=12
+23 Name=InitializeSetupLog Pascal=4
+24 Name=InstallWindowsNt Pascal=8
+25 Name=InvokeExternalApplicationEx Pascal=20
+26 Name=KeyboardClassInstaller Pascal=12
+27 Name=LegacyDriverPropPageProvider Pascal=12
+28 Name=MigrateExceptionPackages Pascal=12
+29 Name=MouseClassInstaller Pascal=12
+30 Name=NtApmClassInstaller Pascal=12
+31 Name=OpkCheckVersion Pascal=8
+32 Name=PS2MousePropPageProvider Pascal=12
+33 Name=PnPInitializationThread Pascal=4
+34 Name=PrepareForAudit Pascal=0
+35 Name=RepairStartMenuItems Pascal=0
+36 Name=ReportError Pascal=0
+37 Name=RunOEMExtraTasks Pascal=0
+38 Name=ScsiClassInstaller Pascal=12
+39 Name=SetAccountsDomainSid Pascal=8
+40 Name=SetupAddOrRemoveTestCertificate Pascal=8
+41 Name=SetupChangeFontSize Pascal=8
+42 Name=SetupChangeLocale Pascal=8
+43 Name=SetupChangeLocaleEx Pascal=24
+44 Name=SetupCreateOptionalComponentsPage Pascal=8
+45 Name=SetupDestroyLanguageList Pascal=8
+46 Name=SetupDestroyPhoneList Pascal=0
+47 Name=SetupEnumerateRegisteredOsComponents Pascal=8
+48 Name=SetupExtendPartition Pascal=8
+49 Name=SetupGetGeoOptions Pascal=16
+50 Name=SetupGetInstallMode Pascal=8
+51 Name=SetupGetKeyboardOptions Pascal=16
+52 Name=SetupGetLocaleOptions Pascal=16
+53 Name=SetupGetProductType Pascal=8
+54 Name=SetupGetSetupInfo Pascal=28
+55 Name=SetupGetValidEula Pascal=8
+56 Name=SetupIEHardeningSettings Pascal=8
+57 Name=SetupInfObjectInstallActionW
+58 Name=SetupInstallCatalog Pascal=4
+59 Name=SetupMapTapiToIso Pascal=12
+60 Name=SetupOobeBnk Pascal=4
+61 Name=SetupOobeCleanup Pascal=4
+62 Name=SetupOobeInitDebugLog Pascal=0
+63 Name=SetupOobeInitPostServices Pascal=4
+64 Name=SetupOobeInitPreServices Pascal=4
+65 Name=SetupPidGen3 Pascal=28
+66 Name=SetupQueryRegisteredOsComponent Pascal=12
+67 Name=SetupQueryRegisteredOsComponentsOrder Pascal=8
+68 Name=SetupReadPhoneList Pascal=4
+69 Name=SetupRegisterOsComponent Pascal=8
+70 Name=SetupSetAdminPassword Pascal=8
+71 Name=SetupSetDisplay Pascal=28
+72 Name=SetupSetIntlOptions Pascal=12
+73 Name=SetupSetRegisteredOsComponentsOrder Pascal=8
+74 Name=SetupSetSetupInfo
+75 Name=SetupShellSettings Pascal=8
+76 Name=SetupStartService Pascal=8
+77 Name=SetupUnRegisterOsComponent Pascal=4
+78 Name=StorageCoInstaller Pascal=16
+79 Name=SystemUpdateUserProfileDirectory Pascal=4
+80 Name=VolumeClassInstaller Pascal=12
+81 Name=TapePropPageProvider Pascal=12
+82 Name=TerminateSetupLog Pascal=4
+83 Name=UpdatePnpDeviceDrivers Pascal=0
+84 Name=UpgradePrinters Pascal=0
+85 Name=ViewSetupActionLog Pascal=12
+86 Name=VolumeClassInstaller Pascal=12
+87 Name=pSetupDebugPrint Pascal=0
+88 Name=pSetuplogSfcError Pascal=8
+;------------------EOF------------------

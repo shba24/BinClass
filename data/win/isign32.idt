@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=isign32.dll Args=0 Drops=10
+;---------------------------------------
+1 Name=AutoDialLogonA Pascal=16
+2 Name=AutoDialLogonA Pascal=16
+3 Name=AutoDialLogonW Pascal=16
+4 Name=AutoDialSignupA Pascal=16
+5 Name=AutoDialSignupA Pascal=16
+6 Name=AutoDialSignupW Pascal=16
+7 Name=IEAKProcessISPA Pascal=8
+8 Name=IEAKProcessISPA Pascal=8
+9 Name=IEAKProcessISPW Pascal=8
+10 Name=Signup Pascal=16
+;------------------EOF------------------

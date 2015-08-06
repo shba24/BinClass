@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=VKBD.dll Pascal=0
+;---------------------------------------
+1 Name=VDHREGISTERSCREENPROC
+2 Name=VDHQUERYKEYSHIFT
+3 Name=VDHWAKEIDLE
+4 Name=VDHREPORTPEEK
+5 Name=VDHNOTIDLE
+6 Name=VDHGETBUSYFLAGPTR
+7 Name=VKPDDPROC
+;------------------EOF------------------

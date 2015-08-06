@@ -1,0 +1,51 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mcd32.dll Args=0 Drops=44
+;---------------------------------------
+1 Name=MCDAddState Pascal=12
+2 Name=MCDAddStateStruct Pascal=16
+3 Name=MCDAlloc Pascal=16
+4 Name=MCDAllocBuffers Pascal=8
+5 Name=MCDBeginState Pascal=8
+6 Name=MCDBindContext Pascal=12
+7 Name=MCDClear Pascal=24
+8 Name=MCDCopyPixels Pascal=24
+9 Name=MCDCreateContext Pascal=20
+10 Name=MCDCreateTexture Pascal=16
+11 Name=MCDDeleteContext Pascal=4
+12 Name=MCDDeleteTexture Pascal=8
+13 Name=MCDDescribeLayerPlane Pascal=16
+14 Name=MCDDescribeMcdLayerPlane Pascal=16
+15 Name=MCDDescribeMcdPixelFormat Pascal=12
+16 Name=MCDDescribePixelFormat Pascal=12
+17 Name=MCDDestroyWindow Pascal=8
+18 Name=MCDDrawPixels Pascal=28
+19 Name=MCDFlushState Pascal=4
+20 Name=MCDFree Pascal=8
+21 Name=MCDGetBuffers Pascal=8
+22 Name=MCDGetDriverInfo Pascal=8
+23 Name=MCDGetTextureFormats Pascal=12
+24 Name=MCDLock Pascal=4
+25 Name=MCDPixelMap Pascal=16
+26 Name=MCDProcessBatch2 Pascal=40
+27 Name=MCDProcessBatch Pascal=24
+28 Name=MCDQueryMemStatus Pascal=4
+29 Name=MCDReadPixels Pascal=32
+30 Name=MCDReadSpan Pascal=24
+31 Name=MCDSetLayerPalette Pascal=20
+32 Name=MCDSetScissorRect Pascal=12
+33 Name=MCDSetViewport Pascal=12
+34 Name=MCDSwap Pascal=8
+35 Name=MCDSwapMultiple Pascal=12
+36 Name=MCDSync Pascal=4
+37 Name=MCDTextureKey Pascal=8
+38 Name=MCDTextureStatus Pascal=8
+39 Name=MCDUnlock Pascal=4
+40 Name=MCDUpdateSubTexture Pascal=20
+41 Name=MCDUpdateTexturePalette Pascal=20
+42 Name=MCDUpdateTexturePriority Pascal=12
+43 Name=MCDUpdateTextureState Pascal=12
+44 Name=MCDWriteSpan Pascal=24
+;------------------EOF------------------

@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=d3d8.dll Args=0 Drops=5
+;---------------------------------------
+1 Name=CheckFullscreen Pascal=0
+2 Name=ValidatePixelShader Pascal=16
+3 Name=ValidateVertexShader Pascal=20
+4 Name=DebugSetMute Pascal=0
+5 Name=Direct3DCreate8 Pascal=4
+;------------------EOF------------------

@@ -1,0 +1,119 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=duser.dll Args=0 Drops=106
+;---------------------------------------
+1 Name=DUserCastHandle Pascal=4
+2 Name=DUserDeleteGadget Pascal=4
+3 Name=GetStdColorBrushF Pascal=4
+4 Name=GetStdColorF Pascal=8
+5 Name=GetStdColorPenF Pascal=4
+6 Name=UtilDrawOutlineRect
+7 Name=AddGadgetMessageHandler Pascal=12
+8 Name=AttachWndProcA Pascal=12
+9 Name=AttachWndProcW Pascal=12
+10 Name=AutoTrace Pascal=0
+11 Name=BeginTransition Pascal=8
+12 Name=BuildAnimation Pascal=20
+13 Name=BuildDropTarget Pascal=8
+14 Name=BuildInterpolation Pascal=16
+15 Name=CreateAction Pascal=4
+16 Name=CreateGadget Pascal=16
+17 Name=CreateTransition Pascal=4
+18 Name=DUserBuildGadget Pascal=8
+19 Name=DUserCastClass Pascal=8
+20 Name=DUserCastDirect
+21 Name=DUserFindClass Pascal=8
+22 Name=DUserGetAlphaPRID Pascal=0
+23 Name=DUserGetGutsData Pascal=8
+24 Name=DUserGetRectPRID Pascal=0
+25 Name=DUserGetRotatePRID Pascal=0
+26 Name=DUserGetScalePRID Pascal=0
+27 Name=DUserInstanceOf Pascal=8
+28 Name=DUserPostEvent Pascal=8
+29 Name=DUserPostMethod Pascal=4
+30 Name=DUserRegisterGuts Pascal=4
+31 Name=DUserRegisterStub Pascal=4
+32 Name=DUserRegisterSuper Pascal=4
+33 Name=DUserSendEvent Pascal=8
+34 Name=DUserSendMethod Pascal=4
+35 Name=DUserStopAnimation Pascal=8
+36 Name=DeleteHandle Pascal=4
+37 Name=DetachWndProc Pascal=12
+38 Name=DllMain Pascal=12
+39 Name=DrawGadgetTree Pascal=16
+40 Name=EndTransition Pascal=8
+41 Name=EnumGadgets Pascal=16
+42 Name=FindGadgetFromPoint Pascal=20
+43 Name=FindGadgetMessages Pascal=12
+44 Name=FindStdColor Pascal=4
+45 Name=FireGadgetMessages Pascal=12
+46 Name=ForwardGadgetMessage Pascal=20
+47 Name=GetActionTimeslice Pascal=4
+48 Name=GetDebug Pascal=0
+49 Name=GetGadget Pascal=8
+50 Name=GetGadgetAnimation Pascal=16
+51 Name=GetGadgetBufferInfo Pascal=8
+52 Name=GetGadgetCenterPoint Pascal=12
+53 Name=GetGadgetFocus Pascal=0
+54 Name=GetGadgetMessageFilter Pascal=8
+55 Name=GetGadgetProperty Pascal=12
+56 Name=GetGadgetRect Pascal=12
+57 Name=GetGadgetRgn Pascal=16
+58 Name=GetGadgetRootInfo Pascal=8
+59 Name=GetGadgetRotation Pascal=8
+60 Name=GetGadgetScale Pascal=12
+61 Name=GetGadgetSize Pascal=8
+62 Name=GetGadgetStyle Pascal=4
+63 Name=GetGadgetTicket Pascal=4
+64 Name=GetMessageExA Pascal=16
+65 Name=GetMessageExW Pascal=16
+66 Name=GetStdColorBrushI Pascal=4
+67 Name=GetStdColorI Pascal=4
+68 Name=GetStdColorName Pascal=4
+69 Name=GetStdColorPenI Pascal=4
+70 Name=GetStdPalette
+71 Name=GetTransitionInterface Pascal=8
+72 Name=InitGadgetComponent Pascal=4
+73 Name=InitGadgets Pascal=4
+74 Name=InvalidateGadget Pascal=4
+75 Name=IsGadgetParentChainStyle Pascal=16
+76 Name=IsInsideContext Pascal=4
+77 Name=IsStartDelete Pascal=8
+78 Name=LookupGadgetTicket Pascal=4
+79 Name=MapGadgetPoints Pascal=16
+80 Name=PeekMessageExA Pascal=20
+81 Name=PeekMessageExW Pascal=20
+82 Name=PlayTransition Pascal=8
+83 Name=PrintTransition Pascal=8
+84 Name=RegisterGadgetMessage Pascal=4
+85 Name=UnregisterGadgetMessageString Pascal=4
+86 Name=RegisterGadgetProperty Pascal=4
+87 Name=RemoveGadgetMessageHandler Pascal=12
+88 Name=RemoveGadgetProperty Pascal=8
+89 Name=SetActionTimeslice Pascal=4
+90 Name=SetGadgetBufferInfo Pascal=8
+91 Name=SetGadgetCenterPoint Pascal=12
+92 Name=SetGadgetFillF Pascal=8
+93 Name=SetGadgetFillI Pascal=20
+94 Name=SetGadgetFocus Pascal=4
+95 Name=SetGadgetMessageFilter Pascal=16
+96 Name=SetGadgetOrder Pascal=12
+97 Name=SetGadgetParent Pascal=16
+98 Name=SetGadgetProperty Pascal=12
+99 Name=SetGadgetRect Pascal=24
+100 Name=SetGadgetRootInfo Pascal=8
+101 Name=SetGadgetRotation Pascal=8
+102 Name=SetGadgetScale Pascal=12
+103 Name=SetGadgetStyle Pascal=12
+104 Name=UninitGadgetComponent Pascal=4
+105 Name=UnregisterGadgetMessage Pascal=4
+106 Name=UnregisterGadgetMessageString Pascal=4
+107 Name=UnregisterGadgetProperty Pascal=4
+108 Name=UtilBuildFont
+109 Name=UtilDrawBlendRect
+110 Name=UtilGetColor
+111 Name=UtilSetBackground Pascal=8
+112 Name=WaitMessageEx Pascal=0
+;------------------EOF------------------

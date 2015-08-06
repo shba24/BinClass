@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=HYPERTRM.dll Pascal=0
+;---------------------------------------
+1 Name=DllCanUnloadNow
+2 Name=DllGetClassObject
+3 Name=InitInstance
+4 Name=MessageLoop
+5 Name=sessQuerySysFileHdl
+6 Name=sessQueryTranslateHdl
+7 Name=sfGetSessionItem
+8 Name=sfPutSessionItem
+;------------------EOF------------------

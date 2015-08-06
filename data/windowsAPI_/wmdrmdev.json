@@ -1,0 +1,1 @@
+{"config": {"exports": {"WMDRMDEV.dll:DllRegisterServer": {"function": {"delta": "-4", "convention": "stdcall"}, "ordinal": "2"}, "WMDRMDEV.dll:WMCreateDeviceRegistrationPriv": {"function": {"delta": "0", "convention": "stdcall"}, "ordinal": "1"}}}}

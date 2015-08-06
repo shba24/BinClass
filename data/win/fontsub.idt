@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=fontsub.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=CreateFontPackage Pascal=0
+2 Name=MergeFontPackage Pascal=0
+;------------------EOF------------------

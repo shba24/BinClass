@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=iprtprio.dll Args=0 Drops=3
+;---------------------------------------
+1 Name=ComputeRouteMetric Pascal=4
+2 Name=GetPriorityInfo Pascal=8
+3 Name=SetPriorityInfo Pascal=4
+;------------------EOF------------------

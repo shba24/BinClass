@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wzcdlg.dll Args=0 Drops=8
+;---------------------------------------
+1 Name=FlashConfigCreateNetworkW Pascal=16
+2 Name=HotSpotHelpW Pascal=16
+3 Name=FlashConfigRunWizard Pascal=8
+4 Name=WZCCanDestroyBalloon Pascal=12
+5 Name=WZCCanShowBalloon Pascal=24
+6 Name=WZCIsVanRunning Pascal=8
+7 Name=WZCOnBalloonClick Pascal=12
+8 Name=WZCQueryConnectionStatusText Pascal=12
+;------------------EOF------------------

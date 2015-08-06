@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=iprtrmgr.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=MapAddressToAdapter Pascal=4
+2 Name=MapInterfaceToAdapter Pascal=4
+3 Name=MapInterfaceToRouterIfType Pascal=4
+4 Name=StartRouter Pascal=12
+;------------------EOF------------------
