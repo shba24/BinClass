@@ -15,8 +15,24 @@
    * mkdir installTree (eg. BOOST_INSTALL )
    * ./bootstrap.sh --prefix=[installTree] (For help use ./bootstrap.sh --help )
    * ./bjam install --prefix=[installTree]
+
+[Robb Matzke, 2015-11-09] You might need to compile some boost
+libraries also. I usually need these for boost-1.53: chrono date_time
+filesystem iostreams program_options random regex signals system
+thread wave. I also add "-sNO_COMPRESSION=1 -sNO_ZLIB=1 -sNO_BZIP2=1"
+to the bjam (or b2) command.
+
 #### Rose Framework Installation ####
    * git clone https://github.com/matzke1/edg4x-rose
+
+[Robb Matzke, 2015-11-09] You should use the official ROSE repository
+instead of my semi-private version. The official repo is
+https://github.com/rose-compiler/rose.  You'll probably also need
+users to check out a particular commit. Everything in my edg4x-rose
+repo is also in the official repo. We're working on improving the ROSE
+installation instructions, which you can find at
+http://rosecompiler.org/ROSE_HTML_Reference/installation.html
+
    * mkdir buildRose
    * cd buildRose
    * export JAVA_HOME=/usr/apps/java/jdk1.5.0-11
@@ -53,3 +69,5 @@
 ### Contact me ###
 
 * Shubham Bansal (iN3O) [ illusionist.neo@gmail.com ]
+
+[Robb Matzke, 2015-11-09] Is your code released under an particular license?

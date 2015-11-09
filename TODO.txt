@@ -6,10 +6,20 @@ Quite recently it has come to our attention that in this case we were simply cho
 
 23 May
 
-I'm not sure I remember what we did at the time of the paper for this part.  I know that until recently we have picked one of the possible values and proceeded (in part due to a bug in our code).There was also a significantly broken portion of our code that attempted to track  ultiple values that has recently been replaced with the ITE approach that I mentioned.
-Yes.  The TreeNode/InternalNode/LeafNode objects from InsnSemanticsExpr supports an "ite(condition, value1, value2)" expression as one of the  iscOperators.  Thus it's possible to create an expression that contains two sub-values.
+I'm not sure I remember what we did at the time of the paper for this part.  I know that until recently we have picked one of the possible values and proceeded (in part due to a bug in our code).There was also a significantly broken portion of our code that attempted to track multiple values that has recently been replaced with the ITE approach that I mentioned.
+Yes.  The TreeNode/InternalNode/LeafNode objects from InsnSemanticsExpr supports an "ite(condition, value1, value2)" expression as one of the RiscOperators.  Thus it's possible to create an expression that contains two sub-values.
 The idea is to use ite(c1, x, ite(c2, y, z)).  We also keep a list of [x, y, z].  This code is not well tested and there is disagreement within our team about this, so please do not think that this is how you should do it.  The conditions are currently just unknown variables, which is bad, but it does permit a list of values.
 We merge states and introduce ITE expressions or unknown variables in places where it's not possible to reason correctly. We don't use this a lot, but will sometimes we will use it to answer questions like: Does this function return the same this-pointer?  It may also be used in other places that I've forgotten.
+
+[Robb Matzke, 2015-11-09] The most recent version of ROSE has the
+ability now to have sets of expressions using the OP_SET symbolic
+expression operator. The built-in symbolic merging can specify a
+maximum cardinality so a data-flow merge operation of two or more
+different expressions results in either a set of those expressions or
+BOTTOM if the set would be too large. Similar to your ITE approach,
+OP_SET gets translated to nested ITEs, but the conditions don't depend
+on the path.  E.g., (set a b c) gets translated to (ite (== x 0) a
+(ite (== x 1) b c)) where "x" is a new variable.
 
 28 May
 
@@ -24,6 +34,16 @@ Until very recently, we used the value from the "false" side of the branch.   Ou
 
 This is a place where we often make up new variables. :-( In a way this is still correct, since ite(<some-unknown>, A, B) means that it could be A or B, and we'll never know.  It would be better to put the correct condition here.
 
+[Robb Matzke, 2015-11-09] The projects/BinaryAnalysisTools/findPath is
+an area where I've been experimenting with similar things.  It's
+purpose is to find feasible paths between two points in a CFG and find
+the preconditions that would drive that path in a concrete
+execution. In one of the exeriements I used the symbolic value of EIP
+as the condition in the ITE expression. The data-flow is less likely
+to converge, but when it does, the evidence reported by the SMT solver
+includes the preconditions that drive some feasible path through the
+analyzed function.
+
 
 [[[ Simplex Method ]]]
 
@@ -33,8 +53,14 @@ For Windows yes, for Linux no.   We're interested in malware which is 95% Window
 
 We are now currently using teh Simplex method, but something very similar (and in many ways more complicated).  I recommend the simplex method.  YICES should be able to do it and is already used in ROSE. Setup the constraints, solve, and the add a constraint to search for a solution with a smaller stack delta (for the minimize part of the solution).  Ours doesn't actually work because the student quit before it worked.
 
-We are now currently using teh Simplex method, but something very similar (and in many ways more complicated).  I recommend the simplex method.  YICES should be able to do it and is already used in ROSE. Setup the constraints, solve, and the add a constraint to search for a solution with a smaller stack delta (for the minimize part of the solution).  Ours doesn't actually work because the student quit before it worked.
+We are now currently using the Simplex method, but something very similar (and in many ways more complicated).  I recommend the simplex method.  YICES should be able to do it and is already used in ROSE. Setup the constraints, solve, and the add a constraint to search for a solution with a smaller stack delta (for the minimize part of the solution).  Ours doesn't actually work because the student quit before it worked.
 
+[Robb Matzke, 2015-11-09] Just to be clear, ROSE doesn't use Ilfak's
+approach (yet) to solve for function net effects on the stack
+pointer. It does have some rudimentary analysis that's used during
+function discovery (partitioning), but it's just a symbolic
+data-flow. If ESP is not BOTTOM at the end of data-flow, then the
+initial ESP is subtracted from the final ESP to get the stack delta.
 
 [[[ Memory State Overwrite ]]] [[[DONE]]]
 
@@ -47,6 +73,11 @@ I mean the ordered list of all writes to memory for multiple instructions.  Ther
 
 I'm not sure I understand completely, but I believe that our code will do the right thing in your example.  I think it might be related to the memory aliasing problem I mentioned earlier.  In particular, if the initial value of ecx was ebp+var4, then instruction 00412C3F wrote the value in [419A58] into the stack variable [ebp+var4].
 This is memory aliasing, and ROSE does the "correct" thing, which is to say that we don't know the value of EAX without knowing whether the initial ECX was ebp+var4 or not.  Our memory model is both faster and simpler in that it just assumes that the aliasing does NOT happen.  We return that eax is the initial value of ECX, but technically, we're incorrect we do so.
+
+[Robb Matzke, 2015-11-09] Other users have also implemented similar
+memory states, so maybe this is something we could move into the ROSE
+library and make available for all? What are your feelings about
+contributing this back to ROSE?
 
 [[[ General ]]]
 
@@ -96,9 +127,35 @@ Actually, this is an unsolved problem for us as well.  There's a copy of specifi
 
           If not, this is officially a saved & restored register.  All other cases are parameters.[DONE]
 
+[Robb Matzke, 2015-11-09] We're developing a calling convention
+detecton analysis too. It's partly working but I got pulled off to do
+other things for a while. It's purpose is to analyze each function to
+figure out which registers are inputs vs. outputs vs. temporaries
+(saved/restored), and which memory is input and output. It saves this
+information, which can then be matched against a user-supplied
+dictionary of known calling conventions. The implementation is
+architecture independent. The new ROSE feature that makes this all
+possible is being able to store flag sets per bit of each register and
+per byte of memory and update those bits in the RiscOperators and the
+data-flow merge function.  For instance, there's a read-before-write
+bit which if present would indicate that the register or memory
+address is either an input parameter or a save/restored temporary. The
+code is in
+src/midend/binaryAnalyses/BinaryCallingConvention.[Ch]. It's not
+finished yet, but it's mostly working.
+
 
 [[[ Call Connection ]]] [[[DONE]]]
 We gather these facts, and when we come to each call instruction, we use that information to better "emulate" the call. For example, we'll create use-def dependencies between the last writer to ECX and the call instruction that uses __thiscall.  We'll also create use-def dependencies between the call and the push instructions that pushes parameters onto the stack.  We do this while emulating the basic blocks for creating the input/output states. [[For each function we also keep track of whether it returns a value in EAX]], and whether that value is a copy of the value of ECX at the start of the function.
+
+[Robb Matzke, 2015-11-09] Nice! This is a big missing part in our
+data-flow functions right now, which was the reason I was working on
+calling convention detection.  ROSE does have a very basic analysis
+that tries to determine if a function returns a value by looking at
+whether the function wrote to EAX and then whether any caller reads
+EAX right after the call returns.  But this is x86-specific,
+assumes that values are only returned in EAX, and is often wrong (as
+you point out below).
 
 [[[CALCULATE STACK OFFSET]]] [[[DONE]]]
 I tried to find the offset between initial ESP and the address which is getting written to by using RiscOperator's subtract operation.
@@ -111,6 +168,14 @@ Checking whether the value is read helps, but is not sufficient either.   There'
 
 [[[TARGET ADDRESS ]]] [[[DONE]]]
 There is a problem in calculating the target address of a call. simple getBranchTarget() will not give the target address of instructions like this "call ds:[address]". So, for that you have to go through the Control flow graph because the control flow graph knows because of the cross reference.
+
+[Robb Matzke, 2015-11-09] If you're referring to ROSE's CFG, it only
+knows "call ds:[address]" (or "call register") if the address is a
+known constant and not marked as writable in the MemoryMap, and it
+gets this by analysing only the basic block that ends with the CALL
+instruction.  Since CFGs are graphs which can be modified, one can do
+a more detailed analysis later (e.g., data-flow in a function) and add
+more edges.
 
 [[[CONSTRUCTOR IDENTIFICATION]]] [[[DONE]]]
 This is what we do.  We have some other checks for constructors, such as: constructors are only ever called as the first method on a class and never as a later method.  This reduces errors, but we still have them.  Initialization of global objects is a very similar case.  Please describe your check in more detail. :-)  Is it that you require the call to be the first read of the local stack variable?   This will probably reduce some errors and introduce others caused be reuse of the local variable.   I still thin kyour check would be an improvement though.
