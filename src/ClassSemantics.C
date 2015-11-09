@@ -127,7 +127,6 @@ namespace rose {
 					libraryThunkFixups(const Partitioner &partitioner, SgAsmInterpretation *interp){
 						if (interp==NULL)
 							return;
-
 						std::vector<Function::Ptr> functions = partitioner.functions();
 
 						// Get the addresses for the PE Import Address Tables
@@ -143,6 +142,11 @@ namespace rose {
 						// Build an index that maps addresses to entries in the import tables. The addresses are the addresses where the imported
 						// functions are expected to be mapped.
 						ModulesPe::ImportIndex importIndex = ModulesPe::getImportIndex(partitioner, interp);
+
+                                                // [Robb P. Matzke 2015-11-09] FYI,
+                                                // rose::BinaryAnalysis::Partitioner2::ModulesX86 now has some functions that
+                                                // help identify, name, and split thunks because a couple users have asked for
+                                                // it.
 
 						// Process each function that's attached to the CFG/AUM
 						BOOST_FOREACH (const Function::Ptr &function, functions) {
@@ -276,6 +280,13 @@ namespace rose {
 					SValue::getOffset(SValuePtr &other,int32_t &offset,SMTSolver *solver){
 						using namespace InsnSemanticsExpr;
 						const TreeNodePtr& baseExpr = other->get_expression();
+
+                                                // [Robb P. Matzke 2015-11-09] Just so you're aware... as part of our push to a
+                                                // ROSE 1.0 release we've renamed InsnSemanticsExpr to SymbolicExpr, the word
+                                                // "Node" was removed from "InternalNode*" and "LeafNode*" types, the word
+                                                // "Internal" was changed to "Interior" everywhere, and "Tree" was dropped from
+                                                // most type names.  The old names are still present and marked as
+                                                // deprecated. See commit message for 150101fd and 483e901c.
 
 						// checking for 0 offset
 						if(expr->must_equal(baseExpr,solver)){
@@ -642,6 +653,9 @@ namespace rose {
 						// The calls to ops->undefined(...) are mostly so that we're simplifying TOP as much as possible. We want each TOP
 						// value to be distinct from the others so we don't encounter things like "TOP xor TOP = 0", but we also don't want TOP
 						// to be arbitrarily complex since that just makes things slower.
+
+                                                // [Robb P. Matzke 2015-11-09] ROSE symbolic expressions can store bit flags
+                                                // now, one of which can be used to represent BOTTOM.
 						if (!dstValue && !srcValue) {                       // both are BOTTOM (not calculated)
 							return false;
 						} else if (!dstValue) {                             // dstValue is BOTTOM, srcValue is not
