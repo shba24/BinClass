@@ -1,6 +1,6 @@
 ///
 ///     Written By: Shubham Bansal (illusionist.neo@gmail.com)
-///     Blog :- http://in3o.me
+///     Blog :- http://in3o.xyz
 ///
 /// The MIT License (MIT)
 
@@ -102,7 +102,7 @@ struct Settings{
 		allowDiscontiguousBlocks(true),maxIterationsPerVertex(1),yamlOutputFile("output.yaml"),findFunctionPadding(true),
 		findDeadCode(true),intraFunctionCode(true),intraFunctionData(true),gvUseFunctionSubgraphs(true), gvShowInstructions(true),
 		gvShowFunctionReturns(true),gvControlFlowGraph(false),doOutputObjects(true),maxClassSize(0x100),verbose(false),useSMTSolver(false){
-			configurationName = boost::filesystem::current_path().string() + std::string("/../data/windowsAPI");
+			configurationName = boost::filesystem::current_path().string() + std::string("./../data/windowsAPI");
 		}
 };
 

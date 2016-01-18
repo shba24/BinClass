@@ -103,6 +103,7 @@ namespace rose {
 				typedef InsnSemanticsExpr::LeafNodePtr LeafNodePtr;
 				typedef InsnSemanticsExpr::InternalNode InternalNode;
 				typedef InsnSemanticsExpr::InternalNodePtr InternalNodePtr;
+				typedef InsnSemanticsExpr::TreeNode TreeNode;
 				typedef InsnSemanticsExpr::TreeNodePtr TreeNodePtr;
 				typedef boost::shared_ptr<class AbstractLocation> AbstractLocationPtr;
 				typedef BaseSemantics::MemoryCellPtr MemoryCellPtr;
@@ -181,37 +182,51 @@ namespace rose {
 					protected:
 						explicit SValue(size_t nbits): SymbolicSemantics::SValue(nbits) {}
 						explicit SValue(size_t nbits, uint64_t number): SymbolicSemantics::SValue(nbits,number) {}
+						explicit SValue(TreeNodePtr expr): SymbolicSemantics::SValue(expr){}
 						////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 						// Static allocating constructors
 					public:
+
 						/** Instantiate a new prototypical value. Prototypical values are only used for their virtual constructors. */
 						static SValuePtr instance() {
-							return SValuePtr(new SValue(1));
+							return SValuePtr(new SValue(LeafNode::create_variable(1)));
 						}
+
 						/** Instantiate a new undefined value of specified width. */
-						static SValuePtr instance(size_t nbits) {
-							return SValuePtr(new SValue(nbits));
+						static SValuePtr instance_undefined(size_t nbits) {
+							return SValuePtr(new SValue(LeafNode::create_variable(nbits)));
 						}
+
+						/** Instantiate a new unspecified value of specified width. */
+						static SValuePtr instance_unspecified(size_t nbits) {
+							return SValuePtr(new SValue(LeafNode::create_variable(nbits, "", TreeNode::UNSPECIFIED)));
+						}
+
 						/** Instantiate a new concrete value. */
-						static SValuePtr instance(size_t nbits, uint64_t value) {
-							return SValuePtr(new SValue(nbits, value));
+						static SValuePtr instance_integer(size_t nbits, uint64_t value) {
+							return SValuePtr(new SValue(LeafNode::create_integer(nbits, value)));
 						}
+
 						////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 						// Virtual allocating constructors
 					public:
 						virtual BaseSemantics::SValuePtr undefined_(size_t nbits) const ROSE_OVERRIDE {
-							return instance(nbits);
+							return instance_undefined(nbits);
 						}
 						virtual BaseSemantics::SValuePtr number_(size_t nbits, uint64_t value) const ROSE_OVERRIDE {
-							return instance(nbits, value);
+							return instance_integer(nbits, value);
+						}
+						virtual BaseSemantics::SValuePtr unspecified_(size_t nbits) const ROSE_OVERRIDE {
+							return instance_unspecified(nbits);
 						}
 						virtual BaseSemantics::SValuePtr boolean_(bool value) const ROSE_OVERRIDE {
-							return number_(1, value?1:0);
+							return instance_integer(1, value?1:0);
 						}
 						virtual BaseSemantics::SValuePtr copy(size_t new_width=0) const ROSE_OVERRIDE {
 							SValuePtr retval(new SValue(*this));
 							if (new_width!=0 && new_width!=retval->get_width())
 								retval->set_width(new_width);
+							retval->set_modifying_instructions(this->get_modifying_instructions());
 							return retval;
 						}
 						////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -408,7 +423,8 @@ namespace rose {
 							: SymbolicSemantics::MemoryState(addrProtoval,valProtoval){}
 						explicit MemoryState(const MemoryState &other)
 							: SymbolicSemantics::MemoryState(other){
-								BOOST_FOREACH(const CellMap::Node &cnode,other.allCells.nodes()){
+								const CellMap& temp = other.getAllCells();
+								BOOST_FOREACH(const CellMap::Node &cnode,temp.nodes()){
 									allCells.insert(cnode.key(),cnode.value()->clone());
 								}
 							}
@@ -461,7 +477,8 @@ namespace rose {
 							latest_written_cell.reset();
 						}
 
-						virtual const CellMap getAllCells(){ return allCells; }
+						// [[CHANGED]]
+						virtual const CellMap& getAllCells() const { return allCells; }
 
 						/** Scans the cell list and returns entries that may alias the given address and value size. The scanning starts at the
 						 * beginning of the list (which is normally stored in reverse chronological order) and continues until it reaches either
@@ -604,18 +621,18 @@ namespace rose {
 						// list of registers/memory address just read/written
 						AbstractAccessSet readList_,writeList_;						// list of read and write in the form of <V,A>
 						bool compute_useDefChain,compute_latestWriter;				// flags to turn ON def-use chain build
-						MemoryMap &map_;											// to read from the actual Specimen
+						MemoryMap map_;											// to read from the actual Specimen
 						bool verbose_;												// verbose
 
 						// Real Constructor
 					protected:
-						explicit RiscOperators(const BaseSemantics::SValuePtr &protoval,MemoryMap &map,SMTSolver *solver=NULL)
-							: SymbolicSemantics::RiscOperators(protoval, solver),compute_useDefChain(false),compute_latestWriter(false),map_(map),verbose_(false){
+						explicit RiscOperators(const BaseSemantics::SValuePtr &protoval,SMTSolver *solver=NULL)
+							: SymbolicSemantics::RiscOperators(protoval, solver),compute_useDefChain(false),compute_latestWriter(false),verbose_(false){
 								set_name("CallSemantics");
 								(void) SValue::promote(protoval); // make sure its dynamic type is a CallSemantics::SValue
 							}
-						explicit RiscOperators(const BaseSemantics::StatePtr &state,MemoryMap &map,SMTSolver *solver=NULL)
-							: SymbolicSemantics::RiscOperators(state, solver),compute_useDefChain(false),compute_latestWriter(false),map_(map),verbose_(false) {
+						explicit RiscOperators(const BaseSemantics::StatePtr &state,SMTSolver *solver=NULL)
+							: SymbolicSemantics::RiscOperators(state, solver),compute_useDefChain(false),compute_latestWriter(false),verbose_(false) {
 								set_name("CallSemantics");
 								(void) SValue::promote(state->get_protoval()); // make sure its dynamic type is a CallSemantics::SValue
 							};
@@ -624,34 +641,34 @@ namespace rose {
 						// Static allocating constructors
 					public:
 
-						static RiscOperatorsPtr instance(const RegisterDictionary *regdict,MemoryMap &map,SMTSolver *solver=NULL) {
+						static RiscOperatorsPtr instance(const RegisterDictionary *regdict,SMTSolver *solver=NULL) {
 							BaseSemantics::SValuePtr protoval = SValue::instance();
 							BaseSemantics::RegisterStatePtr registers = RegisterState::instance(protoval, regdict);
 							BaseSemantics::MemoryStatePtr memory = MemoryState::instance(protoval, protoval);
 							BaseSemantics::StatePtr state = BaseSemantics::State::instance(registers, memory);
-							return RiscOperatorsPtr(new RiscOperators(state,map,solver));
+							return RiscOperatorsPtr(new RiscOperators(state,solver));
 						}
 						/** Instantiates a new RiscOperators object with specified prototypical value. An SMT solver may be specified as the second
 						 * argument for convenience. See set_solver() for details. */
 
-						static RiscOperatorsPtr instance(const BaseSemantics::SValuePtr &protoval,MemoryMap &map,SMTSolver *solver=NULL) {
-							return RiscOperatorsPtr(new RiscOperators(protoval,map,solver));
+						static RiscOperatorsPtr instance(const BaseSemantics::SValuePtr &protoval,SMTSolver *solver=NULL) {
+							return RiscOperatorsPtr(new RiscOperators(protoval,solver));
 						}
 						/** Instantiates a new RiscOperators with specified state. An SMT solver may be specified as the second argument for
 						 * convenience. See set_solver() for details. */
-						static RiscOperatorsPtr instance(const BaseSemantics::StatePtr &state,MemoryMap &map,SMTSolver *solver=NULL) {
-							return RiscOperatorsPtr(new RiscOperators(state,map,solver));
+						static RiscOperatorsPtr instance(const BaseSemantics::StatePtr &state,SMTSolver *solver=NULL) {
+							return RiscOperatorsPtr(new RiscOperators(state,solver));
 						}
 
 
 						////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 						// Virtual constructors
 					public:
-						virtual BaseSemantics::RiscOperatorsPtr create(const BaseSemantics::SValuePtr &protoval,MemoryMap &map,SMTSolver *solver=NULL) const ROSE_OVERRIDE {
-							return instance(protoval,map,solver);
+						virtual BaseSemantics::RiscOperatorsPtr create(const BaseSemantics::SValuePtr &protoval,SMTSolver *solver=NULL) const ROSE_OVERRIDE {
+							return instance(protoval,solver);
 						}
-						virtual BaseSemantics::RiscOperatorsPtr create(const BaseSemantics::StatePtr &state,MemoryMap &map,SMTSolver *solver=NULL) const ROSE_OVERRIDE {
-							return instance(state,map,solver);
+						virtual BaseSemantics::RiscOperatorsPtr create(const BaseSemantics::StatePtr &state,SMTSolver *solver=NULL) const ROSE_OVERRIDE {
+							return instance(state,solver);
 						}
 
 						// Dynamic pointer casts
@@ -690,7 +707,12 @@ namespace rose {
 							return retval;
 						}
 						SValuePtr svalue_undefined(size_t nbits) ROSE_OVERRIDE {
+							// [DOUBT??] - Dont we need to add current instruction as the modfied instruction of this symbolic value
 							return SValue::promote(SymbolicSemantics::RiscOperators::svalue_undefined(nbits));
+						}
+						SValuePtr svalue_unspecified(size_t nbits){
+							// [DOUBT??] - Dont we need to add current instruction as the modfied instruction of this symbolic value
+							return SValue::promote(SymbolicSemantics::RiscOperators::svalue_unspecified(nbits));
 						}
 						SValuePtr svalue_number(size_t nbits, uint64_t value) ROSE_OVERRIDE {
 							return SValue::promote(number_(nbits, value));
@@ -701,6 +723,10 @@ namespace rose {
 
 						// Methods first introduced at this level of the class hierarchy.
 					public:
+
+						virtual void setMemoryMap(MemoryMap &map){
+							map_=map;
+						}
 
 						virtual void setVerbose(bool b=true){ verbose_=b; }
 

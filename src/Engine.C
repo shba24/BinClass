@@ -772,7 +772,7 @@ namespace rose {
 									*  JMP, Jcc, PUSH/RET, etc.                    Branches are considered no-ops if they can be proven to always branch
 									*                                              to the fall-through address.
 									*/
-								if(!instr->hasEffect()) continue;
+									if(!instr->hasEffect()) continue;
 
 								if(settings_.verbose)
 									mlog[INFO]<<"Processing instruction : "<<StringUtility::intToHex(instr->get_address())<<std::endl;
@@ -1041,7 +1041,7 @@ namespace rose {
 									mlog[INFO]<<"Deduced calling convention "<<funcSummary->getCallingConv()<<" for function : "<<
 										StringUtility::intToHex(function->address())<<std::endl;
 							}else {
-									mlog[WARN]<<"Not able to deduce Calling convention for function : "<<StringUtility::intToHex(function->address())<<std::endl;
+								mlog[WARN]<<"Not able to deduce Calling convention for function : "<<StringUtility::intToHex(function->address())<<std::endl;
 							}
 							if(funcSummary->calculate_return(REG_EAX,REG_ECX,solver) && settings_.verbose){
 								mlog[INFO]<<"Function at : "<<StringUtility::intToHex(function->address())<<" returns input ECX value"<<std::endl;
@@ -1049,6 +1049,29 @@ namespace rose {
 						}else{
 							mlog[WARN]<<"Not able to analyse : " <<StringUtility::intToHex(function->address())<<std::endl;
 						}
+
+//====================================================================================================================================================
+
+/*						// Some statistics for debugging
+						std::set<InsnSemanticsExpr::TreeNodePtr> allStateExpressions;
+						BOOST_FOREACH (const State::Ptr &state, incomingState_) {
+							if (state) {
+								BaseSemantics::RegisterStateGenericPtr rstate = BaseSemantics::RegisterStateGeneric::promote(state->semanticState()->get_register_state());
+								BOOST_FOREACH (const BaseSemantics::RegisterStateGeneric::RegPair &pair, rstate->get_stored_registers())
+									allStateExpressions.insert(SymbolicSemantics::SValue::promote(pair.value)->get_expression());
+								MemoryStatePtr mstate = MemoryState::promote(state->semanticState()->get_memory_state());
+								BOOST_FOREACH (const MemoryCellPtr &cell, mstate->getAllCells().values()) {
+									ASSERT_not_null(cell->get_value());
+									ASSERT_not_null(SymbolicSemantics::SValue::promote(cell->get_value()));
+									//mlog[INFO]<<"Svalue Size : "<<SymbolicSemantics::SValue::promote(cell->get_value())->get_width()<<std::endl;
+									allStateExpressions.insert(SymbolicSemantics::SValue::promote(cell->get_value())->get_expression());
+								}
+							}
+						}
+						size_t nExprNodes = InsnSemanticsExpr::nnodesUnique(allStateExpressions.begin(), allStateExpressions.end());
+						std::cerr <<"ROBB: handleNormalfunction: workList_ " <<workList_.size() <<", nIterators " <<nIterations_ <<", nExprs " <<nExprNodes <<"\n";*/
+
+//=====================================================================================================================================================
 					}
 
 				// Process a function - uses processBasicBlock to process each basic block
@@ -1079,9 +1102,10 @@ namespace rose {
 									} else if(!visited[t.vertex()->id()]){
 										ASSERT_require(t.event() == LEAVE_VERTEX);
 										Function::Ptr function = t.vertex()->value();
-										if(settings_.verbose)
-											mlog[INFO]<<"Starting building Dependencies for Function : "<<
+										if(settings_.verbose){
+											mlog[INFO]<<"Started building Dependencies for Function : "<<
 												StringUtility::intToHex(function->address())<<std::endl;
+										}
 										processFunction(function);
 										visited[t.vertex()->id()] = true;
 									}

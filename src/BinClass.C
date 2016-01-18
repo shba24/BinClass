@@ -578,11 +578,13 @@ int main( int argc, char * argv[] ){
 
 	// Loading of the configuation files especially built for this Analysis
 	if (!settings.configurationName.empty()) {
-		if(settings.verbose)
+		if(settings.verbose){
 			mlog[INFO] <<"loading configuration files";
+		}
 		partitioner.configuration().loadFromFile(settings.configurationName);
-		if(settings.verbose)
-			mlog[INFO] <<"; configured\n";
+		if(settings.verbose){
+			mlog[INFO] <<"; configured"<<std::endl;
+		}
 	}
 
 	// Various fix-ups
@@ -601,7 +603,7 @@ int main( int argc, char * argv[] ){
 	// Analyze each basic block and function and cache results.  We do this before listing the CFG or building the AST.
 	if (settings.doPostAnalysis) {
 		if(settings.verbose)
-			mlog[INFO] <<"running all post analysis phases\n";
+			mlog[INFO] <<"Running all post analysis phases"<<std::endl;
 		engine.updateAnalysisResults(partitioner);
 	}
 
@@ -671,7 +673,8 @@ int main( int argc, char * argv[] ){
 		solver = getSolver();
 
 	// Creating an instance of the Modified Risoperator class specially build for this def-Use analysis
-	CS::RiscOperatorsPtr ops = CS::RiscOperators::instance(regdict,map,solver);
+	CS::RiscOperatorsPtr ops = CS::RiscOperators::instance(regdict,solver);
+	ops->setMemoryMap(map);
 
 	// Setting the flag to build the defuse chain
 	// If this flag is not set then the def-use will not build the def use chain
@@ -684,6 +687,10 @@ int main( int argc, char * argv[] ){
 
 	// Especial FunctionCallGraph built for the Def-Use Analysis
 	P2::FunctionCallGraph cg = functionCallGraph(partitioner);
+
+	// Remove comment to test for Sematics testing
+	// IS2::TestSemantics<CS::SValuePtr, CS::RegisterStatePtr, CS::MemoryStatePtr, P2::BaseSemantics::StatePtr, 
+	// 	CS::RiscOperatorsPtr>().test(ops);
 
 	// Main Engine to build the Def-Use chain
 	const IS2::BaseSemantics::RiscOperatorsPtr& ops_ = cpu->get_operators();

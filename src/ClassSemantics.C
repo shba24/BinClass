@@ -143,10 +143,10 @@ namespace rose {
 						// functions are expected to be mapped.
 						ModulesPe::ImportIndex importIndex = ModulesPe::getImportIndex(partitioner, interp);
 
-                                                // [Robb P. Matzke 2015-11-09] FYI,
-                                                // rose::BinaryAnalysis::Partitioner2::ModulesX86 now has some functions that
-                                                // help identify, name, and split thunks because a couple users have asked for
-                                                // it.
+                        // [Robb P. Matzke 2015-11-09] FYI,
+                        // rose::BinaryAnalysis::Partitioner2::ModulesX86 now has some functions that
+                        // help identify, name, and split thunks because a couple users have asked for
+                        // it.
 
 						// Process each function that's attached to the CFG/AUM
 						BOOST_FOREACH (const Function::Ptr &function, functions) {
