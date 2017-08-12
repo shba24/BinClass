@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=LOCALMON.dll Pascal=0
-;---------------------------------------
-1 Name=DllEntryPoint
-2 Name=InitializePrintMonitor
-;------------------EOF------------------

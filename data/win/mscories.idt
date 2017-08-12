@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=mscories.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=Install Pascal=16
-2 Name=Uninstall Pascal=16
-;------------------EOF------------------

@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=query.dll Pascal=0
-;---------------------------------------
-253 Name=?CoTaskAllocator@@3VCCoTaskAllocator@@A
-;------------------EOF------------------

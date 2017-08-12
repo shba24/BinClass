@@ -16,7 +16,7 @@
    * ./bootstrap.sh --prefix=[installTree] (For help use ./bootstrap.sh --help )
    * ./bjam install --prefix=[installTree]
 
-[Robb Matzke, 2015-11-09] You might need to compile some boost
+* You might need to compile some boost
 libraries also. I usually need these for boost-1.53: chrono date_time
 filesystem iostreams program_options random regex signals system
 thread wave. I also add "-sNO_COMPRESSION=1 -sNO_ZLIB=1 -sNO_BZIP2=1"
@@ -69,5 +69,3 @@ http://rosecompiler.org/ROSE_HTML_Reference/installation.html
 ### Contact me ###
 
 * Shubham Bansal (iN3O) [ illusionist.neo@gmail.com ]
-
-[Robb Matzke, 2015-11-09] Is your code released under an particular license?

@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=asycfilt.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=DllCanUnloadNow Pascal=0
-2 Name=FilterCreateInstance Pascal=20
-;------------------EOF------------------

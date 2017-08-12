@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=audiosrv.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=ServiceMain Pascal=8
-2 Name=SvchostPushServiceGlobals Pascal=4
-;------------------EOF------------------

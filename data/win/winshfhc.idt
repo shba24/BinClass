@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=winshfhc.dll Args=0 Drops=1
-;---------------------------------------
-101 Name=winshfhc_101 Pascal=16
-;------------------EOF------------------

@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=OPRGHDLR.SYS Args=0 Drops=2
-;---------------------------------------
-1 Name=DeRegisterOpRegionHandler Pascal=8
-2 Name=RegisterOpRegionHandler Pascal=28
-;------------------EOF------------------

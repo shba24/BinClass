@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=vbajet32.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=VBAGetExprSrv Pascal=28
-2 Name=LoadExprSrvDll Pascal=24
-;------------------EOF------------------

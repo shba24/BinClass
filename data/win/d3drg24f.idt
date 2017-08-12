@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=d3drg24f.dll Pascal=0
-;---------------------------------------
-2 Name=RLDDICreateRGBDriver
-3 Name=RLDDICreateRGBLightingDriver
-;------------------EOF------------------

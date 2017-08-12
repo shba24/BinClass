@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=odbcji32.dll Args=0 Drops=1
-;---------------------------------------
-1 Name=IntlLibHinst Pascal=0
-;------------------EOF------------------

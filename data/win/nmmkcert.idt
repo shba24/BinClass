@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=nmmkcert.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=NmMakeCert Pascal=24
-2 Name=NmMakeCertCleanup Pascal=16
-;------------------EOF------------------

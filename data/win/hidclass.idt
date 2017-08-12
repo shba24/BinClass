@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=HIDCLASS.SYS Args=0 Drops=2
-;---------------------------------------
-1 Name=HidNotifyPresence Pascal=8
-2 Name=HidRegisterMinidriver Pascal=4
-;------------------EOF------------------

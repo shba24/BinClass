@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=mll_mtf.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=ClaimMediaLabel Pascal=12
-2 Name=MaxMediaLabel Pascal=4
-;------------------EOF------------------

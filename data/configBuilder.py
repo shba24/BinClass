@@ -2,7 +2,7 @@
 
 import json
 import glob,os
-for files in glob.glob("/root/Rose_Practice/BinClass.v2/data/win/*.idt"):
+for files in glob.glob("win/*.idt"):
 	exports = {}
 	print files
 	with open(files,"r") as fp:

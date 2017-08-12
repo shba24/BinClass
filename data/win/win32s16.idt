@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=WIN32S16.dll Pascal=0
-;---------------------------------------
-23 Name=UTSELECTOROFFSETTOLINEAR
-24 Name=UTLINEARTOSELECTOROFFSET
-;------------------EOF------------------

@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=w95upgnt.dll Args=0 Drops=1
-;---------------------------------------
-1 Name=W95UpgNt_FileRemoval
-2 Name=W95UpgNt_Migrate Pascal=12
-;------------------EOF------------------

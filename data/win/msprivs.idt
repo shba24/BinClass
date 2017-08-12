@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=msprivs.dll Pascal=0
-;---------------------------------------
-1 Name=MsPrivsDummyEntry
-;------------------EOF------------------

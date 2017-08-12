@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=pjlmon.dll Args=0 Drops=1
-;---------------------------------------
-1 Name=InitializePrintMonitor Pascal=4
-;------------------EOF------------------

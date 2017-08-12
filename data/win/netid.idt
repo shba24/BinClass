@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=netid.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=CreateNetIDPropertyPage Pascal=0
-2 Name=ShowDcNotFoundErrorDialog Pascal=12
-;------------------EOF------------------

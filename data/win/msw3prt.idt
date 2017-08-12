@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=msw3prt.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=GetExtensionVersion Pascal=4
-2 Name=HttpExtensionProc Pascal=4
-;------------------EOF------------------
