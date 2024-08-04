@@ -56,7 +56,3 @@ to the bjam (or b2) command.
 ### TO DO List ###
 
 * Check TO DO file.
-
-### Contact me ###
-
-* Shubham Bansal (iN3O) [ illusionist.neo@gmail.com ]
